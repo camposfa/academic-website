@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Fernando Alonso Campos</title>
+    <link>http://people.duke.edu/~fac13/tags/</link>
+    <description>Recent content in Tags on Fernando Alonso Campos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://people.duke.edu/~fac13/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behavioral Ecology</title>
+      <link>http://people.duke.edu/~fac13/tags/behavioral-ecology/</link>
+      <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/behavioral-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate Variability</title>
+      <link>http://people.duke.edu/~fac13/tags/climate-variability/</link>
+      <pubDate>Thu, 21 Sep 2017 22:33:41 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/climate-variability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conservation</title>
+      <link>http://people.duke.edu/~fac13/tags/conservation/</link>
+      <pubDate>Sat, 20 Sep 2008 22:46:31 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/conservation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life History Evolution</title>
+      <link>http://people.duke.edu/~fac13/tags/life-history-evolution/</link>
+      <pubDate>Wed, 20 Sep 2017 22:32:54 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/life-history-evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sociality</title>
+      <link>http://people.duke.edu/~fac13/tags/sociality/</link>
+      <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/tags/sociality/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

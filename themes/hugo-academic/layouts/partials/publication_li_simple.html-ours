@@ -1,0 +1,13 @@
+<li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">{{ .Title | markdownify }}</span>
+  <p><span style="font-size:80%;">
+    {{ .Date.Format "2006" }} | {{ .Params.publication | markdownify }}
+  </span><br>
+  <span class="pub-authors2" itemprop="author" style="font-size:80%;">
+    {{ with .Params.authors }}
+    {{ delimit . ", " | markdownify }}
+    {{ end }}
+  </span></p>
+<p>{{ partial "publication_links" (dict "content" . "is_list" 1) }}</p>
+</li>

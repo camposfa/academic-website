@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conservation on Fernando Alonso Campos</title>
+    <link>http://people.duke.edu/~fac13/tags/conservation/</link>
+    <description>Recent content in Conservation on Fernando Alonso Campos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
+    <lastBuildDate>Sat, 20 Sep 2008 22:46:31 -0400</lastBuildDate>
+    <atom:link href="/tags/conservation/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Conservation Priorities</title>
+      <link>http://people.duke.edu/~fac13/project/conservation-priorities/</link>
+      <pubDate>Sat, 20 Sep 2008 22:46:31 -0400</pubDate>
+      
+      <guid>http://people.duke.edu/~fac13/project/conservation-priorities/</guid>
+      <description>
+
+&lt;h2 id=&#34;distribution-and-abundance-of-the-ecuadorian-capuchin&#34;&gt;Distribution and abundance of the Ecuadorian capuchin&lt;/h2&gt;
+
+&lt;p&gt;The Ecuadorian capuchin (&lt;em&gt;Cebus albifrons aequatorialis&lt;/em&gt;) is a critically endangered primate found only in the fragmented forests of western Ecuador and northern Peru, which are among the most imperiled ecosystems on earth. Together with Katharine Jack of Tulane University, I carried out surveys across western Ecuador for &lt;em&gt;C. a. aequatorialis&lt;/em&gt;. We have described several new presence localities as well as habitat preferences for this rare and poorly-studied primate.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../../publication/jack_2012_distribution-abundance-and-spatial-ecology/&#34; target=&#34;_blank&#34;&gt;Jack and Campos (2012) &lt;em&gt;Trop Conserv Sci&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;potential-distribution-and-conservation-of-the-ecuadorian-capuchin&#34;&gt;Potential distribution and conservation of the Ecuadorian capuchin&lt;/h2&gt;
+
+&lt;p&gt;We have also modeled the potential distribution and environmental associations of &lt;em&gt;C. a. aequatorialis&lt;/em&gt;, using all known presence localities recorded within the last two decades as well as a variety of climate, topography, vegetation, and land-use GIS data sets covering the entire geographic range of the subspecies. We use this model to estimate the total carrying capacity and remaining population size, and we lay out clear conservation priorities that focus on protecting the small surviving populations.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../../publication/campos_2013_a-potential-distribution-model/&#34; target=&#34;_blank&#34;&gt;Campos and Jack (2013) &lt;em&gt;Int J Primatol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../img/plots/conservation-priorities.png&#34; alt=&#34;seasonality&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

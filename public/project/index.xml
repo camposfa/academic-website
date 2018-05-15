@@ -2,293 +2,133 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Fernando Alonso Campos</title>
-    <link>http://people.duke.edu/~fac13/project/</link>
+    <link>https://tender-lumiere-15efb6.netlify.com/project/</link>
     <description>Recent content in Projects on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Thu, 21 Sep 2017 22:33:41 -0400</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://tender-lumiere-15efb6.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Climate variability and vital rates</title>
-      <link>http://people.duke.edu/~fac13/project/climate-variability/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/climate-variability/</link>
       <pubDate>Thu, 21 Sep 2017 22:33:41 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/climate-variability/</guid>
-      <description>&lt;p&gt;There is a growing need to understand how threatened species are affected by climate variability and climate change. This knowledge can uncover the limits of resiliency to climatic fluctuations and set the stage for informed conservation efforts. My colleagues and I have published important findings about how demography in natural primate populations varies in response to climate variability.&lt;/p&gt;
-
-&lt;p&gt;My first project with the &lt;a href=&#34;../project/plhd/&#34; target=&#34;_blank&#34;&gt;PLHD working group&lt;/a&gt; examined the effects of temperature, rainfall, and large-scale climate oscillations on vital rates, including annual birth rates and survival rates. We found strong climate signals in the birth rates of three species. These results inform our understanding of ways in which climate change could affect the future fates of wild primates.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2017_does-climate-influence/&#34; target=&#34;_blank&#34;&gt;Campos et. al (2017) &lt;em&gt;Glob Change Biol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I am especially interested in how animal populations are affected by cyclical, large-scale weather patterns, like the El Niño Southern Oscillation (ENSO), that can bring rare but recurrent severe drought. Using three decades of census, life-history, and climate data from the Santa Rosa capuchins, I uncovered evidence of population demographic responses to climate in the form of lagged declines in female fertility rates following rainfall deficits associated with ENSO. This finding has important conservation implications because ENSO cycles are predicted to increase in frequency and severity during the next century.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2015_climate-oscillations/&#34; target=&#34;_blank&#34;&gt;Campos et. al (2015) &lt;em&gt;Biol Conserv&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/climate-variability/</guid>
+      <description>There is a growing need to understand how threatened species are affected by climate variability and climate change. This knowledge can uncover the limits of resiliency to climatic fluctuations and set the stage for informed conservation efforts. My colleagues and I have published important findings about how demography in natural primate populations varies in response to climate variability.
+My first project with the PLHD working group examined the effects of temperature, rainfall, and large-scale climate oscillations on vital rates, including annual birth rates and survival rates.</description>
     </item>
     
     <item>
       <title>Sex differences in health and survival</title>
-      <link>http://people.duke.edu/~fac13/project/sex-differences-health-survival/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/sex-differences-health-survival/</link>
       <pubDate>Wed, 20 Sep 2017 22:32:54 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/sex-differences-health-survival/</guid>
-      <description>&lt;p&gt;My postdoctoral work in the &lt;a href=&#34;https://sites.duke.edu/albertslab/&#34; target=&#34;_blank&#34;&gt;Alberts lab&lt;/a&gt; at Duke is primarily focused on a phenomenon of modern human societies called the male-female health survival paradox, in which women live longer but experience higher rates of disability and poor health than men.&lt;/p&gt;
-
-&lt;p&gt;There is a great deal of evidence that components of this phenomenon have a long evolutionary history in humans (reviewed by &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/books/NBK242444/&#34; target=&#34;_blank&#34;&gt;Alberts et al. 2014&lt;/a&gt;), but interestingly, the paradox does not exist in baboons. Male baboons experience both higher mortality rates and steeper rates of age-related declines in health than do female baboons.&lt;/p&gt;
-
-&lt;p&gt;These findings call for additional comparative studies to resolve evolutionary roots of the male-female health-survival paradox in humans.&lt;/p&gt;
-
-&lt;p&gt;My postdoctoral work examines how social relationships and age-related changes in hormones mediate sex differences in health and survival, using long-term life-history data and noninvasive health measures. The project&amp;rsquo;s broader goal is to improve our understanding of aging in the wild to gain new insights about aging in humans.&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/sex-differences-health-survival/</guid>
+      <description>My postdoctoral work in the Alberts lab at Duke is primarily focused on a phenomenon of modern human societies called the male-female health survival paradox, in which women live longer but experience higher rates of disability and poor health than men.
+There is a great deal of evidence that components of this phenomenon have a long evolutionary history in humans (reviewed by Alberts et al. 2014), but interestingly, the paradox does not exist in baboons.</description>
     </item>
     
     <item>
       <title>Responses to early-life adversity</title>
-      <link>http://people.duke.edu/~fac13/project/early-life-adversity/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/early-life-adversity/</link>
       <pubDate>Wed, 20 Sep 2017 22:32:38 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/early-life-adversity/</guid>
-      <description>&lt;p&gt;Adversity during early life can reach far into the future to exert profound effects on health and well-being during adulthood.
-Striking parallels exist between early-life effects in humans and in natural animal populations.&lt;/p&gt;
-
-&lt;p&gt;The leading conceptual models for early-life effects propose different evolutionary explanations for these phenomena.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Developmental constraints models&lt;/strong&gt; propose that harsh early-life conditions lead to developmental tradeoffs that prioritize immediate survival at the cost of reduced health, reproduction, and/or survival later in life.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Predictive adaptive response (PAR) models&lt;/strong&gt; posit that early-life conditions provide cues for predicting future conditions, leading to adaptive responses during development that maximize evolutionary fitness under predicted conditions.&lt;/p&gt;
-
-&lt;p&gt;There are several important gaps in our understanding.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, which of these frameworks best explains the emergence of early-life effects in nonhuman primates?
-&lt;strong&gt;Second&lt;/strong&gt;, to what extent are such effects embedded in our evolutionary history?
-&lt;strong&gt;Third&lt;/strong&gt;, what are the optimal approaches to mitigating disparities in health and well-being that result from exposure early-life adversity in humans?&lt;/p&gt;
-
-&lt;p&gt;Motivated by these questions, I am leveraging a &lt;a href=&#34;../project/plhd/&#34; target=&#34;_blank&#34;&gt;database of life history data&lt;/a&gt; on seven natural primate populations to shed light on the mechanisms that underlie the far-reaching effects of early-life adversity and to test the universality of these effects among close relatives of humans.&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/early-life-adversity/</guid>
+      <description>Adversity during early life can reach far into the future to exert profound effects on health and well-being during adulthood. Striking parallels exist between early-life effects in humans and in natural animal populations.
+The leading conceptual models for early-life effects propose different evolutionary explanations for these phenomena.
+Developmental constraints models propose that harsh early-life conditions lead to developmental tradeoffs that prioritize immediate survival at the cost of reduced health, reproduction, and/or survival later in life.</description>
     </item>
     
     <item>
       <title>Responses to Environmental Stress</title>
-      <link>http://people.duke.edu/~fac13/project/environmental-stress/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</link>
       <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/environmental-stress/</guid>
-      <description>
-
-&lt;h2 id=&#34;climate-seasonality&#34;&gt;Climate Seasonality&lt;/h2&gt;
-
-&lt;p&gt;Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.&lt;/p&gt;
-
-&lt;p&gt;Seasonality in the tropical dry forests of Costa Rica is exceptionally strong. Although the region receives about 1,700 mm of rain each year, the rainfall is almost entirely confined to a 5-6 month wet season with moderate temperatures and lush vegetation. By contrast, the dry season&amp;mdash;with its high temperatures and extreme scarcity of surface water&amp;mdash;can be a difficult time for the primates. To conserve water, most trees in the forest lose their leaves, exposing the monkeys to intense solar radiation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/plots/seasonality-map.jpg&#34; alt=&#34;seasonality&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I review these climatic processes in a forthcoming book chapter: &lt;a href=&#34;&#34; target=&#34;_blank&#34;&gt;Campos (in review) &lt;em&gt;Festschrift in Honor of Linda Fedigan&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;behavioral-thermoregulation&#34;&gt;Behavioral Thermoregulation&lt;/h2&gt;
-
-&lt;p&gt;My Master&amp;rsquo;s research examined the behavioral strategies that the capuchins use to cope with this extreme seasonality. I found that they reduce activity during the hottest hours of the day, and they concentrate their movements around the few remaining sources of surface water. They also extend their tongues in hot dry conditions, presumably to cool themselves via evaporation of saliva from the tongue.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2009_behavioral-thermoregulation/&#34; target=&#34;_blank&#34;&gt;Campos and Fedigan (2009) &lt;em&gt;Am J Phys Anth&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;seasonal-changes-in-the-gut-microbiome&#34;&gt;Seasonal Changes in the Gut Microbiome&lt;/h2&gt;
-
-&lt;p&gt;My collaborators &lt;a href=&#34;https://josephorkin.com/&#34; target=&#34;_blank&#34;&gt;Joseph Orkin&lt;/a&gt; and &lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34;&gt;Amanda Melin&lt;/a&gt; at the University of Calgary are directing a study, on which I am collaborating, that aims to understand temporal variation in the composition of the capuchin gut microbiome, and how these changes are related to resource availability and rainfall patterns. New completed work in this area is currently in review.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/orkin_in-review_seasonality-of-the-gut-microbiota/&#34; target=&#34;_blank&#34;&gt;Orkin et al. (in review) &lt;em&gt;ISME J&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
-&lt;hr&gt;
-&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;urine-washing&#34;&gt;Urine Washing&lt;/h2&gt;
-
-&lt;p&gt;Some primates regularly wash their hands and feet with urine. This behavior is outwardly similar to scent marking in other mammals, but it differs in that the urine is applied to the bare skin of the hands and feet rather than rubbed into the fur or applied directly onto an object in the environment. Empirical evidence for the functional significance of urine-washing remains inconsistent. My Master&amp;rsquo;s research tested functional explanations for urine-washing in several groups of wild white-faced capuchins, building on earlier research in collaboration with &lt;a href=&#34;http://www.sscnet.ucla.edu/anthro/faculty/jmanson/Home.html&#34; target=&#34;_blank&#34;&gt;Dr. Joseph Manson&lt;/a&gt; and &lt;a href=&#34;http://www.sscnet.ucla.edu/anthro/faculty/sperry/&#34; target=&#34;_blank&#34;&gt;Dr. Susan Perry&lt;/a&gt; at UCLA.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2013_urine-washing-in-white-faced-capuchins/&#34; target=&#34;_blank&#34;&gt;Campos and Fedigan (2013) &lt;em&gt;Behaviour&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2007_urine-washing-and-sniffing/&#34; target=&#34;_blank&#34;&gt;Campos et al. (2007) &lt;em&gt;Int J Primatol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</guid>
+      <description>Climate Seasonality Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.</description>
     </item>
     
     <item>
       <title>Primate Life History Database</title>
-      <link>http://people.duke.edu/~fac13/project/plhd/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/plhd/</link>
       <pubDate>Sat, 02 Sep 2017 22:19:37 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/plhd/</guid>
-      <description>
-
-&lt;h4 id=&#34;background-on-the-working-group&#34;&gt;Background on the Working Group&lt;/h4&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://plhdb.org/&#34; target=&#34;_blank&#34;&gt;Primate Life History Database&lt;/a&gt; is a unique compilation of full life-course information from seven wild populations that have been studied for at least 30 years. The database contains standardized records for thousands of individual primates that have been followed from birth to death. These primate populations are some of the best-studied wild primates on earth. Formed over the course of several meetings from 2005 to 2007, the original core members of the PLHD include co-organizers Susan Alberts and Karen Strier, along with Jeanne Altmann, Diane Brockman, Anne Bronikowski, Marina Cords, Linda Fedigan, Bill Morris, Anne Pusey, Tara Stoinski. Following Diane&amp;rsquo;s retirement, Rich Lawler joined the working group in 2017.
-&lt;p align = &#34;center&#34;&gt;
-&lt;img src=&#34;../img/cards/plhd.jpg&#34; alt=&#34;PLHD Working Group&#34; /&gt;
-&lt;small&gt;&lt;em&gt;The PLHD Working group in 2009.&lt;/em&gt;&lt;/small&gt;
-&lt;/p&gt;&lt;/p&gt;
-
-&lt;p&gt;My involvement with the PLHD working group began in 2015, when I was brought in to investigate the question of how &amp;ldquo;vital rates&amp;rdquo;&amp;mdash;that is, birth rates and death rates&amp;mdash;are affected by climate variability. This culminated in our 2017 paper:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2017_does-climate-influence/&#34; target=&#34;_blank&#34;&gt;Campos et al. (2017) &lt;em&gt;Global Change Biology&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;As a post-doc in Susan Alberts&amp;rsquo; lab at Duke, I am continuing to work on several unresolved questions about life history evolution using this exceptionally valuable resource.&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/plhd/</guid>
+      <description>Background on the Working Group The Primate Life History Database is a unique compilation of full life-course information from seven wild populations that have been studied for at least 30 years. The database contains standardized records for thousands of individual primates that have been followed from birth to death. These primate populations are some of the best-studied wild primates on earth. Formed over the course of several meetings from 2005 to 2007, the original core members of the PLHD include co-organizers Susan Alberts and Karen Strier, along with Jeanne Altmann, Diane Brockman, Anne Bronikowski, Marina Cords, Linda Fedigan, Bill Morris, Anne Pusey, Tara Stoinski.</description>
     </item>
     
     <item>
       <title>Movement Ecology</title>
-      <link>http://people.duke.edu/~fac13/project/movement-ecology/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</link>
       <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/movement-ecology/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;No wild animal roams at random over the country: each has a home region, even if it has not an actual home.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;determinants-of-home-range-behavior-in-capuchins&#34;&gt;Determinants of home range behavior in capuchins&lt;/h3&gt;
-
-&lt;p&gt;What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Motivated by these question, I compiled a large eight-year data set (collected by myself and by many collaborators on separate projects) representing over 20,000 contact hours on seven social groups of white-faced capuchins. The data consist of GPS tracking locations, behavioral observations, and various kinds of environmental data, including climate and habitat variables. I used a &lt;a href=&#34;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0014592&#34; target=&#34;_blank&#34;&gt;movement-based kernel method&lt;/a&gt; to calculate home ranges at four nested temporal scales and three nested spatial scales, and I examined the social and environmental factors that drive home range dynamics.&lt;/p&gt;
-
-&lt;p&gt;Our work examined how variation in climate, food abundance, and group size affects the area of the home range, and the types of habitats contained within the home range.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2014_drivers-of-home-range-characteristics/&#34; target=&#34;_blank&#34;&gt;Campos et al. (2014) &lt;em&gt;Anim Behav&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/cards/home-range.jpg&#34; alt=&#34;Link to paper&#34; /&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;migration-in-swedish-moose&#34;&gt;Migration in Swedish Moose&lt;/h3&gt;
-
-&lt;p&gt;I am working in collaboration with &lt;a href=&#34;http://navinderjsingh.weebly.com/&#34; target=&#34;_blank&#34;&gt;Navinder Singh&lt;/a&gt; and &lt;a href=&#34;http://www.slu.se/viltfiskmiljo/goran_ericsson&#34; target=&#34;_blank&#34;&gt;Göran Ericsson&lt;/a&gt; at Sveriges Lantbruksuniversitet in Umeå, Sweden, to study migration behavior in Swedish wildlife, with a particular focus on moose.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://camposfa.github.io/moose-migration-repeatability.html&#34; target=&#34;_blank&#34;&gt;Reproducible Analysis (work in progress)&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/sweden.jpg&#34; alt=&#34;Sweden&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</guid>
+      <description>No wild animal roams at random over the country: each has a home region, even if it has not an actual home.
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909
+ Determinants of home range behavior in capuchins What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;
+Motivated by these question, I compiled a large eight-year data set (collected by myself and by many collaborators on separate projects) representing over 20,000 contact hours on seven social groups of white-faced capuchins.</description>
     </item>
     
     <item>
       <title>Social Connectedness</title>
-      <link>http://people.duke.edu/~fac13/project/social-connectedness/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</link>
       <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/social-connectedness/</guid>
-      <description>&lt;p&gt;In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.&lt;/p&gt;
-
-&lt;p&gt;My recent interest in social connectedness grew out of work directed by my collaborator &lt;a href=&#34;https://urskalbitzer.github.io/&#34; target=&#34;_blank&#34;&gt;Urs Kalbitzer&lt;/a&gt; that uncovered startling evidence that female sociality in white-faced capuchins can have &lt;em&gt;negative&lt;/em&gt; fitness consequences that arise from male behavior. Specifically, highly social female capuchins are more frequently targeted in infanticidal attacks by immigrant males following a group takeover: &lt;a href=&#34;../publication/kalbitzer_2017_female-sociality/&#34; target=&#34;_blank&#34;&gt;Kalbitzer et al. (2017) &lt;em&gt;PNAS&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;My postdoctoral work at Duke, pursued with Prof. &lt;a href=&#34;https://sites.duke.edu/albertslab/&#34; target=&#34;_blank&#34;&gt;Susan Alberts&lt;/a&gt; and funded by &lt;a href=&#34;https://projectreporter.nih.gov/project_info_description.cfm?aid=9073768&amp;amp;icde=0&#34; target=&#34;_blank&#34;&gt;NIH grant 2P01AG031719-06A1&lt;/a&gt; (to &lt;a href=&#34;http://user.demogr.mpg.de/jwv/&#34; target=&#34;_blank&#34;&gt;James Vaupel&lt;/a&gt;, &lt;a href=&#34;http://findresearcher.sdu.dk/portal/en/persons/kaare-christensen(35c0eca6-0f49-465b-9bbd-ce71bcf2c4ac).html&#34; target=&#34;_blank&#34;&gt;Kaare Christensen&lt;/a&gt;, and &lt;a href=&#34;https://sites.duke.edu/albertslab/&#34; target=&#34;_blank&#34;&gt;Susan Alberts&lt;/a&gt;), further explores the importance of social connectedness in a baboon model. One of the project&amp;rsquo;s main goals is to examine the role of social connectedness in mediating male-female differences in health and survival during aging.&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</guid>
+      <description>In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.
+My recent interest in social connectedness grew out of work directed by my collaborator Urs Kalbitzer that uncovered startling evidence that female sociality in white-faced capuchins can have negative fitness consequences that arise from male behavior.</description>
     </item>
     
     <item>
       <title>Predation Risk</title>
-      <link>http://people.duke.edu/~fac13/project/predation/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/predation/</link>
       <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/predation/</guid>
-      <description>&lt;p&gt;Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey &lt;em&gt;Cebus capucinus&lt;/em&gt; to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2014_spatial-ecology-of-perceived-predation-risk/&#34; target=&#34;_blank&#34;&gt;Campos and Fedigan (2014) &lt;em&gt;Behav Ecol&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/predation/</guid>
+      <description>Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey Cebus capucinus to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.</description>
     </item>
     
     <item>
       <title>Dispersal and kinship</title>
-      <link>http://people.duke.edu/~fac13/project/dispersal-kinship/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</link>
       <pubDate>Fri, 20 Sep 2013 22:33:50 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/dispersal-kinship/</guid>
-      <description>&lt;p&gt;This project, directed by my collaborator &lt;a href=&#34;https://evawikberg.github.io/&#34; target=&#34;_blank&#34;&gt;Eva Wikberg&lt;/a&gt;, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of &lt;a href=&#34;http://www.jinrui.ib.k.u-tokyo.ac.jp/kawamura-home-E.html&#34; target=&#34;_blank&#34;&gt;Shoji Kawamura&lt;/a&gt; at the University of Tokyo and &lt;a href=&#34;http://molecular-anthro.uoregon.edu/TingLab/&#34; target=&#34;_blank&#34;&gt;Nelson Ting&lt;/a&gt; at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/wikberg_2017_inbreeding-avoidance-and-female-mate-choice/&#34; target=&#34;_blank&#34;&gt;Wikberg et al. (2017), &lt;em&gt;Mol Ecol&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/wikberg_2014_the-effect-of-male-parallel-dispersal/&#34; target=&#34;_blank&#34;&gt;Wikberg et al. (2014), &lt;em&gt;Anim Behav&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/wikberg_2012_between-group-variation-in-female-dispersal/&#34; target=&#34;_blank&#34;&gt;Wikberg et al. (2012), &lt;em&gt;PloS One&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</guid>
+      <description>This project, directed by my collaborator Eva Wikberg, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of Shoji Kawamura at the University of Tokyo and Nelson Ting at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.</description>
     </item>
     
     <item>
       <title>Maternal age effects on offspring</title>
-      <link>http://people.duke.edu/~fac13/project/maternal-age-effects/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/maternal-age-effects/</link>
       <pubDate>Tue, 20 Aug 2013 22:32:17 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/maternal-age-effects/</guid>
-      <description>&lt;p&gt;In collaboration with members of the &lt;a href=&#34;../project/plhd/&#34; target=&#34;_blank&#34;&gt;Primate Life Histories working group&lt;/a&gt;, I am using long-term life-history data from seven primate species to investigate maternal age effects on reproductive performance and on offspring fitness.&lt;/p&gt;
-
-&lt;p&gt;Specifically, we aim to determine:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;How variable are patterns of female reproductive aging (specifically interbirth interval changes during aging) across species? Can we reliably detect a signature of aging, or does this vary across species?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Are aspects of offspring fitness (survival and age at first reproduction) affected by maternal age?&lt;/p&gt;
-
-&lt;p&gt;a. Does maternal age affect offspring’s age at first reproduction, and if so does it get better when mothers are middle-aged and worse when mothers are young or old?&lt;/p&gt;
-
-&lt;p&gt;b. Does maternal age affect offspring survival to one year of age (or some such milestone), and if so does it get better when mothers are middle-aged and worse when mothers are young or old? Or some other pattern?&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/maternal-age-effects/</guid>
+      <description>In collaboration with members of the Primate Life Histories working group, I am using long-term life-history data from seven primate species to investigate maternal age effects on reproductive performance and on offspring fitness.
+Specifically, we aim to determine:
+ How variable are patterns of female reproductive aging (specifically interbirth interval changes during aging) across species? Can we reliably detect a signature of aging, or does this vary across species?
+ Are aspects of offspring fitness (survival and age at first reproduction) affected by maternal age?</description>
     </item>
     
     <item>
       <title>Foraging and nutritional ecology</title>
-      <link>http://people.duke.edu/~fac13/project/foraging-nutritional-ecology/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</link>
       <pubDate>Tue, 20 Sep 2011 22:33:27 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/foraging-nutritional-ecology/</guid>
-      <description>&lt;p&gt;A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination. Therefore improvements in our understanding of primate–plant interaction dynamics under climate change can contribute to far-reaching conservation efforts.&lt;/p&gt;
-
-&lt;p&gt;Together with collaborators &lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34;&gt;Amanda Melin&lt;/a&gt;, &lt;a href=&#34;https://urskalbitzer.github.io/&#34; target=&#34;_blank&#34;&gt;Urs Kalbitzer&lt;/a&gt;, &lt;a href=&#34;https://www.researchgate.net/profile/Jeremy_Hogan&#34; target=&#34;_blank&#34;&gt;Jeremy Hogan&lt;/a&gt;, &lt;a href=&#34;https://www.researchgate.net/profile/Nigel_Parr2&#34; target=&#34;_blank&#34;&gt;Nigel Parr&lt;/a&gt;, and &lt;a href=&#34;https://mackenziebergstrom.wordpress.com/&#34; target=&#34;_blank&#34;&gt;Mackenzie Bergstrom&lt;/a&gt;, I have been working to understand the spatiotemporal distribution of primate food nutrients in the Área de Conservación Guanacaste (ACG), Costa Rica.&lt;/p&gt;
-
-&lt;p&gt;My &lt;a href=&#34;http://camposfa.github.io/pace-fruit-biomass.html&#34; target=&#34;_blank&#34;&gt;algorithms for estimating fruit biomass&lt;/a&gt;, which draw on multiple botanical and behavioral data sets, are a cornerstone of recent ecological research on the ACG&amp;rsquo;s capuchin population.&lt;/p&gt;
-
-&lt;p&gt;I am especially interested in seasonal and inter-annual variability in fruit biomass production at the landscape level, and the effects of this variability on the health and behavior of primates. Future work in this area will focus on integrating climate change models into this framework, and linking nutrient patterns with primate abundance and energetic condition across the ACG’s environmental gradients.&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</guid>
+      <description>A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination.</description>
     </item>
     
     <item>
       <title>Conservation Priorities</title>
-      <link>http://people.duke.edu/~fac13/project/conservation-priorities/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</link>
       <pubDate>Sat, 20 Sep 2008 22:46:31 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/project/conservation-priorities/</guid>
-      <description>
-
-&lt;h2 id=&#34;distribution-and-abundance-of-the-ecuadorian-capuchin&#34;&gt;Distribution and abundance of the Ecuadorian capuchin&lt;/h2&gt;
-
-&lt;p&gt;The Ecuadorian capuchin (&lt;em&gt;Cebus albifrons aequatorialis&lt;/em&gt;) is a critically endangered primate found only in the fragmented forests of western Ecuador and northern Peru, which are among the most imperiled ecosystems on earth. Together with Katharine Jack of Tulane University, I carried out surveys across western Ecuador for &lt;em&gt;C. a. aequatorialis&lt;/em&gt;. We have described several new presence localities as well as habitat preferences for this rare and poorly-studied primate.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/jack_2012_distribution-abundance-and-spatial-ecology/&#34; target=&#34;_blank&#34;&gt;Jack and Campos (2012) &lt;em&gt;Trop Conserv Sci&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;potential-distribution-and-conservation-of-the-ecuadorian-capuchin&#34;&gt;Potential distribution and conservation of the Ecuadorian capuchin&lt;/h2&gt;
-
-&lt;p&gt;We have also modeled the potential distribution and environmental associations of &lt;em&gt;C. a. aequatorialis&lt;/em&gt;, using all known presence localities recorded within the last two decades as well as a variety of climate, topography, vegetation, and land-use GIS data sets covering the entire geographic range of the subspecies. We use this model to estimate the total carrying capacity and remaining population size, and we lay out clear conservation priorities that focus on protecting the small surviving populations.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../publication/campos_2013_a-potential-distribution-model/&#34; target=&#34;_blank&#34;&gt;Campos and Jack (2013) &lt;em&gt;Int J Primatol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;../img/plots/conservation-priorities.png&#34; alt=&#34;seasonality&#34; /&gt;&lt;/p&gt;
-</description>
+      <guid>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</guid>
+      <description>Distribution and abundance of the Ecuadorian capuchin The Ecuadorian capuchin (Cebus albifrons aequatorialis) is a critically endangered primate found only in the fragmented forests of western Ecuador and northern Peru, which are among the most imperiled ecosystems on earth. Together with Katharine Jack of Tulane University, I carried out surveys across western Ecuador for C. a. aequatorialis. We have described several new presence localities as well as habitat preferences for this rare and poorly-studied primate.</description>
     </item>
     
   </channel>

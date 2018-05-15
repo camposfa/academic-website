@@ -2,29 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>9 on Fernando Alonso Campos</title>
-    <link>http://people.duke.edu/~fac13/publication_types/9/</link>
+    <link>https://tender-lumiere-15efb6.netlify.com/publication_types/9/</link>
     <description>Recent content in 9 on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Fri, 11 Jul 2014 00:00:00 -0400</lastBuildDate>
-    <atom:link href="/publication_types/9/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://tender-lumiere-15efb6.netlify.com/publication_types/9/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Landscapes of change: the ecology of white-faced capuchins over space and time</title>
-      <link>http://people.duke.edu/~fac13/publication/campos_2014_phd-thesis_landscapes-of-change/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/publication/campos_2014_phd-thesis_landscapes-of-change/</link>
       <pubDate>Fri, 11 Jul 2014 00:00:00 -0400</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/publication/campos_2014_phd-thesis_landscapes-of-change/</guid>
+      <guid>https://tender-lumiere-15efb6.netlify.com/publication/campos_2014_phd-thesis_landscapes-of-change/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Behavioral thermoregulation and urine-washing in white-faced capuchins at Santa Rosa National Park, Costa Rica</title>
-      <link>http://people.duke.edu/~fac13/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</link>
+      <link>https://tender-lumiere-15efb6.netlify.com/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</link>
       <pubDate>Fri, 18 Jan 2008 00:00:00 -0500</pubDate>
       
-      <guid>http://people.duke.edu/~fac13/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</guid>
+      <guid>https://tender-lumiere-15efb6.netlify.com/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</guid>
       <description></description>
     </item>
     

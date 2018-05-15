@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conservation on Fernando Alonso Campos</title>
-    <link>https://tender-lumiere-15efb6.netlify.com/tags/conservation/</link>
+    <link>/tags/conservation/</link>
     <description>Recent content in Conservation on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Sat, 20 Sep 2008 22:46:31 -0400</lastBuildDate>
     
-	<atom:link href="https://tender-lumiere-15efb6.netlify.com/tags/conservation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/conservation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Conservation Priorities</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</link>
+      <link>/project/conservation-priorities/</link>
       <pubDate>Sat, 20 Sep 2008 22:46:31 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</guid>
+      <guid>/project/conservation-priorities/</guid>
       <description>Distribution and abundance of the Ecuadorian capuchin The Ecuadorian capuchin (Cebus albifrons aequatorialis) is a critically endangered primate found only in the fragmented forests of western Ecuador and northern Peru, which are among the most imperiled ecosystems on earth. Together with Katharine Jack of Tulane University, I carried out surveys across western Ecuador for C. a. aequatorialis. We have described several new presence localities as well as habitat preferences for this rare and poorly-studied primate.</description>
     </item>
     

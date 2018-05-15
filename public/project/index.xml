@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Fernando Alonso Campos</title>
-    <link>https://tender-lumiere-15efb6.netlify.com/project/</link>
+    <link>/project/</link>
     <description>Recent content in Projects on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Thu, 21 Sep 2017 22:33:41 -0400</lastBuildDate>
     
-	<atom:link href="https://tender-lumiere-15efb6.netlify.com/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Climate variability and vital rates</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/climate-variability/</link>
+      <link>/project/climate-variability/</link>
       <pubDate>Thu, 21 Sep 2017 22:33:41 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/climate-variability/</guid>
+      <guid>/project/climate-variability/</guid>
       <description>There is a growing need to understand how threatened species are affected by climate variability and climate change. This knowledge can uncover the limits of resiliency to climatic fluctuations and set the stage for informed conservation efforts. My colleagues and I have published important findings about how demography in natural primate populations varies in response to climate variability.
 My first project with the PLHD working group examined the effects of temperature, rainfall, and large-scale climate oscillations on vital rates, including annual birth rates and survival rates.</description>
     </item>
     
     <item>
       <title>Sex differences in health and survival</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/sex-differences-health-survival/</link>
+      <link>/project/sex-differences-health-survival/</link>
       <pubDate>Wed, 20 Sep 2017 22:32:54 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/sex-differences-health-survival/</guid>
+      <guid>/project/sex-differences-health-survival/</guid>
       <description>My postdoctoral work in the Alberts lab at Duke is primarily focused on a phenomenon of modern human societies called the male-female health survival paradox, in which women live longer but experience higher rates of disability and poor health than men.
 There is a great deal of evidence that components of this phenomenon have a long evolutionary history in humans (reviewed by Alberts et al. 2014), but interestingly, the paradox does not exist in baboons.</description>
     </item>
     
     <item>
       <title>Responses to early-life adversity</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/early-life-adversity/</link>
+      <link>/project/early-life-adversity/</link>
       <pubDate>Wed, 20 Sep 2017 22:32:38 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/early-life-adversity/</guid>
+      <guid>/project/early-life-adversity/</guid>
       <description>Adversity during early life can reach far into the future to exert profound effects on health and well-being during adulthood. Striking parallels exist between early-life effects in humans and in natural animal populations.
 The leading conceptual models for early-life effects propose different evolutionary explanations for these phenomena.
 Developmental constraints models propose that harsh early-life conditions lead to developmental tradeoffs that prioritize immediate survival at the cost of reduced health, reproduction, and/or survival later in life.</description>
@@ -45,28 +45,28 @@ Developmental constraints models propose that harsh early-life conditions lead t
     
     <item>
       <title>Responses to Environmental Stress</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</link>
+      <link>/project/environmental-stress/</link>
       <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</guid>
+      <guid>/project/environmental-stress/</guid>
       <description>Climate Seasonality Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.</description>
     </item>
     
     <item>
       <title>Primate Life History Database</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/plhd/</link>
+      <link>/project/plhd/</link>
       <pubDate>Sat, 02 Sep 2017 22:19:37 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/plhd/</guid>
+      <guid>/project/plhd/</guid>
       <description>Background on the Working Group The Primate Life History Database is a unique compilation of full life-course information from seven wild populations that have been studied for at least 30 years. The database contains standardized records for thousands of individual primates that have been followed from birth to death. These primate populations are some of the best-studied wild primates on earth. Formed over the course of several meetings from 2005 to 2007, the original core members of the PLHD include co-organizers Susan Alberts and Karen Strier, along with Jeanne Altmann, Diane Brockman, Anne Bronikowski, Marina Cords, Linda Fedigan, Bill Morris, Anne Pusey, Tara Stoinski.</description>
     </item>
     
     <item>
       <title>Movement Ecology</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</link>
+      <link>/project/movement-ecology/</link>
       <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</guid>
+      <guid>/project/movement-ecology/</guid>
       <description>No wild animal roams at random over the country: each has a home region, even if it has not an actual home.
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909
  Determinants of home range behavior in capuchins What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;
@@ -75,38 +75,38 @@ Motivated by these question, I compiled a large eight-year data set (collected b
     
     <item>
       <title>Social Connectedness</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</link>
+      <link>/project/social-connectedness/</link>
       <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</guid>
+      <guid>/project/social-connectedness/</guid>
       <description>In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.
 My recent interest in social connectedness grew out of work directed by my collaborator Urs Kalbitzer that uncovered startling evidence that female sociality in white-faced capuchins can have negative fitness consequences that arise from male behavior.</description>
     </item>
     
     <item>
       <title>Predation Risk</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/predation/</link>
+      <link>/project/predation/</link>
       <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/predation/</guid>
+      <guid>/project/predation/</guid>
       <description>Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey Cebus capucinus to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.</description>
     </item>
     
     <item>
       <title>Dispersal and kinship</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</link>
+      <link>/project/dispersal-kinship/</link>
       <pubDate>Fri, 20 Sep 2013 22:33:50 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</guid>
+      <guid>/project/dispersal-kinship/</guid>
       <description>This project, directed by my collaborator Eva Wikberg, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of Shoji Kawamura at the University of Tokyo and Nelson Ting at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.</description>
     </item>
     
     <item>
       <title>Maternal age effects on offspring</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/maternal-age-effects/</link>
+      <link>/project/maternal-age-effects/</link>
       <pubDate>Tue, 20 Aug 2013 22:32:17 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/maternal-age-effects/</guid>
+      <guid>/project/maternal-age-effects/</guid>
       <description>In collaboration with members of the Primate Life Histories working group, I am using long-term life-history data from seven primate species to investigate maternal age effects on reproductive performance and on offspring fitness.
 Specifically, we aim to determine:
  How variable are patterns of female reproductive aging (specifically interbirth interval changes during aging) across species? Can we reliably detect a signature of aging, or does this vary across species?
@@ -115,19 +115,19 @@ Specifically, we aim to determine:
     
     <item>
       <title>Foraging and nutritional ecology</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</link>
+      <link>/project/foraging-nutritional-ecology/</link>
       <pubDate>Tue, 20 Sep 2011 22:33:27 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</guid>
+      <guid>/project/foraging-nutritional-ecology/</guid>
       <description>A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination.</description>
     </item>
     
     <item>
       <title>Conservation Priorities</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</link>
+      <link>/project/conservation-priorities/</link>
       <pubDate>Sat, 20 Sep 2008 22:46:31 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/conservation-priorities/</guid>
+      <guid>/project/conservation-priorities/</guid>
       <description>Distribution and abundance of the Ecuadorian capuchin The Ecuadorian capuchin (Cebus albifrons aequatorialis) is a critically endangered primate found only in the fragmented forests of western Ecuador and northern Peru, which are among the most imperiled ecosystems on earth. Together with Katharine Jack of Tulane University, I carried out surveys across western Ecuador for C. a. aequatorialis. We have described several new presence localities as well as habitat preferences for this rare and poorly-studied primate.</description>
     </item>
     

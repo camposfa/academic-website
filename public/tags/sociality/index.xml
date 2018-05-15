@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sociality on Fernando Alonso Campos</title>
-    <link>https://tender-lumiere-15efb6.netlify.com/tags/sociality/</link>
+    <link>/tags/sociality/</link>
     <description>Recent content in Sociality on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Thu, 20 Aug 2015 22:33:58 -0400</lastBuildDate>
     
-	<atom:link href="https://tender-lumiere-15efb6.netlify.com/tags/sociality/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/sociality/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Social Connectedness</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</link>
+      <link>/project/social-connectedness/</link>
       <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/social-connectedness/</guid>
+      <guid>/project/social-connectedness/</guid>
       <description>In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.
 My recent interest in social connectedness grew out of work directed by my collaborator Urs Kalbitzer that uncovered startling evidence that female sociality in white-faced capuchins can have negative fitness consequences that arise from male behavior.</description>
     </item>
     
     <item>
       <title>Dispersal and kinship</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</link>
+      <link>/project/dispersal-kinship/</link>
       <pubDate>Fri, 20 Sep 2013 22:33:50 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/dispersal-kinship/</guid>
+      <guid>/project/dispersal-kinship/</guid>
       <description>This project, directed by my collaborator Eva Wikberg, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of Shoji Kawamura at the University of Tokyo and Nelson Ting at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.</description>
     </item>
     

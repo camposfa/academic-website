@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Behavioral Ecology on Fernando Alonso Campos</title>
-    <link>https://tender-lumiere-15efb6.netlify.com/tags/behavioral-ecology/</link>
+    <link>/tags/behavioral-ecology/</link>
     <description>Recent content in Behavioral Ecology on Fernando Alonso Campos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Fernando Campos</copyright>
     <lastBuildDate>Thu, 14 Sep 2017 21:10:49 -0400</lastBuildDate>
     
-	<atom:link href="https://tender-lumiere-15efb6.netlify.com/tags/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Responses to Environmental Stress</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</link>
+      <link>/project/environmental-stress/</link>
       <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/environmental-stress/</guid>
+      <guid>/project/environmental-stress/</guid>
       <description>Climate Seasonality Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.</description>
     </item>
     
     <item>
       <title>Movement Ecology</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</link>
+      <link>/project/movement-ecology/</link>
       <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/movement-ecology/</guid>
+      <guid>/project/movement-ecology/</guid>
       <description>No wild animal roams at random over the country: each has a home region, even if it has not an actual home.
 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909
  Determinants of home range behavior in capuchins What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;
@@ -35,19 +35,19 @@ Motivated by these question, I compiled a large eight-year data set (collected b
     
     <item>
       <title>Predation Risk</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/predation/</link>
+      <link>/project/predation/</link>
       <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/predation/</guid>
+      <guid>/project/predation/</guid>
       <description>Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey Cebus capucinus to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.</description>
     </item>
     
     <item>
       <title>Foraging and nutritional ecology</title>
-      <link>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</link>
+      <link>/project/foraging-nutritional-ecology/</link>
       <pubDate>Tue, 20 Sep 2011 22:33:27 -0400</pubDate>
       
-      <guid>https://tender-lumiere-15efb6.netlify.com/project/foraging-nutritional-ecology/</guid>
+      <guid>/project/foraging-nutritional-ecology/</guid>
       <description>A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination.</description>
     </item>
     

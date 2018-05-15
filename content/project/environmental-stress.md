@@ -38,7 +38,7 @@ Seasonality in the tropical dry forests of Costa Rica is exceptionally strong. A
 
 ![seasonality](/img/plots/seasonality-map.jpg)
 
-I review these climatic processes in a forthcoming book chapter: [Campos (in review) _Festschrift in Honor of Linda Fedigan_.]({{< relref "publication/campos_in-review_festschrift.md" >}})
+I review these climatic processes in a forthcoming book chapter: [Campos (in review) _Festschrift in Honor of Linda Fedigan_.]({{< relref "publication/campos_2018_festschrift.md" >}})
 
 <br>
 <hr>

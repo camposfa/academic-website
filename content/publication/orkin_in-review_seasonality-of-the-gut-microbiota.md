@@ -45,6 +45,11 @@ url_project = "project/environmental-stress/"
 name = "Publisher"
 url = "https://www.nature.com/articles/s41396-018-0256-0"
 
+[[url_custom]]
+name = "View PDF"
+url = "http://rdcu.be/4YV3"
+
+
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

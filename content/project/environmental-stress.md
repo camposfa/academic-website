@@ -57,7 +57,7 @@ My Master's research examined the behavioral strategies that the capuchins use t
 ## Seasonal Changes in the Gut Microbiome
 My collaborators [Joseph Orkin](https://josephorkin.com/) and [Amanda Melin](http://www.amandamelin.com/) at the University of Calgary are directing a study, on which I am collaborating, that aims to understand temporal variation in the composition of the capuchin gut microbiome, and how these changes are related to resource availability and rainfall patterns. New completed work in this area is currently in review.
 
-[Orkin et al. (in review) _ISME J_.]({{< relref "publication/orkin_in-review_seasonality-of-the-gut-microbiota.md" >}})
+[Orkin et al. (2018) _The ISME J_.]({{< relref "publication/orkin_in-review_seasonality-of-the-gut-microbiota.md" >}})
 
 <br>
 <hr>

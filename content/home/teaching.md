@@ -20,6 +20,12 @@ I believe that my foremost responsibility as an educator is to provide students 
 
 ## Courses Taught
 
+### As Assistant Professor at UTSA
+
+#### Human Adaptability
+- Sections: Fall 2018 (60 students)
+- Explores physiological, genetic, morphological, and behavioral variation within and between human populations.
+
 ### As Professor of Practice at Tulane University
 
 #### Approaches in Environmental Studies

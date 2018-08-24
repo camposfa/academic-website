@@ -26,17 +26,16 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Fernando A. Campos"
-  role = "Postdoctoral Associate in Biology"
-  organizations = [ {name="Duke University", url="http://biology.duke.edu/"},
-  {name="Univ. of Texas at San Antonio", url="http://anthropology.utsa.edu/"} ]
+  role = "Assistant Professor in Anthropology"
+  organizations = [ {name="Univ. of Texas at San Antonio", url="http://anthropology.utsa.edu/"} ]
   #organization = "Duke Univeristy"
   #organization_url = "http://biology.duke.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "fac13@duke.edu"
-  address = "130 Science Drive, Rm 137, Duke Box 90338, Durham, NC 27708"
-  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "(919) 660-7291"
+  email = "fernando.campos@utsa.edu"
+  address = "One UTSA Circle, San Antonio, TX 78249-1644"
+  office_hours = "Tues. & Thurs., 2:00-3:30 PM "
+  #phone = "(919) 660-7291"
   skype = "camposfa"
   telegram = ""
 
@@ -138,7 +137,7 @@ custom_css = ["goldfish.css"]
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:fac13@duke.edu"
+    link = "mailto:fernando.campos@utsa.edu"
 
   [[params.social]]
     icon = "twitter"

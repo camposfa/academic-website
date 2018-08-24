@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-http://tender-lumiere-15efb6.netlify.com/* http://campos-lab.net/:splat 301!

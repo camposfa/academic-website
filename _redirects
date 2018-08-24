@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://campos-lab.netlify.com/* https://campos-lab.net/:splat 301!

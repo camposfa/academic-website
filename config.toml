@@ -26,15 +26,15 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Fernando A. Campos"
-  role = "Assistant Professor in Anthropology"
-  organizations = [ {name="Univ. of Texas at San Antonio", url="http://anthropology.utsa.edu/"} ]
+  role = "Assistant Professor"
+  organizations = [ {name = "Department of Anthropology"}, {name="Univ. of Texas at San Antonio", url="http://anthropology.utsa.edu/"} ]
   #organization = "Duke Univeristy"
   #organization_url = "http://biology.duke.edu/"
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "fernando.campos@utsa.edu"
   address = "One UTSA Circle, San Antonio, TX 78249-1644"
-  office_hours = "Tues. & Thurs., 2:00-3:30 PM "
+  office_hours = "MH 4.03.44, Tues. & Thurs., 2:00-3:30 PM "
   #phone = "(919) 660-7291"
   skype = "camposfa"
   telegram = ""

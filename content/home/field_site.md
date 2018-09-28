@@ -16,8 +16,9 @@ weight = 50
 
 My recent field research has focused on primates in the [Área de Conservación Guanacaste](http://www.acguanacaste.ac.cr/) (ACG), a Unesco World Heritage site in northwestern Costa Rica that supports extraodrinary biodiversity. The conservation area comprises several different sectors that extend from the Pacific Ocean over a chain of dormant volcanos to the Atlantic slope.
 
-### [See some of my photos from the ACG &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>](http://people.duke.edu/~fac13/field_site/)
-[![Maritza](img/headers/maritza-road.jpg)](http://people.duke.edu/~fac13/field_site/)
+### [See some of my photos from the ACG &nbsp;<i class="fa fa-external-link" aria-hidden="true"></i>](https://campos-lab.net/field_site/)
+[![Maritza](img/headers/maritza-road.jpg)](https://campos-lab.net/field_site/)
+
 
 One particularly well-studied part of the ACG is the Santa Rosa sector. The white-faced capuchins in Santa Rosa are studied under the directorship of [Linda Fedigan](http://people.ucalgary.ca/~fedigan/fedigan.htm), [Katharine Jack](https://kjack.tulane.edu/), and [Amanda Melin](http://www.amandamelin.com/).
 

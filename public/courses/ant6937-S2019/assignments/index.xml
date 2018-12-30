@@ -22,12 +22,23 @@ What rolling average is used in computing the “trend” line? How does the tre
     </item>
     
     <item>
-      <title>Final Project: Proposal</title>
-      <link>/assignments/final/</link>
+      <title>Introduction &amp; Setup</title>
+      <link>/assignments/setup/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/final/</guid>
-      <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
+      <guid>/assignments/setup/</guid>
+      <description> Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).
+ For reference: RStudio Cheat sheet.
+  </description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/assignments/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/r-basics/</guid>
+      <description> Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen).  </description>
     </item>
     
   </channel>

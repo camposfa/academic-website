@@ -6,10 +6,20 @@
     <description>Recent content in ANT 6937: Data Visualization and Exploration on ANT 6937, Spring 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uS</language>
-    <lastBuildDate>Sat, 15 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/datacamp/</link>
+      <pubDate>Sat, 22 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/datacamp/</guid>
+      <description>ANT 6937 DataCamp Dashboard 
+Throughout the course we will be using DataCamp, a platform that provides an interactive way to learn how to use R to create visualizations and carry out data analysis.</description>
+    </item>
     
     <item>
       <title></title>
@@ -17,8 +27,8 @@
       <pubDate>Sat, 15 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/syllabus/</guid>
-      <description>warning  clear  Please note: Syllabus subject to change    
- Date Topics Readings Activities Slides Projects   2019-01-17 Introduction &amp; Setup         VISUALIZING DATA       2019-01-24 R Basics       2019-01-31 ??       2019-02-07 Visualization basics       2019-02-14 Manipulation basics         MANIPULATING DATA       2019-02-21 Relational data: groups       2019-02-28 Relational data: joins       2019-03-07 group_by and summarize       2019-03-14  No class: spring break        2019-03-21 more dplyr       2019-03-28  No class: AAPA Conference        2019-04-04 Reproducibility       2019-04-11 Functions       2019-04-18 geospatial intro, visualization       2019-04-25 vector data         FINAL PROJECTS       2019-05-02 Final Projects         </description>
+      <description>warning  clear  Please note: Syllabus content will be updated frequently as we progress through the topics.    
+ Date Topics Readings Assignments Slides Projects     R, RSTUDIO, AND THE TIDYVERSE       2019-01-17 Introduction &amp; Setup       2019-01-24 R and RStudio Basics         DATA VISUALIZATION       2019-01-31 Visualization Basics       2019-02-07 Visualizing Amounts and Parts of a Whole       2019-02-14 Visualizing Distributions and Uncertainty       2019-02-21 Visualizing Relationships and Change Over Time       2019-02-28 Principles of Figure Design 1: Coordinate Systems, Color Scales, and Facets       2019-03-07 Principles of Figure Design 2: Annotations, Themes, and Common Pitfalls       2019-03-14  No class: Spring Break          DATA MANIPULATTION       2019-03-21 Data Import and Principles of Tidy Data       2019-03-28  No class: AAPA Conference        2019-04-04 Data Manipulation Basics       2019-04-11 Grouping and Summarizing       2019-04-18 Relational Data and Joins         FINAL PROJECTS       2019-04-25 Work on Final Projects       2019-05-02 Work on Final Projects         </description>
     </item>
     
     <item>
@@ -27,8 +37,8 @@
       <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/policies/</guid>
-      <description>Prerequisites You should be generally numerically literate, and some prior programming experience will be helpful. Students new to programming might find Hands on Programming with R to be helpful. Students with significant experience in programming and statistical analysis should find themselves well prepared but should find plenty still to learn in each lesson.
-Instructional Methods As a flipped classroom, students are provided with either reading or video material that they are expected to view/read prior to class.</description>
+      <description>Preparation There are no prerequisites for this class. In particular, prior programming experience is not required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find plenty to learn in each lesson.
+Instructional Methods As a flipped classroom, students will be provided with either reading or video material that they are expected to read or view prior to class. Classes will involve brief refreshers on new concepts followed by working on exercises in class that cover that concept.</description>
     </item>
     
     <item>
@@ -63,7 +73,11 @@ vis.1 Watch:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/livecode/2018-09-07-class-notes/</guid>
-      <description> Reminders  Focus on reading, exercises – Great work! open-ended questions, not always covered Piazza discussion forum pair coding   Overview  GitHub  Collaboration rmarkdown -&amp;gt; markdown  Travis  What, why? Debugging  R  readr separators ggplot2 – Grammar?? dplyr Syntax  Naming things Style   </description>
+      <description> Reminders  Focus on reading, exercises – Great work! open-ended questions, not always covered Piazza discussion forum pair coding   Overview  GitHub Collaboration rmarkdown -&amp;gt; markdown
+ Travis What, why? Debugging
+ R readr separators ggplot2 – Grammar?? dplyr Syntax
+ Naming things Style
+   </description>
     </item>
     
     <item>
@@ -74,6 +88,15 @@ vis.1 Watch:
       <guid>/read/fish/</guid>
       <description>The material for this session is a little different, aiming at background on the scientific issues rather than background on the method. Do take a moment to look over the papers and short documentary. Do also review the previous references to make sure you are comfortable with group_by() and summarize() patterns.
 Watch  Background abbreviated documentary, features many of the leading authors on both sides https://vimeo.com/44104959  Read  Original 2006 paper: Worm, B.</description>
+    </item>
+    
+    <item>
+      <title>Cheat Sheets</title>
+      <link>/cheatsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cheatsheets/</guid>
+      <description>RStudio RStudio is a popular software application that provides a user-friendly interface for using R. RStudio make it easier to write and run code, organize your work into projects, and manage packages (among many other things). This cheat sheet describes some of the most useful features of RStudio.      Data Visualization The ggplot2 package will be our primary tool for creating plots in this course. See ggplot2.</description>
     </item>
     
     <item>
@@ -99,10 +122,10 @@ What rolling average is used in computing the “trend” line? How does the tre
     
     <item>
       <title>Final Project: Proposal</title>
-      <link>/assignments/final/</link>
+      <link>/projects/final-project/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/assignments/final/</guid>
+      <guid>/projects/final-project/</guid>
       <description>Projects should essentially look like any of our modules, but with you identifying the dataset and questions rather than working from a template. You may choose to replicate a figure from an existing study, but are also encouraged to use this opportunity to perform some exploratory analysis on data you may be using in your DS421 team projects or your own dissertation research. Remember that as with modules, finals will be graded on workflow and presentation rather than particular conclusions.</description>
     </item>
     
@@ -244,6 +267,26 @@ library(tidyverse) library(mapview) library(raster) library(sf) library(units) l
     </item>
     
     <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/assignments/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/setup/</guid>
+      <description> Complete in Class  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).
+ For reference: RStudio Cheat sheet.
+  </description>
+    </item>
+    
+    <item>
+      <title>Introduction &amp; Setup</title>
+      <link>/read/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/setup/</guid>
+      <description> Read  Preface of Healy&amp;rsquo;s Data Visualization.  </description>
+    </item>
+    
+    <item>
       <title>Iterate using purrr</title>
       <link>/read/purrr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -300,6 +343,25 @@ Reading  Introduction [r4ds-27.1] R Markdown [r4ds-27.2] Code chunks [r4ds-27.4]
     </item>
     
     <item>
+      <title>R and RStudio Basics</title>
+      <link>/assignments/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/r-basics/</guid>
+      <description> Complete in Class  DataCamp Lesson: Introduction to R, Chapter 1: &amp;ldquo;Intro to Basics&amp;rdquo; (by Jonathan Cornelissen).  </description>
+    </item>
+    
+    <item>
+      <title>R and RStudio Basics</title>
+      <link>/read/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/r-basics/</guid>
+      <description>Read  ModernDive Ch. 2: Getting Started with Data in R Healy Section 2.3: Things to know about R Healy Section 2.4: Be patient with R, and with yourself
+ Tidyverse style guide, Ch. 1 and Ch. 2. Consistent style is an important element of communication and collaboration. Skim over the sections 1. Files and 2. Syntax. Don&amp;rsquo;t worry if you don&amp;rsquo;t understand the code examples. Just try to get a feel for the style recommendations (e.</description>
+    </item>
+    
+    <item>
       <title>REST APIs and web queries</title>
       <link>/read/httr-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -348,18 +410,6 @@ Read  Relational Data (*_join functions) r4ds-13.1 - 13.7  </description>
     </item>
     
     <item>
-      <title>Setup</title>
-      <link>/read/setup/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/read/setup/</guid>
-      <description> Watch  DataCamp Lesson: RStudio IDE, Part I, Chapter 1: &amp;ldquo;Orientation&amp;rdquo; (by Garrett Grolemund).  Read  Prerequisites Running R code RStudio Cheat sheet (for reference)
- Style guide Consistent style is an important element of communication and collaboration.
-Please review sections 1. Files and 2. Syntax. Most Syntax conventions can be automatically checked with lintr::lint(&amp;quot;assignment.Rmd&amp;quot;).
-  </description>
-    </item>
-    
-    <item>
       <title>Spatial Module Rubric</title>
       <link>/rubrics/spatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -388,23 +438,39 @@ Reading  Read the opening sections of chapter 13 on Strings and working with Reg
     </item>
     
     <item>
-      <title>Tutorials</title>
-      <link>/tutorials/</link>
+      <title>Visualization Basics</title>
+      <link>/read/viz-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/</guid>
-      <description>&amp;nbsp;  GitHub
-Almost everything we do will involve GitHub in some way. This tutorial will provide a brief introduction to our GitHub-based workflow and review common git patterns for resolving issues you may encounter in working collaboratively.
-  RMarkdown Notebooks Most of your work will take place inside an RMarkdown notebook. While we will rely primarily on the github_document format, RMarkdown supports a wide variety of output formats that you can use to create pdf documents (including particular journal formats) slideshows, websites, ebooks and interactive tutorials.</description>
+      <guid>/read/viz-basics/</guid>
+      <description> Read  Healy, Ch. 1: Look At Data Wilke, Ch. 1: Introduction Wilke, Ch. 2: Visualizing data: Mapping data onto aesthetics  </description>
     </item>
     
     <item>
-      <title>Visualization Basics</title>
-      <link>/read/ggplot-1/</link>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/read/viz-amounts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/read/ggplot-1/</guid>
-      <description> Watch  Tidyverse Chapter 1: Data Wrangling (David Robinson) Tidyverse Chapter 2: Data Visualization (David Robinson)  Read Plotting  Data Exploration [r4ds-2] First Steps [r4ds-3.2] Aesthetic mappings [r4ds-3.3] Common problems [r4ds-3.4] Facets r4ds-3.5 Geometric objects r4ds-3.6  Reference  Data Visualization Cheat Sheet cheatsheets-ggplot2-2.1  </description>
+      <guid>/read/viz-amounts/</guid>
+      <description> Read  Wilke, Ch. 6: Visualizing Amounts Wilke, Ch. 10: Visualizing Proportions Wilke, Ch. 11: Visualizing Nested Proportions  Robert Kosara (2010), &amp;ldquo;Understanding Pie Charts.&amp;rdquo;  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/read/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-distributions/</guid>
+      <description> Read  Wilke, Ch. 7: Visualizing distributions: Histograms and density plots Wilke, Ch. 9: Visualizing many distributions at once  Matthew Conlen, &amp;ldquo;Kernel Density Estimation&amp;rdquo; Nicole Torres (2010), &amp;ldquo;Why It’s So Hard for Us to Visualize Uncertainty&amp;rdquo; Robert Kosara (2017), &amp;ldquo;Communicating Uncertainty When Lives Are on the Line&amp;rdquo; Nathan Yau (FlowingData): &amp;ldquo;Showing uncertainty during the live election forecast&amp;rdquo;&amp;rdquo; (and a humorous critique of the NYT election uncertainty dial).  </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/read/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/read/viz-relationships/</guid>
+      <description> Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables  Keiran Healy, &amp;ldquo;Two Y-Axes&amp;rdquo; Stephanie Evergreen, &amp;ldquo;Two Alternatives to Using a Second Y-Axis&amp;rdquo;  </description>
     </item>
     
     <item>

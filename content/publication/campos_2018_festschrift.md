@@ -1,7 +1,7 @@
 +++
 title = "A synthesis of long-term environmental change in Santa Rosa"
-date = 2018-03-01T21:10:49-04:00
-inpress = true
+date = 2018-10-30T21:10:49-04:00
+inpress = false
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -39,7 +39,12 @@ image_preview = "headers/mangrove.jpg"
 selected = false
 
 # Links (optional)
-url_project = ""
+url_project = "project/environmental-stress/"
+
+[[url_custom]]
+name = "Publisher"
+url = "https://dx.doi.org/10.1007/978-3-319-98285-4_16"
+
 
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.

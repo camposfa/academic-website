@@ -113,7 +113,7 @@ custom_css = ["goldfish.css"]
     'Book chapter',  # 6
     'Encyclopedia article', #7
     'In Review', #8
-    "Thesis" #9
+    'Thesis' #9
   ]
 
   # Social/Academic Networking

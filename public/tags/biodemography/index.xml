@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biodemography on Fernando Alonso Campos</title>
+    <link>/tags/biodemography/</link>
+    <description>Recent content in Biodemography on Fernando Alonso Campos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
+    <lastBuildDate>Sun, 23 Jun 2019 22:33:41 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/biodemography/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Population dynamics</title>
+      <link>/project/population-dynamics/</link>
+      <pubDate>Sun, 23 Jun 2019 22:33:41 -0400</pubDate>
+      
+      <guid>/project/population-dynamics/</guid>
+      <description>I am interested in how primate populations change over time as their habitats and climates change. We have carried out repeated large-scale censuses of primates in the ACG to monitor changes in the capuchin and howler monkey populations over time. This work spans several decades (starting with early census work in 1983), and is in collaboration with Linda Fedigan, Kathy Jack, Jeremy Hogan, and others.
+Hogan et. al (In Press) Am J Primatol.</description>
+    </item>
+    
+    <item>
+      <title>Sex differences in health and survival</title>
+      <link>/project/sex-differences-health-survival/</link>
+      <pubDate>Wed, 20 Sep 2017 22:32:54 -0400</pubDate>
+      
+      <guid>/project/sex-differences-health-survival/</guid>
+      <description>My postdoctoral work in the Alberts lab at Duke is primarily focused on a phenomenon of modern human societies called the male-female health survival paradox, in which women live longer but experience higher rates of disability and poor health than men.
+There is a great deal of evidence that components of this phenomenon have a long evolutionary history in humans (reviewed by Alberts et al. 2014), but interestingly, the paradox does not exist in baboons.</description>
+    </item>
+    
+    <item>
+      <title>Responses to early-life adversity</title>
+      <link>/project/early-life-adversity/</link>
+      <pubDate>Wed, 20 Sep 2017 22:32:38 -0400</pubDate>
+      
+      <guid>/project/early-life-adversity/</guid>
+      <description>Adversity during early life can reach far into the future to exert profound effects on health and well-being during adulthood. Striking parallels exist between early-life effects in humans and in natural animal populations.
+The leading conceptual models for early-life effects propose different evolutionary explanations for these phenomena.
+Developmental constraints models propose that harsh early-life conditions lead to developmental tradeoffs that prioritize immediate survival at the cost of reduced health, reproduction, and/or survival later in life.</description>
+    </item>
+    
+    <item>
+      <title>Primate Life History Database</title>
+      <link>/project/plhd/</link>
+      <pubDate>Sat, 02 Sep 2017 22:19:37 -0400</pubDate>
+      
+      <guid>/project/plhd/</guid>
+      <description>Background on the Working Group The Primate Life History Database is a unique compilation of full life-course information from seven wild populations that have been studied for at least 30 years. The database contains standardized records for thousands of individual primates that have been followed from birth to death. These primate populations are some of the best-studied wild primates on earth. Formed over the course of several meetings from 2005 to 2007, the original core members of the PLHD include co-organizers Susan Alberts and Karen Strier, along with Jeanne Altmann, Diane Brockman, Anne Bronikowski, Marina Cords, Linda Fedigan, Bill Morris, Anne Pusey, Tara Stoinski.</description>
+    </item>
+    
+    <item>
+      <title>Maternal age effects on offspring</title>
+      <link>/project/maternal-age-effects/</link>
+      <pubDate>Tue, 20 Aug 2013 22:32:17 -0400</pubDate>
+      
+      <guid>/project/maternal-age-effects/</guid>
+      <description>In collaboration with members of the Primate Life Histories working group, I am using long-term life-history data from seven primate species to investigate maternal age effects on reproductive performance and on offspring fitness.
+Specifically, we aim to determine:
+ How variable are patterns of female reproductive aging (specifically interbirth interval changes during aging) across species? Can we reliably detect a signature of aging, or does this vary across species?
+ Are aspects of offspring fitness (survival and age at first reproduction) affected by maternal age?</description>
+    </item>
+    
+  </channel>
+</rss>

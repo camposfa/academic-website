@@ -5,13 +5,13 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["life-history-evolution"]
+tags = ["biodemography"]
 
 # Project summary to display on homepage.
 summary = "Why do men die earlier but appear healthier? And why don't baboons show this same pattern?"
 
 # Optional image to display on homepage.
-image_preview = "cards/Card_20050519-084019.jpg"
+image_preview = "cards/Campos_Kenya_20190107_99.jpg"
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -25,8 +25,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/Header_20050519-084019.jpg"
-caption = ""
+image = "headers/Campos_Kenya_20190107_99.jpg"
+caption = "A young baboon huddles with its mother."
 
 +++
 

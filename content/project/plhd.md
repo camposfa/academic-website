@@ -4,7 +4,7 @@ date = "2017-09-02T22:19:37-04:00"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["life-history-evolution"]
+tags = ["biodemography"]
 
 # Project summary to display on homepage.
 summary = "An exceptional archive of primate life history data."

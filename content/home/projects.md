@@ -26,8 +26,8 @@ view = 1
   tag = "*"
 
 [[filter]]
-  name = "Life-history Evolution"
-  tag = ".life-history-evolution"
+  name = "Biodemography"
+  tag = ".biodemography"
 
 [[filter]]
   name = "Behavioral Ecology"

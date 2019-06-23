@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>/project/population-dynamics/</loc>
+      <lastmod>2019-06-23T22:33:41-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/hogan_2019_group-vs-population-level-demographics/</loc>
+      <lastmod>2019-05-15T21:10:49-04:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/campos_2018_festschrift/</loc>
       <lastmod>2018-10-30T21:10:49-04:00</lastmod>
     </url>
@@ -213,7 +231,7 @@
     <url>
     
       <loc>/publication/campos_2014_phd-thesis_landscapes-of-change/</loc>
-      <lastmod>2014-07-11T00:00:00+02:00</lastmod>
+      <lastmod>2014-07-11T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -321,7 +339,7 @@
     <url>
     
       <loc>/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</loc>
-      <lastmod>2008-01-18T00:00:00+01:00</lastmod>
+      <lastmod>2008-01-18T00:00:00-06:00</lastmod>
     </url>
     
   
@@ -339,7 +357,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2018-08-22T15:13:07-04:00</lastmod>
+      <lastmod>2019-05-15T21:10:49-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -369,7 +387,7 @@
     <url>
     
       <loc>/publication_types/9/</loc>
-      <lastmod>2014-07-11T00:00:00+02:00</lastmod>
+      <lastmod>2014-07-11T00:00:00-05:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -380,6 +398,16 @@
     
       <loc>/tags/behavioral-ecology/</loc>
       <lastmod>2017-09-14T21:10:49-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/biodemography/</loc>
+      <lastmod>2019-06-23T22:33:41-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -408,7 +436,7 @@
     <url>
     
       <loc>/tags/conservation/</loc>
-      <lastmod>2008-09-20T22:46:31-04:00</lastmod>
+      <lastmod>2019-06-23T22:33:41-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -427,18 +455,8 @@
     
     <url>
     
-      <loc>/tags/life-history-evolution/</loc>
-      <lastmod>2017-09-20T22:32:54-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/project/</loc>
-      <lastmod>2017-09-21T22:33:41-04:00</lastmod>
+      <lastmod>2019-06-23T22:33:41-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -448,7 +466,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2018-08-22T15:13:07-04:00</lastmod>
+      <lastmod>2019-05-15T21:10:49-04:00</lastmod>
       <priority>0</priority>
     </url>
     

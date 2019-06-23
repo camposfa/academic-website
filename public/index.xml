@@ -11,6 +11,29 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Population dynamics</title>
+      <link>/project/population-dynamics/</link>
+      <pubDate>Sun, 23 Jun 2019 22:33:41 -0400</pubDate>
+      
+      <guid>/project/population-dynamics/</guid>
+      <description>&lt;p&gt;I am interested in how primate populations change over time as their habitats and climates change. We have carried out repeated large-scale censuses of primates in the ACG to monitor changes in the capuchin and howler monkey populations over time. This work spans several decades (starting with early census work in 1983), and is in collaboration with Linda Fedigan, Kathy Jack, Jeremy Hogan, and others.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;./publication/hogan_2019_group-vs-population-level-demographics/&#34; target=&#34;_blank&#34;&gt;Hogan et. al (In Press) &lt;em&gt;Am J Primatol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;./publication/campos_2015_climate-oscillations/&#34; target=&#34;_blank&#34;&gt;Campos et. al (2015) &lt;em&gt;Biol Conserv&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Group vs population level demographics: an analysis of comparability using long term data on wild white-faced capuchin monkeys (*Cebus capucinus imitator*).</title>
+      <link>/publication/hogan_2019_group-vs-population-level-demographics/</link>
+      <pubDate>Wed, 15 May 2019 21:10:49 -0400</pubDate>
+      
+      <guid>/publication/hogan_2019_group-vs-population-level-demographics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A synthesis of long-term environmental change in Santa Rosa</title>
       <link>/publication/campos_2018_festschrift/</link>
       <pubDate>Tue, 30 Oct 2018 21:10:49 -0400</pubDate>
@@ -215,55 +238,6 @@ Striking parallels exist between early-life effects in humans and in natural ani
       
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Habitat Restoration</title>
-      <link>/publication/campos_2016_habitat-restoration/</link>
-      <pubDate>Sat, 31 Dec 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/campos_2016_habitat-restoration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Movement Ecology</title>
-      <link>/project/movement-ecology/</link>
-      <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
-      
-      <guid>/project/movement-ecology/</guid>
-      <description>
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;No wild animal roams at random over the country: each has a home region, even if it has not an actual home.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&#34;determinants-of-home-range-behavior-in-capuchins&#34;&gt;Determinants of home range behavior in capuchins&lt;/h3&gt;
-
-&lt;p&gt;What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Motivated by these question, I compiled a large eight-year data set (collected by myself and by many collaborators on separate projects) representing over 20,000 contact hours on seven social groups of white-faced capuchins. The data consist of GPS tracking locations, behavioral observations, and various kinds of environmental data, including climate and habitat variables. I used a &lt;a href=&#34;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0014592&#34; target=&#34;_blank&#34;&gt;movement-based kernel method&lt;/a&gt; to calculate home ranges at four nested temporal scales and three nested spatial scales, and I examined the social and environmental factors that drive home range dynamics.&lt;/p&gt;
-
-&lt;p&gt;Our work examined how variation in climate, food abundance, and group size affects the area of the home range, and the types of habitats contained within the home range.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;./publication/campos_2014_drivers-of-home-range-characteristics/&#34; target=&#34;_blank&#34;&gt;Campos et al. (2014) &lt;em&gt;Anim Behav&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/cards/home-range.jpg&#34; alt=&#34;Link to paper&#34; /&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;migration-in-swedish-moose&#34;&gt;Migration in Swedish Moose&lt;/h3&gt;
-
-&lt;p&gt;I am working in collaboration with &lt;a href=&#34;http://navinderjsingh.weebly.com/&#34; target=&#34;_blank&#34;&gt;Navinder Singh&lt;/a&gt; and &lt;a href=&#34;http://www.slu.se/viltfiskmiljo/goran_ericsson&#34; target=&#34;_blank&#34;&gt;Göran Ericsson&lt;/a&gt; at Sveriges Lantbruksuniversitet in Umeå, Sweden, to study migration behavior in Swedish wildlife, with a particular focus on moose.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://camposfa.github.io/moose-migration-repeatability.html&#34; target=&#34;_blank&#34;&gt;Reproducible Analysis (work in progress)&lt;i class=&#34;fa fa-external-link&#34; aria-hidden=&#34;true&#34;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;./img/sweden.jpg&#34; alt=&#34;Sweden&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

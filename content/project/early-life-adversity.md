@@ -5,7 +5,7 @@ draft = false
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["life-history-evolution"]
+tags = ["biodemography"]
 
 # Project summary to display on homepage.
 summary = "To what extent can primates overcome a bad start in life?"

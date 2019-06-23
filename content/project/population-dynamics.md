@@ -30,6 +30,8 @@ caption = "Censused primate groups in the ACG."
 
 +++
 
+## Dynamics of Primate Populations in the ACG
+
 I am interested in how primate populations change over time as their habitats and climates change. We have carried out repeated large-scale censuses of primates in the ACG to monitor changes in the capuchin and howler monkey populations over time. This work spans several decades (starting with early census work in 1983), and is in collaboration with Linda Fedigan, Kathy Jack, Jeremy Hogan, and others.
 
 [Hogan et. al (In Press) _Am J Primatol_.]({{< relref "publication/hogan_2019_group-vs-population-level-demographics.md" >}})

@@ -1,6 +1,6 @@
 +++
-title = "Population dynamics"
-date = 2019-06-23T22:33:41-04:00
+title = "Population Dynamics"
+date = 2019-06-22T22:33:41-04:00
 draft = false
 
 # Tags: can be used for filtering projects.

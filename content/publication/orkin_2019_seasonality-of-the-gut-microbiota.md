@@ -1,6 +1,6 @@
 +++
 title = "Seasonality of the gut microbiota of free ranging white-faced capuchins in a tropical dry forest"
-date = 2018-08-22T15:13:07-04:00
+date = 2019-01-01T15:13:07-04:00
 inreview = false
 draft = false
 
@@ -55,6 +55,6 @@ url = "http://rdcu.be/4YV3"
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
 image = "headers/monkey-fruit.jpg"
-caption = "Orkin et al. (2018), *The ISME J*"
+caption = "Orkin et al. (2019), *The ISME J*"
 
 +++

@@ -1,6 +1,6 @@
 +++
 title = "Group vs population level demographics: an analysis of comparability using long term data on wild white-faced capuchin monkeys (*Cebus capucinus imitator*)."
-date = 2019-05-15T21:10:49-04:00
+date = 2019-07-09T21:10:49-04:00
 inpress = true
 draft = false
 
@@ -41,9 +41,9 @@ selected = false
 # Links (optional)
 url_project = "project/population-dynamics/"
 
-# [[url_custom]]
-# name = "Publisher"
-# url = "https://dx.doi.org/10.1007/978-3-319-98285-4_16"
+[[url_custom]]
+name = "Publisher"
+url = "https://doi.org/10.1002/ajp.23027"
 
 
 # Featured image

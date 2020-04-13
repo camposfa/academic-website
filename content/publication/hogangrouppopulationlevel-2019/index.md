@@ -8,5 +8,10 @@ abstract: "Primates have long been used as indicator species for assessing overa
 featured: false
 publication: "*American Journal of Primatology*"
 doi: "10.1002/ajp.23027"
+image:
+  preview_only: true
+header:
+  image: "headers/mangrove.jpg"
+  caption: ""
 ---
 

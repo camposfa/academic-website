@@ -8,5 +8,6 @@ abstract: "Aging, for virtually all life, is inescapable. However, within specie
 featured: false
 publication: "*bioRxiv*"
 doi: "10.1101/2020.02.22.961052"
+url_project: "/project/aging/"
 ---
 

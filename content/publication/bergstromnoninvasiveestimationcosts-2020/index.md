@@ -9,5 +9,6 @@ featured: false
 publication: "*Hormones and Behavior*"
 tags: ["C-peptide", "Dominance", "Energy balance", "Food availability", "Food competition", "Ketone", "Socioecological theory", "Socioecology"]
 doi: "10.1016/j.yhbeh.2019.104632"
+url_project: "/project/foraging-nutritional-ecology/"
 ---
 

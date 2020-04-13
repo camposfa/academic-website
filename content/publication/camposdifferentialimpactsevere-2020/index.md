@@ -8,5 +8,7 @@ abstract: "Extreme climate events can have important consequences for the dynami
 featured: true
 publication: "*Royal Society Open Science*"
 doi: "10.1098/rsos.200302"
+url_dataset: "https://doi.org/10.5061/dryad.6pt46j0"
+url_project: "/project/environmental-stressors/"
 ---
 

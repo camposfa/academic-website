@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Melin AD | Campos Lab @ UTSA</title>
+    <link>/authors/melin-ad/</link>
+      <atom:link href="/authors/melin-ad/index.xml" rel="self" type="application/rss+xml" />
+    <description>Melin AD</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 15:13:07 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Melin AD</title>
+      <link>/authors/melin-ad/</link>
+    </image>
+    
+    <item>
+      <title>Seasonality of the gut microbiota of free ranging white-faced capuchins in a tropical dry forest</title>
+      <link>/publication/orkin_2019_seasonality-of-the-gut-microbiota/</link>
+      <pubDate>Tue, 01 Jan 2019 15:13:07 -0400</pubDate>
+      <guid>/publication/orkin_2019_seasonality-of-the-gut-microbiota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Howler monkey foraging ecology suggests convergent evolution of routine trichromacy as an adaptation for folivory</title>
+      <link>/publication/melin_2017_howler-monkey-foraging-ecology/</link>
+      <pubDate>Sat, 04 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/melin_2017_howler-monkey-foraging-ecology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drivers of home range characteristics across spatiotemporal scales in a neotropical primate, Cebus capucinus</title>
+      <link>/publication/campos_2014_drivers-of-home-range-characteristics/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/campos_2014_drivers-of-home-range-characteristics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

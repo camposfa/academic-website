@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>general | Campos Lab @ UTSA</title>
+    <link>/tags/general/</link>
+      <atom:link href="/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>general</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>general</title>
+      <link>/tags/general/</link>
+    </image>
+    
+    <item>
+      <title>Vigilance, Sentinels, and Alarms</title>
+      <link>/publication/campos-vigilance-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-vigilance-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

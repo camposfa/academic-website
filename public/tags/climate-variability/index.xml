@@ -1,34 +1,68 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Climate Variability on Fernando Alonso Campos</title>
+    <title>climate-variability | Campos Lab @ UTSA</title>
     <link>/tags/climate-variability/</link>
-    <description>Recent content in Climate Variability on Fernando Alonso Campos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
-    <lastBuildDate>Thu, 21 Sep 2017 22:33:41 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/climate-variability/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/climate-variability/index.xml" rel="self" type="application/rss+xml" />
+    <description>climate-variability</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 21 Sep 2017 22:33:41 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>climate-variability</title>
+      <link>/tags/climate-variability/</link>
+    </image>
     
     <item>
       <title>Climate variability and vital rates</title>
       <link>/project/climate-variability/</link>
       <pubDate>Thu, 21 Sep 2017 22:33:41 -0400</pubDate>
-      
       <guid>/project/climate-variability/</guid>
-      <description>There is a growing need to understand how threatened species are affected by climate variability and climate change. This knowledge can uncover the limits of resiliency to climatic fluctuations and set the stage for informed conservation efforts. My colleagues and I have published important findings about how demography in natural primate populations varies in response to climate variability.
-My first project with the PLHD working group examined the effects of temperature, rainfall, and large-scale climate oscillations on vital rates, including annual birth rates and survival rates.</description>
+      <description>&lt;p&gt;There is a growing need to understand how threatened species are affected by climate variability and climate change. This knowledge can uncover the limits of resiliency to climatic fluctuations and set the stage for informed conservation efforts. My colleagues and I have published important findings about how demography in natural primate populations varies in response to climate variability.&lt;/p&gt;
+&lt;p&gt;My first project with the 
+&lt;a href=&#34;/project/plhd/&#34;&gt;PLHD working group&lt;/a&gt; examined the effects of temperature, rainfall, and large-scale climate oscillations on vital rates, including annual birth rates and survival rates. We found strong climate signals in the birth rates of three species. These results inform our understanding of ways in which climate change could affect the future fates of wild primates.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Campos et. al (2017) &lt;em&gt;Glob Change Biol&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I am especially interested in how animal populations are affected by cyclical, large-scale weather patterns, like the El Niño Southern Oscillation (ENSO), that can bring rare but recurrent severe drought. Using three decades of census, life-history, and climate data from the Santa Rosa capuchins, I uncovered evidence of population demographic responses to climate in the form of lagged declines in female fertility rates following rainfall deficits associated with ENSO. This finding has important conservation implications because ENSO cycles are predicted to increase in frequency and severity during the next century.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;&#34;&gt;Campos et. al (2015) &lt;em&gt;Biol Conserv&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Responses to Environmental Stress</title>
-      <link>/project/environmental-stress/</link>
+      <title>Environmental Stressors</title>
+      <link>/project/environmental-stressors/</link>
       <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
-      
-      <guid>/project/environmental-stress/</guid>
-      <description>Climate Seasonality Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.</description>
+      <guid>/project/environmental-stressors/</guid>
+      <description>&lt;h2 id=&#34;drought-and-primate-infant-mortality&#34;&gt;Drought and primate infant mortality&lt;/h2&gt;
+&lt;p&gt;Extreme climate events can have important consequences for the dynamics of natural populations, and severe droughts are predicted to become more common and intense due to climate change. We analysed infant mortality in relation to drought and fruit abundance using long-term data. During severe drought, we see high capuchin infant mortality, and spider monkeys stop reproducing.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposdifferentialimpactsevere-2020/&#34;&gt;Campos et al. (2020) &lt;em&gt;Roy Soc Open Sci&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;climate-seasonality&#34;&gt;Climate Seasonality&lt;/h2&gt;
+&lt;p&gt;Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.&lt;/p&gt;
+&lt;p&gt;Seasonality in the tropical dry forests of Costa Rica is exceptionally strong. Although the region receives about 1,700 mm of rain each year, the rainfall is almost entirely confined to a 5-6 month wet season with moderate temperatures and lush vegetation. By contrast, the dry season—with its high temperatures and extreme scarcity of surface water—can be a difficult time for the primates. To conserve water, most trees in the forest lose their leaves, exposing the monkeys to intense solar radiation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/plots/seasonality-map.jpg&#34; alt=&#34;seasonality&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I review these climatic processes in a book chapter: 
+&lt;a href=&#34;/publication/campos-synthesis-2018/&#34;&gt;Campos (2018) &lt;em&gt;Primate Life Histories, Sex Roles, and Adaptability - Essays in Honour of Linda M. Fedigan.&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;behavioral-thermoregulation&#34;&gt;Behavioral Thermoregulation&lt;/h2&gt;
+&lt;p&gt;My Master&amp;rsquo;s research examined the behavioral strategies that the capuchins use to cope with this extreme seasonality. I found that they reduce activity during the hottest hours of the day, and they concentrate their movements around the few remaining sources of surface water. They also extend their tongues in hot dry conditions, presumably to cool themselves via evaporation of saliva from the tongue.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposbehavioraladaptationsheat-2009/&#34;&gt;Campos and Fedigan (2009) &lt;em&gt;Am J Phys Anth&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;seasonal-changes-in-the-gut-microbiome&#34;&gt;Seasonal Changes in the Gut Microbiome&lt;/h2&gt;
+&lt;p&gt;My collaborators 
+&lt;a href=&#34;https://josephorkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joseph Orkin&lt;/a&gt; and 
+&lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Melin&lt;/a&gt; at the University of Calgary are directing a study, on which I am collaborating, that aims to understand temporal variation in the composition of the capuchin gut microbiome, and how these changes are related to resource availability and rainfall patterns. New completed work in this area is currently in review.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/orkinseasonalitygutmicrobiota-2019/&#34;&gt;Orkin et al. (2018) &lt;em&gt;The ISME J&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,494 +1,1109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
-    
-    <url>
-    
-      <loc>/publication/hogan_2019_group-vs-population-level-demographics/</loc>
-      <lastmod>2019-07-09T21:10:49-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/aging/</loc>
+    <lastmod>2020-04-12T22:55:21-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/population-dynamics/</loc>
-      <lastmod>2019-06-22T22:33:41-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/biodemography/</loc>
+    <lastmod>2020-04-12T22:55:21-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/orkin_2019_seasonality-of-the-gut-microbiota/</loc>
-      <lastmod>2019-01-01T15:13:07-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-04-12T22:55:21-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2018_festschrift/</loc>
-      <lastmod>2018-10-30T21:10:49-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-12T22:55:21-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/climate-variability/</loc>
-      <lastmod>2017-09-21T22:33:41-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/behavior/</loc>
+    <lastmod>2020-04-12T22:38:46-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/sex-differences-health-survival/</loc>
-      <lastmod>2017-09-20T22:32:54-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/behavioral-ecology/</loc>
+    <lastmod>2020-04-12T22:38:46-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/early-life-adversity/</loc>
-      <lastmod>2017-09-20T22:32:38-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/project/foraging-nutritional-ecology/</loc>
+    <lastmod>2020-04-12T22:38:46-05:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/environmental-stress/</loc>
-      <lastmod>2017-09-14T21:10:49-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/fernando/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/plhd/</loc>
-      <lastmod>2017-09-02T22:19:37-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2017_does-climate-influence/</loc>
-      <lastmod>2017-06-07T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/adrian-guadamuz/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2017_vigilance-sentinels-and-alarm-calls/</loc>
-      <lastmod>2017-05-03T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/amanda-d.-melin/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/kalbitzer_2017_female-sociality/</loc>
-      <lastmod>2017-02-06T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/melin_2017_howler-monkey-foraging-ecology/</loc>
-      <lastmod>2017-02-04T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/colleen-m.-schaffner/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/wikberg_2017_inbreeding-avoidance-and-female-mate-choice/</loc>
-      <lastmod>2017-01-28T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/camposdifferentialimpactsevere-2020/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/academic/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/evin-murillo-chacon/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/example-talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/fernando-a.-campos/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/filippo-aureli/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/jeremy-d.-hogan/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/katharine-m.-jack/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2016_habitat-restoration/</loc>
-      <lastmod>2016-12-31T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/linda-m.-fedigan/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/movement-ecology/</loc>
-      <lastmod>2015-09-09T14:16:02-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/monica-s.-myers/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/social-connectedness/</loc>
-      <lastmod>2015-08-20T22:33:58-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2015_climate-oscillations/</loc>
-      <lastmod>2015-06-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/wikberg_2014_the-effect-of-male-parallel-dispersal/</loc>
-      <lastmod>2014-10-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/saul-e.-cheves/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/predation/</loc>
-      <lastmod>2014-09-14T21:23:03-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/urs-kalbitzer/</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2014_phd-thesis_landscapes-of-change/</loc>
-      <lastmod>2014-07-11T00:00:00-05:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/publication_types/3/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2014_drivers-of-home-range-characteristics/</loc>
-      <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/amanda-j-lea/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2014_spatial-ecology-of-perceived-predation-risk/</loc>
-      <lastmod>2014-02-06T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/c-peptide/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/dispersal-kinship/</loc>
-      <lastmod>2013-09-20T22:33:50-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/dominance/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/maternal-age-effects/</loc>
-      <lastmod>2013-08-20T22:32:17-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/elizabeth-archie/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2013_a-potential-distribution-model/</loc>
-      <lastmod>2013-08-21T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/energy-balance/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2013_urine-washing-in-white-faced-capuchins/</loc>
-      <lastmod>2013-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/fernando-campos/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/wikberg_2012_between-group-variation-in-female-dispersal/</loc>
-      <lastmod>2012-11-07T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/food-availability/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/jack_2012_distribution-abundance-and-spatial-ecology/</loc>
-      <lastmod>2012-07-09T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/food-competition/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/foraging-nutritional-ecology/</loc>
-      <lastmod>2011-09-20T22:33:27-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/jenny-tung/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2009_behavioral-thermoregulation/</loc>
-      <lastmod>2009-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/jordan-anderson/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/conservation-priorities/</loc>
-      <lastmod>2008-09-20T22:46:31-04:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/tags/ketone/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2008_ma-thesis_behavioral-thermoregulation/</loc>
-      <lastmod>2008-01-18T00:00:00-06:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/mackenzie-l.-bergstrom/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication/campos_2007_urine-washing-and-sniffing/</loc>
-      <lastmod>2007-01-12T00:00:00+00:00</lastmod>
-    </url>
-    
+  <url>
+    <loc>/authors/melissa-emery-thompson/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2019-07-09T21:10:49-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/mercy-y-akinyi/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/6/</loc>
-      <lastmod>2018-10-30T21:10:49-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/bergstromnoninvasiveestimationcosts-2020/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/7/</loc>
-      <lastmod>2017-05-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/rachel-johnston/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/9/</loc>
-      <lastmod>2014-07-11T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/socioecological-theory/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/behavioral-ecology/</loc>
-      <lastmod>2017-09-14T21:10:49-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/socioecology/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/biodemography/</loc>
-      <lastmod>2019-06-22T22:33:41-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/susan-alberts/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/tawni-n-voyles/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/climate-variability/</loc>
-      <lastmod>2017-09-21T22:33:41-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/andersoncostscompetitionhigh-2020/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/conservation/</loc>
-      <lastmod>2019-06-22T22:33:41-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/hogangrouppopulationlevel-2019/</loc>
+    <lastmod>2019-07-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2016-04-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/tags/conservation/</loc>
+    <lastmod>2019-06-22T22:33:41-04:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2019-06-22T22:33:41-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/project/population-dynamics/</loc>
+    <lastmod>2019-06-22T22:33:41-04:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2019-07-09T21:10:49-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/joseph-d.-orkin/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/sociality/</loc>
-      <lastmod>2015-08-20T22:33:58-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/authors/saul-e.-cheves-hernandez/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
   
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+  <url>
+    <loc>/publication/orkinseasonalitygutmicrobiota-2019/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/6/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/campos-synthesis-2018/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/climate/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/climate-change/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/landscape/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/seasonality/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/weather/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/climate-variability/</loc>
+    <lastmod>2017-09-21T22:33:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/climate-variability/</loc>
+    <lastmod>2017-09-21T22:33:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/plhd/</loc>
+    <lastmod>2017-09-21T22:33:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/early-life-adversity/</loc>
+    <lastmod>2017-09-20T22:32:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/environmental-stressors/</loc>
+    <lastmod>2017-09-14T21:10:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/alouatta/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/barbara-welker/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/color-vision/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ficus/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/melinhowlermonkeyforaging-2017/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kaile-zhou/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/molecular-evolution/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/opsin/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/polymorphism/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/primate-evolution/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sensory-ecology/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/shoji-kawamura/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/vishal-khetpal/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/yuka-matsushita/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/capuchin/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eva-c.-wikberg/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/kalbitzerfemalesocialitysexual-2017/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/infanticide/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mammal/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/reproductive-success/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/sarah-d.-carnegie/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/social-bond/</loc>
+    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/akiko-s.-yashima/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/animal/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/anne-pusey/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/anthropocene/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/demographic-buffering/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/diane-k.-brockman/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposdoesclimatevariability-2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ecology/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ecosystems/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/el-nino/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/el-nino-southern-oscillation/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/environmental-stochasticity/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/general/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/campos-habitat-2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/inbreeding/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/wikberginbreedingavoidancefemale-2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/jeanne-altmann/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/karen-b.-strier/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/mammals/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/marina-cords/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/population-dynamics/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/psychology/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rainfall/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/susan-c.-alberts/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/tara-s.-stoinski/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/temperature/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/tomohide-hiwatashi/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/campos-vigilance-2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vital-rates/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/william-f.-morris/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/movement-ecology/</loc>
+    <lastmod>2015-09-09T14:16:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/social-bonds/</loc>
+    <lastmod>2015-08-20T22:33:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sociality/</loc>
+    <lastmod>2015-08-20T22:33:58-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposclimateoscillationsconservation-2015/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/climate-oscillator/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/enso/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/primates/</loc>
+    <lastmod>2015-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/akiko-sato/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/capuchins/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/coalition-dispersal/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cooperation/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kin-bias/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/parallel-dispersal/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/single-dispersal/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/wikbergeffectmaleparallel-2014/</loc>
+    <lastmod>2014-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/predation/</loc>
+    <lastmod>2014-09-14T21:23:03-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/andrew-childers/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposdrivershomerange-2014-a/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/elizabeth-sargeant/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/food-abundance/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/frugivory/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/habitat-selection/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/krisztina-n.-mosdossy/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/movement-ecology/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/nigel-a.-parr/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/remote-sensing/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scale-dependence/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/utilization-distribution/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/valerie-a.-m.-schoof/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/white-faced-capuchin/</loc>
+    <lastmod>2014-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/antipredator-behavior/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/geographic-information-system/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/landscape-of-fear/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/multipredator-environment/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/predator/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/prey-interactions/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposspatialecologyperceived-2014/</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/vigilance./</loc>
+    <lastmod>2014-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/campospotentialdistributionmodel-2013/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cebus/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cebus-albifrons-aequatorialis/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/conservation-plan/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/distribution-model/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ecuadorian-capuchin/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/maxent/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/northern-peru/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/western-ecuador/</loc>
+    <lastmod>2013-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/dispersal-kinship/</loc>
+    <lastmod>2013-09-20T22:33:50-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/communication/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/home-range/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/scent-marking/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sexual-attraction/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/territoriality/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/thermoregulation/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposurinewashingwhitefacedcapuchins-2013/</loc>
+    <lastmod>2013-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/jackdistributionabundancespatial-2012/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/animal-distribution/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/animals/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/wikbergbetweengroupvariationfemale-2012/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/colobus/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/colobus-genetics/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/colobus-physiology/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/colobus-psychology/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/eva-c-wikberg/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/female/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/fernando-a-campos/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/homing-behavior/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/male/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/nelson-ting/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/object-attachment/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/pascale-sicotte/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sex-factors/</loc>
+    <lastmod>2012-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/acclimatization/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/acclimatization-physiology/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/animal-physiology/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposbehavioraladaptationsheat-2009/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cebus-physiology/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/costa-rica/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/face/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/face-anatomy-histology/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/face-physiology/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hot-temperature/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/humidity/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/seasons/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/water-supply/</loc>
+    <lastmod>2009-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/conservation-priorities/</loc>
+    <lastmod>2008-09-20T22:46:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/anthropology/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cebus-capucinus/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/evolutionary-biology/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/human-genetics/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/joseph-h.-manson/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/olfactory-communication/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/susan-perry/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/urine-washing/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/camposurinewashingsniffing-2007/</loc>
+    <lastmod>2007-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/kaylie/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/animal-mating/breeding-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/behavior/social-evolution/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
   
 </urlset>

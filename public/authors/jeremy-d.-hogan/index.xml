@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeremy D. Hogan | Campos Lab @ UTSA</title>
+    <link>/authors/jeremy-d.-hogan/</link>
+      <atom:link href="/authors/jeremy-d.-hogan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jeremy D. Hogan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Jeremy D. Hogan</title>
+      <link>/authors/jeremy-d.-hogan/</link>
+    </image>
+    
+    <item>
+      <title>Differential Impact of Severe Drought on Infant Mortality in Two Sympatric Neotropical Primates</title>
+      <link>/publication/camposdifferentialimpactsevere-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/camposdifferentialimpactsevere-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group versus Population Level Demographics: An Analysis of Comparability Using Long Term Data on Wild White-faced Capuchin Monkeys (Cebus capucinus imitator)</title>
+      <link>/publication/hogangrouppopulationlevel-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/hogangrouppopulationlevel-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drivers of Home Range Characteristics across Spatiotemporal Scales in a Neotropical Primate, Cebus capucinus</title>
+      <link>/publication/camposdrivershomerange-2014-a/</link>
+      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/camposdrivershomerange-2014-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

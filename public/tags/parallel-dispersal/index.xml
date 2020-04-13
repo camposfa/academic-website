@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>parallel dispersal | Campos Lab @ UTSA</title>
+    <link>/tags/parallel-dispersal/</link>
+      <atom:link href="/tags/parallel-dispersal/index.xml" rel="self" type="application/rss+xml" />
+    <description>parallel dispersal</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Oct 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>parallel dispersal</title>
+      <link>/tags/parallel-dispersal/</link>
+    </image>
+    
+    <item>
+      <title>The Effect of Male Parallel Dispersal on the Kin Composition of Groups in White-Faced Capuchins</title>
+      <link>/publication/wikbergeffectmaleparallel-2014/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>/publication/wikbergeffectmaleparallel-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

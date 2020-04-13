@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Urs Kalbitzer | Campos Lab @ UTSA</title>
+    <link>/authors/urs-kalbitzer/</link>
+      <atom:link href="/authors/urs-kalbitzer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Urs Kalbitzer</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Urs Kalbitzer</title>
+      <link>/authors/urs-kalbitzer/</link>
+    </image>
+    
+    <item>
+      <title>Differential Impact of Severe Drought on Infant Mortality in Two Sympatric Neotropical Primates</title>
+      <link>/publication/camposdifferentialimpactsevere-2020/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/camposdifferentialimpactsevere-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-Invasive Estimation of the Costs of Feeding Competition in a Neotropical Primate</title>
+      <link>/publication/bergstromnoninvasiveestimationcosts-2020/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/bergstromnoninvasiveestimationcosts-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Group versus Population Level Demographics: An Analysis of Comparability Using Long Term Data on Wild White-faced Capuchin Monkeys (Cebus capucinus imitator)</title>
+      <link>/publication/hogangrouppopulationlevel-2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/hogangrouppopulationlevel-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Female Sociality and Sexual Conflict Shape Offspring Survival in a Neotropical Primate</title>
+      <link>/publication/kalbitzerfemalesocialitysexual-2017/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/kalbitzerfemalesocialitysexual-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

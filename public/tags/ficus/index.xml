@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ficus | Campos Lab @ UTSA</title>
+    <link>/tags/ficus/</link>
+      <atom:link href="/tags/ficus/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ficus</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Ficus</title>
+      <link>/tags/ficus/</link>
+    </image>
+    
+    <item>
+      <title>Howler Monkey Foraging Ecology Suggests Convergent Evolution of Routine Trichromacy as an Adaptation for Folivory</title>
+      <link>/publication/melinhowlermonkeyforaging-2017/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/melinhowlermonkeyforaging-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

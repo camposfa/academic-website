@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>habitat | Campos Lab @ UTSA</title>
+    <link>/tags/habitat/</link>
+      <atom:link href="/tags/habitat/index.xml" rel="self" type="application/rss+xml" />
+    <description>habitat</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>habitat</title>
+      <link>/tags/habitat/</link>
+    </image>
+    
+    <item>
+      <title>A Synthesis of Long-Term Environmental Change in Santa Rosa, Costa Rica</title>
+      <link>/publication/campos-synthesis-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-synthesis-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Habitat Restoration</title>
+      <link>/publication/campos-habitat-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-habitat-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

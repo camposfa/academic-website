@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>behavioral-ecology | Campos Lab @ UTSA</title>
+    <link>/categories/behavioral-ecology/</link>
+      <atom:link href="/categories/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>behavioral-ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2020 22:38:46 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>behavioral-ecology</title>
+      <link>/categories/behavioral-ecology/</link>
+    </image>
+    
+    <item>
+      <title>Foraging and nutritional ecology</title>
+      <link>/project/foraging-nutritional-ecology/</link>
+      <pubDate>Sun, 12 Apr 2020 22:38:46 -0500</pubDate>
+      <guid>/project/foraging-nutritional-ecology/</guid>
+      <description>&lt;p&gt;A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination. Therefore improvements in our understanding of primate–plant interaction dynamics under climate change can contribute to far-reaching conservation efforts.&lt;/p&gt;
+&lt;p&gt;Together with collaborators 
+&lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Melin&lt;/a&gt;, 
+&lt;a href=&#34;https://urskalbitzer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Urs Kalbitzer&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/profile/Jeremy_Hogan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeremy Hogan&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/profile/Nigel_Parr2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nigel Parr&lt;/a&gt;, and 
+&lt;a href=&#34;https://mackenziebergstrom.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mackenzie Bergstrom&lt;/a&gt;, I have been working to understand the spatiotemporal distribution of primate food nutrients in the Área de Conservación Guanacaste (ACG), Costa Rica.&lt;/p&gt;
+&lt;p&gt;My 
+&lt;a href=&#34;http://camposfa.github.io/pace-fruit-biomass.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;algorithms for estimating fruit biomass&lt;/a&gt;, which draw on multiple botanical and behavioral data sets, are a cornerstone of recent ecological research on the ACG&amp;rsquo;s capuchin population.&lt;/p&gt;
+&lt;p&gt;I am especially interested in seasonal and inter-annual variability in fruit biomass production at the landscape level, and the effects of this variability on the health and behavior of primates. Future work in this area will focus on integrating climate change models into this framework, and linking nutrient patterns with primate abundance and energetic condition across the ACG’s environmental gradients.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

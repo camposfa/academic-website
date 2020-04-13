@@ -1,54 +1,104 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Behavioral Ecology on Fernando Alonso Campos</title>
+    <title>behavioral-ecology | Campos Lab @ UTSA</title>
     <link>/tags/behavioral-ecology/</link>
-    <description>Recent content in Behavioral Ecology on Fernando Alonso Campos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
-    <lastBuildDate>Thu, 14 Sep 2017 21:10:49 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>behavioral-ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2020 22:38:46 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>behavioral-ecology</title>
+      <link>/tags/behavioral-ecology/</link>
+    </image>
     
     <item>
-      <title>Responses to Environmental Stress</title>
-      <link>/project/environmental-stress/</link>
+      <title>Foraging and nutritional ecology</title>
+      <link>/project/foraging-nutritional-ecology/</link>
+      <pubDate>Sun, 12 Apr 2020 22:38:46 -0500</pubDate>
+      <guid>/project/foraging-nutritional-ecology/</guid>
+      <description>&lt;p&gt;A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination. Therefore improvements in our understanding of primate–plant interaction dynamics under climate change can contribute to far-reaching conservation efforts.&lt;/p&gt;
+&lt;p&gt;Together with collaborators 
+&lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Melin&lt;/a&gt;, 
+&lt;a href=&#34;https://urskalbitzer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Urs Kalbitzer&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/profile/Jeremy_Hogan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jeremy Hogan&lt;/a&gt;, 
+&lt;a href=&#34;https://www.researchgate.net/profile/Nigel_Parr2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nigel Parr&lt;/a&gt;, and 
+&lt;a href=&#34;https://mackenziebergstrom.wordpress.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mackenzie Bergstrom&lt;/a&gt;, I have been working to understand the spatiotemporal distribution of primate food nutrients in the Área de Conservación Guanacaste (ACG), Costa Rica.&lt;/p&gt;
+&lt;p&gt;My 
+&lt;a href=&#34;http://camposfa.github.io/pace-fruit-biomass.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;algorithms for estimating fruit biomass&lt;/a&gt;, which draw on multiple botanical and behavioral data sets, are a cornerstone of recent ecological research on the ACG&amp;rsquo;s capuchin population.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/bergstromnoninvasiveestimationcosts-2020/&#34;&gt;Bergstrom et al. (2020). &lt;em&gt;Horm Behav&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Environmental Stressors</title>
+      <link>/project/environmental-stressors/</link>
       <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
-      
-      <guid>/project/environmental-stress/</guid>
-      <description>Climate Seasonality Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.</description>
+      <guid>/project/environmental-stressors/</guid>
+      <description>&lt;h2 id=&#34;drought-and-primate-infant-mortality&#34;&gt;Drought and primate infant mortality&lt;/h2&gt;
+&lt;p&gt;Extreme climate events can have important consequences for the dynamics of natural populations, and severe droughts are predicted to become more common and intense due to climate change. We analysed infant mortality in relation to drought and fruit abundance using long-term data. During severe drought, we see high capuchin infant mortality, and spider monkeys stop reproducing.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposdifferentialimpactsevere-2020/&#34;&gt;Campos et al. (2020) &lt;em&gt;Roy Soc Open Sci&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;climate-seasonality&#34;&gt;Climate Seasonality&lt;/h2&gt;
+&lt;p&gt;Climate seasonality poses unique challenges to long-lived organisms in tropical dry forests: they must tolerate both long dry periods and long wet periods, and they must cope with the variable timing of transitions between wet and dry seasons. My colleagues and I have published studies that document how these challenges are met in a population of arboreal monkeys. These studies provided new insights into the strategies and behavioral tactics used by organisms to contend with periodic biophysical adversity.&lt;/p&gt;
+&lt;p&gt;Seasonality in the tropical dry forests of Costa Rica is exceptionally strong. Although the region receives about 1,700 mm of rain each year, the rainfall is almost entirely confined to a 5-6 month wet season with moderate temperatures and lush vegetation. By contrast, the dry season—with its high temperatures and extreme scarcity of surface water—can be a difficult time for the primates. To conserve water, most trees in the forest lose their leaves, exposing the monkeys to intense solar radiation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/plots/seasonality-map.jpg&#34; alt=&#34;seasonality&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I review these climatic processes in a book chapter: 
+&lt;a href=&#34;/publication/campos-synthesis-2018/&#34;&gt;Campos (2018) &lt;em&gt;Primate Life Histories, Sex Roles, and Adaptability - Essays in Honour of Linda M. Fedigan.&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;behavioral-thermoregulation&#34;&gt;Behavioral Thermoregulation&lt;/h2&gt;
+&lt;p&gt;My Master&amp;rsquo;s research examined the behavioral strategies that the capuchins use to cope with this extreme seasonality. I found that they reduce activity during the hottest hours of the day, and they concentrate their movements around the few remaining sources of surface water. They also extend their tongues in hot dry conditions, presumably to cool themselves via evaporation of saliva from the tongue.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposbehavioraladaptationsheat-2009/&#34;&gt;Campos and Fedigan (2009) &lt;em&gt;Am J Phys Anth&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;hr&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;seasonal-changes-in-the-gut-microbiome&#34;&gt;Seasonal Changes in the Gut Microbiome&lt;/h2&gt;
+&lt;p&gt;My collaborators 
+&lt;a href=&#34;https://josephorkin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Joseph Orkin&lt;/a&gt; and 
+&lt;a href=&#34;http://www.amandamelin.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amanda Melin&lt;/a&gt; at the University of Calgary are directing a study, on which I am collaborating, that aims to understand temporal variation in the composition of the capuchin gut microbiome, and how these changes are related to resource availability and rainfall patterns. New completed work in this area is currently in review.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/orkinseasonalitygutmicrobiota-2019/&#34;&gt;Orkin et al. (2018) &lt;em&gt;The ISME J&lt;/em&gt;.&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Movement Ecology</title>
       <link>/project/movement-ecology/</link>
       <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
-      
       <guid>/project/movement-ecology/</guid>
-      <description>No wild animal roams at random over the country: each has a home region, even if it has not an actual home.
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;mdash; Ernest Thompson Seton, 1909
- Determinants of home range behavior in capuchins What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;
-Motivated by these question, I compiled a large eight-year data set (collected by myself and by many collaborators on separate projects) representing over 20,000 contact hours on seven social groups of white-faced capuchins.</description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;No wild animal roams at random over the country: each has a home region, even if it has not an actual home.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;    &amp;mdash; Ernest Thompson Seton, 1909&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;determinants-of-home-range-behavior-in-capuchins&#34;&gt;Determinants of home range behavior in capuchins&lt;/h3&gt;
+&lt;p&gt;What factors determine how and where animals use space? What determines the size and shape of their &amp;ldquo;home range?&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Motivated by these question, I compiled a large eight-year data set (collected by myself and by many collaborators on separate projects) representing over 20,000 contact hours on seven social groups of white-faced capuchins. The data consist of GPS tracking locations, behavioral observations, and various kinds of environmental data, including climate and habitat variables. I used a 
+&lt;a href=&#34;http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0014592&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;movement-based kernel method&lt;/a&gt; to calculate home ranges at four nested temporal scales and three nested spatial scales, and I examined the social and environmental factors that drive home range dynamics.&lt;/p&gt;
+&lt;p&gt;Our work examined how variation in climate, food abundance, and group size affects the area of the home range, and the types of habitats contained within the home range.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposdrivershomerange-2014-a/&#34;&gt;Campos et al. (2014) &lt;em&gt;Anim Behav&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/cards/home-range.jpg&#34; alt=&#34;Link to paper&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Predation Risk</title>
+      <title>Predation risk</title>
       <link>/project/predation/</link>
       <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
-      
       <guid>/project/predation/</guid>
-      <description>Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey Cebus capucinus to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.</description>
-    </item>
-    
-    <item>
-      <title>Foraging and nutritional ecology</title>
-      <link>/project/foraging-nutritional-ecology/</link>
-      <pubDate>Tue, 20 Sep 2011 22:33:27 -0400</pubDate>
-      
-      <guid>/project/foraging-nutritional-ecology/</guid>
-      <description>A major area of uncertainty regarding how primates will respond to climate change involves their interactions with plant foods. Interaction dynamics between primates and plant food species are important because phenological shifts and loss of critical mutualisms involving plant foods as a result of climate change could lead to nutritional mismatches that compromise primates’ abilities to satisfy their dietary requirements. Many primates play key roles in their ecological communities through seed dispersal, folivory, and pollination.</description>
+      <description>&lt;p&gt;Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey &lt;em&gt;Cebus capucinus&lt;/em&gt; to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposspatialecologyperceived-2014/&#34;&gt;Campos and Fedigan (2014) &lt;em&gt;Behav Ecol&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

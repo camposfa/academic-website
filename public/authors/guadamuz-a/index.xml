@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guadamuz A | Campos Lab @ UTSA</title>
+    <link>/authors/guadamuz-a/</link>
+      <atom:link href="/authors/guadamuz-a/index.xml" rel="self" type="application/rss+xml" />
+    <description>Guadamuz A</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 15:13:07 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Guadamuz A</title>
+      <link>/authors/guadamuz-a/</link>
+    </image>
+    
+    <item>
+      <title>Seasonality of the gut microbiota of free ranging white-faced capuchins in a tropical dry forest</title>
+      <link>/publication/orkin_2019_seasonality-of-the-gut-microbiota/</link>
+      <pubDate>Tue, 01 Jan 2019 15:13:07 -0400</pubDate>
+      <guid>/publication/orkin_2019_seasonality-of-the-gut-microbiota/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

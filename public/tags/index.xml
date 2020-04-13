@@ -1,70 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Fernando Alonso Campos</title>
+    <title>Tags | Campos Lab @ UTSA</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Fernando Alonso Campos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Content tagged as &#39;Academic&#39;</title>
-      <link>/tags/academic/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/academic/</guid>
-      <description>Here is a list of all the content that has been tagged as academic.</description>
-    </item>
-    
-    <item>
-      <title>Behavioral Ecology</title>
-      <link>/tags/behavioral-ecology/</link>
-      <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
-      
-      <guid>/tags/behavioral-ecology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Biodemography</title>
-      <link>/tags/biodemography/</link>
-      <pubDate>Sat, 22 Jun 2019 22:33:41 -0400</pubDate>
-      
-      <guid>/tags/biodemography/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Climate Variability</title>
-      <link>/tags/climate-variability/</link>
-      <pubDate>Thu, 21 Sep 2017 22:33:41 -0400</pubDate>
-      
-      <guid>/tags/climate-variability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conservation</title>
-      <link>/tags/conservation/</link>
-      <pubDate>Sat, 22 Jun 2019 22:33:41 -0400</pubDate>
-      
-      <guid>/tags/conservation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sociality</title>
-      <link>/tags/sociality/</link>
-      <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
-      
-      <guid>/tags/sociality/</guid>
-      <description></description>
-    </item>
+      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 12 Apr 2020 22:55:21 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>/tags/</link>
+    </image>
     
   </channel>
 </rss>

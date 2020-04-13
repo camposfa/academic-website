@@ -1,34 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sociality on Fernando Alonso Campos</title>
+    <title>sociality | Campos Lab @ UTSA</title>
     <link>/tags/sociality/</link>
-    <description>Recent content in Sociality on Fernando Alonso Campos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
-    <lastBuildDate>Thu, 20 Aug 2015 22:33:58 -0400</lastBuildDate>
-    
-	<atom:link href="/tags/sociality/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/tags/sociality/index.xml" rel="self" type="application/rss+xml" />
+    <description>sociality</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2015 22:33:58 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>sociality</title>
+      <link>/tags/sociality/</link>
+    </image>
     
     <item>
-      <title>Social Connectedness</title>
-      <link>/project/social-connectedness/</link>
+      <title>Social Bonds</title>
+      <link>/project/social-bonds/</link>
       <pubDate>Thu, 20 Aug 2015 22:33:58 -0400</pubDate>
-      
-      <guid>/project/social-connectedness/</guid>
-      <description>In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.
-My recent interest in social connectedness grew out of work directed by my collaborator Urs Kalbitzer that uncovered startling evidence that female sociality in white-faced capuchins can have negative fitness consequences that arise from male behavior.</description>
+      <guid>/project/social-bonds/</guid>
+      <description>&lt;p&gt;In group-living animals, an individual’s social environment (e.g., the number and quality of social bonds) can have profound and far-reaching fitness consequences. For example, in many social mammals, females with higher quality or quantity of social bonds experience longer life expectancies, greater infant survival rates, and higher reproductive success.&lt;/p&gt;
+&lt;p&gt;My recent interest in social connectedness grew out of work directed by my collaborator 
+&lt;a href=&#34;https://urskalbitzer.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Urs Kalbitzer&lt;/a&gt; that uncovered startling evidence that female sociality in white-faced capuchins can have &lt;em&gt;negative&lt;/em&gt; fitness consequences that arise from male behavior. Specifically, highly social female capuchins are more frequently targeted in infanticidal attacks by immigrant males following a group takeover: 
+&lt;a href=&#34;/publication/kalbitzerfemalesocialitysexual-2017/&#34;&gt;Kalbitzer et al. (2017) &lt;em&gt;PNAS&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My postdoctoral work at Duke, pursued with Prof. 
+&lt;a href=&#34;https://sites.duke.edu/albertslab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Susan Alberts&lt;/a&gt; and funded by 
+&lt;a href=&#34;https://projectreporter.nih.gov/project_info_description.cfm?aid=9073768&amp;amp;icde=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NIH grant 2P01AG031719-06A1&lt;/a&gt; (to 
+&lt;a href=&#34;http://user.demogr.mpg.de/jwv/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;James Vaupel&lt;/a&gt;, 
+&lt;a href=&#34;http://findresearcher.sdu.dk/portal/en/persons/kaare-christensen%2835c0eca6-0f49-465b-9bbd-ce71bcf2c4ac%29.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaare Christensen&lt;/a&gt;, and 
+&lt;a href=&#34;https://sites.duke.edu/albertslab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Susan Alberts&lt;/a&gt;), further explored the importance of social bonds in baboons. One of the project&amp;rsquo;s main goals was to examine the role of social integration in mediating male-female differences in health and survival during aging.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Dispersal and kinship</title>
       <link>/project/dispersal-kinship/</link>
       <pubDate>Fri, 20 Sep 2013 22:33:50 -0400</pubDate>
-      
       <guid>/project/dispersal-kinship/</guid>
-      <description>This project, directed by my collaborator Eva Wikberg, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of Shoji Kawamura at the University of Tokyo and Nelson Ting at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.</description>
+      <description>&lt;p&gt;This project, directed by my collaborator 
+&lt;a href=&#34;https://evawikberg.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Eva Wikberg&lt;/a&gt;, aims to understand the causes and consequences of sex-biased dispersal patterns. This work has challenged prevailing models that link &amp;ldquo;species-typical&amp;rdquo; dispersal with patterns of social social bondedness. Much of this work draws on molecular genetic methods, performed in the laboratories of 
+&lt;a href=&#34;http://www.jinrui.ib.k.u-tokyo.ac.jp/kawamura-home-E.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shoji Kawamura&lt;/a&gt; at the University of Tokyo and 
+&lt;a href=&#34;http://molecular-anthro.uoregon.edu/TingLab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Nelson Ting&lt;/a&gt; at the University of Oregon (and formerly the University of Iowa), to infer kinship and population structure.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/wikberginbreedingavoidancefemale-2017/&#34;&gt;Wikberg et al. (2017), &lt;em&gt;Mol Ecol&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/wikbergeffectmaleparallel-2014/&#34;&gt;Wikberg et al. (2014), &lt;em&gt;Anim Behav&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/wikbergbetweengroupvariationfemale-2012/&#34;&gt;Wikberg et al. (2012), &lt;em&gt;PloS One&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Object Attachment | Campos Lab @ UTSA</title>
+    <link>/tags/object-attachment/</link>
+      <atom:link href="/tags/object-attachment/index.xml" rel="self" type="application/rss+xml" />
+    <description>Object Attachment</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Object Attachment</title>
+      <link>/tags/object-attachment/</link>
+    </image>
+    
+    <item>
+      <title>Between-Group Variation in Female Dispersal, Kin Composition of Groups, and Proximity Patterns in a Black-and-White Colobus Monkey (Colobus vellerosus).</title>
+      <link>/publication/wikbergbetweengroupvariationfemale-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>/publication/wikbergbetweengroupvariationfemale-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

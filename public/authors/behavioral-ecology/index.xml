@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>behavioral-ecology | Campos Lab @ UTSA</title>
+    <link>/authors/behavioral-ecology/</link>
+      <atom:link href="/authors/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
+    <description>behavioral-ecology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 14 Sep 2014 21:23:03 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>behavioral-ecology</title>
+      <link>/authors/behavioral-ecology/</link>
+    </image>
+    
+    <item>
+      <title>Predation risk</title>
+      <link>/project/predation/</link>
+      <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
+      <guid>/project/predation/</guid>
+      <description>&lt;p&gt;Many animals can accurately judge fluctuations in predation risk and make behavioral adjustments to reduce their vulnerability to predators. As part of my PhD research, I used alarm-call responses by the arboreal monkey &lt;em&gt;Cebus capucinus&lt;/em&gt; to characterize perceived predation risk for three distinct predator guilds in a heterogeneous landscape. High-risk areas comprised more mature, evergreen forest. The monkeys perceived reduced risk in the high and middle forest layers, and they loosely adjusted vigilance levels to small-scale spatial variation in perceived risk.&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;/publication/camposspatialecologyperceived-2014/&#34;&gt;Campos and Fedigan (2014) &lt;em&gt;Behav Ecol&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

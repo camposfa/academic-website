@@ -1,23 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>6 on Fernando Alonso Campos</title>
+    <title>6 | Campos Lab @ UTSA</title>
     <link>/publication_types/6/</link>
-    <description>Recent content in 6 on Fernando Alonso Campos</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
-    <lastBuildDate>Tue, 30 Oct 2018 21:10:49 -0400</lastBuildDate>
-    
-	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>6</title>
+      <link>/publication_types/6/</link>
+    </image>
     
     <item>
-      <title>A synthesis of long-term environmental change in Santa Rosa</title>
-      <link>/publication/campos_2018_festschrift/</link>
-      <pubDate>Tue, 30 Oct 2018 21:10:49 -0400</pubDate>
-      
-      <guid>/publication/campos_2018_festschrift/</guid>
+      <title>A Synthesis of Long-Term Environmental Change in Santa Rosa, Costa Rica</title>
+      <link>/publication/campos-synthesis-2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-synthesis-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Habitat Restoration</title>
+      <link>/publication/campos-habitat-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-habitat-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vigilance, Sentinels, and Alarms</title>
+      <link>/publication/campos-vigilance-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-vigilance-2017/</guid>
       <description></description>
     </item>
     

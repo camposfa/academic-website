@@ -1,0 +1,11 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+google_fonts = "Julius+Sans+One:400,700|Muli:wght@300|Montserrat:400,500|Roboto+Mono"
+
+# Font families
+heading_font = "Julius Sans One"
+body_font = "Muli"
+nav_font = "Montserrat"
+mono_font = "Roboto Mono"

@@ -9,5 +9,10 @@ featured: false
 publication: "*bioRxiv*"
 doi: "10.1101/2020.02.22.961052"
 url_project: "/project/aging/"
+image:
+  preview_only: true
+header:
+  image: "headers/male_baboon.jpg"
+  caption: "A male baboon at Amboseli, Kenya."
 ---
 

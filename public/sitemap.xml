@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/talk/long-term-research/</loc>
+    <lastmod>2020-06-16T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+    <lastmod>2020-06-16T12:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/aging/</loc>
     <lastmod>2020-04-12T22:55:21-05:00</lastmod>
   </url>
@@ -1100,10 +1110,6 @@
   
   <url>
     <loc>/post/</loc>
-  </url>
-  
-  <url>
-    <loc>/talk/</loc>
   </url>
   
 </urlset>

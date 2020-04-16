@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Fernando Alonso Campos</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on Fernando Alonso Campos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>Biography Understanding and predicting the effects climate change, habitat loss, and other human disturbances on natural populations is one of the grand challenges for today&amp;rsquo;s natural scientists.
+My research is in the broad area of behavioral responses to changing environments, both ecological and social. We still do not fully understand the limits of behavioral flexibility or whether adaptive responses will be sufficient to keep pace with rapidly changing environmental conditions.</description>
+    </item>
+    
+    <item>
+      <title>3 Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Field Site</title>
+      <link>/home/field_site/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/field_site/</guid>
+      <description>My recent field research has focused on primates in the Área de Conservación Guanacaste (ACG), a Unesco World Heritage site in northwestern Costa Rica that supports extraodrinary biodiversity. The conservation area comprises several different sectors that extend from the Pacific Ocean over a chain of dormant volcanos to the Atlantic slope.
+See some of my photos from the ACG &amp;nbsp; 
+One particularly well-studied part of the ACG is the Santa Rosa sector.</description>
+    </item>
+    
+    <item>
+      <title>Code</title>
+      <link>/home/code/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/code/</guid>
+      <description>camposfa.github.io &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>I believe that my foremost responsibility as an educator is to provide students with skills that prepare them for rewarding careers. A broad-based education that merges natural and social sciences can serve this goal by encouraging critical thinking and promoting integrative approaches that embrace diverse points of view.
+University of Texas at San Antonio Human Adaptability  Sections: Fall 2018 (60 students) Explores physiological, genetic, morphological, and behavioral variation within and between human populations.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

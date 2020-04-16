@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>behavioral-ecology on Fernando Alonso Campos</title>
+    <link>/tags/behavioral-ecology/</link>
+    <description>Recent content in behavioral-ecology on Fernando Alonso Campos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Fernando Campos</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 21:10:49 -0400</lastBuildDate>
+    
+	<atom:link href="/tags/behavioral-ecology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Responses to Environmental Stress</title>
+      <link>/project/environmental-stress/</link>
+      <pubDate>Thu, 14 Sep 2017 21:10:49 -0400</pubDate>
+      
+      <guid>/project/environmental-stress/</guid>
+      <description>Behavioral thermoregulation and urine-washing.</description>
+    </item>
+    
+    <item>
+      <title>Movement Ecology</title>
+      <link>/project/movement-ecology/</link>
+      <pubDate>Wed, 09 Sep 2015 14:16:02 -0400</pubDate>
+      
+      <guid>/project/movement-ecology/</guid>
+      <description>Understanding the drivers of animal space use.</description>
+    </item>
+    
+    <item>
+      <title>Predation Risk</title>
+      <link>/project/predation/</link>
+      <pubDate>Sun, 14 Sep 2014 21:23:03 -0400</pubDate>
+      
+      <guid>/project/predation/</guid>
+      <description>Navigating a landscape of fear.</description>
+    </item>
+    
+    <item>
+      <title>Foraging and nutritional ecology</title>
+      <link>/project/foraging-nutritional-ecology/</link>
+      <pubDate>Tue, 20 Sep 2011 22:33:27 -0400</pubDate>
+      
+      <guid>/project/foraging-nutritional-ecology/</guid>
+      <description>How and why animals select their foods.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Comparing Proportional and Ordinal Dominance Ranks Reveals Multiple Competitive Landscapes in an Animal Society</title>
+      <link>/publication/levy-comparing-proportional-ordinal-2020/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/levy-comparing-proportional-ordinal-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Differential Impact of Severe Drought on Infant Mortality in Two Sympatric Neotropical Primates</title>

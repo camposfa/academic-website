@@ -81,5 +81,5 @@ Understanding and predicting the effects climate change, habitat loss, and other
 
 My research is in the broad area of behavioral responses to changing environments, both ecological and social. We still do not fully understand the limits of behavioral flexibility or whether adaptive responses will be sufficient to keep pace with rapidly changing environmental conditions. These gaps in our understanding motivate the goals of my research: to shed light on the limits, consequences, and evolutionary roots of flexible responses to environments that change in time or space.
 
-Most of my research has been carried out with natural primate populations, mainly white-faced capuchins in the [Área de Conservación Guanacaste](http://www.acguanacaste.ac.cr/) in northwestern Costa Rica. My postdoctoral research focuses on [savannah baboons](https://amboselibaboons.nd.edu/) in the Amboseli ecosystem of East Africa, and I also do comparative research with the [Primate Life History Database](http://www.plhdb.org).
+I study natural primate populations, including white-faced capuchins in Costa Rica's [Área de Conservación Guanacaste](http://www.acguanacaste.ac.cr/) and [savannah baboons](https://amboselibaboons.nd.edu/) in the Amboseli ecosystem of East Africa. I also do comparative research with the [Primate Life History Database](http://www.plhdb.org).
 

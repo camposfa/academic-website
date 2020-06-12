@@ -52,7 +52,7 @@ social:
   link: https://twitter.com/F_A_Campos
 - icon: google-scholar
   icon_pack: ai
-  link: scholar.google.com/citations?user=Q_it4zMAAAAJ&hl
+  link: https://scholar.google.com/citations?user=Q_it4zMAAAAJ&hl
 - icon: github
   icon_pack: fab
   link: https://github.com/camposfa

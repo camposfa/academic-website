@@ -10,5 +10,11 @@ publication: "*Hormones and Behavior*"
 tags: ["C-peptide", "Dominance", "Energy balance", "Food availability", "Food competition", "Ketone", "Socioecological theory", "Socioecology"]
 doi: "10.1016/j.yhbeh.2019.104632"
 url_project: "/project/foraging-nutritional-ecology/"
+image:
+  preview_only: true
+header:
+  image: "headers/Primates_20100317.jpg"
+  caption: "A female capuchin eating a small rodent."
+
 ---
 

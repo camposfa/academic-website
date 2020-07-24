@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Beyond Orphaned Infants: Novel Effects of Maternal Death in Wild Primates</title>
+      <link>/publication/zipple-orphaned-infants-novel-2020/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/zipple-orphaned-infants-novel-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bioacoustic Analyses Reveal That Bird Communities Recover with Forest Succession in Tropical Dry Forests</title>

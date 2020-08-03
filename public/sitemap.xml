@@ -11,6 +11,11 @@
   </url>
   
   <url>
+    <loc>/publication_types/2/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/publication_types/3/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -36,12 +41,37 @@
   </url>
   
   <url>
+    <loc>/tags/causal-inference/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/developmental-origins-of-health-and-disease/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/elizabeth-a.-archie/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/elizabeth-v.-lonsdorf/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/authors/fan-li/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/fernando-a.-campos/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/hpa-axis/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -52,6 +82,11 @@
   
   <url>
     <loc>/authors/karen-strier/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/laurence-r.-gesquiere/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -86,12 +121,42 @@
   </url>
   
   <url>
+    <loc>/authors/shuxi-zeng/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/rosenbaum-social-bonds-not-2020/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/social-relationships/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/stacy-rosenbaum/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/stress-response/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/authors/susan-c.-alberts/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/authors/susan-perry/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,11 +173,6 @@
   <url>
     <loc>/talk/</loc>
     <lastmod>2020-06-16T12:00:00-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/2/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -201,11 +261,6 @@
   </url>
   
   <url>
-    <loc>/authors/elizabeth-a.-archie/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/emily-j.-levy/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -251,11 +306,6 @@
   </url>
   
   <url>
-    <loc>/authors/laurence-r.-gesquiere/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/mathias-franz/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -297,11 +347,6 @@
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2020-04-12T22:55:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-12T22:55:21-05:00</lastmod>
   </url>
   

@@ -17,3 +17,20 @@ header:
   caption: ""
 ---
 
+<br>
+<hr>
+<br>
+
+### Press coverage:
+
+[![](/img/press_logos/nyt.png)](https://www.nytimes.com/2020/10/01/science/baboons-males-friendship.html) 
+
+[![](/img/press_logos/the-washington-post-logo.jpg)](https://www.washingtonpost.com/science/baboon-behavior-friendship-benefits/2020/09/25/5834d70e-fdc1-11ea-8d05-9beaaa91c71f_story.html)
+
+[![](/img/press_logos/cbc.jpg)](https://www.cbc.ca/radio/quirks/sep-26-tailings-pond-detoxification-baboon-friendship-and-longevity-ancient-dna-in-dirt-and-more-1.5736876/male-baboons-make-friends-with-females-for-just-one-reason-a-longer-life-1.5736886)
+
+[![](/img/press_logos/cosmos.jpg)](https://cosmosmagazine.com/nature/animals/why-boys-should-be-friends-with-girls/)
+
+[![](/img/press_logos/treehugger.png)](https://www.treehugger.com/male-baboons-live-longer-female-friends-5079076)
+
+[![](/img/press_logos/duke_today.png)](https://today.duke.edu/2020/09/male-baboons-female-friends-live-longer)

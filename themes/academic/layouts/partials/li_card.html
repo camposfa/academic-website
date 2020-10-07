@@ -19,6 +19,8 @@
   {{ $summary = $item.Summary }}
 {{ end }}
 
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
 <div class="card-simple">
 
   {{ if eq $item.Type "talk" }}
@@ -64,5 +66,9 @@
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}
+
+  <br>
+
+  <div data-badge-popover="bottom" data-badge-type="large-bar" data-doi="{{ $item.Params.doi }}" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 </div>

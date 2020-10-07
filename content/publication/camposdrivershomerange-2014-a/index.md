@@ -11,3 +11,4 @@ tags: ["climate", "food abundance", "frugivory", "habitat selection", "movement 
 doi: "10.1016/j.anbehav.2014.03.007"
 ---
 
+<div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.anbehav.2014.03.007" data-hide-no-mentions="true" class="altmetric-embed"></div>

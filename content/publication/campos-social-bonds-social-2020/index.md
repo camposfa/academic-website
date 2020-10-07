@@ -17,6 +17,8 @@ header:
   caption: ""
 ---
 
+<div data-badge-details="right" data-badge-type="donut" data-doi="10.1098/rstb.2019.0621" data-hide-no-mentions="true" class="altmetric-embed"></div>
+
 <br>
 <hr>
 <br>
@@ -34,3 +36,4 @@ header:
 [![](/img/press_logos/treehugger.png)](https://www.treehugger.com/male-baboons-live-longer-female-friends-5079076)
 
 [![](/img/press_logos/duke_today.png)](https://today.duke.edu/2020/09/male-baboons-female-friends-live-longer)
+

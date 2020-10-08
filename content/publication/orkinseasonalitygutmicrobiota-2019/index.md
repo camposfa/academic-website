@@ -9,5 +9,3 @@ featured: false
 publication: "*The ISME Journal*"
 doi: "10.1038/s41396-018-0256-0"
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1038/s41396-018-0256-0" data-hide-no-mentions="true" class="altmetric-embed"></div>

@@ -15,5 +15,3 @@ header:
   image: "headers/howler_leaf.jpg"
   caption: "A howler monkey foraging for young leaves."
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1002/ece3.2716" data-hide-no-mentions="true" class="altmetric-embed"></div>

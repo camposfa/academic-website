@@ -10,5 +10,3 @@ publication: "*Primate Life Histories, Sex Roles, and Adaptability: Essays in Ho
 tags: ["Climate change", "Habitat", "Landscape", "Seasonality", "Weather"]
 url_pdf: "https://doi.org/10.1007/978-3-319-98285-4_16"
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1007/978-3-319-98285-4_16" data-hide-no-mentions="true" class="altmetric-embed"></div>

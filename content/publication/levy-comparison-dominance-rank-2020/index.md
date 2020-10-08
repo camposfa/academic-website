@@ -14,5 +14,3 @@ header:
   image: "headers/Campos_Kenya_20190107_106.jpg"
   caption: "Dominance interaction among male baboons in Amboseli, Kenya."
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1098/rspb.2020.1013" data-hide-no-mentions="true" class="altmetric-embed"></div>

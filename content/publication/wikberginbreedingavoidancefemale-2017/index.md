@@ -10,5 +10,3 @@ publication: "*Molecular Ecology*"
 tags: ["animal mating/breeding systems", "behavior/social evolution", "inbreeding", "Mammals"]
 doi: "10.1111/mec.13898"
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1111/mec.13898" data-hide-no-mentions="true" class="altmetric-embed"></div>

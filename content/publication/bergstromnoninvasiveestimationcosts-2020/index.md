@@ -17,5 +17,3 @@ header:
   caption: "A female capuchin eating a small rodent."
 
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.yhbeh.2019.104632" data-hide-no-mentions="true" class="altmetric-embed"></div>

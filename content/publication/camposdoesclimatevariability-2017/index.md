@@ -10,5 +10,3 @@ publication: "*Global Change Biology*"
 tags: ["Climate Change", "demographic buffering", "El Niño Southern Oscillation", "environmental stochasticity", "population dynamics", "Rainfall", "Temperature", "vital rates", "Weather"]
 doi: "10.1111/gcb.13754"
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1111/gcb.13754" data-hide-no-mentions="true" class="altmetric-embed"></div>

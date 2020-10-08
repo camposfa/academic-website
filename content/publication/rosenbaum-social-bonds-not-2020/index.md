@@ -15,5 +15,3 @@ header:
   image: "headers/Campos_Kenya_20190105_40.jpg"
   caption: ""
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1073/pnas.2004524117" data-hide-no-mentions="true" class="altmetric-embed"></div>

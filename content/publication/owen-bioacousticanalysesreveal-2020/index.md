@@ -14,5 +14,3 @@ header:
   image: "headers/20100323_Mottled Owl.jpg"
   caption: "A mottled owl's shaded daytime roost in ACG, Costa Rica."
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.5751/ACE-01615-150125" data-hide-no-mentions="true" class="altmetric-embed"></div>

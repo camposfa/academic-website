@@ -15,5 +15,3 @@ header:
   image: "headers/coquerels-sifaka-1809664_1280_long.jpg"
   caption: "Photo by MarkThomas from pixabay."
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1101/2020.07.22.212605" data-hide-no-mentions="true" class="altmetric-embed"></div>

@@ -15,5 +15,3 @@ header:
   image: "headers/male_baboon.jpg"
   caption: "A male baboon in Amboseli, Kenya."
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1101/2020.02.22.961052" data-hide-no-mentions="true" class="altmetric-embed"></div>

@@ -10,5 +10,3 @@ publication: "*Proceedings of the National Academy of Sciences*"
 tags: ["capuchin", "Infanticide", "mammal", "Reproductive success", "social bond"]
 doi: "10.1073/pnas.1608625114"
 ---
-
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1073/pnas.1608625114" data-hide-no-mentions="true" class="altmetric-embed"></div>

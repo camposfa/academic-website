@@ -17,8 +17,6 @@ header:
   caption: ""
 ---
 
-<div data-badge-details="right" data-badge-type="donut" data-doi="10.1098/rstb.2019.0621" data-hide-no-mentions="true" class="altmetric-embed"></div>
-
 <br>
 <hr>
 <br>

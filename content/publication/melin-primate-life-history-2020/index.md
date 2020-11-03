@@ -1,6 +1,6 @@
 ---
 title: "Primate Life History, Social Dynamics, Ecology, and Conservation: Contributions from Long-Term Research in Área de Conservación Guanacaste, Costa Rica"
-date: 2020-10-31
+date: 2020-11-02
 publishDate: 2020-10-31T21:20:17.250875Z
 authors: ["Amanda D. Melin", "Jeremy D. Hogan", "Fernando A. Campos", "Eva Wikberg", "Gillian King-Bailey", "Shasta Webb", "Urs Kalbitzer", "Norberto Asensio", "Evin Murillo-Chacon", "Saul Cheves Hernandez", "Adrian Guadamuz Chavarria", "Colleen M. Schaffner", "Shoji Kawamura", "Filippo Aureli", "Linda Fedigan", "Katharine M. Jack"]
 publication_types: ["2"]

@@ -35,7 +35,8 @@ draft: false
 image:
   preview_only: true
 header:
-  image: "headers/Campos_Kenya_20190107_104.jpg"
+  image: "headers/coquerels-sifaka-1809664_1280_long.jpg"
+  caption: "Photo by MarkThomas from pixabay."
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.

@@ -47,7 +47,7 @@ authors:
 - Susan Alberts
 tags: []
 categories: []
-date: '2020-12-01'
+date: '2020-12-28'
 lastmod: 2020-12-31T13:52:19-06:00
 featured: false
 draft: false
@@ -80,6 +80,6 @@ abstract: Is it possible to slow the rate of aging, or do biological constraints
   species-atypical changes in mortality patterns. Our results support the invariant
   rate of aging hypothesis, implying biological constraints on how much the human
   rate of aging can be slowed.
-publication: '*Nature Research*'
+publication: 'PREPRINT (Version 1), *Nature Research*'
 doi: 10.21203/rs.3.rs-118237/v1
 ---

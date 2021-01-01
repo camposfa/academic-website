@@ -13,3 +13,7 @@ header:
   caption: ""
   image: "headers/maritza-road.jpg"
 ---
+
+{{% alert note %}}
+Interested in a paper but don't have access? [Email me a request](mailto:fernando.campos@utsa.edu) and I'll be happy to send a PDF.
+{{% /alert %}}

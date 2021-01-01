@@ -70,7 +70,7 @@ publishDate: '2020-12-31T19:52:19.611651Z'
 publication_types:
 - '3'
 abstract: Is it possible to slow the rate of aging, or do biological constraints limit
-  its plasticity? We test this &amp;lsquo;invariant rate of aging&amp;rsquo; hypothesis
+  its plasticity? We test this "invariant rate of aging" hypothesis
   with an unprecedented collection of 39 human and nonhuman primate datasets across
   seven genera. We first recapitulate, in nonhuman primates, the highly regular relationship
   between life expectancy and lifespan equality seen in humans. We next demonstrate

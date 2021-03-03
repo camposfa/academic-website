@@ -397,8 +397,11 @@ devtools::install_github(&amp;quot;tidyverse/tidyr&amp;quot;) Important note: As
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/projects/small-project-1/</guid>
-      <description>Introduction In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
-Description of the data  Download: - ape_teeth.csv Data source: http://anthropologicaldata.free.fr/  Columns Species: ape species the tooth belongs to, including:  Gorilla gorilla (Western gorilla) Pan troglodytes (Common chimpanzee) Pongo pygmaeus (Bornean orangutan)   Site: where specimen is located Specimen: specimen ID number Sex: Male or Female Source: where data come from Tooth: name of tooth (see below).</description>
+      <description>Due date: Mar. 17 by the end of the day (11:59:59 pm)
+Introduction In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements and create plots to answer those questions.
+*Description of the data**
+ Download: -  ape_teeth.csv Data source: http://anthropologicaldata.free.fr/  Columns
+ Species: ape species the tooth belongs to, including:  Gorilla gorilla (Western gorilla) Pan troglodytes (Common chimpanzee) Pongo pygmaeus (Bornean orangutan)  Site: where specimen is located Specimen: specimen ID number Sex: Male or Female Source: where data come from Tooth: name of tooth (see below).</description>
     </item>
     
     <item>
@@ -544,15 +547,6 @@ Instructions: Download the R Markdown file below, insert your code where indicat
     </item>
     
     <item>
-      <title>Visualizing Distributions and Uncertainty</title>
-      <link>/slide/viz-relationships/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/slide/viz-relationships/</guid>
-      <description> 06_viz-relationships.pdf ( 1.5 MB)  </description>
-    </item>
-    
-    <item>
       <title>Visualizing Geospatial Data</title>
       <link>/assignments/viz-spatial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -571,11 +565,10 @@ Instructions:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignments/viz-relationships/</guid>
-      <description>Complete in Class and Submit Baby Names
-Instructions: Download the R Markdown file below, insert your code where indicated, and email me your knitted .html output. No need to send the .Rmd file!
+      <description>  Complete in Class and Submit Baby Names
+Instructions: Download the R Markdown file below, insert your answers and code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
 To complete this assignment, you must install the babynames package:
-install.packages(&amp;quot;babynames&amp;quot;)  babynames.Rmd babynames-solutions.html (for reference&amp;mdash;finished plots with no code!)  For Reference Only (nothing to turn in!) Katrina
-Instructions: Just look at it! And use it as a guide if you want to create maps.</description>
+install.packages(&amp;quot;babynames&amp;quot;)   babynames.Rmd  babynames-solutions.html (for reference—finished plots with no code!)   </description>
     </item>
     
     <item>
@@ -585,6 +578,15 @@ Instructions: Just look at it! And use it as a guide if you want to create maps.
       
       <guid>/read/viz-relationships/</guid>
       <description>  Read  Wilke, Ch. 12: Visualizing associations among two or more quantitative variables Wilke, Ch. 13: Visualizing time series and other functions of an independent variable Wilke, Ch. 14: Visualizing trends  Nathan Yau, “11 Ways to Visualize Changes Over Time – A Guide” Keiran Healy, “Two Y-Axes” Stephanie Evergreen, “Two Alternatives to Using a Second Y-Axis”   </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/slide/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/slide/viz-relationships/</guid>
+      <description>   Week 7 slides: Visualizing Relationships and Change Over Time (  3.3 MB)  </description>
     </item>
     
     <item>

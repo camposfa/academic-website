@@ -5,12 +5,36 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Campos Lab @ UTSA</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
       <title>Campos Lab @ UTSA</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Maternal Death and Offspring Fitness in Multiple Wild Primates</title>
+      <link>/publication/zipple-maternal-death-offspring-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/zipple-maternal-death-offspring-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Evolutionary Landscape of Primate Longevity</title>
+      <link>/publication/colchero-evolutionary-landscape-primate-2020/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/colchero-evolutionary-landscape-primate-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primate Life History, Social Dynamics, Ecology, and Conservation: Contributions from Long-Term Research in Área de Conservación Guanacaste, Costa Rica</title>
+      <link>/publication/melin-primate-life-history-2020/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/melin-primate-life-history-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Social Bonds, Social Status and Survival in Wild Baboons: A Tale of Two Sexes</title>
@@ -41,14 +65,6 @@
       <link>/publication/levy-comparison-dominance-rank-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/publication/levy-comparison-dominance-rank-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beyond Orphaned Infants: Novel Effects of Maternal Death in Wild Primates</title>
-      <link>/publication/zipple-orphaned-infants-novel-2020/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/zipple-orphaned-infants-novel-2020/</guid>
       <description></description>
     </item>
     
@@ -138,14 +154,6 @@
     </item>
     
     <item>
-      <title>The Costs of Competition: High Social Status Males Experience Accelerated Epigenetic Aging in Wild Baboons</title>
-      <link>/publication/andersoncostscompetitionhigh-2020/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/andersoncostscompetitionhigh-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Group versus Population Level Demographics: An Analysis of Comparability Using Long Term Data on Wild White-faced Capuchin Monkeys (Cebus capucinus imitator)</title>
       <link>/publication/hogangrouppopulationlevel-2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
@@ -173,24 +181,6 @@
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/publication/orkinseasonalitygutmicrobiota-2019/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;Add your privacy policy here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Terms</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;Add your terms here and set &lt;code&gt;draft: false&lt;/code&gt; to publish it. Otherwise, delete this file if you don&amp;rsquo;t need it.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -229,7 +219,7 @@
 &lt;p&gt;My involvement with the PLHD working group began in 2015, when I was brought in to investigate the question of how &amp;ldquo;vital rates&amp;rdquo;—that is, birth rates and death rates—are affected by climate variability. This culminated in our 2017 paper:&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;/publication/camposdoesclimatevariability-2017/&#34;&gt;Campos et al. (2017) &lt;em&gt;Global Change Biology&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As a post-doc in Susan Alberts&amp;rsquo; lab at Duke, I continued to work on several unresolved questions about life history evolution using this exceptionally valuable resource.&lt;/p&gt;
+&lt;p&gt;As a post-doc in Susan Alberts&#39; lab at Duke, I continued to work on several unresolved questions about life history evolution using this exceptionally valuable resource.&lt;/p&gt;
 </description>
     </item>
     

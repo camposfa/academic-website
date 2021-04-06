@@ -5,12 +5,20 @@
     <link>/authors/jenny-tung/</link>
       <atom:link href="/authors/jenny-tung/index.xml" rel="self" type="application/rss+xml" />
     <description>Jenny Tung</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
       <title>Jenny Tung</title>
       <link>/authors/jenny-tung/</link>
     </image>
+    
+    <item>
+      <title>The Evolutionary Landscape of Primate Longevity</title>
+      <link>/publication/colchero-evolutionary-landscape-primate-2020/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/colchero-evolutionary-landscape-primate-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Social Determinants of Health and Survival in Humans and Other Animals</title>
@@ -28,14 +36,6 @@
 &lt;h4 id=&#34;outlook&#34;&gt;Outlook&lt;/h4&gt;
 &lt;p&gt;Although not all facets of the social determinants of health in humans can be effectively modeled in other social mammals, the strong evidence that some of these determinants are shared argues that comparative studies should play a frontline role in the effort to understand them. Expanding the set of species studied in nature, as well as the range of human populations in which the social environment is well characterized, should be a priority. Such studies have high potential to shed light on the pathways that connect social experience to life course outcomes as well as the evolutionary logic that accounts for these effects. Studies that draw on the power and tools afforded by laboratory model organisms are also crucial because of their potential for identifying causal links. Important research directions include understanding the predictors of interindividual and intersocietal differences in response to social adversity, testing the efficacy of potential interventions, and extending research on the physiological signatures of social gradients to the brain and other tissues. Path-breaking studies in this area will not only integrate results from different disciplines but also involve cross-disciplinary efforts that begin at study conception and design.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>The Costs of Competition: High Social Status Males Experience Accelerated Epigenetic Aging in Wild Baboons</title>
-      <link>/publication/andersoncostscompetitionhigh-2020/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/andersoncostscompetitionhigh-2020/</guid>
-      <description></description>
     </item>
     
   </channel>

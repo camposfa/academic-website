@@ -5,12 +5,36 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Maternal Death and Offspring Fitness in Multiple Wild Primates</title>
+      <link>/publication/zipple-maternal-death-offspring-2021/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>/publication/zipple-maternal-death-offspring-2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Evolutionary Landscape of Primate Longevity</title>
+      <link>/publication/colchero-evolutionary-landscape-primate-2020/</link>
+      <pubDate>Mon, 28 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/colchero-evolutionary-landscape-primate-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Primate Life History, Social Dynamics, Ecology, and Conservation: Contributions from Long-Term Research in Área de Conservación Guanacaste, Costa Rica</title>
+      <link>/publication/melin-primate-life-history-2020/</link>
+      <pubDate>Mon, 02 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/melin-primate-life-history-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Social Bonds, Social Status and Survival in Wild Baboons: A Tale of Two Sexes</title>
@@ -41,14 +65,6 @@
       <link>/publication/levy-comparison-dominance-rank-2020/</link>
       <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>/publication/levy-comparison-dominance-rank-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Beyond Orphaned Infants: Novel Effects of Maternal Death in Wild Primates</title>
-      <link>/publication/zipple-orphaned-infants-novel-2020/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/zipple-orphaned-infants-novel-2020/</guid>
       <description></description>
     </item>
     
@@ -99,14 +115,6 @@
       <link>/publication/bergstromnoninvasiveestimationcosts-2020/</link>
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       <guid>/publication/bergstromnoninvasiveestimationcosts-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Costs of Competition: High Social Status Males Experience Accelerated Epigenetic Aging in Wild Baboons</title>
-      <link>/publication/andersoncostscompetitionhigh-2020/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>/publication/andersoncostscompetitionhigh-2020/</guid>
       <description></description>
     </item>
     

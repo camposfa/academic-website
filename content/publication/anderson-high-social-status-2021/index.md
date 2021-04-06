@@ -6,7 +6,6 @@ publishDate: '2021-04-06T12:44:09.184490Z'
 authors:
 - Jordan A Anderson*
 - Rachel A Johnston*
-
 - Amanda J Lea
 - Fernando A Campos
 - Tawni N Voyles

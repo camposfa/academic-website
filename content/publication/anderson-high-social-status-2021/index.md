@@ -1,7 +1,7 @@
 ---
 title: High Social Status Males Experience Accelerated Epigenetic Aging in Wild Baboons
 date: '2021-04-01'
-draft: true
+draft: false
 publishDate: '2021-04-06T12:44:09.184490Z'
 authors:
 - Jordan A Anderson*

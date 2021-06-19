@@ -22,9 +22,10 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+  preview_only: true
+header:
+  image: "headers/01_Campos_Kenya_20190105_46.jpg"
+  caption: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -53,9 +54,4 @@ abstract: 'Are differences in hypothalamic-pituitary-adrenal (HPA) axis activati
 publication: '*Science Advances*'
 doi: 10.1126/sciadv.abf6759
 url_project: "/project/aging/"
-image:
-  preview_only: true
-header:
-  image: "headers/01_Campos_Kenya_20190105_46.jpg"
-  caption: ""
 ---

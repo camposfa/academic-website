@@ -49,7 +49,7 @@ tags: []
 categories: []
 date: '2021-06-01'
 lastmod: 2021-06-16T11:40:39-05:00
-featured: false
+featured: true
 draft: false
 
 # Featured image

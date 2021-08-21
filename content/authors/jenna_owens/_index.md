@@ -29,6 +29,6 @@ user_groups:
 - Graduate Students
 ---
 
-Jenna is a PhD student in the Environmental Anthropology program at the University of Texas at San Antonio. In 2018, Jenna obtained degrees in Anthropology (B.S.) and English (B.A.) from James Madison University. As an undergraduate, Jenna spent two summers collecting behavioral data on three primate species at La Suerte Biological Research Station in Northeast Costa Rica.
+Jenna is a PhD student in the Environmental Anthropology program at the University of Texas at San Antonio. In 2018, she obtained degrees in Anthropology (B.S.) and English (B.A.) from James Madison University. As an undergraduate, she spent two summers collecting behavioral data on three primate species at La Suerte Biological Research Station in Northeast Costa Rica.
 
-Broadly, Jenna is interested in research that combines landscape genetics, climate change, and conservation, especially in the platyrrhines. Jenna's work explores how landscape features and processes affect genetic variation in nonhuman primate populations at the Área de Conservación (ACG) in northwest Costa Rica.
+Broadly, Jenna is interested in research that combines landscape genetics, climate change, and conservation, especially in the platyrrhines. Her work explores how landscape features and processes affect genetic variation in nonhuman primate populations at the Área de Conservación (ACG) in northwest Costa Rica.

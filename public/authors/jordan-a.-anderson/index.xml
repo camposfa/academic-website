@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jordan A. Anderson | Campos Lab @ UTSA</title>
+    <link>/authors/jordan-a.-anderson/</link>
+      <atom:link href="/authors/jordan-a.-anderson/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jordan A. Anderson</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_2.png</url>
+      <title>Jordan A. Anderson</title>
+      <link>/authors/jordan-a.-anderson/</link>
+    </image>
+    
+    <item>
+      <title>Distinct Gene Regulatory Signatures of Dominance Rank and Social Bond Strength in Wild Baboons</title>
+      <link>/publication/anderson-distinct-gene-regulatory-2022/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/anderson-distinct-gene-regulatory-2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

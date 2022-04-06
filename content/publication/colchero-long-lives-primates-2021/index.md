@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: The Long Lives of Primates and the `Invariant Rate of Ageing' Hypothesis
+title: The Long Lives of Primates and the 'Invariant Rate of Ageing' Hypothesis
 subtitle: ''
 summary: ''
 authors:

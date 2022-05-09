@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Apr 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Female Reproductive Aging in Seven Primate Species: Patterns and Consequences</title>
+      <link>/publication/campos-female-reproductive-aging-2022/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-female-reproductive-aging-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Causal Mediation Model for Longitudinal Mediators and Survival Outcomes with an Application to Animal Behavior</title>

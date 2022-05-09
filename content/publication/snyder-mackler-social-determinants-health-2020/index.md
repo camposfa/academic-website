@@ -5,7 +5,7 @@ publishDate: 2020-05-21T18:43:27.573451Z
 authors: ["Noah Snyder-Mackler", "Joseph Robert Burger", "Lauren Gaydosh", "Daniel W. Belsky", "Grace A. Noppert", "Fernando A. Campos", "Alessandro Bartolomucci", "Yang Claire Yang", "Allison E. Aiello", "Angela O'Rand", "Kathleen Mullan Harris", "Carol A. Shively", "Susan C. Alberts", "Jenny Tung"]
 publication_types: ["2"]
 abstract: "The social environment, both in early life and adulthood, is one of the strongest predictors of morbidity and mortality risk in humans. Evidence from long-term studies of other social mammals indicates that this relationship is similar across many species. In addition, experimental studies show that social interactions can causally alter animal physiology, disease risk, and life span itself. These findings highlight the importance of the social environment to health and mortality as well as Darwinian fitness—outcomes of interest to social scientists and biologists alike. They thus emphasize the utility of cross-species analysis for understanding the predictors of, and mechanisms underlying, social gradients in health."
-featured: true
+featured: falce
 publication: "*Science*"
 doi: "10.1126/science.aax9553"
 image:

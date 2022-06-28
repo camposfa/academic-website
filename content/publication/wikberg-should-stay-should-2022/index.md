@@ -2,7 +2,7 @@
 title: 'Should I Stay or Should I Go Now: Dispersal Decisions and Reproductive Success
   in Male White-Faced Capuchins (Cebus imitator)'
 date: '2022-06-01'
-draft: true
+draft: false
 publishDate: '2022-06-26T19:53:31.358547Z'
 authors:
 - Eva C. Wikberg

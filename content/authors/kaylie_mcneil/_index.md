@@ -29,5 +29,6 @@ user_groups:
 - Graduate Students
 ---
 
+Kaylie is a PhD student in environmental anthropology at UTSA. She has previously worked for primate research projects in Ecuador, Colombia, and India. Kaylie's research is on the ecological and physiological factors that influence reproductive strategies in woolly monkeys (_Lagothrix lagotricha poeppigii_) in the Ecuadorian Amazon.  She also loves practicing yoga, hiking with her dog, and writing poetry.
 
-
+[kaylie.mcneil@my.utsa.edu](mailto:kaylie.mcneil@my.utsa.edu)

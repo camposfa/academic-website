@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Campos Lab @ UTSA</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jun 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
       <title>Campos Lab @ UTSA</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Early life adversity and adult social relationships have independent effects on survival in a wild animal model of aging</title>
+      <link>/publication/lange-early-2022/</link>
+      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/lange-early-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Should I Stay or Should I Go Now: Dispersal Decisions and Reproductive Success in Male White-Faced Capuchins (Cebus imitator)</title>
@@ -275,7 +283,7 @@
 &lt;p&gt;My involvement with the PLHD working group began in 2015, when I was brought in to investigate the question of how &amp;ldquo;vital rates&amp;rdquo;—that is, birth rates and death rates—are affected by climate variability. This culminated in our 2017 paper:&lt;/p&gt;
 &lt;p&gt;
 &lt;a href=&#34;/publication/camposdoesclimatevariability-2017/&#34;&gt;Campos et al. (2017) &lt;em&gt;Global Change Biology&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As a post-doc in Susan Alberts&amp;rsquo; lab at Duke, I continued to work on several unresolved questions about life history evolution using this exceptionally valuable resource.&lt;/p&gt;
+&lt;p&gt;As a post-doc in Susan Alberts&#39; lab at Duke, I continued to work on several unresolved questions about life history evolution using this exceptionally valuable resource.&lt;/p&gt;
 </description>
     </item>
     

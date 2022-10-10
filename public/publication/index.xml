@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Factors Influencing Terrestriality in Primates of the Americas and Madagascar</title>
+      <link>/publication/eppley-factors-influencing-terrestriality-2022/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>/publication/eppley-factors-influencing-terrestriality-2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Early life adversity and adult social relationships have independent effects on survival in a wild animal model of aging</title>

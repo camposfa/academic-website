@@ -61,10 +61,10 @@
     <loc>/authors/clara-j.-scarry/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/claudia-fichtel/</loc>
+    <loc>/authors/claudia-calegaro-marques/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/claudia-calegaro-marques/</loc>
+    <loc>/authors/claudia-fichtel/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/authors/colin-a.-chapman/</loc>
@@ -148,6 +148,9 @@
     <loc>/authors/jesus-martinez/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
+    <loc>/authors/joao-pedro-souza-alves/</loc>
+    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
+  </url><url>
     <loc>/authors/john-f.-aristizabal/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
@@ -157,10 +160,10 @@
     <loc>/authors/jonas-da-rosa-goncalves/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/josia-razafindramanana/</loc>
+    <loc>/authors/jorg-u.-ganzhorn/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/joao-pedro-souza-alves/</loc>
+    <loc>/authors/josia-razafindramanana/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/authors/juan-carlos-serio-silva/</loc>
@@ -169,13 +172,10 @@
     <loc>/authors/julia-ostner/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/justin-sanamo/</loc>
-    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
-  </url><url>
-    <loc>/authors/jorg-u.-ganzhorn/</loc>
-    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
-  </url><url>
     <loc>/authors/julio-cesar-bicca-marques/</loc>
+    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
+  </url><url>
+    <loc>/authors/justin-sanamo/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/authors/karen-b.-strier/</loc>
@@ -283,6 +283,9 @@
     <loc>/authors/natalie-vasey/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
+    <loc>/authors/nestor-allgas/</loc>
+    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
+  </url><url>
     <loc>/authors/nicola-m.-robson/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
@@ -295,7 +298,7 @@
     <loc>/authors/njaratiana-a.-raharinoro/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
-    <loc>/authors/nestor-allgas/</loc>
+    <loc>/authors/oscar-m.-chaves/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/authors/patricia-c.-wright/</loc>
@@ -377,9 +380,6 @@
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/authors/zafimahery-rakotomalala/</loc>
-    <lastmod>2022-10-10T16:23:00-05:00</lastmod>
-  </url><url>
-    <loc>/authors/oscar-m.-chaves/</loc>
     <lastmod>2022-10-10T16:23:00-05:00</lastmod>
   </url><url>
     <loc>/publication_types/3/</loc>
@@ -1369,6 +1369,8 @@
     <loc>/categories/</loc>
   </url><url>
     <loc>/post/</loc>
+  </url><url>
+    <loc>/join/</loc>
   </url><url>
     <loc>/tags/vigilance./</loc>
   </url>

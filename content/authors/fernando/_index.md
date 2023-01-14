@@ -23,6 +23,7 @@ bio: Interested in the evolutionary biology, behavior, and conservation of prima
 interests:
 - Behavioral ecology
 - Life histories
+- Aging
 - Biodemography
 - Global change
 - Primates

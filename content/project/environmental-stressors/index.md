@@ -73,13 +73,3 @@ I review these climatic processes in a book chapter: [Campos (2018) _Primate Lif
 My Master's research examined the behavioral strategies that the capuchins use to cope with this extreme seasonality. I found that they reduce activity during the hottest hours of the day, and they concentrate their movements around the few remaining sources of surface water. They also extend their tongues in hot dry conditions, presumably to cool themselves via evaporation of saliva from the tongue.
 
 [Campos and Fedigan (2009) _Am J Phys Anth_.]({{< relref "publication/camposbehavioraladaptationsheat-2009/index.md" >}})
-
-<br>
-<hr>
-<br>
-
-## Seasonal Changes in the Gut Microbiome
-
-My collaborators [Joseph Orkin](https://josephorkin.com/) and [Amanda Melin](http://www.amandamelin.com/) at the University of Calgary are directing a study, on which I am collaborating, that aims to understand temporal variation in the composition of the capuchin gut microbiome, and how these changes are related to resource availability and rainfall patterns. New completed work in this area is currently in review.
-
-[Orkin et al. (2018) _The ISME J_.]({{< relref "publication/orkinseasonalitygutmicrobiota-2019/index.md" >}})

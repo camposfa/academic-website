@@ -44,3 +44,20 @@ url_video: ""
 slides: ""
 ---
 
+I have a longstanding interest in bringing together demographic data from different species to situate human life history patterns in broader evolutionary context, and to improve our understanding of the aging process. 
+
+My current research on aging is funded by a [grant](https://reporter.nih.gov/search/QjbTr3_ji0OBhGCffqcqRA/project-details/10513070) from the National Institute on Aging at the National Institutes of Health (1R61AG078529-01). This project, which includes key personnel at 6 institutions in the US and Canada and for which I am the lead PI, aims to establish a new animal model system for assessing why individuals age at different rates, using the noninvasive long-term study of wild capuchin monkeys in Costa Rica.
+
+Also working with on this project are:
+-  PIs 
+    + [Amanda Melin](http://www.amandamelin.com/) (University of Calgary)
+    + [Kathy Jack](https://kjack.tulane.edu/) (Tulane University)
+- Co-Investigators
+    + [James Higham](https://www.nyuprimatology.com/) (New York University)
+    + [Michael Gurven](https://gurven.anth.ucsb.edu/) (UC Santa Barbara)
+-  Collaborators
+    + [Eva Wikberg](https://evawikberg.com/) (UT San Antonio)
+    + [Joseph Orkin](https://josephorkin.com/) (Université de Montréal)
+    + [Yeonjoo Park](https://sites.google.com/view/yeonjoopark/?pli=1) (UT San Antonio)
+- Consultants
+    + [Noah Snyder-Mackler](https://smack-lab.com/) (Arizona State University)

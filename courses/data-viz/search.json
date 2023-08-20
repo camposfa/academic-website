@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "labs/w3-lab02.html",
+    "href": "labs/w3-lab02.html",
+    "title": "Lab 02: Data visualization with ggplot2!",
+    "section": "",
+    "text": "Add instructions for assignment."
+  },
+  {
+    "objectID": "labs/w2-lab01.html",
+    "href": "labs/w2-lab01.html",
+    "title": "Lab 01: Hello R!",
+    "section": "",
+    "text": "Add instructions for assignment."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html",
+    "href": "assignments/week-01/w01-lab01.html",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "",
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html#complete-in-class",
+    "href": "assignments/week-01/w01-lab01.html#complete-in-class",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "",
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "href": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "Complete over the next week or two",
+    "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab02.html",
+    "href": "assignments/week-01/w01-lab02.html",
+    "title": "Week 2, Lab 2: Markdown CV",
+    "section": "",
+    "text": "To complete this week’s activities, you must have a few packages installed. For this first assignment, you’ll need rmarkdown. Install the package by running the command below in your R console (only needs to be done once).\n\ninstall.packages(\"rmarkdown\")"
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab02.html#setup",
+    "href": "assignments/week-01/w01-lab02.html#setup",
+    "title": "Week 2, Lab 2: Markdown CV",
+    "section": "",
+    "text": "To complete this week’s activities, you must have a few packages installed. For this first assignment, you’ll need rmarkdown. Install the package by running the command below in your R console (only needs to be done once).\n\ninstall.packages(\"rmarkdown\")"
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab02.html#complete-in-class",
+    "href": "assignments/week-01/w01-lab02.html#complete-in-class",
+    "title": "Week 2, Lab 2: Markdown CV",
+    "section": "Complete in Class",
+    "text": "Complete in Class\nMarkdown CV\nInstructions:\n\nCreate a basic CV in markdown (you can make stuff up!)\nWhat to include\n\nTop-level header should be your name\nInclude contact info: phone, email, and link to some website.\nInclude second-level headings for education, employment, publications, and teaching\nEach section should include a bulleted or numbered list of items, or a table\nHighlight years in bold and (possibly fake) journal names in italics\nEmbed some kind of image at the bottom\n\n(Attempt to) submit the .md and .html files for your completed CV in Canvas."
+  },
+  {
+    "objectID": "assignments/TEMP_week-02/qmd/w02-lab01.html",
+    "href": "assignments/TEMP_week-02/qmd/w02-lab01.html",
+    "title": "Paths",
+    "section": "",
+    "text": "We need to load package called ‘knitr’ for this activity to use function ‘kable()’, which allows us to display the nice HTML table near the bottom of the document.\nlibrary(\"knitr\")"
+  },
+  {
+    "objectID": "assignments/TEMP_week-02/qmd/w02-lab01.html#overview",
+    "href": "assignments/TEMP_week-02/qmd/w02-lab01.html#overview",
+    "title": "Paths",
+    "section": "Overview",
+    "text": "Overview\nData analysis usually involves loading files into R from your local computer. This does not always go smoothly. In this activity, we’re going to learn a bit about how to use paths correctly to avoid some common errors.\nTo load a file, you need provide a correct path to its location on your computer. The path may be relative or absolute. An absolute (or “full”) path includes the root (top-level) directory of your file system and points to the same location regardless of your R session’s the current working directory.\nExamples of absolute paths:\n\nWindows: \"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/have/data/my_file.csv\"\nMac: \"/Users/czx412/Documents/another/ridiculous/path/that nobody else/can/use/data/my_file.csv\"\n\nA relative path starts from some working directory_, avoiding the need to provide the full, absolute path. For this to work properly, the program needs to know your starting point (i.e., the working directory).\nExample of a relative path:\n\nAny system: \"data/my_file.csv\"\n\n\nThere are a few special paths that are useful:\n\n~ is the user’s home directory. On this particular computer, ~ is equivalent to /Users/czx412. This will change depending on which computer I’m using.\n.. is the parent directory. So ../my_file.csv refers to a file called my_file.csv in the directory that is one level above the working directory.\n\nThe key to getting paths to work in R is understanding R’s working directory.\nWhat is your working directory at this very moment? You can use the getwd() function to find out.\n\ngetwd()\n\n[1] \"/Users/czx412/Github/data-viz/assignments/TEMP_week-02/qmd\""
+  },
+  {
+    "objectID": "assignments/TEMP_week-02/qmd/w02-lab01.html#common-problems",
+    "href": "assignments/TEMP_week-02/qmd/w02-lab01.html#common-problems",
+    "title": "Paths",
+    "section": "Common Problems",
+    "text": "Common Problems\nThere are several problems that people commonly run into when trying to specify the right path:\n\nAbsolute paths don’t work on different computers\nA file that exists in a certain place on your computer almost certainly does not exist in that same place on someone else’s computer, or on another computer that you own. Since it is unworkable to force people to put files in the same places, it is a good idea to use relative paths. If you share a project with somebody and use relative paths, then these relative paths should work any computer, regardless of where the project root directory is located. This activity is an example.\nNot sharing with somebody at this moment? Don’t forget future-you! Current-you should should have an interest in helping future-you to work efficiently rather than sabotaging their work by filling your R scripts with what will eventually become broken file paths.\n\n\n\nR Markdown vs R session or project root\nWhen you’re working in a project, your working directory is the project’s root directory.\nHowever, the default working directory for an R Markdown document is the directory in which that .Rmd document is stored. Suppose that you saved your R Markdown file in a directory called rmd that lives within the root directory of your project, and your data files in another sub-folder called data. Use the file explorer to verify that this is how I organized this project. It is generally a good idea to organize your files in this way. But the working directory of the R Markdown file is now different than your project root directory.\nIn addition, if you use the command setwd() in your R session, then the working directory of your current R session will differ from the working directory of your R Markdown document AND your project root. In brief, lots of potential for total chaos."
+  },
+  {
+    "objectID": "assignments/TEMP_week-02/qmd/w02-lab01.html#the-here-package",
+    "href": "assignments/TEMP_week-02/qmd/w02-lab01.html#the-here-package",
+    "title": "Paths",
+    "section": "The ‘here’ package",
+    "text": "The ‘here’ package\nThe here R package is very simple and has only one goal: finding files in your project. It will always locate the files relative to your project root. When the package is first loaded, you’ll get a message telling you the location of the folder that is your project root.\n\nlibrary(\"here\")\n\nhere() starts at /Users/czx412/Github/data-viz/assignments/TEMP_week-02\n\n\nThe here() function locates a file relative to your project’s root folder. This is how you use it:\n\n# Create path to a csv file in project root folder\nhere(\"file_i_want.csv\")\n\n[1] \"/Users/czx412/Github/data-viz/assignments/TEMP_week-02/file_i_want.csv\"\n\n# Create path to a csv file located in a subfolder called \"data\" in your project root folder\nhere(\"data/file_i_want.csv\")\n\n[1] \"/Users/czx412/Github/data-viz/assignments/TEMP_week-02/data/file_i_want.csv\"\n\n\nNote that your file paths will (and should) look different from mine.\nWhy would you want to use this? Two main reasons:\n\nThe same command will “just work” whether it is run from your console, an R source file, or while knitting an R Markdown document.\nIt is not affected by your fiddling around with setwd() (which I suggest always avoiding if possible). Instead, it will figure out the top level of your current project, and locate the file from there."
+  },
+  {
+    "objectID": "assignments/TEMP_week-03/w03-hw02.html",
+    "href": "assignments/TEMP_week-03/w03-hw02.html",
+    "title": "HW 02: Data visualization",
+    "section": "",
+    "text": "Add instructions for assignment."
+  },
+  {
+    "objectID": "weeks/TEMP_week-03.html",
+    "href": "weeks/TEMP_week-03.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\n\nTopic\n\n\nDate\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nAssignment\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nLab\n\n\nLab 02: Data visualization with ggplot2!\n\n\nFri, Sep 23\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings"
+  },
+  {
+    "objectID": "weeks/TEMP_week-02.html",
+    "href": "weeks/TEMP_week-02.html",
+    "title": "Week 02",
+    "section": "",
+    "text": "Lectures\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\nR for Data Science: Chapter 3 - Data Visualization\nIntroduction for Modern Statistics: Chapter 4 - Exploring Categorical Data\nIntroduction to Modern Statistics: Chapter 5- Exploring Numerical Data"
+  },
+  {
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 01",
+    "section": "",
+    "text": "Readings\n\n\n\n\n\n\n\nSource\nLink\n\n\n\n\nCourse website\nCourse Policies\n\n\nHealy: Data Visualization\nPreface\n\n\nWickham: R4DS\nChapter 1: Introduction\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 1 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 1, Lab 1: Swirl\n\n\nWed, Aug 23\n\n\n\n\nWeek 2, Lab 2: Markdown CV\n\n\nWed, Aug 23\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Course information",
+    "text": "Course information\n\n\n\n\nInstructor\nDr. Fernando Campos \n\n\nLocation\nMultidisciplinary Studies Bldg 2.03.18\n\n\nTimes\nWednesdays 9:00 am – 11:45 am\n\n\nCourse\nANT 6973.002\n\n\nCRN\n24022\n\n\nOffice Hours\nWed, 12:30 pm – 1:30 pm (email to confirm meeting)"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Overview",
+    "text": "Overview\nThis course is designed for graduate students in social or natural sciences who would like to gain experience in data visualization and analysis using R. It aims to be accessible to those who are completely new to programming, but also to provide new insights and skills to those who already have experience using R."
+  },
+  {
+    "objectID": "index.html#approach",
+    "href": "index.html#approach",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Approach",
+    "text": "Approach\nThis course will use a mix of traditional and flipped classroom approaches, with new material introduced in reading assignments prior to class while class time will focus on applying those skills to data sets. The course will be activity-focused. Most concepts will be first introduced in assigned readings outside of class, leaving class time to focus on developing practical skills, completing activities, making progress on individual projects. We will cover topics in both data visualization as well as data manipulation. Students are encouraged to work collaboratively in and out of class. The online course schedule provides an overview of the topics covered as well as links to weekly readings, in-class activities, and any lecture material. This schedule is preliminary and always subject to change."
+  },
+  {
+    "objectID": "index.html#textbooks",
+    "href": "index.html#textbooks",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Textbooks",
+    "text": "Textbooks\nWe will read sections from four openly licensed, online textbooks for this course. Hard copies of the books are not required, but can be found at the links below.\n\n\n\n\nFundamentals of Data Visualization\nWilke, Claus\nO’Reilly Media; 1st edition\n\n\nData Visualization: A practical introduction\nHealy, Kieran\nPrinceton University Press; 1st edition\n\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse!\nIsmay, Chester and Kim, Albert Y.\nChapman and Hall/CRC; 1st edition\n\n\nR for Data Science\nGrolemund, Wickham\nO’Reilly Media; 2nd edition"
+  },
+  {
+    "objectID": "policies.html#course-information",
+    "href": "policies.html#course-information",
+    "title": "Course Policies",
+    "section": "Course Information",
+    "text": "Course Information\n\nCourse Description\nThis course introduces theory and practical skills for managing and displaying quantitative information so that visual stories can be found and communicated effectively. We will cover principles of tidy data, strategies for data exploration, and principles of visual presentation. We will use the R computing environment, but no prior programming experience is required. The emphasis is on gaining practical skills that will empower students to answer questions with data.\n\n\nCourse Goals\nThis course will provide students an opportunity to master theoretical concepts in data visualization and to acquire valuable skills for exploring data and producing statistical graphics. Students will learn how to use R to produce visualizations and work with quantitative data, and to apply these skills to communicate scientific knowledge effectively.\n\n\nStudent Learning Objectives/Outcomes\nDuring this semester, students will have the opportunity to:\n\nLearn fundamental principles and best practices for the visual display of quantitative data.\nBecome familiar with data input, analysis, and export using the R statistical computing environment.\nAchieve proficiency with key R packages for data visualization and exploration.\nDevelop skills in written and oral communication and graphical display of data through online activities, small group assignments, and individual projects.\n\n\n\nCourse Prerequisites\nThere are no prerequisites for this class. In particular, prior programming experience is not required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find new things to learn or important knowledge to review in each lesson.\n\n\nCourse Materials\nAll reading materials will be online or posted to the course website. Assigned readings should be completed before the start of class on the day indicated.\n\n\nCommunication\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website. Announcements will be emailed through Canvas Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course."
+  },
+  {
+    "objectID": "policies.html#course-requirements",
+    "href": "policies.html#course-requirements",
+    "title": "Course Policies",
+    "section": "Course Requirements",
+    "text": "Course Requirements\n\nIn-Class Exercises\nAs a (mostly) flipped classroom, our in-class time will involve brief refreshers on new concepts introduced in the readings followed by working on exercises that relate to those concepts. These exercises will include activities that the instructor will describe in class. While students are working on these exercises, the instructor will actively engage with students to help them understand material that they find confusing, help identify problems that are preventing students from completing the exercises, and discuss novel applications and alternative approaches to the data visualization challenges that students are working to complete.\nAssigned in-class exercises can be found under the relevant week of the course schedule.\n\n\nSmall Projects\nDuring the term, there will be two small data visualization projects that each student must complete. The professor will provide a data set and detailed instructions for each project. In brief, the projects will be visualization challenges in which the student will read in the data set in R, produce one or more visualizations of the data, and provide a written narrative (~1000 words) of interesting aspects or insights gained in the process of analyzing the data. The submission should be a Quarto/RMarkdown report in HTML format, and it must include the R code used, the embedded visualizations, and the written narrative. Please also submit the .qmd file used to make the report.\n\n\nFinal Project\nFor the final project, students are encouraged to find and/or use a data set related to their thesis topic, if possible. If this is not possible, the professor can help to find a data set on a topic relevant to the student’s interests. Students must demonstrate and document both data tidying/preparation and data visualization. Further instructions will be provided. The submitted final project should include:\n\nThe raw data set used in the analysis (contact me if there are any concerns about this).\nA Quarto/RMarkdown report in HTML format with all R code used, at least 3 plots, and a written narrative of approximately 1000 words.\nThe .qmd file used to make the report.\nA digital poster (in a digital format such as PDF—no actual printed posters please!), similar to what you might present at an academic conference, that presents your project visually.\n\n\n\nAttendance and Participation\nRegular attendance will be essential to the successful completion of this course. Attendance is mandatory and will count toward your final grade. We are aiming for a supportive and cooperative learning environment. To accomplish this, I expect students to be actively engaged participants in all classroom activities."
+  },
+  {
+    "objectID": "policies.html#grading",
+    "href": "policies.html#grading",
+    "title": "Course Policies",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\n\n\nNote\n\n\n\nIt is expected that students will have a wide range of prior experience and abilities. Grading will reflect learning and effort in the course rather than techical ability.\n\n\nDetails of grading scheme can be found in the course syllabus posted to Blackboard. Grades will be assigned using the following weighted components:\n\n\n\n\nComponent\nWeight\n\n\n\n\nCompletion of In-class Exercises\n40%\n\n\nFirst Small Project\n15%\n\n\nSecond Small Project\n15%\n\n\nFinal Project\n25%\n\n\nAttendance and Participation\n5%\n\n\n\n\nMake-up policy\nLate assignments will be penalized 20% and will not be accepted more than 48 hours late except in cases of genuine emergencies that can be documented by the student or in cases where late submission has been discussed and approved in advance."
+  },
+  {
+    "objectID": "policies.html#course-community",
+    "href": "policies.html#course-community",
+    "title": "Course Policies",
+    "section": "Course Community",
+    "text": "Course Community\n\nCooperative Learning Environment\nI encourage you to discuss the course activities with your friends and classmates as you are working on them. You will learn more in this class if you work with others than if you do not.\nHowever, you should not directly copy code or allow other students to copy your code. When cooperating on a problem, you can discuss it with others, but write your own solutions. Direct copying of code will be considered cheating, and will be subject to the Scholastic Dishonesty policies outlined in the Student Code of Conduct\nShare ideas, ask questions, ask for help, but don’t copy.\n\n\nCode of Conduct\nI expect and require behavior compatible with a high standard of scholarship. Refrain from distracting behavior, such as talking during lectures, and wait until class is dismissed before packing up your belongings. Please try not to arrive late or leave early. Most importantly, you must show respect for each other’s opinions and differing levels of prior knowledge and ability."
+  },
+  {
+    "objectID": "slides/week-01/01-slides.html",
+    "href": "slides/week-01/01-slides.html",
+    "title": "Week 1 slides",
+    "section": "",
+    "text": "Week 1 slides:\n\nIntroduction and Setup (PDF)\nR Basics and Quarto (PDF)"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Excerpts of Fall 2021 syllabus from STA 199: Introduction to Data Science at Duke University"
+  },
+  {
+    "objectID": "syllabus.html#course-learning-objectives",
+    "href": "syllabus.html#course-learning-objectives",
+    "title": "Syllabus",
+    "section": "Course Learning Objectives",
+    "text": "Course Learning Objectives\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation"
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\nAll books are freely available online. Hardcopies are also available for purchase.\n\n\n\nR for Data Science\nGrolemund, Wickham\nO’Reilly, 1st edition, 2016\n\n\nIntroduction to Modern Statistics\nÇetinkaya-Rundel, Hardin\nOpenIntro Inc., 1st Edition, 2021"
+  },
+  {
+    "objectID": "syllabus.html#course-community",
+    "href": "syllabus.html#course-community",
+    "title": "Syllabus",
+    "section": "Course community",
+    "text": "Course community\n\nInclusive community\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity and in alignment with Duke’s Commitment to Diversity and Inclusion. Your suggestions are encouraged and appreciated.\n\n\nAccessibility\nIf there is any portion of the course that is not accessible to you due to challenges with technology or the course format, please let me know so we can make appropriate accommodations.\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances.\n\n\nCommunication\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course."
+  },
+  {
+    "objectID": "syllabus.html#activities-assessment",
+    "href": "syllabus.html#activities-assessment",
+    "title": "Syllabus",
+    "section": "Activities & Assessment",
+    "text": "Activities & Assessment\n\nLabs\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nHomework\nIn homework, you will apply what you’ve learned during lecture and lab to complete data analysis tasks.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nFinal Project\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\nThe final course grade will be calculated as follows:\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n30%\n\n\nLabs\n15%\n\n\nFinal Project\n15%\n\n\nExam 01\n17.5%\n\n\nExam 02\n17.5%\n\n\nIn-class exercises\n5%"
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course policies",
+    "text": "Course policies\n\nAcademic honesty\nTL;DR: Don’t cheat!\nPlease abide by the following as you work on assignments in this course:\n\nYou may discuss individual homework and lab assignments with other students; however, you may not directly share (or copy) code or write up with other students. For team assignments, you may collaborate freely within your team. You may discuss the assignment with other teams; however, you may not directly share (or copy) code or write up with another team. Unauthorized sharing (or copying) of the code or write up will be considered a violation for all students involved.\nYou may not discuss or otherwise work with others on the exams.\nReusing code: Unless explicitly stated otherwise, you may make use of online resources (e.g. StackOverflow) for coding examples on assignments. If you directly use code from an outside source (or use it as inspiration), you must explicitly cite where you obtained the code. Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.\n\n\n\nLate work & extensions\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances."
+  },
+  {
+    "objectID": "syllabus.html#important-dates",
+    "href": "syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#bullet-point-list",
+    "href": "slides_old/week-01/01-example.html#bullet-point-list",
+    "title": "Welcome to Intro Data Science",
+    "section": "Bullet point list",
+    "text": "Bullet point list\nUnordered\n\nItem A\nItem B\nItem C\n\nOrdered\n\nItem 1\nItem 2\nItem 3"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#incremental-list",
+    "href": "slides_old/week-01/01-example.html#incremental-list",
+    "title": "Welcome to Intro Data Science",
+    "section": "Incremental list",
+    "text": "Incremental list\n\n\nItem 1\nItem 2\nItem 3"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#equations",
+    "href": "slides_old/week-01/01-example.html#equations",
+    "title": "Welcome to Intro Data Science",
+    "section": "Equations",
+    "text": "Equations\nWrite mathematical symbols and equations using Latex.\nUse the formulas below to calculate \\(\\hat{\\beta}_1\\), the estimated slope, and \\(\\hat{\\beta}_0\\), the estimated intercept.\n\\[\n\\begin{aligned}\n&\\hat{\\beta}_1 = r \\frac{s_y}{s_x} \\\\\n&\\hat{\\beta}_0 = \\bar{y} - \\hat{\\beta}_1 \\bar{x}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#code",
+    "href": "slides_old/week-01/01-example.html#code",
+    "title": "Welcome to Intro Data Science",
+    "section": "Code",
+    "text": "Code\n\n# Use code chunk option fig-align: center to center the plot. \nggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, \n                            color = species)) + \n         geom_point() + \n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d()\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#images",
+    "href": "slides_old/week-01/01-example.html#images",
+    "title": "Welcome to Intro Data Science",
+    "section": "Images",
+    "text": "Images\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#columns",
+    "href": "slides_old/week-01/01-example.html#columns",
+    "title": "Welcome to Intro Data Science",
+    "section": "Columns",
+    "text": "Columns\n\n\nCalculate the proportion of penguins from each species.\n\n\npenguins |&gt;\n  count(species) |&gt;\n  mutate(prop  = n / sum(n))\n\n# A tibble: 3 × 3\n  species       n  prop\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      152 0.442\n2 Chinstrap    68 0.198\n3 Gentoo      124 0.360"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#panels",
+    "href": "slides_old/week-01/01-example.html#panels",
+    "title": "Welcome to Intro Data Science",
+    "section": "Panels",
+    "text": "Panels\n\nPlotCode\n\n\n\npenguins |&gt;\n  filter(species == \"Adelie\", !is.na(sex)) |&gt;\n  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = sex)) + \n  geom_point() +\n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Adelie Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d() + \n  facet_wrap(~island)\n\n\n\n\n\n\n\npenguins |&gt;\n  filter(species == \"Adelie\", !is.na(sex)) |&gt;\n  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = sex)) + \n  geom_point() +\n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Adelie Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d() + \n  facet_wrap(~island)"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#themes",
+    "href": "slides_old/week-01/01-example.html#themes",
+    "title": "Welcome to Intro Data Science",
+    "section": "Themes",
+    "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\nCreate custom thing using Sass\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#bullet-point-list",
+    "href": "slides_old/week-01/02-demo.html#bullet-point-list",
+    "title": "Meet the Toolkit",
+    "section": "Bullet point list",
+    "text": "Bullet point list"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#incremental-list",
+    "href": "slides_old/week-01/02-demo.html#incremental-list",
+    "title": "Meet the Toolkit",
+    "section": "Incremental list",
+    "text": "Incremental list"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#equations",
+    "href": "slides_old/week-01/02-demo.html#equations",
+    "title": "Meet the Toolkit",
+    "section": "Equations",
+    "text": "Equations"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#code",
+    "href": "slides_old/week-01/02-demo.html#code",
+    "title": "Meet the Toolkit",
+    "section": "Code",
+    "text": "Code"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#images",
+    "href": "slides_old/week-01/02-demo.html#images",
+    "title": "Meet the Toolkit",
+    "section": "Images",
+    "text": "Images"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#columns",
+    "href": "slides_old/week-01/02-demo.html#columns",
+    "title": "Meet the Toolkit",
+    "section": "Columns",
+    "text": "Columns"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#panels",
+    "href": "slides_old/week-01/02-demo.html#panels",
+    "title": "Meet the Toolkit",
+    "section": "Panels",
+    "text": "Panels"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#themes",
+    "href": "slides_old/week-01/02-demo.html#themes",
+    "title": "Meet the Toolkit",
+    "section": "Themes",
+    "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics, Quarto\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 02\nAug 30\nVisualization Basics\n\n\nWeek 03\nSep 06\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 04\nSep 13\nVisualizing Distributions and Uncertainty\n\n\nWeek 05\nSep 20\nVisualizing Relationships and Change Over Time\n\n\nWeek 06\nSep 27\nColor, Output, and Composing Multiple Plots\n\n\nWeek 07\nOct 04\nVisualizing Geospatial Data\n\n\nWeek 08\nOct 11\nData Import\n\n\nWeek 09\nOct 18\nReshaping Data\n\n\nWeek 10\nOct 25\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 11\nNov 01\nNo Class: Professor at conference\n\n\nWeek 12\nNov 08\nNo Class: Professor in field\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+  },
+  {
+    "objectID": "schedule.html#weekly-schedule",
+    "href": "schedule.html#weekly-schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics, Quarto\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 02\nAug 30\nVisualization Basics\n\n\nWeek 03\nSep 06\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 04\nSep 13\nVisualizing Distributions and Uncertainty\n\n\nWeek 05\nSep 20\nVisualizing Relationships and Change Over Time\n\n\nWeek 06\nSep 27\nColor, Output, and Composing Multiple Plots\n\n\nWeek 07\nOct 04\nVisualizing Geospatial Data\n\n\nWeek 08\nOct 11\nData Import\n\n\nWeek 09\nOct 18\nReshaping Data\n\n\nWeek 10\nOct 25\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 11\nNov 01\nNo Class: Professor at conference\n\n\nWeek 12\nNov 08\nNo Class: Professor in field\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+  }
+]

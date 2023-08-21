@@ -14,27 +14,6 @@
     "text": "Add instructions for assignment."
   },
   {
-    "objectID": "assignments/week-01/w01-lab01.html",
-    "href": "assignments/week-01/w01-lab01.html",
-    "title": "Week 1, Lab 1: Swirl",
-    "section": "",
-    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
-  },
-  {
-    "objectID": "assignments/week-01/w01-lab01.html#complete-in-class",
-    "href": "assignments/week-01/w01-lab01.html#complete-in-class",
-    "title": "Week 1, Lab 1: Swirl",
-    "section": "",
-    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
-  },
-  {
-    "objectID": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
-    "href": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
-    "title": "Week 1, Lab 1: Swirl",
-    "section": "Complete over the next week or two",
-    "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
-  },
-  {
     "objectID": "assignments/TEMP_week-02/w02-lab01.html",
     "href": "assignments/TEMP_week-02/w02-lab01.html",
     "title": "Week 2, Lab 2: Markdown CV",
@@ -91,11 +70,25 @@
     "text": "Add instructions for assignment."
   },
   {
-    "objectID": "weeks/TEMP_week-01.html",
-    "href": "weeks/TEMP_week-01.html",
-    "title": "Week 01",
+    "objectID": "assignments/TEMP_week-01/w01-lab01.html",
+    "href": "assignments/TEMP_week-01/w01-lab01.html",
+    "title": "Week 1, Lab 1: Swirl",
     "section": "",
-    "text": "Readings\n\n\n\n\n\n\n\nSource\nLink\n\n\n\n\nCourse website\nCourse Policies\n\n\nHealy: Data Visualization\nPreface\n\n\nWickham: R4DS\nChapter 1: Introduction\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 1 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 1, Lab 1: Swirl\n\n\nWed, Aug 23\n\n\n\n\n\n\nNo matching items"
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/TEMP_week-01/w01-lab01.html#complete-in-class",
+    "href": "assignments/TEMP_week-01/w01-lab01.html#complete-in-class",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "",
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/TEMP_week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "href": "assignments/TEMP_week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "Complete over the next week or two",
+    "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
   },
   {
     "objectID": "weeks/TEMP_week-03.html",
@@ -110,6 +103,13 @@
     "title": "Week 02",
     "section": "",
     "text": "Lectures\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\nR for Data Science: Chapter 3 - Data Visualization\nIntroduction for Modern Statistics: Chapter 4 - Exploring Categorical Data\nIntroduction to Modern Statistics: Chapter 5- Exploring Numerical Data"
+  },
+  {
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 01",
+    "section": "",
+    "text": "Readings\n\n\n\n\n\n\n\nSource\nLink\n\n\n\n\nCourse website\nCourse Policies\n\n\nHealy: Data Visualization\nPreface\n\n\nWickham: R4DS\nChapter 1: Introduction\n\n\n\n\n\n\nLectures\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#course-information",
@@ -168,8 +168,8 @@
     "text": "Course Community\n\nCooperative Learning Environment\nI encourage you to discuss the course activities with your friends and classmates as you are working on them. You will learn more in this class if you work with others than if you do not.\nHowever, you should not directly copy code or allow other students to copy your code. When cooperating on a problem, you can discuss it with others, but write your own solutions. Direct copying of code will be considered cheating, and will be subject to the Scholastic Dishonesty policies outlined in the Student Code of Conduct\nShare ideas, ask questions, ask for help, but don’t copy.\n\n\nCode of Conduct\nI expect and require behavior compatible with a high standard of scholarship. Refrain from distracting behavior, such as talking during lectures, and wait until class is dismissed before packing up your belongings. Please try not to arrive late or leave early. Most importantly, you must show respect for each other’s opinions and differing levels of prior knowledge and ability."
   },
   {
-    "objectID": "slides/week-01/01-slides.html",
-    "href": "slides/week-01/01-slides.html",
+    "objectID": "slides/TEMP_week-01/01-slides.html",
+    "href": "slides/TEMP_week-01/01-slides.html",
     "title": "Week 1 slides",
     "section": "",
     "text": "Week 1 slides:\n\nIntroduction and Setup (PDF)\nR Basics (PDF)"
@@ -347,13 +347,13 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 01\nAug 23\nIntroduction, Setup, and R Basics\n\n\nWeek 02\nAug 30\nWorkflows, Quarto\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\n\n\nWeek 02 | Aug 30 | Workflows, Quarto |\nWeek 03 | Sep 06 | Visualization Basics |\nWeek 04 | Sep 13 | Visualizing Amounts and Parts of a Whole |\nWeek 05 | Sep 20 | Visualizing Distributions and Uncertainty |\nWeek 06 | Sep 27 | Visualizing Relationships and Change Over Time |\nWeek 07 | Oct 04 | Color, Output, and Composing Multiple Plots |\nWeek 08 | Oct 11 | Visualizing Geospatial Data |\nWeek 09 | Oct 18 | Data Import |\nWeek 10 | Oct 25 | Reshaping Data |\nWeek 11 | Nov 01 | Data Manip. 1: Filter, Select, Arrange, Mutate |\nWeek 12 | Nov 08 | No Class: Professor at conference |\nWeek 13 | Nov 15 | Data Manip. 2: Grouped Operations and Summaries (Online) |\nWeek 14 | Nov 22 | Data Manip. 3: Two-table Operations |\nWeek 15 | Nov 29 | Catch-up and Final Projects |"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 01\nAug 23\nIntroduction, Setup, and R Basics\n\n\nWeek 02\nAug 30\nWorkflows, Quarto\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\n\n\nWeek 02 | Aug 30 | Workflows, Quarto |\nWeek 03 | Sep 06 | Visualization Basics |\nWeek 04 | Sep 13 | Visualizing Amounts and Parts of a Whole |\nWeek 05 | Sep 20 | Visualizing Distributions and Uncertainty |\nWeek 06 | Sep 27 | Visualizing Relationships and Change Over Time |\nWeek 07 | Oct 04 | Color, Output, and Composing Multiple Plots |\nWeek 08 | Oct 11 | Visualizing Geospatial Data |\nWeek 09 | Oct 18 | Data Import |\nWeek 10 | Oct 25 | Reshaping Data |\nWeek 11 | Nov 01 | Data Manip. 1: Filter, Select, Arrange, Mutate |\nWeek 12 | Nov 08 | No Class: Professor at conference |\nWeek 13 | Nov 15 | Data Manip. 2: Grouped Operations and Summaries (Online) |\nWeek 14 | Nov 22 | Data Manip. 3: Two-table Operations |\nWeek 15 | Nov 29 | Catch-up and Final Projects |"
   }
 ]

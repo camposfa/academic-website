@@ -1,5 +1,12 @@
 [
   {
+    "listing": "/weeks/TEMP_week-01.html",
+    "items": [
+      "/assignments/week-01/w01-lab01.html",
+      "/slides/week-01/01-slides.html"
+    ]
+  },
+  {
     "listing": "/weeks/TEMP_week-03.html",
     "items": [
       "/labs/w3-lab02.html"
@@ -10,17 +17,7 @@
     "items": []
   },
   {
-    "listing": "/weeks/week-01.html",
-    "items": [
-      "/assignments/week-01/w01-lab01.html",
-      "/assignments/week-01/w01-lab02.html",
-      "/slides/week-01/01-slides.html"
-    ]
-  },
-  {
     "listing": "/schedule.html",
-    "items": [
-      "/weeks/week-01.html"
-    ]
+    "items": []
   }
 ]

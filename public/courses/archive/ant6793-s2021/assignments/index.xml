@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on ANT 6973, Spring 2021</title>
+    <link>/assignments/</link>
+    <description>Recent content in Assignments on ANT 6973, Spring 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blh017</title>
+      <link>/assignments/checklist/blh017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/blh017/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>Color, Saving Output, and Composing Multiple Plots</title>
+      <link>/assignments/color-output-composing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/color-output-composing/</guid>
+      <description>  No assignment for this week! 
+Finish up Small Project 1 and any other assignments that you haven’t completed.
+We will have some class time on March. 17 for any help or questions related to Small Project 1.
+ </description>
+    </item>
+    
+    <item>
+      <title>czx412</title>
+      <link>/assignments/checklist/czx412/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/czx412/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity indeterminate_check_box   2019-04-04 data-manip1 Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>Data Import</title>
+      <link>/assignments/data-import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/data-import/</guid>
+      <description>To complete this week’s activities, you will need a new package, in addition to a few you already have installed (readr, readxl).
+install.packages(&amp;quot;janitor&amp;quot;) Data for in-class activities  Example messy spreadsheet containing biographical data for various people:  deaths.xlsx Atmospheric ozone measurements of the southern hemisphere collected by NASA’s NIMBUS-7 satellite in October 1985:  nimbus.csv R markdown template for ozone activity  ozone.Rmd   Complete on your own Spreadsheets</description>
+    </item>
+    
+    <item>
+      <title>Data Manip. 2: Grouped Operations and Summaries</title>
+      <link>/assignments/dplyr-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-2/</guid>
+      <description>  Companion to in-class activities   summarise-activities.Rmd (Nothing to turn in!)   </description>
+    </item>
+    
+    <item>
+      <title>Data Manipulation 1: Filter, Arrange, Select, Mutate</title>
+      <link>/assignments/dplyr-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/dplyr-1/</guid>
+      <description>Companion to in-class activities   babynames-manip.Rmd (Nothing to turn in!)   Complete before next class 
+Data Manipulation 1
+Instructions:
+Download the R Markdown file and data files below
+ Insert your code where indicated
+ Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
+  
+  us_contagious_diseases.csv (data file)</description>
+    </item>
+    
+    <item>
+      <title>djp156</title>
+      <link>/assignments/checklist/djp156/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/djp156/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>Introduction and Setup</title>
+      <link>/assignments/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/setup/</guid>
+      <description>Complete in Class To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.
+
+Steps:
+
+Open up RStudio, type the following in the console pane (next to the &amp;gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.  install.packages(&amp;quot;swirl&amp;quot;) 
+But to actually use the functions in the swirl package, we need to load the package into our current R session.</description>
+    </item>
+    
+    <item>
+      <title>jby773</title>
+      <link>/assignments/checklist/jby773/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/jby773/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>jlh937</title>
+      <link>/assignments/checklist/jlh937/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/jlh937/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp indeterminate_check_box   2019-01-30 Introduction DataCamp indeterminate_check_box   2019-01-30 Data DataCamp indeterminate_check_box   2019-01-30 Aesthetics DataCamp indeterminate_check_box   2019-01-30 Geometries DataCamp indeterminate_check_box   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity indeterminate_check_box   2019-02-10 Statistics DataCamp indeterminate_check_box   2019-02-10 Coordinates and Facets DataCamp indeterminate_check_box   2019-02-07 baboon-activities Activity indeterminate_check_box   2019-02-21 babynames Activity indeterminate_check_box   2019-02-28 maps Activity indeterminate_check_box   2019-03-07 ozone Activity indeterminate_check_box   2019-03-07 spreadsheets Activity indeterminate_check_box   2019-03-21 tidy-data Activity indeterminate_check_box   2019-04-04 data-manip1 Activity indeterminate_check_box   2019-04-25 nyc-flights Activity indeterminate_check_box    </description>
+    </item>
+    
+    <item>
+      <title>Joins</title>
+      <link>/assignments/joins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/joins/</guid>
+      <description>To complete this week&amp;rsquo;s activities, you will need to install the package nycflights13. Do this in console, not in your R Markdown file!
+install.packages(&amp;quot;nycflights13&amp;quot;) Companion to in-class activities  two-table-operations.Rmd (Nothing to turn in!)  Complete before next class NYC Flights Instructions:
+  Download the R Markdown file and data files below
+  Insert your code where indicated
+  Email me your knitted .html output.
+    nyc-flights.</description>
+    </item>
+    
+    <item>
+      <title>pkk097</title>
+      <link>/assignments/checklist/pkk097/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/pkk097/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>qxr592</title>
+      <link>/assignments/checklist/qxr592/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/qxr592/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>R Basics and R Markdown</title>
+      <link>/assignments/r-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/r-basics/</guid>
+      <description>Setup To complete this week’s activities, you must have a few packages installed. You can do so by running the commands below in your R console (only needs to be done once).
+install.packages(&amp;quot;tidyverse&amp;quot;) install.packages(&amp;quot;here&amp;quot;) install.packages(&amp;quot;rmarkdown&amp;quot;)  Complete in Class Markdown CV
+Instructions:
+Create a basic CV in markdown (you can make stuff up!)
+ What to include
+Top-level header should be your name
+ Include contact info: phone, email, and link to some website.</description>
+    </item>
+    
+    <item>
+      <title>Reshaping Data</title>
+      <link>/assignments/reshaping-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/reshaping-data/</guid>
+      <description>  Complete on your own 
+Tidy Data
+Instructions:
+Download the R Markdown file below
+ Insert your code where indicated
+ Download the R Markdown file below, insert your code where indicated, and upload your knitted .html output and the .Rmd file to Blackboard.
+  
+  school-earnings.csv  tidy-data.Rmd  tidy-data-solutions.html (for reference—code removed.)   </description>
+    </item>
+    
+    <item>
+      <title>Visualization Basics</title>
+      <link>/assignments/viz-basics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-basics/</guid>
+      <description>Complete in Class Mammalian sleep dataset: msleep
+ Description of dataset From V. M. Savage and G. B. West. A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104 (3):1051-1056, 2007.  
+Instructions:
+Download the R Markdown file below, insert your code where indicated, submit the .md and .html files for your activity in Blackboard.
+  msleep.Rmd  msleep_solutions.html (for reference only—finished plots with no code!</description>
+    </item>
+    
+    <item>
+      <title>Visualization Challenges</title>
+      <link>/assignments/viz-challenges/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-challenges/</guid>
+      <description>Catch-up work   Work on Small Project 2!
+  Get caught up will any other assignments that you haven&amp;rsquo;t completed. This includes:
+ 9 DataCamp chapters. msleep pies baboon-activities babynames maps ozone spreadsheets tidy-data data-manip1    If you&amp;rsquo;re all caught up, practice your data manipulation and plotting skills by working on the two small challenges below. I&amp;rsquo;ll post solutions after class is over.
+1. Sex differences in mortality over time in Western Europe Data:</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Amounts and Parts of a Whole</title>
+      <link>/assignments/viz-amounts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-amounts/</guid>
+      <description>Complete in Class Baboon Activity Budgets (if we run out of time, complete between now and class on Feb. 17)
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
+  baboon-activities.Rmd  baboon_acts_2000.csv (data file)  baboon-activities-solutions.html (for reference—finished plots with no code!)  If you get stuck, please email me for some help!</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Distributions and Uncertainty</title>
+      <link>/assignments/viz-distributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-distributions/</guid>
+      <description>  Data for in-class activities   late-quaternary-mammals.RDS  model_summary.csv   Complete on your own Body Mass of Late Quaternary Mammals
+Instructions: Download the R Markdown file below, insert your code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
+  quaternary-mammals.Rmd  quaternary-mammals-solutions.html (for reference—finished plots with no code!)   </description>
+    </item>
+    
+    <item>
+      <title>Visualizing Geospatial Data</title>
+      <link>/assignments/viz-geospatial/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-geospatial/</guid>
+      <description>Data for in-class activities  Zip file containing shapefile of county-level income data for Texas:  texas_income.zip GeoTIFF of elevation data for northwestern Costa Rica:  acg_elevation.tif   Complete on your own Maps
+Instructions:
+Follow the instructions at the bottom of this page under the heading “Extra Software and R Packages for Geospatial Data”. These steps should install the necessary software for spatial data visualization.
+ Download the .</description>
+    </item>
+    
+    <item>
+      <title>Visualizing Relationships and Change Over Time</title>
+      <link>/assignments/viz-relationships/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/viz-relationships/</guid>
+      <description>  Complete in Class and Submit Baby Names
+Instructions: Download the R Markdown file below, insert your answers and code where indicated, submit the .Rmd and .html files for your activity in Blackboard.
+To complete this assignment, you must install the babynames package:
+install.packages(&amp;quot;babynames&amp;quot;)   babynames.Rmd  babynames-solutions.html (for reference—finished plots with no code!)   </description>
+    </item>
+    
+    <item>
+      <title>xtk397</title>
+      <link>/assignments/checklist/xtk397/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/xtk397/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity indeterminate_check_box   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>ynd222</title>
+      <link>/assignments/checklist/ynd222/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/ynd222/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>zvh170</title>
+      <link>/assignments/checklist/zvh170/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/zvh170/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-25 nyc-flights Activity check_circle    </description>
+    </item>
+    
+    <item>
+      <title>zyn312</title>
+      <link>/assignments/checklist/zyn312/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignments/checklist/zyn312/</guid>
+      <description>DataCamp Activities   Date Assignment Name Type Completed     2019-01-17 Orientation DataCamp check_circle   2019-01-24 Intro to basics DataCamp check_circle   2019-01-24 Authoring R Markdown Reports DataCamp check_circle   2019-01-30 Introduction DataCamp check_circle   2019-01-30 Data DataCamp check_circle   2019-01-30 Aesthetics DataCamp check_circle   2019-01-30 Geometries DataCamp check_circle   2019-01-31 msleep Activity check_circle   2019-02-07 pies Activity check_circle   2019-02-10 Statistics DataCamp check_circle   2019-02-10 Coordinates and Facets DataCamp check_circle   2019-02-07 baboon-activities Activity check_circle   2019-02-21 babynames Activity check_circle   2019-02-28 maps Activity check_circle   2019-03-07 ozone Activity check_circle   2019-03-07 spreadsheets Activity check_circle   2019-03-21 tidy-data Activity check_circle   2019-04-04 data-manip1 Activity check_circle   2019-04-04 data-manip1 Activity check_circle    </description>
+    </item>
+    
+  </channel>
+</rss>

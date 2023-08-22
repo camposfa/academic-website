@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <meta name="generator" content="Hugo 0.81.0" />                                                                   
+               
+    
+  <title>ANT 6973, Spring 2021</title>
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../../img/favicon.png">
+	
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	
+  <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/wesbos/Font-Awesome-Docker-Icon/master/fontcustom/fontcustom.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css">
+
+	
+  <link href="../../css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../../css/material-kit.css" rel="stylesheet"/>
+  
+  
+
+  
+    
+  <link rel="alternate" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2021">
+  <link rel="feed" href="../../index.xml" type="application/rss+xml" title="ANT 6973, Spring 2021">
+  <link rel="canonical" href="../../assignments/setup/">
+</head>
+
+  
+<body class="profile-page">
+  	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+	    	<div class="container">
+        	
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="../../">ANT 6973, Spring 2021</a>
+        	</div>
+
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+      
+        
+
+        <li class="nav-item">
+          <a href="../../">
+            <i class='sidebar-button-icon fa fa-lg fa-home'></i>
+            <span>Home</span>
+          </a>
+        </li>
+        
+      
+        
+
+        <li class="nav-item">
+          <a href="../../schedule">
+            <i class='material-icons'>date_range</i>
+            <span>Schedule</span>
+          </a>
+        </li>
+        
+      
+        
+
+        <li class="nav-item">
+          <a href="../../policies">
+            <i class='material-icons'>gavel</i>
+            <span>Policies</span>
+          </a>
+        </li>
+        
+      
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
+  <div class="wrapper">
+    <div class="header header-filter" style="background-image: url('/img/mugesketch.png');">
+    </div>
+		<div class="main main-raised">
+			<div class="container">
+		  	<div class="section text-left">
+		  	  <h2 class="title text-center">Introduction and Setup</h2>
+	            
+<script src="../../rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<div id="complete-in-class" class="section level2">
+<h2>Complete in Class</h2>
+<p>To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using <a href="https://swirlstats.com/">swirl</a>.</p>
+<p><br></p>
+<p><strong>Steps:</strong></p>
+<p><br></p>
+<ol style="list-style-type: decimal">
+<li>Open up RStudio, type the following in the console pane (next to the <code>&gt;</code> symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.</li>
+</ol>
+<pre><code>install.packages(&quot;swirl&quot;)</code></pre>
+<p><br></p>
+<ol start="2" style="list-style-type: decimal">
+<li>But to actually use the functions in the swirl package, we need to <strong>load</strong> the package into our current R session. We do this using the <code>library()</code> function, providing it the name of the package that we want to load.</li>
+</ol>
+<pre><code>library(&quot;swirl&quot;)</code></pre>
+<p><br></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Enter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).</li>
+</ol>
+<pre><code>install_course_github(&quot;swirldev&quot;, &quot;R_Programming_E&quot;)</code></pre>
+<p><br></p>
+<ol start="4" style="list-style-type: decimal">
+<li>Okay! We’re ready to run the course. Enter the following:</li>
+</ol>
+<pre><code>swirl()</code></pre>
+<p><br></p>
+<ol start="5" style="list-style-type: decimal">
+<li>When prompted (after a few screens), choose the lesson called “<strong>Basic Building Blocks</strong>”.</li>
+</ol>
+<hr>
+</div>
+<div id="complete-over-the-next-week-or-two" class="section level2">
+<h2>Complete over the next week or two</h2>
+<p>In the same <code>swirl</code> course called “R_Programming_E”, complete the following lessons:</p>
+<ul>
+<li>2: Workspace and Files</li>
+<li>3: Sequences of Numbers</li>
+<li>4: Vectors</li>
+<li>5: Missing values</li>
+<li>8: Logic</li>
+<li>9: Functions</li>
+<li>12: Looking at Data</li>
+</ul>
+<p><br></p>
+<p><strong>Note:</strong> these exercises will not be graded, and I can’t even check if you’ve completed them or not. <em>So don’t get stressed if you find them challenging.</em> They are meant to teach basic skills in R that will be very useful going forward.</p>
+<p>To complete these courses, there’s no need to reinstall <code>swirl</code>. Just type <code>swirl()</code> at the console (step 4), and you’ll get back to the list of available lessons.</p>
+<p><br><br></p>
+<p><strong>Tip:</strong> here are some commands that you can use while working on a <code>swirl</code> lesson.</p>
+<pre><code>| When you are at the R prompt (&gt;):
+| -- Typing skip() allows you to skip the current question.
+| -- Typing bye() causes swirl to exit. Your progress will be saved.
+| -- Typing main() returns you to swirl&#39;s main menu.
+| -- Typing info() displays these options again.</code></pre>
+</div>
+
+	      </div>
+      </div>
+		</div>
+    <footer class="footer">
+  <div class="container">
+	  <nav class="pull-left">
+	    <ul>
+	    
+        
+
+        <li>
+          <a href="https://github.com/camposfa/data-viz-course"><i class='fab fa-github fa-2x'></i> Github</a>
+        </li>
+        
+      
+        
+
+        <li>
+          <a href="https://clauswilke.com/dataviz/"><i class='material-icons'>book</i> Textbook: Wilke</a>
+        </li>
+        
+      
+        
+
+        <li>
+          <a href="https://socviz.co/"><i class='material-icons'>book</i> Textbook: Healy</a>
+        </li>
+        
+      
+        
+
+        <li>
+          <a href="https://moderndive.com"><i class='material-icons'>book</i> Textbook: ModernDive</a>
+        </li>
+        
+      
+        
+
+        <li>
+          <a href="http://r4ds.had.co.nz/"><i class='material-icons'>book</i> Textbook: R4DS</a>
+        </li>
+        
+      
+      </ul>
+    </nav>
+	  <div class="copyright pull-right">
+	    <img src="../../img/cc-by.svg"/>
+	  </div>
+  </div>
+</footer>
+	</div>
+</body>
+
+   
+  
+  
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	
+	
+	
+	<script src="../../js/material.min.js"></script>
+
+
+	
+	<script src="../../js/nouislider.min.js" type="text/javascript"></script>
+	
+	<script src="../../js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	
+	<script src="../../js/material-kit.js" type="text/javascript"></script>
+
+   
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    <script async src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML"></script>
+    
+</html>

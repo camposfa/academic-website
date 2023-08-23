@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   </ul>
@@ -199,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Week 02</h1>
-<p class="subtitle lead">Visualization Basics</p>
+<p class="subtitle lead">Workflows and Quarto</p>
 </div>
 
 <div>
@@ -219,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="lectures" class="level1">
-<h1>Lectures</h1>
+<section id="slides" class="level1">
+<h1>Slides</h1>
 <div id="listing-slides" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
@@ -267,9 +267,9 @@ No matching items
 <section id="readings" class="level1">
 <h1>Readings</h1>
 <ul>
-<li><p><a href="https://r4ds.had.co.nz/data-visualisation.html">R for Data Science: Chapter 3 - Data Visualization</a></p></li>
-<li><p><a href="https://openintro-ims.netlify.app/explore-categorical.html">Introduction for Modern Statistics: Chapter 4 - Exploring Categorical Data</a></p></li>
-<li><p><a href="https://openintro-ims.netlify.app/explore-numerical.html">Introduction to Modern Statistics: Chapter 5- Exploring Numerical Data</a></p></li>
+<li><p><a href="https://r4ds.hadley.nz/workflow-scripts">R for Data Science: Workflow: scripts and projects</a></p></li>
+<li><p><a href="https://r4ds.hadley.nz/workflow-style">R for Data Science: Workflow: cody style</a></p></li>
+<li><p><a href="https://quarto.org/docs/get-started/hello/rstudio.html">Tutorial: Hello, Quarto</a></p></li>
 </ul>
 
 
@@ -508,6 +508,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

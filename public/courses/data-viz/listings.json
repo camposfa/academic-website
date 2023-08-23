@@ -1,9 +1,7 @@
 [
   {
     "listing": "/weeks/TEMP_week-03.html",
-    "items": [
-      "/labs/w3-lab02.html"
-    ]
+    "items": []
   },
   {
     "listing": "/weeks/TEMP_week-02.html",
@@ -11,7 +9,10 @@
   },
   {
     "listing": "/weeks/week-01.html",
-    "items": []
+    "items": [
+      "/assignments/week-01/w01-lab01.html",
+      "/slides/week-01/01-slides.html"
+    ]
   },
   {
     "listing": "/schedule.html",

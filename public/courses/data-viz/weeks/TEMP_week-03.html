@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Sep 12 - 16">
+<meta name="description" content="Aug 30">
 
-<title>ANT 6973: Data Visualization and Exploration - Week 03</title>
+<title>ANT 6973: Data Visualization and Exploration - Week 02</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,7 +64,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-slides .list');
+    const listingTargetEl = window.document.querySelector('#listing-assignments .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -77,7 +77,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-slides'] = new List('listing-slides', options);
+    window['quarto-listings']['listing-assignments'] = new List('listing-assignments', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -92,20 +92,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-assignments .list');
+    const listingTargetEl = window.document.querySelector('#listing-slides .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-categories','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-assignments'] = new List('listing-assignments', options);
+    window['quarto-listings']['listing-slides'] = new List('listing-slides', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -134,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 03</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 02</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -187,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures">Lectures</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link active" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   <li><a href="#readings" id="toc-readings" class="nav-link" data-scroll-target="#readings">Readings</a></li>
   </ul>
@@ -198,13 +198,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 03</h1>
-<p class="subtitle lead">Wrangling Data</p>
+<h1 class="title">Week 02</h1>
+<p class="subtitle lead">Visualization Basics</p>
 </div>
 
 <div>
   <div class="description">
-    Sep 12 - 16
+    Aug 30
   </div>
 </div>
 
@@ -219,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="lectures" class="level1">
-<h1>Lectures</h1>
+<section id="slides" class="level1">
+<h1>Slides</h1>
 <div id="listing-slides" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
@@ -228,9 +228,6 @@ ul.task-list li input[type="checkbox"] {
 <tr>
 <th>
 Topic
-</th>
-<th>
-Date
 </th>
 </tr>
 </thead>
@@ -251,9 +248,6 @@ No matching items
 <thead>
 <tr>
 <th>
-Assignment
-</th>
-<th>
 Title
 </th>
 <th>
@@ -262,17 +256,6 @@ Due
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="Lab" data-listing-date-sort="1663909200000" data-listing-file-modified-sort="1690924776073" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Lab 02: Data visualization with ggplot2!" data-listing-filename-sort="w3-lab02.qmd">
-<td>
-<span class="listing-categories">Lab</span>
-</td>
-<td>
-<a href="../labs/w3-lab02.html" class="title listing-title">Lab 02: Data visualization with ggplot2!</a>
-</td>
-<td>
-<span class="listing-date">Fri, Sep 23</span>
-</td>
-</tr>
 </tbody>
 
 </table>
@@ -283,6 +266,11 @@ No matching items
 </section>
 <section id="readings" class="level1">
 <h1>Readings</h1>
+<ul>
+<li><p><a href="https://r4ds.had.co.nz/data-visualisation.html">R for Data Science: Chapter 3 - Data Visualization</a></p></li>
+<li><p><a href="https://openintro-ims.netlify.app/explore-categorical.html">Introduction for Modern Statistics: Chapter 4 - Exploring Categorical Data</a></p></li>
+<li><p><a href="https://openintro-ims.netlify.app/explore-numerical.html">Introduction to Modern Statistics: Chapter 5- Exploring Numerical Data</a></p></li>
+</ul>
 
 
 
@@ -520,6 +508,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

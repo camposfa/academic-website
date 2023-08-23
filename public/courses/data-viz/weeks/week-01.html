@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -99,9 +99,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -188,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link" data-scroll-target="#lectures">Lectures</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   </ul>
 </nav>
@@ -249,8 +249,8 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p><br></p>
 </section>
-<section id="lectures" class="level1">
-<h1>Lectures</h1>
+<section id="slides" class="level1">
+<h1>Slides</h1>
 <div id="listing-slides" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
@@ -262,6 +262,11 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1692766800000" data-listing-file-modified-sort="1692794012907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 1 slides" data-listing-filename-sort="01-slides.qmd">
+<td>
+<a href="../slides/week-01/01-slides.html" class="title listing-title">Week 1 slides</a>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -287,6 +292,14 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1692766800000" data-listing-file-modified-sort="1691966460249" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Week 1, Lab 1: Swirl" data-listing-filename-sort="w01-lab01.qmd">
+<td>
+<a href="../assignments/week-01/w01-lab01.html" class="title listing-title">Week 1, Lab 1: Swirl</a>
+</td>
+<td>
+<span class="listing-date">Wed, Aug 23</span>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -531,6 +544,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

@@ -105,11 +105,32 @@
     "text": "Slides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\nR for Data Science: Chapter 3 - Data Visualization\nIntroduction for Modern Statistics: Chapter 4 - Exploring Categorical Data\nIntroduction to Modern Statistics: Chapter 5- Exploring Numerical Data"
   },
   {
-    "objectID": "weeks/TEMP_week-02.html",
-    "href": "weeks/TEMP_week-02.html",
+    "objectID": "weeks/week-02.html",
+    "href": "weeks/week-02.html",
     "title": "Week 02",
     "section": "",
-    "text": "Slides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nReadings\n\nR for Data Science: Workflow: scripts and projects\nR for Data Science: Workflow: cody style\nTutorial: Hello, Quarto"
+    "text": "Topic\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "weeks/week-02.html#more-on-r-basics-mostly-review",
+    "href": "weeks/week-02.html#more-on-r-basics-mostly-review",
+    "title": "Week 02",
+    "section": "More on R basics (mostly review):",
+    "text": "More on R basics (mostly review):\n\nR for Data Science: Workflow: basics. A good, concise recap of essential R basics.\nModernDive Ch. 1: Getting Started with Data in R. Section 1.1 is all review, the rest may be more useful."
+  },
+  {
+    "objectID": "weeks/week-02.html#guidance-on-how-to-organize-your-workflows-and-write-clearly-in-r",
+    "href": "weeks/week-02.html#guidance-on-how-to-organize-your-workflows-and-write-clearly-in-r",
+    "title": "Week 02",
+    "section": "Guidance on how to organize your workflows and write clearly in R:",
+    "text": "Guidance on how to organize your workflows and write clearly in R:\n\nR for Data Science: Workflow: scripts and projects.\nR for Data Science: Workflow: cody style. Consistent style is an important element of writing clear, understandable code and is vital for effective collaboration on code. Don’t worry if you don’t understand all the code examples in this section. Just try to get a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.)"
+  },
+  {
+    "objectID": "weeks/week-02.html#introduction-to-quarto",
+    "href": "weeks/week-02.html#introduction-to-quarto",
+    "title": "Week 02",
+    "section": "Introduction to Quarto:",
+    "text": "Introduction to Quarto:\n\nTutorial: Hello, Quarto."
   },
   {
     "objectID": "weeks/week-01.html",
@@ -354,13 +375,13 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 02\nAug 30\nWorkflows, Quarto\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\nWorkflows and Quarto\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 02\nAug 30\nWorkflows, Quarto\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\nIntroduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\nWorkflows and Quarto\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 03\nSep 06\nVisualization Basics\n\n\nWeek 04\nSep 13\nVisualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\nVisualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\nVisualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\nColor, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\nVisualizing Geospatial Data\n\n\nWeek 09\nOct 18\nData Import\n\n\nWeek 10\nOct 25\nReshaping Data\n\n\nWeek 11\nNov 01\nData Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\nNo Class: Professor at conference\n\n\nWeek 13\nNov 15\nData Manip. 2: Grouped Operations and Summaries (Online)\n\n\nWeek 14\nNov 22\nData Manip. 3: Two-table Operations\n\n\nWeek 15\nNov 29\nCatch-up and Final Projects"
   }
 ]

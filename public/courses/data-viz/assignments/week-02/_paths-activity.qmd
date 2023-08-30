@@ -1,0 +1,144 @@
+---
+title: "Paths activity"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+We need to load the package `knitr` for this activity to use the function `kable()`. This will allow us to display the nice HTML table near the bottom of the document. We're also going to use the package `here` for this activity, so let's load it into our R session. 
+
+```{r}
+#| message: false
+library("knitr")
+library("here")
+```
+
+## Activity 1
+
+First, let's get a look at the issue by having R tell us the working directory. Copy the command below and run it **in your console.** And then verify that this will give a **different** result than what appears below in your rendered report. Uh-oh!
+
+```{r}
+getwd() # Also run in console
+```
+
+**Q1: How do these paths differ, and why?**
+
+<!-- Write your answer to Q1 below. -->
+
+<!-- Write your answer to Q1 above. -->
+
+<br>
+
+## Activity 2
+
+Modify the command below by providing a relative path that it executes successfully in your **R console** but NOT when rendering the report. Note that I added the chunk option `#| error: true` to allow the document to render, despite the error, and show the R error in the report. When you do this correctly, the error should remain in the rendered report!
+
+```{r}
+#| error: true
+school_earnings <- read.csv("<your relative path here>")
+```
+
+**Q2: Why does this fail when rendering the report?**
+
+<!-- Write your answer to Q2 below. -->
+
+<!-- Write your answer to Q2 above. -->
+
+<br>
+
+## Activity 3
+
+Now modify the command below by providing a relative path that works correctly **when rendering** but NOT in the R console. This time, when you do this correctly, the error message should disappear from the rendered report, and a table of values should appear below the R chunk. (Hint: you'll need to navigate "up" from your `.Rmd` file's working directory).
+
+```{r}
+#| error: true
+school_earnings <- read.csv("<your relative path here>")
+
+kable(head(school_earnings))
+```
+
+**Q3: Why does this fail in the R console?**
+
+<!-- Write your answer to Q3 below. -->
+
+<!-- Write your answer to Q3 above. -->
+
+<br>
+
+## Activity 4
+
+You might be tempted to solve this problem by typing out the absolute path. Future-you is very disappointed 😢.
+
+The following works on my laptop computer but not on my home computer, and definitely does **not** work on any of your computers (you should see an error, which does not appear for me).
+
+```{r}
+#| error: true
+#| eval: false
+school_earnings <- read.csv("/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/classroom/data/school_earnings.csv")
+```
+
+Modify the code below by providing an **absolute path** that works for you. If successful, a table of data should appear below, and the error should disappear.
+
+```{r}
+#| error: true
+# This should work for you alone.
+# If successful, you should see no error below this box.
+school_earnings <- read.csv("<your absolute path here>")
+kable(head(school_earnings))
+```
+
+**Q4: Assuming you did this correctly, why does this work in both the R console and when rendering report? And given this success, what are possible drawbacks of using this approach?**
+
+<!-- Write your answer to Q4 below. -->
+
+<!-- Write your answer to Q4 above. -->
+
+<br>
+
+## Activity 5: `here()` to the rescue
+
+Finally, let's resolve this problem using the `here` package. Modify the code below by providing the relative path *from the project root* to the data file using the `here()` function inside of `read.csv()`.
+
+```{r}
+#| error: true
+
+# Should work both in console and when rendering
+school_earnings <- read.csv(here("<your relative path here>"))
+
+kable(head(school_earnings))
+```
+
+Note that, once this is done correctly, it continues to work **even if I use `setwd()` to use some totally inappropriate directory as the working directory in my Quarto file, like some kind of maniac.**
+
+```{r}
+#| error: true
+setwd("~/.Trash/") # <- BAD BAD BAD WHY U DO THIS!!!
+
+school_earnings <- read.csv(here("<same relative path here as above>"))
+
+kable(head(school_earnings))
+```
+
+**Q5: The code above should "just work" in any scenario. Assuming you did this correctly, verify that this works both in the rendered document AND in your R console.**
+
+<!-- Write your answer to Q5 below. -->
+
+Choose your answer wisely by deleting one option below:
+  
+  1. I verify that this worked.
+  2. You lied to me.
+
+<!-- Write your answer to Q5 above. -->
+
+<br>
+
+------------------------------------------------------------------------
+
+# Recap of best practices
+
+Here are my recommendations for avoiding path-related pain in R.
+
+1.  Always work in a project.
+2.  Always use relative paths.
+3.  Never use the `setwd()` command.
+4.  If your project folder is complex and organized into subfolders, use the `here` R package to refer to files relative to the project root folder.

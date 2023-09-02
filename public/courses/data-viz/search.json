@@ -42,11 +42,32 @@
     "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
   },
   {
-    "objectID": "assignments/TEMP_week-03/w03-hw02.html",
-    "href": "assignments/TEMP_week-03/w03-hw02.html",
-    "title": "HW 02: Data visualization",
-    "section": "",
-    "text": "Add instructions for assignment."
+    "objectID": "assignments/TEMP_week-03/w03-lab01.html#description-of-data-set",
+    "href": "assignments/TEMP_week-03/w03-lab01.html#description-of-data-set",
+    "title": "Week 3, Lab 1: Visualization Basics",
+    "section": "Description of data set",
+    "text": "Description of data set\nmsleep:  Quantitative data on sleep patterns for for 96 species of mammals, spanning six orders of magnitude in body size (Savage & West, 2007).\nThis data set already is included in the ggplot2 package, so there is no need to download it."
+  },
+  {
+    "objectID": "assignments/TEMP_week-03/w03-lab01.html#instructions",
+    "href": "assignments/TEMP_week-03/w03-lab01.html#instructions",
+    "title": "Week 3, Lab 1: Visualization Basics",
+    "section": "Instructions",
+    "text": "Instructions\n\nInstall the R package ggrepel, which we will use in the activity today, by running this command once in your console:\ninstall.packages(\"ggrepel\")\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
+  },
+  {
+    "objectID": "assignments/TEMP_week-03/w03-lab01.html#ggplot2-resources",
+    "href": "assignments/TEMP_week-03/w03-lab01.html#ggplot2-resources",
+    "title": "Week 3, Lab 1: Visualization Basics",
+    "section": "ggplot2 resources",
+    "text": "ggplot2 resources\n\nQuick-reference ggplot2 cheatsheet  \nComprehensive ggplot2 documentation\nA book with more detail about ggplot2 than you’ll ever need\n\n\n\n\n\n\n\nTip\n\n\n\nWhen reading about ggplot2, you will eventually come across the qplot() function (for “quick plot”). It’s a bare-bones, training-wheels version of the ggplot() function that provides far fewer options. It’s less useful and not much easier to use, so I recommend never to use it."
+  },
+  {
+    "objectID": "assignments/TEMP_week-03/w03-lab01.html#references",
+    "href": "assignments/TEMP_week-03/w03-lab01.html#references",
+    "title": "Week 3, Lab 1: Visualization Basics",
+    "section": "References",
+    "text": "References\n\n\nSavage, V. M., & West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104(3), 1051–1056. https://doi.org/10.1073/pnas.0610080104"
   },
   {
     "objectID": "assignments/week-02/markdown-cv.html",
@@ -116,7 +137,7 @@
     "href": "assignments/week-02/w02-lab02.html#absolute-paths",
     "title": "Week 2, Lab 2: Files and Paths",
     "section": "Absolute Paths",
-    "text": "Absolute Paths\nAbsolute paths start from the root (top-level) directory of your filesystem and include every step (sub-folder) you must take through the filesystem to reach the target location. The working directory is irrelevant to a properly specified absolute path. In other words, an absolute path points to the same location on a particular computer regardless of your R session’s current working directory.\nExamples of made-up absolute paths:\n\nWindows: \"C:\\Users\\czx412\\Documents\\deeply\\nested\\path\\that\\only\\I\\can\\use\\data\\my_file.csv\"\nMac/Linux: \"/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\"\n\nNote that absolute paths look different depending on the operating system. In Windows, they start with a drive letter followed by a colon, and in Mac/Linux they start with a forward slash.\nAlso, for weird historical reasons, paths in Windows traditionally use \\, while Unix/Mac use / to separate the folder names. This difference adds an extra complication: \\ is a special character in R, which means that the Windows path as written above would not work in R. Fortunately, most apps in Windows (including R) have added support for paths that use /:\n\nAbsolute path in Windows that would work in R: \"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\".\n\nYou can still write your paths using \\ if you’re running R on Windows, but because the single backslash is a special character, you need to use two of them each time:\n\nAbsolute path in Windows that would work in R, as written by the utterly deranged: \"C:\\\\Users\\\\czx412\\\\Documents\\\\deeply\\\\nested\\\\path\\\\that\\\\only\\\\I\\\\can\\\\use\\\\data\\\\my_file.csv\".\n\n\n\n\n\n\n\nCaution\n\n\n\nThe independence of absolute paths from the working directory concept might make you think absolute paths are always the way to go in R. And you’d be wrong. Avoid using absolute paths in R!\n\n\nAbsolute paths are a common source of problems.\nAside from their annoying length, absolute paths don’t work on different computers and tend to break over time. A file that exists in a certain place on your computer right now almost certainly does not exist in that exact same place on someone else’s computer, or on another computer that you use now or in the future. But if you use relative paths (see below) in a consistent way, then they should work other computers, regardless of where the project root directory is located in each different computer’s file system.\nNot sharing code with anybody or using multiple computers right at this very moment? Don’t forget future-you! Current-you should should have an interest in helping future-you to work efficiently rather than sabotaging their work by filling your R scripts with what will eventually become broken file paths."
+    "text": "Absolute Paths\nAbsolute paths start from the root (top-level) directory of your filesystem and include every step (sub-folder) you must take through the filesystem to reach the target location. The working directory is irrelevant to a properly specified absolute path. In other words, an absolute path points to the same location on a particular computer regardless of your R session’s current working directory.\nExamples of made-up absolute paths:\n\nWindows  : \"C:\\Users\\czx412\\Documents\\deeply\\nested\\path\\that\\only\\I\\can\\use\\data\\my_file.csv\"\nMac   / Linux  : \"/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\"\n\nNote that absolute paths look different depending on the operating system. In Windows, they start with a drive letter followed by a colon, and in Mac/Linux they start with a forward slash.\nAlso, for weird historical reasons, paths in Windows traditionally use \\, while Unix/Mac use / to separate the folder names. This difference adds an extra complication: \\ is a special character in R, which means that the Windows path as written above would not work in R. Fortunately, most apps in Windows (including R) have added support for paths that use /:\n\nAbsolute path in Windows    that would work in R: \"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\".\n\nYou can still write your paths using \\ if you’re running R on Windows, but because the single backslash is a special character, you need to use two of them each time:\n\nAbsolute path in Windows    that would work in R, as written by the utterly deranged: \"C:\\\\Users\\\\czx412\\\\Documents\\\\deeply\\\\nested\\\\path\\\\that\\\\only\\\\I\\\\can\\\\use\\\\data\\\\my_file.csv\".\n\n\n\n\n\n\n\nCaution\n\n\n\nThe independence of absolute paths from the working directory concept might make you think absolute paths are always the way to go in R. And you’d be wrong. Avoid using absolute paths in R!\n\n\nAbsolute paths are a common source of problems.\nAside from their annoying length, absolute paths don’t work on different computers and tend to break over time. A file that exists in a certain place on your computer right now almost certainly does not exist in that exact same place on someone else’s computer, or on another computer that you use now or in the future. But if you use relative paths (see below) in a consistent way, then they should work other computers, regardless of where the project root directory is located in each different computer’s file system.\nNot sharing code with anybody or using multiple computers right at this very moment? Don’t forget future-you! Current-you should should have an interest in helping future-you to work efficiently rather than sabotaging their work by filling your R scripts with what will eventually become broken file paths."
   },
   {
     "objectID": "assignments/week-02/w02-lab02.html#relative-paths",
@@ -144,7 +165,7 @@
     "href": "weeks/week-02.html",
     "title": "Week 02",
     "section": "",
-    "text": "R for Data Science: Workflow: basics. A good, concise recap of essential R basics.\nModernDive Ch. 1: Getting Started with Data in R. Section 1.1 is all review, the rest may be more useful.\n\n\n\n\n\nR for Data Science: Workflow: scripts and projects.\nR for Data Science: Workflow: cody style. Consistent style is an important element of writing clear, understandable code and is vital for effective collaboration on code. Don’t worry if you don’t understand all the code examples in this section. Just try to get a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.)\n\n\n\n\n\nTutorial: Hello, Quarto."
+    "text": "R for Data Science: Workflow: basics. A good, concise recap of essential R basics.\nModernDive Ch. 1: Getting Started with Data in R. Section 1.1 is all review, the rest may be more useful.\n\n\n\n\n\nR for Data Science: Workflow: scripts and projects.\nR for Data Science: Workflow: cody style. Consistent style is an important element of writing clear, understandable code and is vital for effective collaboration on code. Don’t worry if you don’t understand all the code examples in this section. Just try to get a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.)\n\n\n\n\n\nTutorial: Hello, Quarto.\nQuarto Cheatsheet ."
   },
   {
     "objectID": "weeks/week-02.html#more-on-r-basics-mostly-review",
@@ -165,7 +186,7 @@
     "href": "weeks/week-02.html#introduction-to-quarto",
     "title": "Week 02",
     "section": "",
-    "text": "Tutorial: Hello, Quarto."
+    "text": "Tutorial: Hello, Quarto.\nQuarto Cheatsheet ."
   },
   {
     "objectID": "weeks/week-03.html",
@@ -242,14 +263,14 @@
     "href": "slides/week-01/01-slides.html",
     "title": "Week 1 slides",
     "section": "",
-    "text": "Week 1 slides:\n\nIntroduction, Setup, and R Basics (PDF)"
+    "text": "Week 1 slides:\n\nIntroduction, Setup, and R Basics"
   },
   {
     "objectID": "slides/week-02/02-slides.html",
     "href": "slides/week-02/02-slides.html",
     "title": "Week 2 slides",
     "section": "",
-    "text": "Week 2 slides:\n\nWorkflows and Quarto (PDF)"
+    "text": "Week 2 slides:\n\nWorkflows and Quarto"
   },
   {
     "objectID": "syllabus.html",

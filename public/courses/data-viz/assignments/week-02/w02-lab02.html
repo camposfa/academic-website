@@ -251,17 +251,17 @@ Note
 <p>Absolute paths start from the root (top-level) directory of your filesystem and include every step (sub-folder) you must take through the filesystem to reach the target location. The working directory is irrelevant to a properly specified absolute path. In other words, an absolute path points to the same location on a particular computer <em>regardless of your R session’s current working directory</em>.</p>
 <p><strong>Examples of made-up absolute paths:</strong></p>
 <ul>
-<li>Windows: <code>"C:\Users\czx412\Documents\deeply\nested\path\that\only\I\can\use\data\my_file.csv"</code></li>
-<li>Mac/Linux: <code>"/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv"</code></li>
+<li>Windows &nbsp;<i class="fa-brands fa-windows" aria-label="windows"></i>: <code>"C:\Users\czx412\Documents\deeply\nested\path\that\only\I\can\use\data\my_file.csv"</code></li>
+<li>Mac &nbsp;<i class="fa-brands fa-apple" aria-label="apple"></i>&nbsp;/&nbsp;Linux &nbsp;<i class="fa-brands fa-linux" aria-label="linux"></i>: <code>"/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv"</code></li>
 </ul>
 <p>Note that absolute paths look different depending on the operating system. In Windows, they start with a drive letter followed by a colon, and in Mac/Linux they start with a forward slash.</p>
 <p>Also, for weird historical reasons, paths in Windows traditionally use <code>\</code>, while Unix/Mac use <code>/</code> to separate the folder names. This difference adds an extra complication: <code>\</code> is a special character in R, which means that the Windows path as written above would not work in R. Fortunately, most apps in Windows (including R) have added support for paths that use <code>/</code>:</p>
 <ul>
-<li>Absolute path in Windows that would work in R: <code>"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv"</code>.</li>
+<li>Absolute path in Windows &nbsp;<i class="fa-brands fa-windows" aria-label="windows"></i>&nbsp; that would work in R: <code>"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv"</code>.</li>
 </ul>
 <p>You <em>can</em> still write your paths using <code>\</code> if you’re running R on Windows, but because the single backslash is a special character, you need to use two of them each time:</p>
 <ul>
-<li>Absolute path in Windows that would work in R, as written by the utterly deranged: <code>"C:\\Users\\czx412\\Documents\\deeply\\nested\\path\\that\\only\\I\\can\\use\\data\\my_file.csv"</code>.</li>
+<li>Absolute path in Windows &nbsp;<i class="fa-brands fa-windows" aria-label="windows"></i>&nbsp; that would work in R, as written by the utterly deranged: <code>"C:\\Users\\czx412\\Documents\\deeply\\nested\\path\\that\\only\\I\\can\\use\\data\\my_file.csv"</code>.</li>
 </ul>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">

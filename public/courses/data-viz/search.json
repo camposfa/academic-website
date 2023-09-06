@@ -144,7 +144,7 @@
     "href": "assignments/week-03/w03-lab01.html#instructions",
     "title": "Week 3, Lab 1: Mammalian sleep patterns",
     "section": "Instructions",
-    "text": "Instructions\n\nInstall the R packages ggrepel and geomtextpath, which we will use in the activity today, by running these commands once in your console:\n\n\ninstall.packages(\"ggrepel\")\ninstall.packages(\"geomtextpath\")\n\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
+    "text": "Instructions\n\nInstall the R packages ggrepel, geomtextpath, and ggthemes, which we will use in the activity today, by running these commands once in your console:\n\n\ninstall.packages(\"ggrepel\")\ninstall.packages(\"geomtextpath\")\ninstall.packages(\"ggthemes\")\n\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
   },
   {
     "objectID": "assignments/week-03/w03-lab01.html#ggplot2-resources",

@@ -42,34 +42,6 @@
     "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
   },
   {
-    "objectID": "assignments/TEMP_week-03/w03-lab01.html#description-of-data-set",
-    "href": "assignments/TEMP_week-03/w03-lab01.html#description-of-data-set",
-    "title": "Week 3, Lab 1: Visualization Basics",
-    "section": "Description of data set",
-    "text": "Description of data set\nmsleep:  Quantitative data on sleep patterns for for 96 species of mammals, spanning six orders of magnitude in body size (Savage & West, 2007).\nThis data set already is included in the ggplot2 package, so there is no need to download it."
-  },
-  {
-    "objectID": "assignments/TEMP_week-03/w03-lab01.html#instructions",
-    "href": "assignments/TEMP_week-03/w03-lab01.html#instructions",
-    "title": "Week 3, Lab 1: Visualization Basics",
-    "section": "Instructions",
-    "text": "Instructions\n\nInstall the R package ggrepel, which we will use in the activity today, by running this command once in your console:\ninstall.packages(\"ggrepel\")\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
-  },
-  {
-    "objectID": "assignments/TEMP_week-03/w03-lab01.html#ggplot2-resources",
-    "href": "assignments/TEMP_week-03/w03-lab01.html#ggplot2-resources",
-    "title": "Week 3, Lab 1: Visualization Basics",
-    "section": "ggplot2 resources",
-    "text": "ggplot2 resources\n\nQuick-reference ggplot2 cheatsheet  \nComprehensive ggplot2 documentation\nA book with more detail about ggplot2 than you’ll ever need\n\n\n\n\n\n\n\nTip\n\n\n\nWhen reading about ggplot2, you will eventually come across the qplot() function (for “quick plot”). It’s a bare-bones, training-wheels version of the ggplot() function that provides far fewer options. It’s less useful and not much easier to use, so I recommend never to use it."
-  },
-  {
-    "objectID": "assignments/TEMP_week-03/w03-lab01.html#references",
-    "href": "assignments/TEMP_week-03/w03-lab01.html#references",
-    "title": "Week 3, Lab 1: Visualization Basics",
-    "section": "References",
-    "text": "References\n\n\nSavage, V. M., & West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104(3), 1051–1056. https://doi.org/10.1073/pnas.0610080104"
-  },
-  {
     "objectID": "assignments/week-02/markdown-cv.html",
     "href": "assignments/week-02/markdown-cv.html",
     "title": "Curriculum Vitae",
@@ -161,6 +133,34 @@
     "text": "The ‘here’ package\nThe here R package was created in part to resolve this problem. It’s very simple and has only one goal: locating files in a project. It will always locate the files relative to your project root folder. When the package is first loaded, you’ll get a message telling you the absolute path to your project root.\n\nlibrary(\"here\")\n\nhere() starts at /Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website\n\n\nThe here() function locates a file relative to your project’s root folder, and converts this behind the scenes into a correct absolute path for whatever computer you’re currently using, regardless of whether it’s used in an R session or while rendering a Quarto document. This is how you use it:\n\n# Specify path to a csv file in project root folder\nhere(\"file_i_want.csv\")\n\n[1] \"/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/file_i_want.csv\"\n\n# Specify path to a csv file located in a subfolder called \"data\" in your project root folder\nhere(\"data/file_i_want.csv\")\n\n[1] \"/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/data/file_i_want.csv\"\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe file path that you actually provide to the here() function is always a simple relative path. The absolute paths generated by the function will (and should) look different in your document from mine and everyone else’s.\n\n\nWhy would you want to use this? Two main reasons:\n\nThe same command will “just work” whether it is run from your console, an R source file, or while rendering a Quarto document.\nIt is not affected by your fiddling around with setwd() (which I suggest always avoiding if possible). Instead, it will figure out the top level of your current project, and locate the file from there.\n\nWe will explore this in more detail in the activity below."
   },
   {
+    "objectID": "assignments/week-03/w03-lab01.html#description-of-data-set",
+    "href": "assignments/week-03/w03-lab01.html#description-of-data-set",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "Description of data set",
+    "text": "Description of data set\nmsleep:  Quantitative data on sleep patterns for for 96 species of mammals, spanning six orders of magnitude in body size (Savage & West, 2007).\nThis data set already is included in the ggplot2 package, so there is no need to download it."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#instructions",
+    "href": "assignments/week-03/w03-lab01.html#instructions",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "Instructions",
+    "text": "Instructions\n\nInstall the R packages ggrepel and geomtextpath, which we will use in the activity today, by running these commands once in your console:\n\n\ninstall.packages(\"ggrepel\")\ninstall.packages(\"geomtextpath\")\n\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#ggplot2-resources",
+    "href": "assignments/week-03/w03-lab01.html#ggplot2-resources",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "ggplot2 resources",
+    "text": "ggplot2 resources\n\nQuick-reference ggplot2 cheatsheet  \nComprehensive ggplot2 documentation\nA book with more detail about ggplot2 than you’ll ever need\n\n\n\n\n\n\n\nTip\n\n\n\nWhen reading about ggplot2, especially in older resources, you may come across the function qplot() (for “quick plot”). qplot() a bare-bones, training-wheels alternative to the ggplot() function, and it is far less useful. The package authors have moved away from recommending use this function, which is now deprecated:\n\n“Feedback indicated that qplot() was a crutch: it makes simple plots a little easier, but it doesn’t help with mastering the grammar” (Wickham, 2016, p. viii).\n\nI suggest never using it."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#references",
+    "href": "assignments/week-03/w03-lab01.html#references",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "References",
+    "text": "References\n\n\nSavage, V. M., & West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104(3), 1051–1056. https://doi.org/10.1073/pnas.0610080104\n\n\nWickham, H. (2016). Ggplot2: Elegant Graphics for Data Analysis (Second Edition). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4"
+  },
+  {
     "objectID": "weeks/week-02.html",
     "href": "weeks/week-02.html",
     "title": "Week 02",
@@ -193,7 +193,7 @@
     "href": "weeks/week-03.html",
     "title": "Week 03",
     "section": "",
-    "text": "Readings\n\nHealy, Ch. 1: Look At Data\nWilke, Ch. 1: Introduction\nWilke, Ch. 2: Visualizing data: Mapping data onto aesthetics\nWilke, Ch. 5: Directory of Visualizations\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readings\n\nHealy, Ch. 1: Look At Data\nWilke, Ch. 1: Introduction\nWilke, Ch. 2: Visualizing data: Mapping data onto aesthetics\nWilke, Ch. 5: Directory of Visualizations\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 3 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 3, Lab 1: Mammalian sleep patterns\n\n\nWed, Sep 06\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week-01.html",
@@ -271,6 +271,13 @@
     "title": "Week 2 slides",
     "section": "",
     "text": "Week 2 slides:\n\nWorkflows and Quarto"
+  },
+  {
+    "objectID": "slides/week-03/03-slides.html",
+    "href": "slides/week-03/03-slides.html",
+    "title": "Week 3 slides",
+    "section": "",
+    "text": "Week 3 slides:\n\nData visualization basics"
   },
   {
     "objectID": "syllabus.html",

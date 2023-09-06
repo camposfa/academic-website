@@ -9,7 +9,10 @@
   },
   {
     "listing": "/weeks/week-03.html",
-    "items": []
+    "items": [
+      "/assignments/week-03/w03-lab01.html",
+      "/slides/week-03/03-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-01.html",

@@ -1,0 +1,195 @@
+---
+title: "Mammalian sleep patterns"
+format: 
+  html:
+    theme: simplex
+    embed-resources: true
+    toc: true
+---
+
+```{r}
+#| include: false
+library("knitr")
+library("ggplot2")
+theme_set(theme_minimal(base_size = 14))
+```
+
+## Mammal sleep data
+
+We will be working with the `msleep` data set that is provided with ggplot2. The data set contains information about the sleep habits of 83 mammals.
+
+Let's say we want to show a few rows of the `msleep` data in the report. You can use the base R function `head()` to see the first few rows of data:
+
+```{r}
+head(msleep)
+```
+
+But that's sort of ugly, and the output is cut off. Now try wrap this same command in the `knitr` function `kable()` to create a nice-looking table.
+
+```{r}
+kable(head(msleep))
+```
+
+## Problem 1
+
+Create a scatter plot of total time asleep (y) vs. brain weight (x), colored by "vore" (carnivore, herbivore, etc.).
+
+
+
+```{r}
+#| fig-height: 6
+#| fig-width: 9
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- Note that we obtained a warning from R about 27 rows of containing missing values (we will hide the warnings in the plots below). Examine the data carefully to determine why the warning is being generated.
+- What *perceptual* problems does this figure have, and what change could you make to show the data more effectively? 
+- What specifically causes these problems?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Problem 2
+
+Create a new scatter plot of total time asleep vs. brain weight colored by vore, but this time when you plot the variables, consider whether a linear scale or a logarithmic scale seems more appropriate. **HINT:** Use the functions `scale_x_log10()` and/or `scale_y_log10()` to change the scales of the x-axis and y-axis, respectively.
+
+```{r}
+#| fig-height: 6
+#| fig-width: 9
+#| warning: false
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- Explain your reasoning for which scale transformations are most appropriate for displaying the data.
+- In your opinion, what is the main story told by this visualization?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Problem 3
+
+Create the same plot of total time asleep vs. brain weight, colored by "vore," but this time label the points using the name of the animal.
+
+**HINT:** Use the function `geom_text()` and be sure to supply it with the proper aesthetic (type `?geom_text()` and see the bolded entries under "Aesthetics" in the help file). 
+
+```{r}
+#| fig-height: 8
+#| fig-width: 9
+#| warning: false
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- What perceptual problems does this figure have?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Problem 4
+
+This was all an elaborate setup to introduce you to something that makes `ggplot2` especially great: its popularity has made it a sort of "ecosystem" for plotting, in which many clever and talented people have built on its core functionalityby writing `ggplot2` **extensions:** new R packages that provide additional plotting capabilities. You can browse some of these at the [ggplot2 extensions gallery](https://exts.ggplot2.tidyverse.org/). Here, you'll find huge range of custom geoms, themes, helper functions, and all kinds of other things.
+
+In this activity, we're going to get a glimpse at just three of these extensions (and we'll encounter more later), but my hope is that you'll recognize the value and explore further.
+
+The [`ggrepel`](https://ggrepel.slowkow.com/) package is one example of the many helpful extensions that people have created for `ggplot2`. This package was created to improve labeling in plots by making overlapping text labels "repel" other labels and data points. After installing the package, load it in the usual way: 
+
+```{r}
+library("ggrepel")
+```
+
+Now, modify the same plot of total time asleep vs. brain weight, colored by "vore" and labeled with the name of the animal. But this time, instead of using `geom_text()`, replace that with the `geom_text_repel()` function provided by this packages.
+
+```{r}
+#| fig-height: 6
+#| fig-width: 9
+#| warning: false
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- What has changed in your figure?
+- How does this change improve the interpretability of the data?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Problem 5
+
+Add a _single_ linear regression line to the plot using the function `geom_smooth()`. A regression line can be added with the function `geom_smooth(method = "lm")` (`lm` stands for "linear model").
+
+Play around with the relative position of the smoothed line by putting it above or below the other geoms. Try also providing the option `se = FALSE` to the `geom_smooth()` function to see the line without a confidence region around the smooth.
+
+**Hint:** If you're getting multiple regression lines, one for each "vore", think carefully about which aesthetics should be mapped globally vs. locally in individual geoms for this plot.
+
+```{r}
+#| fig-height: 6
+#| fig-width: 9
+#| warning: false
+#| message: false
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- How has the addition of the line changed the figure's interpretability? 
+- Can you find any interesting "stories" in the data that have been revealed?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Problem 6
+
+Finally, we're going to look at two additional extensions: 
+
+- [`geomtextpath`](https://allancameron.github.io/geomtextpath/), a package for making text labels that follow a path.
+- [`ggthemes`](https://yutannihilation.github.io/allYourFigureAreBelongToUs/ggthemes/), a package that provides a variety of "theme" elements for styling graphs in various ways, beyond what is already included in `ggplot2`.
+
+Let's load these in our R session.
+
+```{r}
+library("geomtextpath")
+library("ggthemes")
+```
+
+Now, create a plot of total time asleep on the y-axis vs. **body weight** (not brain weight) on the x-axis. As before, use log-transform the x-axis. Leave off the point labels. Instead, we want a regression line for each vore, colored by vore, and also labeled by vore on the regression line itself.
+
+To do this, use the function `geom_textsmooth()`. You can find documentation for this function [here](https://allancameron.github.io/geomtextpath/reference/geom_textsmooth.html).
+
+Finally, we want modify the colors in the graph so that they are interpretable to people with colorblindness. We will talk much more about themes and customization later in the course. But for now, as an example of how this can work, add the following line to your plot: `scale_color_colorblind()`.
+
+```{r}
+#| fig-height: 6
+#| fig-width: 9
+#| warning: false
+#| message: false
+# Your R code goes here.
+```
+
+**Answer the following questions:** 
+
+- What interesting patterns has this plot uncovered?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->

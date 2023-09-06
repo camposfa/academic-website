@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2023-09-06">
 
-<title>ANT 6973: Data Visualization and Exploration - Week 3, Lab 1: Visualization Basics</title>
+<title>ANT 6973: Data Visualization and Exploration - Week 3 slides</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,26 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -92,7 +73,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 3, Lab 1: Visualization Basics</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 3 slides</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -141,23 +122,14 @@ div.csl-indent {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#description-of-data-set" id="toc-description-of-data-set" class="nav-link active" data-scroll-target="#description-of-data-set">Description of data set</a></li>
-  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
-  <li><a href="#ggplot2-resources" id="toc-ggplot2-resources" class="nav-link" data-scroll-target="#ggplot2-resources"><code>ggplot2</code> resources</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 3, Lab 1: Visualization Basics</h1>
+<h1 class="title">Week 3 slides</h1>
 </div>
 
 
@@ -178,72 +150,12 @@ div.csl-indent {
 
 </header>
 
-<p><br></p>
-<section id="description-of-data-set" class="level2">
-<h2 class="anchored" data-anchor-id="description-of-data-set">Description of data set</h2>
-<p><strong><a href="https://ggplot2.tidyverse.org/reference/msleep.html"><code>msleep</code></a></strong>: &nbsp;Quantitative data on sleep patterns for for 96 species of mammals, spanning six orders of magnitude in body size <span class="citation" data-cites="savageQuantitativeTheoreticalFramework2007">(<a href="#ref-savageQuantitativeTheoreticalFramework2007" role="doc-biblioref">Savage &amp; West, 2007</a>)</span>.</p>
-<p>This data set already is included in the <code>ggplot2</code> package, so there is no need to download it.</p>
-<p><br></p>
-</section>
-<section id="instructions" class="level2">
-<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
-<ol type="1">
-<li><p>Install the R package <code>ggrepel</code>, which we will use in the activity today, by running this command once in your console:<br>
-<code>install.packages("ggrepel")</code></p></li>
-<li><p>Download the Quarto file below and save it in your project.</p></li>
-</ol>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;<a href="_msleep.qmd" download="msleep.qmd">msleep.qmd</a></p>
-</div>
-</div>
-</div>
-<ol start="2" type="1">
-<li><p>Insert your code where indicated in the <code>.qmd</code> file and render the report.</p></li>
-<li><p>Once you’ve completed the activity, submit the <code>.qmd</code> and rendered <code>.html</code> files in Canvas.</p></li>
-</ol>
-<p><br></p>
-<p>Here’s my <a href="msleep_solutions.html">rendered solutions</a>, with the code removed.</p>
-<br>
-<hr>
-</section>
-<section id="ggplot2-resources" class="level2">
-<h2 class="anchored" data-anchor-id="ggplot2-resources"><code>ggplot2</code> resources</h2>
+<p>Week 3 slides:</p>
 <ul>
-<li><p><a href="../../files/data-visualization-2.1.pdf">Quick-reference <code>ggplot2</code> cheatsheet &nbsp;<i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i></a></p></li>
-<li><p><a href="https://ggplot2.tidyverse.org/reference/index.html">Comprehensive <code>ggplot2</code> documentation</a></p></li>
-<li><p><a href="https://ggplot2-book.org/index.html">A book with more detail about <code>ggplot2</code> than you’ll ever need</a></p></li>
+<li><a href="files/week03_viz-basics.pdf" target="_blank">Data visualization basics &nbsp;&nbsp;<i class="fa-solid fa-file-pdf" aria-label="file-pdf"></i></a></li>
 </ul>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>When reading about <code>ggplot2</code>, you will eventually come across the <code>qplot()</code> function (for “quick plot”). It’s a bare-bones, training-wheels version of the <code>ggplot()</code> function that provides far fewer options. It’s less useful and not much easier to use, so I recommend never to use it.</p>
-<p><img src="Training-Wheels-Work.jpg" class="img-fluid"></p>
-</div>
-</div>
-<p><br></p>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
-<div id="ref-savageQuantitativeTheoreticalFramework2007" class="csl-entry" role="listitem">
-Savage, V. M., &amp; West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. <em>Proceedings of the National Academy of Sciences</em>, <em>104</em>(3), 1051–1056. <a href="https://doi.org/10.1073/pnas.0610080104">https://doi.org/10.1073/pnas.0610080104</a>
-</div>
-</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

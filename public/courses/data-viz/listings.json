@@ -1,5 +1,9 @@
 [
   {
+    "listing": "/weeks/week-04.html",
+    "items": []
+  },
+  {
     "listing": "/weeks/week-02.html",
     "items": [
       "/assignments/week-02/w02-lab01.html",
@@ -26,7 +30,8 @@
     "items": [
       "/weeks/week-01.html",
       "/weeks/week-02.html",
-      "/weeks/week-03.html"
+      "/weeks/week-03.html",
+      "/weeks/week-04.html"
     ]
   }
 ]

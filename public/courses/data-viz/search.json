@@ -161,6 +161,13 @@
     "text": "References\n\n\nSavage, V. M., & West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104(3), 1051–1056. https://doi.org/10.1073/pnas.0610080104\n\n\nWickham, H. (2016). Ggplot2: Elegant Graphics for Data Analysis (Second Edition). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4"
   },
   {
+    "objectID": "weeks/week-04.html",
+    "href": "weeks/week-04.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "Readings\n\nWilke, Ch. 6: Visualizing Amounts\nWilke, Ch. 10: Visualizing Proportions\nWilke, Ch. 11: Visualizing Nested Proportions\n\n\n\nKristin Henry (2017) “In Defense of Pie Charts, and Why You Shouldn’t Use Them.”\nRobert Kosara (2016), “Stacked Bars Are the Worst.”\nDatawrapper, “What to consider when creating stacked column charts.”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "weeks/week-02.html",
     "href": "weeks/week-02.html",
     "title": "Week 02",
@@ -494,13 +501,13 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 04\nSep 13\n Visualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\n Visualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\n Visualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 05\nSep 20\n Visualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\n Visualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 04\nSep 13\n Visualizing Amounts and Parts of a Whole\n\n\nWeek 05\nSep 20\n Visualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\n Visualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 05\nSep 20\n Visualizing Distributions and Uncertainty\n\n\nWeek 06\nSep 27\n Visualizing Relationships and Change Over Time\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   }
 ]

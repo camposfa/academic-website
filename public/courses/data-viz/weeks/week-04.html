@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Sep 06">
+<meta name="description" content="Sep 13">
 
-<title>ANT 6973: Data Visualization and Exploration - Week 03</title>
+<title>ANT 6973: Data Visualization and Exploration - Week 04</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 03</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 04</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -199,13 +199,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 03</h1>
-<p class="subtitle lead"><i class="fa-solid fa-eye" aria-label="eye"></i> Visualization Basics</p>
+<h1 class="title">Week 04</h1>
+<p class="subtitle lead"><i class="fa-solid fa-chart-pie" aria-label="chart-pie"></i> Visualizing Amounts and Parts of a Whole</p>
 </div>
 
 <div>
   <div class="description">
-    Sep 06
+    Sep 13
   </div>
 </div>
 
@@ -223,10 +223,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="readings" class="level1">
 <h1>Readings</h1>
 <ul>
-<li>Healy, Ch. 1: <a href="https://socviz.co/lookatdata.html#lookatdata">Look At Data</a></li>
-<li>Wilke, Ch. 1: <a href="https://clauswilke.com/dataviz/introduction.html">Introduction</a></li>
-<li>Wilke, Ch. 2: <a href="https://clauswilke.com/dataviz/aesthetic-mapping.html">Visualizing data: Mapping data onto aesthetics</a></li>
-<li>Wilke, Ch. 5: <a href="https://clauswilke.com/dataviz/directory-of-visualizations.html">Directory of Visualizations</a></li>
+<li>Wilke, Ch. 6: <a href="https://clauswilke.com/dataviz/visualizing-amounts.html">Visualizing Amounts</a></li>
+<li>Wilke, Ch. 10: <a href="https://clauswilke.com/dataviz/visualizing-proportions.html">Visualizing Proportions</a></li>
+<li>Wilke, Ch. 11: <a href="https://clauswilke.com/dataviz/nested-proportions.html">Visualizing Nested Proportions</a></li>
+</ul>
+<p><br></p>
+<ul>
+<li>Kristin Henry (2017) <em><a href="https://medium.com/@KristinHenry/in-defense-of-pie-charts-and-why-you-shouldnt-use-them-df2e8ccb5f76">“In Defense of Pie Charts, and Why You Shouldn’t Use Them.”</a></em></li>
+<li>Robert Kosara (2016), <em><a href="https://eagereyes.org/techniques/stacked-bars-are-the-worst">“Stacked Bars Are the Worst.”</a></em></li>
+<li>Datawrapper, <em><a href="https://academy.datawrapper.de/article/133-what-to-consider-when-creating-stacked-column-charts">“What to consider when creating stacked column charts.”</a></em></li>
 </ul>
 <p><br></p>
 </section>
@@ -243,11 +248,6 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1693976400000" data-listing-file-modified-sort="1693966910199" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 3 slides" data-listing-filename-sort="03-slides.qmd">
-<td>
-<a href="../slides/week-03/03-slides.html" class="title listing-title">Week 3 slides</a>
-</td>
-</tr>
 </tbody>
 
 </table>
@@ -272,14 +272,6 @@ Due
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1693976400000" data-listing-file-modified-sort="1694014776004" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Week 3, Lab 1: Mammalian sleep patterns" data-listing-filename-sort="w03-lab01.qmd">
-<td>
-<a href="../assignments/week-03/w03-lab01.html" class="title listing-title">Week 3, Lab 1: Mammalian sleep patterns</a>
-</td>
-<td>
-<span class="listing-date">Wed, Sep 06</span>
-</td>
-</tr>
 </tbody>
 
 </table>

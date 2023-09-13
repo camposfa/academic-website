@@ -172,7 +172,7 @@
     "href": "assignments/week-04/w04-lab01.html#instructions",
     "title": "Week 4, Lab 1: Baboon activity budgets",
     "section": "Instructions",
-    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_activities.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_activities.qmd\n\n\n\n\nDownload the csv file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_acts_2000.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
   },
   {
     "objectID": "weeks/week-04.html",

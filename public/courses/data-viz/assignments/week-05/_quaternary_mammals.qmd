@@ -1,0 +1,144 @@
+---
+title: "Quaternary mammals"
+format: 
+  html:
+    theme: simplex
+    embed-resources: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+fig-height: 6
+fig-width: 8
+bibliography: citations.bib
+csl: apa.csl
+---
+
+## Quaternary mammals body mass data
+
+Let's load the packages that we need, and also specify that we want to use `theme_minimal()` for all plots. The `14` that I provide to this function just specifies a larger font size, since the default is a little small (the default is 11 pt font).
+
+```{r}
+#| message: false
+library("tidyverse")
+library("ggridges")
+library("scales")
+library("ggforce")
+library("here")
+
+theme_set(theme_minimal(14))
+```
+
+
+```{r}
+# Read in the data
+# MODIFY AS NEEDED! E.g., "week5/data/late_quaternary_mammals.RDS" or whatever
+lqm <- readRDS(here("assignments/week-05/data/late-quaternary-mammals.RDS"))
+```
+
+<br>
+
+## Histograms with different bin settings
+
+### Problem 1: Basic histogram
+
+Make a histogram of **log_mass** with exactly 15 bins, with the boundary of the first bin starting at 0.
+
+```{r}
+# Your R code goes here.
+```
+
+
+### Problem 2: Using the `scales` package for better labels
+
+One issue with the plot above is that its hard to have a good intuitive sense of what "log kg" represents in the real world. It would improve clarity to use actual kg if possible. The problem, of course, is that the data are highly skewed. You already saw one way to transform your x or y axis for the display of highly skewed data, and we're going to apply that same method here. In addition, the [`scales`](https://scales.r-lib.org/) package provides many useful ways of improving the appearance of axis and legend _labels_ in `ggplot2`.
+
+In this plot, make your histogram using the variable **combined_mass** rather than log_mass, and log-transform your plot's x-axis. Then:
+  
+- Use the [`breaks_log()`](https://scales.r-lib.org/reference/label_log.html) function to control the spacing of tick marks along your transformed x-axis. Eight breaks looks pretty good to me.
+- Use the [`label_log()`](https://scales.r-lib.org/reference/label_log.html) to display nice tick-marks labels along your transformed x-axis.
+- Remember to change your x-axis label!
+
+_Hint: `scale_x_log10(breaks = <breaks function>(n = <number of breaks>), labels = <labeling function>)`_
+
+```{r}
+# Your R code goes here.
+```
+
+### Problem 3: Bin widths with tranformed axes
+
+But note that our bins in the plot above do not match up with our tick marks. While the plot does look nicer, using a transformed x-axis makes our lives more complicated if we want to specify the bin width and bin placement. Think about it: if your x-axis is transformed but each bin that takes up the same amount of plot space, then the bins on the left side of the plot represent a much narrower range of body mass values than the bins on the right side of the plot. So how do we specify bin width?
+
+The clever folks who wrote `ggplot2` thought of this, and the simple answer is that we can still use the `binwidth` option like we normally would, except that the binwidth that we provide is on the scale of the transformed data. So if we're using a $log_{10}$ transform on the x data, then `binwidth = 0.5` means 0.5 units of $log_{10}(combined\_mass)$.
+
+Make a histogram of combined_mass with bins that are exactly 0.25 units of $log_{10}(combined\_mass)$ wide, with the boundary of the first bin starting at 0 in our transformed units (in other words $10^{0}$).
+
+```{r}
+# Your R code goes here.
+```
+
+### Problem 4: Specifying breaks with transformed axes
+
+If instead we want to manually specify the breaks for the `geom_histogram()` function, then we actually need to calculate the break values. We can do this by using the `seq()` function to make a regular sequence. Example usage: `seq(from = 1, to = 2, by = 0.1)`
+
+In this case, we want bin breaks at each 0.5 interval between 0 and 8 in units of $log_{10}(combined\_mass)$. Or to state that another way, we want breaks at $10^{0}, 10^{0.5}, 10^{1}, 10^{1.5}, ..., 10^{8}$, with the boundary of the first bin starting at $10^{0}$.
+
+```{r}
+# Your R code goes here.
+```
+
+
+## Age-pyramid plots (and variants)
+
+### Problem 5: Age pyramid histograms
+
+Reproduce the vertical age-pyramid-style histogram plot that we saw in class comparing the distributions of combined_mass for North America and Africa late Quaternary mammals. But, applying what you used above, plot **combined_mass**, use a scale transformation, and use bins of with 0.25 transformed units with a boundary at 0.
+
+```{r}
+# Your R code goes here.
+```
+
+### Problem 6: Age pyramid densities
+
+Do the same but use density plots instead. Note that the calculated stat variable in your aesthetic mapping changes from count to density.
+
+```{r}
+# Your R code goes here.
+```
+
+<br>
+
+## Density plots
+
+### Problem 7: Overlapping densities
+
+Make an overlapping density plot of combined_mass using a different fill color for each continent. Use transparency, and note that the densities are more easily separable if they're outlined in some contrasting color (e.g., white or black).
+
+```{r}
+# Your R code goes here.
+```
+
+<br>
+
+## Ridgeline plots
+
+### Problem 8: Basic ridgeline
+
+Make a ridgeline plot of combined_mass by Order of mammals. The data set is already ordered so that the Order with the largest mean combined_mass appears on top. But for this plot, reorder the Orders by the smallest member of each order using `fct_reorder()`. Hint: in `fct_reorder()`, if there are multiple values of the column that you want to reorder by (combined_mass) for each category value (order)---which there are here---then by default it uses the median value. In this case, you want to specify that it should use the *min* value rather than the median value using the .fun argument:
+
+`... y = fct_reorder(<column to reorder>, <column to reorder by>, .fun = <the new function to use>) ...`
+
+```{r}
+#| fig-height: 10
+# Your R code goes here.
+```
+
+### Problem 9: Ridgeline with gradient fill
+
+Make the gradient ridgeline plot that we saw in class of combined_mass for each Order, using `scale_fill_viridis_c(<choose your favorite option!>)`. Note that you also need to log transform the fill scale, and you can use the same `label_log()` function to get nice labels for this scale. For example:
+
+`scale_fill_viridis_c(option = "mako", trans = log10_trans(), labels = label_log())`
+
+```{r}
+#| fig-height: 10
+# Your R code goes here.
+```

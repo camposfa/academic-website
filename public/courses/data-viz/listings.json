@@ -8,7 +8,10 @@
   },
   {
     "listing": "/weeks/week-05.html",
-    "items": []
+    "items": [
+      "/assignments/week-05/w05-lab01.html",
+      "/slides/week-05/05-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-02.html",

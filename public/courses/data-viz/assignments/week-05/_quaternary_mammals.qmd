@@ -9,8 +9,6 @@ editor_options:
   chunk_output_type: console
 fig-height: 6
 fig-width: 8
-bibliography: citations.bib
-csl: apa.csl
 ---
 
 ## Quaternary mammals body mass data

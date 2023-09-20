@@ -3212,7 +3212,7 @@ return!"\t\n\x0B\f\r                　\u2028\u2029
 <p>One issue with the plot above is that its hard to have a good intuitive sense of what “log kg” represents in the real world. It would improve clarity to use actual kg if possible. The problem, of course, is that the data are highly skewed. You already saw one way to transform your x or y axis for the display of highly skewed data, and we’re going to apply that same method here. In addition, the <a href="https://scales.r-lib.org/"><code>scales</code></a> package provides many useful ways of improving the appearance of axis and legend <em>labels</em> in <code>ggplot2</code>.</p>
 <p>In this plot, make your histogram using the variable <strong>combined_mass</strong> rather than log_mass, and log-transform your plot’s x-axis. Then:</p>
 <ul>
-<li>Use the <a href="https://scales.r-lib.org/reference/label_log.html"><code>breaks_log()</code></a> function to control the spacing of tick marks along your transformed x-axis. Eight breaks looks pretty good to me.</li>
+<li>Use the <a href="https://scales.r-lib.org/reference/breaks_log.html"><code>breaks_log()</code></a> function to control the spacing of tick marks along your transformed x-axis. Eight breaks looks pretty good to me.</li>
 <li>Use the <a href="https://scales.r-lib.org/reference/label_log.html"><code>label_log()</code></a> to display nice tick-marks labels along your transformed x-axis.</li>
 <li>Remember to change your x-axis label!</li>
 </ul>

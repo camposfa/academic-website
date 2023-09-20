@@ -52,7 +52,7 @@ One issue with the plot above is that its hard to have a good intuitive sense of
 
 In this plot, make your histogram using the variable **combined_mass** rather than log_mass, and log-transform your plot's x-axis. Then:
   
-- Use the [`breaks_log()`](https://scales.r-lib.org/reference/label_log.html) function to control the spacing of tick marks along your transformed x-axis. Eight breaks looks pretty good to me.
+- Use the [`breaks_log()`](https://scales.r-lib.org/reference/breaks_log.html) function to control the spacing of tick marks along your transformed x-axis. Eight breaks looks pretty good to me.
 - Use the [`label_log()`](https://scales.r-lib.org/reference/label_log.html) to display nice tick-marks labels along your transformed x-axis.
 - Remember to change your x-axis label!
 

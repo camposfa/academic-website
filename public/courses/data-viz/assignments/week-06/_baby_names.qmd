@@ -209,9 +209,9 @@ Note that putting `\n` in the label creates a line break. Using this template, h
 
 ## Life tables
 
-Getting sick of hearing about babies? Let's switch gears and talk about **DEATH**.
+Getting sick of hearing about babies? Let's switch gears and talk about **D E A T H**.
 
-The `babynames` package also includes cohort life tables based on data from the US Social Security Administration. What are life tables? They're demographic tools that are used to analysz death rates and calculate life expectancies at various ages and across time.
+The `babynames` package also includes cohort life tables based on data from the US Social Security Administration. What are life tables? They're demographic tools that are used to analyze death rates and calculate life expectancies at various ages and across time.
 
 Let's get a look at the data:
 

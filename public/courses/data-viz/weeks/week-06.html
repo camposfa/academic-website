@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,6 +191,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  <li><a href="#data-sets" id="toc-data-sets" class="nav-link" data-scroll-target="#data-sets">Data sets</a></li>
   </ul>
 </nav>
     </div>
@@ -248,6 +249,11 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1695790800000" data-listing-file-modified-sort="1695765733000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 6 slides" data-listing-filename-sort="06-slides.qmd">
+<td>
+<a href="../slides/week-06/06-slides.html" class="title listing-title">Week 6 slides</a>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -272,11 +278,43 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1695790800000" data-listing-file-modified-sort="1695774192000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 6, Lab 1: Baby names" data-listing-filename-sort="w06-lab01.qmd">
+<td>
+<a href="../assignments/week-06/w06-lab01.html" class="title listing-title">Week 6, Lab 1: Baby names</a>
+</td>
+<td>
+<span class="listing-date">Wed, Sep 27</span>
+</td>
+</tr>
 </tbody>
 
 </table>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
+</div>
+</section>
+<section id="data-sets" class="level1">
+<h1>Data sets</h1>
+<p>The slides this week include some examples made with the following data sets:</p>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;<a href="../assignments/week-06/data/school_earnings.csv" download="school_earnings.csv">school_earnings.csv</a></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><i class="fa-solid fa-download" aria-label="download"></i> &nbsp;<a href="../assignments/week-06/data/school_earnings_wide.csv" download="school_earnings_wide.csv">school_earnings_wide.csv</a></p>
+</div>
 </div>
 </div>
 

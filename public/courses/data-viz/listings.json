@@ -15,7 +15,10 @@
   },
   {
     "listing": "/weeks/week-06.html",
-    "items": []
+    "items": [
+      "/assignments/week-06/w06-lab01.html",
+      "/slides/week-06/06-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-02.html",

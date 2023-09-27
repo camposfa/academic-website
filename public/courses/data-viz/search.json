@@ -42,11 +42,25 @@
     "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
   },
   {
+    "objectID": "assignments/week-06/w06-lab01.html#description-of-data-set",
+    "href": "assignments/week-06/w06-lab01.html#description-of-data-set",
+    "title": "Week 6, Lab 1: Baby names",
+    "section": "Description of data set",
+    "text": "Description of data set\nThe babynames R package contains three datasets provided by the USA social security administration:\n\nbabynames: For each year from 1880 to 2017, the number of children of each sex given each name. All names with more than 5 uses are given. Source\napplicants: The number of applicants for social security numbers (SSN) for each year for each sex. Source\nlifetables: Cohort life tables data"
+  },
+  {
+    "objectID": "assignments/week-06/w06-lab01.html#instructions",
+    "href": "assignments/week-06/w06-lab01.html#instructions",
+    "title": "Week 6, Lab 1: Baby names",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baby_names.qmd\n\n\n\n\nInstall the package babynames.\n\n\ninstall.pacakges(\"babynames\")\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
     "objectID": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "href": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "title": "Week 5, Lab 1: Late quaternary mammals",
     "section": "Description of data set",
-    "text": "Description of data set\nThese data were originally published as a “data paper” in the journal Ecology by Felisa Smith and colleagues (2003). It provides the body mass of mammal species from the Late Quaternary period of earth’s history, which is defined here as beginning “as approximately 11 ka for Africa, North and South America, and as 50 ka for Australia, because these times predate anthropogenic impacts on mammalian fauna,” up to and including the present day. The data were updated in 2016 and can be found in the repository linked below (Smith et al., 2016).\n\n\n\nThylacoleo carnifex, my 8-year old son Leo’s favorite late Pleistocene mammal, which went extinct about 30 ka in an absolute tragedy. Image credit: Peter Schouten."
+    "text": "Description of data set\nThese data were originally published as a “data paper” in the journal Ecology by Felisa Smith and colleagues (2003). It provides the body mass of mammal species from the Late Quaternary period of earth’s history, which is defined here as beginning “approximately 11 ka for Africa, North and South America, and as 50 ka for Australia, because these times predate anthropogenic impacts on mammalian fauna,” up to and including the present day. The data were updated in 2016 and can be found in the repository linked below (Smith et al., 2016).\n\n\n\nThylacoleo carnifex, my 8-year old son Leo’s favorite late Pleistocene mammal, which went extinct about 30 ka in an absolute tragedy. Image credit: Peter Schouten."
   },
   {
     "objectID": "assignments/week-05/w05-lab01.html#instructions",
@@ -214,7 +228,7 @@
     "href": "weeks/week-06.html",
     "title": "Week 06",
     "section": "",
-    "text": "Readings\n\nWilke, Ch. 12: Visualizing associations among two or more quantitative variables\nWilke, Ch. 13: Visualizing time series and other functions of an independent variable\nWilke, Ch. 14: Visualizing trends\n\n\n\nNathan Yau, “11 Ways to Visualize Changes Over Time – A Guide”\nKeiran Healy, “Two Y-Axes”\nStephanie Evergreen, “Two Alternatives to Using a Second Y-Axis”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readings\n\nWilke, Ch. 12: Visualizing associations among two or more quantitative variables\nWilke, Ch. 13: Visualizing time series and other functions of an independent variable\nWilke, Ch. 14: Visualizing trends\n\n\n\nNathan Yau, “11 Ways to Visualize Changes Over Time – A Guide”\nKeiran Healy, “Two Y-Axes”\nStephanie Evergreen, “Two Alternatives to Using a Second Y-Axis”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 6 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 6, Lab 1: Baby names\n\n\nWed, Sep 27\n\n\n\n\n\n\nNo matching items\n\n\n\n\nData sets\nThe slides this week include some examples made with the following data sets:\n\n\n\n\n\n\n  school_earnings.csv\n\n\n\n\n\n\n\n\n\n  school_earnings_wide.csv"
   },
   {
     "objectID": "weeks/week-02.html",
@@ -320,6 +334,13 @@
     "title": "Week 1 slides",
     "section": "",
     "text": "Week 1 slides:\n\nIntroduction, Setup, and R Basics"
+  },
+  {
+    "objectID": "slides/week-06/06-slides.html",
+    "href": "slides/week-06/06-slides.html",
+    "title": "Week 6 slides",
+    "section": "",
+    "text": "Week 6 slides:\n\nVisualizing relationships and change over time"
   },
   {
     "objectID": "slides/week-05/05-slides.html",

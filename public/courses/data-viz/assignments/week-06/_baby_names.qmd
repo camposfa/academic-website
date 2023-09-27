@@ -1,0 +1,276 @@
+---
+title: "Baby names"
+format: 
+  html:
+    theme: simplex
+    embed-resources: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+fig-height: 6
+fig-width: 8
+---
+
+## Baby names data
+
+Let's load the packages that we need, and also specify that we want to use `theme_minimal()` for all plots.
+
+```{r}
+#| message: false
+library("tidyverse")
+library("babynames")
+library("knitr")
+
+theme_set(theme_minimal(14))
+```
+
+The `babynames` package provides a data set (also called `babynames`) that we're going to work with here. Let's view the first 10 rows as usual:
+
+```{r}
+kable(head(babynames, n = 10))
+```
+
+## Fun with filtering
+
+### Problem 1: Explaining an odd line graph
+
+Let's attempt to filter the babynames dataset to get only names of people in this class. **Note the use of the `%in%` operator,** which is a convenient way of checking if some value belongs to a given set. It's a cleaner alternative to something like `name == "Fernando" | name == "Tara" | name == "Colby" ...`.
+
+```{r}
+this_class <- babynames |> 
+  filter(name %in% c("Tara", "Colby", "Evan", "Kalei",
+                     "Peyton", "Sydney", "Bright", "Fernando"))
+```
+
+Below, we try to make a simple line graph with year on the x axis and prop on the y axis, with a different color for each name. You should get a plot that looks weird.
+
+```{r}
+# Your R code goes here.
+```
+
+Why is this happening? _(Hint: inspect the data for "Sydney" in the year 2000)_
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+
+### Problem 2: Fix the filter
+
+Modify the filter statement above to obtain a data set of names for this class that does not have this problem. Use the exact same ggplot code as above to verify that the problem is gone. Recall that the "or" operator in R is `|` and the "and" operator in R is `&`.
+
+```{r}
+# Your R code goes here.
+```
+
+Answer the following question:
+
+- Describe (in words) the logic of this modified `filter()` statement (i.e., what rows are retained in the data set?). How did this solve our problem?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+<br>
+
+## Line graphs
+
+### Problem 3: Trends over time
+
+If we're interested trends for each name over time rather than relative popularity, the previous graph is of limited use. In particular, the popularity of some names in the 20th and early 21st century makes it hard to see the trends over time for some of the less-common names.
+
+Show the same data as small multiples with the following characteristics:
+
+- Each name has in its own separate small panel.
+- Each small panel has its _own y-axis_ that is scaled to the popularity of the name.
+- Remove color so that all lines are simply black.
+
+```{r}
+# Your R code goes here.
+```
+
+### Problem 4: Ribbons
+
+We can emphasize the temporal trends more effectively by filling the area under each curve. We can do this using `geom_ribbon()`. Try to add a ribbon to the previous plot with 50% transparency (`alpha = 0.5`). To get the aesthetic mappings right, it may be helpful to read to the [help page](https://ggplot2.tidyverse.org/reference/geom_ribbon.html) for `geom_ribbon()`.
+
+```{r}
+# Your R code goes here.
+```
+
+### Problem 5: Adding color and fill
+
+Although color would be redundant here, let's bring it back in to get some practice with ribbons. Try mapping fill and/or color to `name` to get the plot to look exactly like the one I made in the solutions file. _Note in particular that there is no solid outline on the sides and bottom!_ You can try doing this globally or in the `geom` functions, but not all configurations will produce the desired effect. The color/fill legend is pointless, so let's turn it off by adding this line to the plot: `guides(color = "none", fill = "none")`.
+
+```{r}
+# Your R code goes here.
+```
+
+## A pairwise comparison
+
+### Problem 6: Two lines with labels
+
+If you're only plotting a few lines, then plotting them together rather than in small multiples allows you to compare the trends more easily. Directly labeling the line with the name is cognitively easier to process than matching up a color with a legend. Let's try making a line graph for the names "Sydney" and "Peyton" only, with names labeling the lines. Here's the code to do that:
+
+```{r}
+sydney_peyton <- babynames |> 
+  filter((name == "Sydney" & sex == "F") | (name == "Peyton" & sex == "F"))
+
+ggplot() +
+  geom_line(data = sydney_peyton, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sydney_peyton, year == max(year)),
+            aes(x = year, y = prop, color = name, label = name), hjust = 0, nudge_x = 1) +
+  guides(color = "none") +
+  expand_limits(x = 2025) +
+  labs(x = "Year", y = "Proportion")
+```
+
+Answer the following questions about this code and its plot:
+
+- Describe the data set used for the `geom_text()` function. How does the modified filter statement accomplish what we need? How many rows does this subset have?
+- What code here is keeping the text from overlapping with the line?
+- Try deleting `hjust = 0` (the default is `hjust = 0.5`), or replacing it with `hjust = 1`. What does this option do?
+- View the help file for `expand_limits()` and describe how it improves our plot.
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+### Problem 7: `geom_path()`
+
+There's another similar geom called `geom_path()`. To see how it differs from `geom_line()`, we're going to sort our data set by the column `prop`. This is our first introduction to a lovely `dplyr` function called `arrange()`. Like other tidyverse functions that you have encountered, the function takes a data set as its first argument. After that, we simply give it the column that we want to sort by. In this case, we're sorting the rows _by popularity of that year/name/sex combination_, from least to greatest.
+
+```{r}
+#| fig-height: 8
+sydney_peyton_ordered <- sydney_peyton |> 
+  arrange(prop)
+```
+
+Now, we create a plot _using the ordered data._
+
+```{r}
+# Lines
+ggplot() +
+  geom_line(data = sydney_peyton_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sydney_peyton_ordered, year == max(year)),
+            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  guides(color = "none") +
+  expand_limits(x = 2025) +
+  labs(x = "Year", y = "Proportion", title = "geom_line()")
+
+# Paths
+ggplot() +
+  geom_path(data = sydney_peyton_ordered, aes(x = year, y = prop, color = name)) +
+  geom_text(data = filter(sydney_peyton_ordered, year == max(year)),
+            aes(x = year + 1, y = prop, color = name, label = name), hjust = 0) +
+  guides(color = "none") +
+  expand_limits(x = 2025) +
+  labs(x = "Year", y = "Proportion", title = "geom_path()")
+```
+
+Answer the following questions about this code and its plot:
+
+- Describe in detail the difference between `geom_line()` and `geom_path()`. Why did the reordering have no effect on one of the geoms?
+- If you were plotting an animal's GPS location data on x and y axes to show its movement, which geom would produce the right plot?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+## A case study
+
+### Problem 8: Highlighting regions using annotations
+
+Finally, let's practice adding annotations to plots. An annotation is graphical element, like a point, line, box, or text label, that is added to a plot but is not part of your data set. Annotations can be added using the `annotate()` function. Note that writing `\n` in the text forces a line break.
+
+We're going to plot the popularity over time of the name Lionel for boys, and annotate some of interesting features with both rectangles and text. Here's a template:
+
+```{r}
+#| fig-width: 10
+ggplot(filter(babynames, name == "Lionel" & sex == "M"),
+       aes(x = year, y = prop)) +
+  geom_ribbon(aes(ymax = prop, ymin = 0), alpha = 0.5) +
+  geom_line() +
+  annotate(geom = "rect", xmin = 1950, xmax = 1960, ymin = 0, ymax = Inf, fill = "red", alpha = 0.25) +
+  annotate(geom = "text", x = 1949, y = 3e-4, label = "Some text\nMore text", color = "red", hjust = 1) +
+  labs(x = "Year", y = "Proportion", title = "Popularity of the name Lionel")
+```
+
+Note that putting `\n` in the label creates a line break. Using this template, highlight and label the following notable periods in the history of the name Lionel.
+
+- 1931 -- 1936: "Peak popularity in early 30s" (I used color "seagreen3")
+- 1982 -- 1986: "Lionel Richie's 3 best-selling albums" (I used color "coral")
+- 2004 -- 2017: "Lionel Messi's career with FC Barcelona" (I used color "skyblue2")
+
+```{r}
+# Your R code goes here.
+```
+
+<br>
+
+## Life tables
+
+Getting sick of hearing about babies? Let's switch gears and talk about **DEATH**.
+
+The `babynames` package also includes cohort life tables based on data from the US Social Security Administration. What are life tables? They're demographic tools that are used to analysz death rates and calculate life expectancies at various ages and across time.
+
+Let's get a look at the data:
+
+```{r}
+kable(head(lifetables))
+```
+
+Columns of interest:
+
+  - `x` = Age in years.
+  - `qx` = Mortality rate at age x, basically the probability of dying during that age interval.
+  - `ex` = Expectation of further life for an individual of age x.
+  - `year` = Birth cohort, a hypothetical population of 100,000 individuals born in that year.
+  - `sex` = You can probably figure this one out.
+
+### Problem 9: Cohort mortality rates by sex
+
+Let's start by making two plots of the mortality rate (qx) against age, and you can use whatever colors you want.
+
+In the first plot, stratify (color) by birth cohort (`year`) and facet by `sex`. Note that because `year` is coded as a continuous value, you'll want to convert it to a character or factor when plotting (use `as.character(year)` when it appears in your code).
+
+In the second plot, stratify by `sex` and facet by `year`.
+
+Probabilities of death get quite high at very old or young ages, so let's zoom in on the plot using `coord_cartesian()` with x and y limits (just add this to your plots):
+
+`coord_cartesian(xlim = c(0, 80), ylim = c(0, 0.025))`
+
+```{r}
+# Stratified by year, faceted by sex
+# Your R code goes here.
+
+# Stratified by sex, faceted by year
+# Your R code goes here.
+```
+
+Answer the following questions about this code and its plot:
+
+- What broad patterns are better illustrated in the first plot?
+- What broad patterns are better illustrated in the second plot?
+- What unusual features do you see (in either plot), and what could explanation them?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->
+
+### Problem 10: Change in life expectancies by sex
+
+How has life expectancy at birth changed over time, and how does this differ between males and females? To visualize this, plot the life expectancy **at age 0 only** for each birth cohort, using both points and lines, and color by sex. This time, don't set limits for x or y.
+
+```{r}
+# Your R code goes here.
+```
+
+Answer the following questions about this code and its plot:
+
+- How has life expectancy changed between 1900 and 2010?
+- How do life expectancies differ between males and females?
+- Has the male-female life-expectancy gap closed, widened, or stayed the same over the last century or so?
+
+<!-- Write your answers below. -->
+
+<!-- Write your answers above. -->

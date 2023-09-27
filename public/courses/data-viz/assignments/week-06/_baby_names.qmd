@@ -251,7 +251,7 @@ Answer the following questions about this code and its plot:
 
 - What broad patterns are better illustrated in the first plot?
 - What broad patterns are better illustrated in the second plot?
-- What unusual features do you see (in either plot), and what could explanation them?
+- What unusual features do you see (in either plot), and what could explain them?
 
 <!-- Write your answers below. -->
 

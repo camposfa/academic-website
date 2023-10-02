@@ -224,6 +224,41 @@
     "text": "Readings\n\nWilke, Ch. 7: Visualizing distributions: Histograms and density plots\nWilke, Ch. 9: Visualizing many distributions at once\nWilke, Ch. 16: Visualizing uncertainty\n\n\n\nPopovich and Pearce, “It’s Not Your Imagination. Summers Are Getting Hotter.”\nMatthew Conlen, “Kernel Density Estimation”\nNicole Torres (2010), “Why It’s So Hard for Us to Visualize Uncertainty”\nRobert Kosara (2017), “Communicating Uncertainty When Lives Are on the Line”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 5 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 5, Lab 1: Late quaternary mammals\n\n\nWed, Sep 20\n\n\n\n\n\n\nNo matching items\n\n\n\n\nData sets\nThe slides this week include some examples made with the following data set:\n\n\n\n\n\n\n  model_summary.csv\n\n\n\n… as well as the data set for the week 5 assignment."
   },
   {
+    "objectID": "weeks/week-07.html",
+    "href": "weeks/week-07.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 4: Color scales\nWilke, Ch. 19: Common pitfalls of color use\n\n\n\n\n\n\nR4DS, Ch. 2.6: Saving your plots\nWilke, Ch. 27: Understanding the most commonly used image file formats\n\n\n\n\n\n\nWilke, Ch. 21: Multi-panel figures\nPatchwork: Getting started\n\n\n\n\n\n\n\nColor Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.\nCARTOColors: Cartography-focused color palettes, including vibrant qualitative color palettes; r package: rcartocolor.\nscico: Interesting set of less-common palettes, based on the “scientific color maps” described here.\nviridis: Small set of very nice color palettes, best for sequential data; r package: viridis.\ncolorspace: HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: colorspace.\nmultiscales: Multivariate color scales.\ndichromat: A package to simulate color blindness."
+  },
+  {
+    "objectID": "weeks/week-07.html#making-effective-use-of-color",
+    "href": "weeks/week-07.html#making-effective-use-of-color",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 4: Color scales\nWilke, Ch. 19: Common pitfalls of color use"
+  },
+  {
+    "objectID": "weeks/week-07.html#saving-plots-as-image-files",
+    "href": "weeks/week-07.html#saving-plots-as-image-files",
+    "title": "Week 07",
+    "section": "",
+    "text": "R4DS, Ch. 2.6: Saving your plots\nWilke, Ch. 27: Understanding the most commonly used image file formats"
+  },
+  {
+    "objectID": "weeks/week-07.html#composing-multiple-plots",
+    "href": "weeks/week-07.html#composing-multiple-plots",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 21: Multi-panel figures\nPatchwork: Getting started"
+  },
+  {
+    "objectID": "weeks/week-07.html#color-resources",
+    "href": "weeks/week-07.html#color-resources",
+    "title": "Week 07",
+    "section": "",
+    "text": "Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.\nCARTOColors: Cartography-focused color palettes, including vibrant qualitative color palettes; r package: rcartocolor.\nscico: Interesting set of less-common palettes, based on the “scientific color maps” described here.\nviridis: Small set of very nice color palettes, best for sequential data; r package: viridis.\ncolorspace: HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: colorspace.\nmultiscales: Multivariate color scales.\ndichromat: A package to simulate color blindness."
+  },
+  {
     "objectID": "weeks/week-06.html",
     "href": "weeks/week-06.html",
     "title": "Week 06",
@@ -585,13 +620,13 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 07\nOct 04\n Color, Output, and Composing Multiple Plots\n\n\nWeek 08\nOct 11\n Visualizing Geospatial Data\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   }
 ]

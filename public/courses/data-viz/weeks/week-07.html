@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="">
+<meta name="description" content="Oct 4">
 
-<title>ANT 6973: Data Visualization and Exploration - Schedule</title>
+<title>ANT 6973: Data Visualization and Exploration - Week 07</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -64,20 +66,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-schedule .list');
+    const listingTargetEl = window.document.querySelector('#listing-assignments .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-schedule'] = new List('listing-schedule', options);
+    window['quarto-listings']['listing-assignments'] = new List('listing-assignments', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-slides .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-slides'] = new List('listing-slides', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -105,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./schedule.html">Schedule</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 07</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -119,8 +149,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -132,19 +162,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./schedule.html" class="sidebar-item-text sidebar-link active">
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./policies.html" class="sidebar-item-text sidebar-link">
+  <a href="../policies.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Course Policies</span></a>
   </div>
 </li>
@@ -158,7 +188,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#weekly-schedule" id="toc-weekly-schedule" class="nav-link active" data-scroll-target="#weekly-schedule">Weekly schedule</a></li>
+  <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a>
+  <ul class="collapse">
+  <li><a href="#making-effective-use-of-color" id="toc-making-effective-use-of-color" class="nav-link" data-scroll-target="#making-effective-use-of-color">Making effective use of color</a></li>
+  <li><a href="#saving-plots-as-image-files" id="toc-saving-plots-as-image-files" class="nav-link" data-scroll-target="#saving-plots-as-image-files">Saving plots as image files</a></li>
+  <li><a href="#composing-multiple-plots" id="toc-composing-multiple-plots" class="nav-link" data-scroll-target="#composing-multiple-plots">Composing multiple plots</a></li>
+  <li><a href="#color-resources" id="toc-color-resources" class="nav-link" data-scroll-target="#color-resources">Color Resources</a></li>
+  </ul></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   </ul>
 </nav>
     </div>
@@ -167,9 +205,15 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Schedule</h1>
+<h1 class="title">Week 07</h1>
+<p class="subtitle lead"><i class="fa-solid fa-palette" aria-label="palette"></i> Color, Output, and Composing Multiple Plots</p>
 </div>
 
+<div>
+  <div class="description">
+    Oct 4
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -182,102 +226,60 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="weekly-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="weekly-schedule">Weekly schedule</h2>
-<div id="listing-schedule" class="quarto-listing quarto-listing-container-table">
+<section id="readings" class="level1">
+<h1>Readings</h1>
+<section id="making-effective-use-of-color" class="level2">
+<h2 class="anchored" data-anchor-id="making-effective-use-of-color">Making effective use of color</h2>
+<ul>
+<li>Wilke, Ch. 4: <a href="https://clauswilke.com/dataviz/color-basics.html">Color scales</a></li>
+<li>Wilke, Ch. 19: <a href="https://clauswilke.com/dataviz/color-pitfalls.html">Common pitfalls of color use</a></li>
+</ul>
+<p><br></p>
+</section>
+<section id="saving-plots-as-image-files" class="level2">
+<h2 class="anchored" data-anchor-id="saving-plots-as-image-files">Saving plots as image files</h2>
+<ul>
+<li>R4DS, Ch. 2.6: <a href="https://r4ds.hadley.nz/data-visualize.html#exercises-3">Saving your plots</a></li>
+<li>Wilke, Ch. 27: <a href="https://clauswilke.com/dataviz/image-file-formats.html">Understanding the most commonly used image file formats</a></li>
+</ul>
+<p><br></p>
+</section>
+<section id="composing-multiple-plots" class="level2">
+<h2 class="anchored" data-anchor-id="composing-multiple-plots">Composing multiple plots</h2>
+<ul>
+<li>Wilke, Ch. 21: <a href="https://clauswilke.com/dataviz/multi-panel-figures.html">Multi-panel figures</a></li>
+<li><a href="https://patchwork.data-imaginist.com/articles/patchwork.html">Patchwork: Getting started</a></li>
+</ul>
+<hr>
+</section>
+<section id="color-resources" class="level2">
+<h2 class="anchored" data-anchor-id="color-resources">Color Resources</h2>
+<p><img src="../images/hcl-palettes-principles-1.png" class="img-fluid"></p>
+<ul>
+<li><a href="http://colorbrewer2.org/">Color Brewer</a>: Color advice and a great set of color palettes; r package: <a href="https://cran.r-project.org/package=RColorBrewer">RColorBrewer</a>.</li>
+<li><a href="https://carto.com/carto-colors/">CARTOColors</a>: Cartography-focused color palettes, including vibrant qualitative color palettes; r package: <a href="https://cran.r-project.org/package=rcartocolor">rcartocolor</a>.</li>
+<li><a href="https://github.com/thomasp85/scico">scico</a>: Interesting set of less-common palettes, based on the “scientific color maps” described <a href="http://www.fabiocrameri.ch/colourmaps.php">here</a>.</li>
+<li><a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">viridis</a>: Small set of very nice color palettes, best for sequential data; r package: <a href="https://cran.r-project.org/web/packages/viridis">viridis</a>.</li>
+<li><a href="http://colorspace.r-forge.r-project.org/articles/colorspace.html">colorspace</a>: HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: <a href="https://cran.r-project.org/package=colorspace">colorspace</a>.</li>
+<li><a href="https://github.com/clauswilke/multiscales">multiscales</a>: Multivariate color scales.</li>
+<li><a href="https://cran.r-project.org/package=dichromat">dichromat</a>: A package to simulate color blindness.</li>
+</ul>
+<p><br></p>
+</section>
+</section>
+<section id="slides" class="level1">
+<h1>Slides</h1>
+<div id="listing-slides" class="quarto-listing quarto-listing-container-table">
 
 <table class="quarto-listing-table table">
 <thead>
 <tr>
-<th>
-Week
-</th>
-<th>
-Date
-</th>
 <th>
 Topic
 </th>
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1692992935323" data-listing-reading-time-sort="1" data-listing-title-sort="Week 01" data-listing-filename-sort="week-01.qmd">
-<td>
-<a href="./weeks/week-01.html" class="title listing-title">Week 01</a>
-</td>
-<td>
-<span class="listing-description">Aug 23</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-registered" aria-label="registered"></i> Introduction, Setup, R Basics</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1693678559485" data-listing-reading-time-sort="1" data-listing-title-sort="Week 02" data-listing-filename-sort="week-02.qmd">
-<td>
-<a href="./weeks/week-02.html" class="title listing-title">Week 02</a>
-</td>
-<td>
-<span class="listing-description">Aug 30</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-sitemap" aria-label="sitemap"></i> Workflows and Quarto</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1694226040570" data-listing-reading-time-sort="1" data-listing-title-sort="Week 03" data-listing-filename-sort="week-03.qmd">
-<td>
-<a href="./weeks/week-03.html" class="title listing-title">Week 03</a>
-</td>
-<td>
-<span class="listing-description">Sep 06</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-eye" aria-label="eye"></i> Visualization Basics</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1694225989087" data-listing-reading-time-sort="1" data-listing-title-sort="Week 04" data-listing-filename-sort="week-04.qmd">
-<td>
-<a href="./weeks/week-04.html" class="title listing-title">Week 04</a>
-</td>
-<td>
-<span class="listing-description">Sep 13</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-chart-pie" aria-label="chart-pie"></i> Visualizing Amounts and Parts of a Whole</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1695213267239" data-listing-reading-time-sort="1" data-listing-title-sort="Week 05" data-listing-filename-sort="week-05.qmd">
-<td>
-<a href="./weeks/week-05.html" class="title listing-title">Week 05</a>
-</td>
-<td>
-<span class="listing-description">Sep 20</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-chart-gantt" aria-label="chart-gantt"></i> Visualizing Distributions and Uncertainty</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1695780273000" data-listing-reading-time-sort="1" data-listing-title-sort="Week 06" data-listing-filename-sort="week-06.qmd">
-<td>
-<a href="./weeks/week-06.html" class="title listing-title">Week 06</a>
-</td>
-<td>
-<span class="listing-description">Sep 27</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-chart-line" aria-label="chart-line"></i> Visualizing Relationships and Change Over Time</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-file-modified-sort="1696253801622" data-listing-reading-time-sort="1" data-listing-title-sort="Week 07" data-listing-filename-sort="week-07.qmd">
-<td>
-<a href="./weeks/week-07.html" class="title listing-title">Week 07</a>
-</td>
-<td>
-<span class="listing-description">Oct 4</span>
-</td>
-<td>
-<span class="listing-subtitle"><i class="fa-solid fa-palette" aria-label="palette"></i> Color, Output, and Composing Multiple Plots</span>
-</td>
-</tr>
 </tbody>
 
 </table>
@@ -285,83 +287,33 @@ Topic
 No matching items
 </div>
 </div>
-<section id="weeks-in-progress" class="level4">
-<h4 class="anchored" data-anchor-id="weeks-in-progress">(Weeks in progress…)</h4>
-<table class="table">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 18%">
-<col style="width: 62%">
-</colgroup>
+</section>
+<section id="assignments" class="level1">
+<h1>Assignments</h1>
+<div id="listing-assignments" class="quarto-listing quarto-listing-container-table">
+
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>Topic</th>
+<tr>
+<th>
+Title
+</th>
+<th>
+Due
+</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td>Week 07</td>
-<td>Oct 04</td>
-<td><i class="fa-solid fa-palette" aria-label="palette"></i> Color, Output, and Composing Multiple Plots</td>
-</tr>
-<tr class="even">
-<td>Week 08</td>
-<td>Oct 11</td>
-<td><i class="fa-solid fa-layer-group" aria-label="layer-group"></i> Visualizing Geospatial Data</td>
-</tr>
-<tr class="odd">
-<td>Week 09</td>
-<td>Oct 18</td>
-<td><i class="fa-solid fa-file-import" aria-label="file-import"></i> Data Import</td>
-</tr>
-<tr class="even">
-<td>Week 10</td>
-<td>Oct 25</td>
-<td><i class="fa-solid fa-code-compare" aria-label="code-compare"></i> Reshaping Data</td>
-</tr>
-<tr class="odd">
-<td>Week 11</td>
-<td>Nov 01</td>
-<td><i class="fa-solid fa-filter-circle-xmark" aria-label="filter-circle-xmark"></i> Data Manip. 1: Filter, Select, Arrange, Mutate</td>
-</tr>
-<tr class="even">
-<td>Week 12</td>
-<td>Nov 08</td>
-<td><i class="fa-solid fa-plane-departure" aria-label="plane-departure"></i> <strong>No Class:</strong> Professor at conference <i class="fa-solid fa-handshake-simple" aria-label="handshake-simple"></i></td>
-</tr>
-<tr class="odd">
-<td>Week 13</td>
-<td>Nov 15</td>
-<td><i class="fa-solid fa-rectangle-list" aria-label="rectangle-list"></i> Data Manip. 2: Grouped Operations and Summaries (<i class="fa-solid fa-globe" aria-label="globe"></i> <strong>Online</strong> <i class="fa-solid fa-globe" aria-label="globe"></i>)</td>
-</tr>
-<tr class="even">
-<td>Week 14</td>
-<td>Nov 22</td>
-<td><i class="fa-solid fa-drumstick-bite" aria-label="drumstick-bite"></i> Catch-up and Work on Final Projects</td>
-</tr>
-<tr class="odd">
-<td>Week 15</td>
-<td>Nov 29</td>
-<td><i class="fa-solid fa-server" aria-label="server"></i> Data Manip. 3: Two-table Operations</td>
-</tr>
+<tbody class="list">
 </tbody>
+
 </table>
-<!-- ## Assignments -->
-<!-- You can find details and assignment instructions in the relevant week on the schedule. -->
-<!-- ### Homework -->
-<!-- Homework will be due on Wednesdays at 11:59pm. You will have one week to complete each homework assignment. -->
-<!-- ### Labs -->
-<!-- Labs will be due on Fridays at 11:59pm. You will start the lab during your scheduled lab section. -->
-<!-- ### Exams -->
-<!-- There will be two exams on the dates: -->
-<!-- -   October 12, 9am - October 14, 11:59pm -->
-<!-- -   November 16, 9am - November 16: 11:59pm -->
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

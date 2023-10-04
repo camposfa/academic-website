@@ -15,7 +15,10 @@
   },
   {
     "listing": "/weeks/week-07.html",
-    "items": []
+    "items": [
+      "/slides/week-07/07-slides.html",
+      "/projects/small-project-1/small-project-1.html"
+    ]
   },
   {
     "listing": "/weeks/week-06.html",

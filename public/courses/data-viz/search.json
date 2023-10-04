@@ -308,6 +308,41 @@
     "text": "Readings\n\n\n\n\n\n\n\nSource\nLink\n\n\n\n\nCourse website\nCourse Policies\n\n\nHealy: Data Visualization\nPreface\n\n\nWickham: R4DS\nChapter 1: Introduction\n\n\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 1 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 1, Lab 1: Swirl\n\n\nWed, Aug 23\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "projects/small-project-1/small-project-1.html",
+    "href": "projects/small-project-1/small-project-1.html",
+    "title": "Small project 1: Ape teeth",
+    "section": "",
+    "text": "In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements, and create exploratory plots to begin to answer those questions."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#introduction",
+    "href": "projects/small-project-1/small-project-1.html#introduction",
+    "title": "Small project 1: Ape teeth",
+    "section": "",
+    "text": "In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements, and create exploratory plots to begin to answer those questions."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#description-of-the-data",
+    "href": "projects/small-project-1/small-project-1.html#description-of-the-data",
+    "title": "Small project 1: Ape teeth",
+    "section": "Description of the data",
+    "text": "Description of the data\n\n\n\n\n\n\n  ape_teeth.csv\n\n\n\n\nData source: http://anthropologicaldata.free.fr/\n\n\nColumns\n\nSpecies: ape species the tooth belongs to, including:\n\nGorilla gorilla (Western gorilla)\nPan troglodytes (Common chimpanzee)\nPongo pygmaeus (Bornean orangutan)\n\nSite: where specimen is located\nSpecimen: specimen ID number\nSex: Male or Female\nSource: where data come from\nTooth: name of tooth (see below). Possible values are I1, I2, C, P3, P4, M1, M2, and M3.\n\n\n\nToothClass: Incisor, Canine, Premolar, or Molar\nSide: Left or Right\nPosition: Superior (“upper jaw”) or Inferior (“lower jaw”)\nMD: Mesiodistal crown diameter in mm (how “broad” the tooth is).\nBL: Buccolinual crown diameter in mm (how “thick” the tooth is along the cheek–tongue axis).\n\nNote that there are no crown cervico-occlusal (“height”) measurements in the data ."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#ape-fact-sheets",
+    "href": "projects/small-project-1/small-project-1.html#ape-fact-sheets",
+    "title": "Small project 1: Ape teeth",
+    "section": "Ape fact sheets",
+    "text": "Ape fact sheets\nThe following short fact sheets about these great apes provide general information about diet, social organization, and mating system. These may or may not be helpful for formulating your questions.\n\nGorilla fact sheet\nPan fact sheet\nPongo fact sheet"
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#instructions",
+    "href": "projects/small-project-1/small-project-1.html#instructions",
+    "title": "Small project 1: Ape teeth",
+    "section": "Instructions",
+    "text": "Instructions\n\nContent Instructions\n\nThink of three (and only three!) conceptual questions about the ape teeth data. To help guide your thinking here, consider how individuals vary both within and between species, and think about what the different kinds of teeth do for different individual animals.\nClearly state each question in your report. You might want to create different sections for your different questions.\nUsing ggplot2, create at least one plot for each question that helps you to answer the question. For each plot, provide an explanation for why you chose the type of plot (e.g. scatterplot, boxplot, bar chart, histogram, etc.), and why you believe that it is best for showing the information related to your question.\nYou must use at least three different primary geoms.\nAnswer your questions by interpreting your plots and identifying any trends that they reveal (or do not reveal).\nIn total, your text related to the conceptual questions, plot design decisions, and interpretation should be in the neighborhood of 1000 words.\n\n\n\n\nFormatting Instructions\n\nThe project report should essentially look similar to some of our class activities, but it should include more narrative/explanation along with the code and plots.\nPlease create your report in an Quarto file called small-project-1_XX.qmd, where you substitute your initials for “XX” (for example, my report would be called small-project-1_FC.qmd.\nThe Quarto report should show all of the code that you used to work with the data and produce your plots.\nSubmit your report (in .html and .qmd formats) through Canvas.\n\n\n\n\nEvaluation Criteria\nProjects will be graded on workflow and presentation rather than particular conclusions. So don’t worry if you ask a question that fails to turn up interesting results! The data are what they are.\nTo receive full credit, I am looking for:\n\nClear, coherent questions about the data. Questions end in a question mark!\nThe questions should be conceptual, and should not prompt a specific analysis or plot.\nEach plot that you include in the report should help to answer one of your proposed questions, with a justification for why you chose to make the type of plot that you made. I am not looking for a dumping ground of many preliminary or poor-quality plots that you experimented with while trying to make a good one.\nInterpretation of your plots and responses to your proposed question.\nStatistical analysis is not necessary or expected. Just interpret your plots."
+  },
+  {
     "objectID": "index.html#course-information",
     "href": "index.html#course-information",
     "title": "ANT 6973: Data Visualization and Exploration",
@@ -376,6 +411,13 @@
     "title": "Week 6 slides",
     "section": "",
     "text": "Week 6 slides:\n\nVisualizing relationships and change over time"
+  },
+  {
+    "objectID": "slides/week-07/07-slides.html",
+    "href": "slides/week-07/07-slides.html",
+    "title": "Week 7 slides",
+    "section": "",
+    "text": "Week 7 slides:\n\nColor, output, and composing multiple plots"
   },
   {
     "objectID": "slides/week-05/05-slides.html",

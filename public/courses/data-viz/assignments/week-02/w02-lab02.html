@@ -225,7 +225,7 @@ Important
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getwd</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/assignments/week-02"</code></pre>
+<pre><code>[1] "/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/assignments/week-02"</code></pre>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -292,7 +292,7 @@ Caution
 <p>Hence, the relative path <code>"data/my_file.csv"</code> would be interpreted in any R session as simply appending this to the end of the R session’s working directory, which in my case results in:</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/assignments/week-02/data/my_file.csv"</code></pre>
+<pre><code>[1] "/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/assignments/week-02/data/my_file.csv"</code></pre>
 </div>
 </div>
 <p><br></p>
@@ -342,7 +342,7 @@ Special Characters
 <div class="cell">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"here"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>here() starts at /Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website</code></pre>
+<pre><code>here() starts at /Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website</code></pre>
 </div>
 </div>
 <p>The <code>here()</code> function locates a file <em>relative to your project’s root folder,</em> and converts this behind the scenes into a correct absolute path for whatever computer you’re currently using, regardless of whether it’s used in an R session or while rendering a Quarto document. This is how you use it:</p>
@@ -350,12 +350,12 @@ Special Characters
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Specify path to a csv file in project root folder</span></span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"file_i_want.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/file_i_want.csv"</code></pre>
+<pre><code>[1] "/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/file_i_want.csv"</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Specify path to a csv file located in a subfolder called "data" in your project root folder</span></span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">here</span>(<span class="st">"data/file_i_want.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] "/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/data/file_i_want.csv"</code></pre>
+<pre><code>[1] "/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/data/file_i_want.csv"</code></pre>
 </div>
 </div>
 <div class="callout callout-style-default callout-note callout-titled">

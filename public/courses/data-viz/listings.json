@@ -1,7 +1,10 @@
 [
   {
     "listing": "/weeks/week-08.html",
-    "items": []
+    "items": [
+      "/assignments/week-08/w08-lab01.html",
+      "/slides/week-08/08-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-04.html",

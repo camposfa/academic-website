@@ -1,0 +1,723 @@
+[
+  {
+    "objectID": "labs/scratch.html",
+    "href": "labs/scratch.html",
+    "title": "Untitled",
+    "section": "",
+    "text": "round(3.1415)\nround(x = 3.1415, digits = 2)\nround(mean(1:6), digits = 0)"
+  },
+  {
+    "objectID": "labs/w3-lab02.html",
+    "href": "labs/w3-lab02.html",
+    "title": "Lab 02: Data visualization with ggplot2!",
+    "section": "",
+    "text": "Add instructions for assignment."
+  },
+  {
+    "objectID": "labs/w2-lab01.html",
+    "href": "labs/w2-lab01.html",
+    "title": "Lab 01: Hello R!",
+    "section": "",
+    "text": "Add instructions for assignment."
+  },
+  {
+    "objectID": "assignments/week-08/w08-lab01.html#description-of-data-set",
+    "href": "assignments/week-08/w08-lab01.html#description-of-data-set",
+    "title": "Week 8, Lab 1: Maps",
+    "section": "Description of data set",
+    "text": "Description of data set\nThe zip file calledmaps_data.zip contains:\n\niucn_primates.shp — Shapefile (polygons) showing approximate species distibutions for all primate species. [Source: IUCN Spatial Data Download].\ncap-ranging.csv — CSV file of GPS data representing location points collected on irregular contact days at half-hour intervals from 5 social groups of white-faced capuchin monkeys in Costa Rica over 12 months in 2011.\nroads.shp — Shapefile (lines) of roads in the study area where the capuchin groups live.\nstreams.shp — Shapefile (lines) of streams in the study area where the capuchin groups live.\ntrails.shp — Shapefile (lines) of trails in the study area where the capuchin groups live.\nLC_20110306.tif — GeoTIFF of land cover data for the area in which the 5 capuchin social groups live. Data based on SPOT satellite imagery\nacg_elevation.tif — GeoTIFF of elevation data for northwestern Costa Rica."
+  },
+  {
+    "objectID": "assignments/week-08/w08-lab01.html#instructions",
+    "href": "assignments/week-08/w08-lab01.html#instructions",
+    "title": "Week 8, Lab 1: Maps",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n maps.qmd\n\n\n\n\nDownload the zipped data files below and extract the files in your project.\n\n\n\n\n\n\n\n maps_data.zip\n\n\n\n\nAside from the spatial packages that you’ve already installed (right?), you’ll need one more: hexbin.\n\n\ninstall.pacakges(\"hexbin\")\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html",
+    "href": "assignments/week-01/w01-lab01.html",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "",
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html#complete-in-class",
+    "href": "assignments/week-01/w01-lab01.html#complete-in-class",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "",
+    "text": "To start becoming familiar with R, we’re going to complete some interactive, self-paced lessons using swirl.\nSteps:\n\nOpen up RStudio, type the following in the console pane (next to the &gt; symbol), and press Enter. This should install the ‘swirl’ package for R. That means the package files have been downloaded and saved to your computer.\n\n\ninstall.packages(\"swirl\")\n\n\nBut to actually use the functions in the swirl package, we need to load the package into our current R session. We do this using the library() function, providing it the name of the package that we want to load.\n\n\nlibrary(\"swirl\")\n\n\nEnter the following command to install an introductory course called “R_Programming_E” (admittedly, not the greatest name).\n\n\ninstall_course_github(\"swirldev\", \"R_Programming_E\")\n\n\nOkay! We’re ready to run the course. Enter the following:\n\n\nswirl()\n\n\nWhen prompted (after a few screens), choose the lesson called “Basic Building Blocks”."
+  },
+  {
+    "objectID": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "href": "assignments/week-01/w01-lab01.html#complete-over-the-next-week-or-two",
+    "title": "Week 1, Lab 1: Swirl",
+    "section": "Complete over the next week or two",
+    "text": "Complete over the next week or two\nIn the same swirl course called “R_Programming_E”, complete the following lessons:\n\n2: Workspace and Files\n3: Sequences of Numbers\n4: Vectors\n5: Missing values\n8: Logic\n9: Functions\n12: Looking at Data\n\nNote: these exercises will not be graded, and I can’t even check if you’ve completed them or not. So don’t get stressed if you find them challenging. They are meant to teach basic skills in R that will be very useful going forward.\nTo complete these courses, there’s no need to reinstall swirl. Just type swirl() at the console (step 4), and you’ll get back to the list of available lessons.\n\nTip: here are some commands that you can use while working on a swirl lesson.\n\n| When you are at the R prompt (&gt;):\n| -- Typing skip() allows you to skip the current question.\n| -- Typing bye() causes swirl to exit. Your progress will be saved.\n| -- Typing main() returns you to swirl's main menu.\n| -- Typing info() displays these options again."
+  },
+  {
+    "objectID": "assignments/week-06/w06-lab01.html#description-of-data-set",
+    "href": "assignments/week-06/w06-lab01.html#description-of-data-set",
+    "title": "Week 6, Lab 1: Baby names",
+    "section": "Description of data set",
+    "text": "Description of data set\nThe babynames R package contains three datasets provided by the USA social security administration:\n\nbabynames: For each year from 1880 to 2017, the number of children of each sex given each name. All names with more than 5 uses are given. Source\napplicants: The number of applicants for social security numbers (SSN) for each year for each sex. Source\nlifetables: Cohort life tables data"
+  },
+  {
+    "objectID": "assignments/week-06/w06-lab01.html#instructions",
+    "href": "assignments/week-06/w06-lab01.html#instructions",
+    "title": "Week 6, Lab 1: Baby names",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baby_names.qmd\n\n\n\n\nInstall the package babynames.\n\n\ninstall.pacakges(\"babynames\")\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
+    "objectID": "assignments/week-05/w05-lab01.html#description-of-data-set",
+    "href": "assignments/week-05/w05-lab01.html#description-of-data-set",
+    "title": "Week 5, Lab 1: Late quaternary mammals",
+    "section": "Description of data set",
+    "text": "Description of data set\nThese data were originally published as a “data paper” in the journal Ecology by Felisa Smith and colleagues (2003). It provides the body mass of mammal species from the Late Quaternary period of earth’s history, which is defined here as beginning “approximately 11 ka for Africa, North and South America, and as 50 ka for Australia, because these times predate anthropogenic impacts on mammalian fauna,” up to and including the present day. The data were updated in 2016 and can be found in the repository linked below (Smith et al., 2016).\n\n\n\nThylacoleo carnifex, my 8-year old son Leo’s favorite late Pleistocene mammal, which went extinct about 30 ka in an absolute tragedy. Image credit: Peter Schouten."
+  },
+  {
+    "objectID": "assignments/week-05/w05-lab01.html#instructions",
+    "href": "assignments/week-05/w05-lab01.html#instructions",
+    "title": "Week 5, Lab 1: Late quaternary mammals",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  quaternary_mammals.qmd\n\n\n\n\nDownload the R data file below and save it in your project.\n\n\n\n\n\n\n\n  late-quaternary-mammals.RDS\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
+    "objectID": "assignments/week-05/w05-lab01.html#references",
+    "href": "assignments/week-05/w05-lab01.html#references",
+    "title": "Week 5, Lab 1: Late quaternary mammals",
+    "section": "References",
+    "text": "References\n\n\nSmith, F. A., Lyons, S. K., Ernest, S. K. M., Jones, K. E., Kaufman, D. M., Dayan, T., Marquet, P. A., Brown, J. H., & Haskell, J. P. (2003). Body Mass of Late Quaternary Mammals. Ecology, 84(12), 3403–3403. https://doi.org/10.1890/02-9003\n\n\nSmith, F. A., S. Kathleen Lyons, S. K. Morgan Ernest, Jones, K. E., Kaufman, D. M., Dayan, T., Marquet, P. A., Brown, J. H., & Haskell, J. P. (2016). Body Mass of Late Quaternary Mammals (Data Set) (pp. 510965 Bytes). Wiley. https://doi.org/10.6084/M9.FIGSHARE.3523112.V1"
+  },
+  {
+    "objectID": "assignments/week-02/markdown-cv.html",
+    "href": "assignments/week-02/markdown-cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Phone: (210) 555-1234\nEmail: fernando.campos@utsa.edu\nWebsite: https://www.campos-lab.net\n\n\n\n2014 Ph.D in Anthropology, University of Calgary\n2008 M.A. in Anthropology, University of Calgary\n2002 B.S. in Biology, Caltech\n\n\n\n\n\n2018 Assistant Professor, University of Texas at San Antonio\n2017 Postdoctoral Associate, Duke University\n2016 Professor Practice, Tulane University\n2015 Resereach Associate, University of Calgary\n\n\n\n\n\nCampos FA. (2017). My amazing article, part 1. Proceedings of the Royal Society 23(11), 4907-4921.\nCampos FA (2020). An even better follow-up article. Nature 12(34): 1-15.\n\n\n\n\n\n\n\nCourse Number\nCourse Title\n\n\n\n\nANT 2033\nIntroduction to Biological Anthropology\n\n\nANT 3843\nPrimates of the World\n\n\nANT 3333\nHuman Adaptability\n\n\n\n\n\n\n\nKanzi!"
+  },
+  {
+    "objectID": "assignments/week-02/markdown-cv.html#education",
+    "href": "assignments/week-02/markdown-cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2014 Ph.D in Anthropology, University of Calgary\n2008 M.A. in Anthropology, University of Calgary\n2002 B.S. in Biology, Caltech"
+  },
+  {
+    "objectID": "assignments/week-02/markdown-cv.html#professional-appointments-and-employment",
+    "href": "assignments/week-02/markdown-cv.html#professional-appointments-and-employment",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "2018 Assistant Professor, University of Texas at San Antonio\n2017 Postdoctoral Associate, Duke University\n2016 Professor Practice, Tulane University\n2015 Resereach Associate, University of Calgary"
+  },
+  {
+    "objectID": "assignments/week-02/markdown-cv.html#publications",
+    "href": "assignments/week-02/markdown-cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Campos FA. (2017). My amazing article, part 1. Proceedings of the Royal Society 23(11), 4907-4921.\nCampos FA (2020). An even better follow-up article. Nature 12(34): 1-15."
+  },
+  {
+    "objectID": "assignments/week-02/markdown-cv.html#teaching-experience",
+    "href": "assignments/week-02/markdown-cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Course Number\nCourse Title\n\n\n\n\nANT 2033\nIntroduction to Biological Anthropology\n\n\nANT 3843\nPrimates of the World\n\n\nANT 3333\nHuman Adaptability\n\n\n\n\n\n\n\nKanzi!"
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab01.html",
+    "href": "assignments/week-02/w02-lab01.html",
+    "title": "Week 2, Lab 1: Markdown CV",
+    "section": "",
+    "text": "To complete this week’s activities, you must have the knitr package installed. It’s likely that this package is already on your computer, but you can check by clicking the “Packages” tab in your viewer pane and looking for it there. If for some reason you don’t have knitr installed already, you can install it now by running the command below in your R console. As with all package installations, this only needs to be done once, so leave it out of any scripts and Quarto/RMarkdown documents.\n\ninstall.packages(\"knitr\")"
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab01.html#setup",
+    "href": "assignments/week-02/w02-lab01.html#setup",
+    "title": "Week 2, Lab 1: Markdown CV",
+    "section": "",
+    "text": "To complete this week’s activities, you must have the knitr package installed. It’s likely that this package is already on your computer, but you can check by clicking the “Packages” tab in your viewer pane and looking for it there. If for some reason you don’t have knitr installed already, you can install it now by running the command below in your R console. As with all package installations, this only needs to be done once, so leave it out of any scripts and Quarto/RMarkdown documents.\n\ninstall.packages(\"knitr\")"
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab01.html#complete-in-class",
+    "href": "assignments/week-02/w02-lab01.html#complete-in-class",
+    "title": "Week 2, Lab 1: Markdown CV",
+    "section": "Complete in Class",
+    "text": "Complete in Class\nIn class this week, we learned about:\n\nmarkdown: a very simple “language” for specifying how to format text in a plain-text document.\nquarto: a system for interweaving markdown text with R code to produce dynamic documents of various kinds.\n\nIn this assignment, you will practice using both of these tools by creating a simple CV written in markdown within a quarto document.\n\nInstructions\n\nIn R Studio, create a new quarto document by going to File &gt; New File &gt; Quarto Document…\nGive your new document the title “Curriculum Vitae”, and make sure the output format is HTML.\nBecause the whole point here is to practice writing in Markdown, in R Studio, please make sure that you are using the Source editor rather than the Visual editor (image below).\n\n\n\nDelete all the boilerplate text and code under the header (from line 6 in the image above).\nWrite your CV! And feel free to make stuff up. What to include:\n\nTop-level header should be your name\nInclude contact info: phone, email, and link to some website (doesn’t matter which).\nInclude second-level headings for education, employment, publications, and teaching.\nEach section should include a bulleted or numbered list of items, or a table.\nHighlight years in bold and (possibly fake) journal names in italics\nEmbed some kind of image at the bottom\n\nApply a theme to your document. Hint: you will have to change the header slightly.\n(Attempt to) submit the .qmd and the rendered .html output file for your completed CV in Canvas.\n\nHere’s my rendered example CV."
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab02.html",
+    "href": "assignments/week-02/w02-lab02.html",
+    "title": "Week 2, Lab 2: Files and Paths",
+    "section": "",
+    "text": "Data analysis usually involves loading files into R from your local computer. This does not always go smoothly. In this activity, we’re going to learn how to use paths correctly to avoid some common errors."
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab02.html#absolute-paths",
+    "href": "assignments/week-02/w02-lab02.html#absolute-paths",
+    "title": "Week 2, Lab 2: Files and Paths",
+    "section": "Absolute Paths",
+    "text": "Absolute Paths\nAbsolute paths start from the root (top-level) directory of your filesystem and include every step (sub-folder) you must take through the filesystem to reach the target location. The working directory is irrelevant to a properly specified absolute path. In other words, an absolute path points to the same location on a particular computer regardless of your R session’s current working directory.\nExamples of made-up absolute paths:\n\nWindows  : \"C:\\Users\\czx412\\Documents\\deeply\\nested\\path\\that\\only\\I\\can\\use\\data\\my_file.csv\"\nMac   / Linux  : \"/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\"\n\nNote that absolute paths look different depending on the operating system. In Windows, they start with a drive letter followed by a colon, and in Mac/Linux they start with a forward slash.\nAlso, for weird historical reasons, paths in Windows traditionally use \\, while Unix/Mac use / to separate the folder names. This difference adds an extra complication: \\ is a special character in R, which means that the Windows path as written above would not work in R. Fortunately, most apps in Windows (including R) have added support for paths that use /:\n\nAbsolute path in Windows    that would work in R: \"C:/Users/czx412/Documents/deeply/nested/path/that/only/I/can/use/data/my_file.csv\".\n\nYou can still write your paths using \\ if you’re running R on Windows, but because the single backslash is a special character, you need to use two of them each time:\n\nAbsolute path in Windows    that would work in R, as written by the utterly deranged: \"C:\\\\Users\\\\czx412\\\\Documents\\\\deeply\\\\nested\\\\path\\\\that\\\\only\\\\I\\\\can\\\\use\\\\data\\\\my_file.csv\".\n\n\n\n\n\n\n\nCaution\n\n\n\nThe independence of absolute paths from the working directory concept might make you think absolute paths are always the way to go in R. And you’d be wrong. Avoid using absolute paths in R!\n\n\nAbsolute paths are a common source of problems.\nAside from their annoying length, absolute paths don’t work on different computers and tend to break over time. A file that exists in a certain place on your computer right now almost certainly does not exist in that exact same place on someone else’s computer, or on another computer that you use now or in the future. But if you use relative paths (see below) in a consistent way, then they should work other computers, regardless of where the project root directory is located in each different computer’s file system.\nNot sharing code with anybody or using multiple computers right at this very moment? Don’t forget future-you! Current-you should should have an interest in helping future-you to work efficiently rather than sabotaging their work by filling your R scripts with what will eventually become broken file paths."
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab02.html#relative-paths",
+    "href": "assignments/week-02/w02-lab02.html#relative-paths",
+    "title": "Week 2, Lab 2: Files and Paths",
+    "section": "Relative Paths",
+    "text": "Relative Paths\nRelative paths are typically far shorter and simpler. A relative path is relative to some assumed starting point, avoiding the need to provide the full, absolute path. For this to work properly, the program needs to know your assumed starting point: our old friend, the working directory.\nHere’s an example of a relative path:\n\nAny system: \"data/my_file.csv\"\n\nTranslation: in the working directory, look in a subfolder called \"data\" for a file called \"my_file.csv\".\nHence, the relative path \"data/my_file.csv\" would be interpreted in any R session as simply appending this to the end of the R session’s working directory, which in my case results in:\n\n\n[1] \"/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/assignments/week-02/data/my_file.csv\"\n\n\n\n\n\n\n\n\n\nSpecial Characters\n\n\n\nThere are a few special characters that are useful when using relative paths:\n\n~ is the user’s home directory. On this particular computer, ~ is equivalent to “/Users/czx412”. This will change depending on which computer I’m using.\n.. is the parent directory. So the path \"../my_file.csv\" would refer to a file called \"my_file.csv\" in the directory that is one level above the working directory."
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab02.html#r-session-vs.-quartormarkdown",
+    "href": "assignments/week-02/w02-lab02.html#r-session-vs.-quartormarkdown",
+    "title": "Week 2, Lab 2: Files and Paths",
+    "section": "R session vs. Quarto/RMarkdown",
+    "text": "R session vs. Quarto/RMarkdown\nAnother sneaky source of problems, even when you’re working in a project and using relative paths, can occur when you are reading or writing files from a Quarto document (all of this is also true for R Markdown, but for the sake of brevity, I will only refer to Quarto below).\nSpecifically, problems often occur when your .qmd file is located somewhere other than your project root folder. And the simple reason is that a Quarto document functions temporarily as its own, self-contained R session while it is rendering. When this happens, the working directory for the rendering document becomes whatever folder the .qmd file lives in, regardless of the working directory in your “main” R session.\nIf the .qmd file is in the project root folder, there’s no problem, because the working directories for both the R session and rendering document are the same.\nBut if the .qmd file is located somewhere else—say, in a subfolder of your project, or in some other location entirely—then you can get problems. In such cases, a command to load data using a relative path that runs successfully in your R script (or when executed in your R session from the .qmd file itself) will fail during rending, and vice versa."
+  },
+  {
+    "objectID": "assignments/week-02/w02-lab02.html#the-here-package",
+    "href": "assignments/week-02/w02-lab02.html#the-here-package",
+    "title": "Week 2, Lab 2: Files and Paths",
+    "section": "The ‘here’ package",
+    "text": "The ‘here’ package\nThe here R package was created in part to resolve this problem. It’s very simple and has only one goal: locating files in a project. It will always locate the files relative to your project root folder. When the package is first loaded, you’ll get a message telling you the absolute path to your project root.\n\nlibrary(\"here\")\n\nhere() starts at /Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website\n\n\nThe here() function locates a file relative to your project’s root folder, and converts this behind the scenes into a correct absolute path for whatever computer you’re currently using, regardless of whether it’s used in an R session or while rendering a Quarto document. This is how you use it:\n\n# Specify path to a csv file in project root folder\nhere(\"file_i_want.csv\")\n\n[1] \"/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/file_i_want.csv\"\n\n# Specify path to a csv file located in a subfolder called \"data\" in your project root folder\nhere(\"data/file_i_want.csv\")\n\n[1] \"/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/data/file_i_want.csv\"\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe file path that you actually provide to the here() function is always a simple relative path. The absolute paths generated by the function will (and should) look different in your document from mine and everyone else’s.\n\n\nWhy would you want to use this? Two main reasons:\n\nThe same command will “just work” whether it is run from your console, an R source file, or while rendering a Quarto document.\nIt is not affected by your fiddling around with setwd() (which I suggest always avoiding if possible). Instead, it will figure out the top level of your current project, and locate the file from there.\n\nWe will explore this in more detail in the activity below."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#description-of-data-set",
+    "href": "assignments/week-03/w03-lab01.html#description-of-data-set",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "Description of data set",
+    "text": "Description of data set\nmsleep:  Quantitative data on sleep patterns for for 96 species of mammals, spanning six orders of magnitude in body size (Savage & West, 2007).\nThis data set already is included in the ggplot2 package, so there is no need to download it."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#instructions",
+    "href": "assignments/week-03/w03-lab01.html#instructions",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "Instructions",
+    "text": "Instructions\n\nInstall the R packages ggrepel, geomtextpath, and ggthemes, which we will use in the activity today, by running these commands once in your console:\n\n\ninstall.packages(\"ggrepel\")\ninstall.packages(\"geomtextpath\")\ninstall.packages(\"ggthemes\")\n\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  msleep.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\nHere’s my rendered solutions, with the code removed."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#ggplot2-resources",
+    "href": "assignments/week-03/w03-lab01.html#ggplot2-resources",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "ggplot2 resources",
+    "text": "ggplot2 resources\n\nQuick-reference ggplot2 cheatsheet  \nComprehensive ggplot2 documentation\nA book with more detail about ggplot2 than you’ll ever need\n\n\n\n\n\n\n\nTip\n\n\n\nWhen reading about ggplot2, especially in older resources, you may come across the function qplot() (for “quick plot”). qplot() a bare-bones, training-wheels alternative to the ggplot() function, and it is far less useful. The package authors have moved away from recommending use this function, which is now deprecated:\n\n“Feedback indicated that qplot() was a crutch: it makes simple plots a little easier, but it doesn’t help with mastering the grammar” (Wickham, 2016, p. viii).\n\nI suggest never using it."
+  },
+  {
+    "objectID": "assignments/week-03/w03-lab01.html#references",
+    "href": "assignments/week-03/w03-lab01.html#references",
+    "title": "Week 3, Lab 1: Mammalian sleep patterns",
+    "section": "References",
+    "text": "References\n\n\nSavage, V. M., & West, G. B. (2007). A quantitative, theoretical framework for understanding mammalian sleep. Proceedings of the National Academy of Sciences, 104(3), 1051–1056. https://doi.org/10.1073/pnas.0610080104\n\n\nWickham, H. (2016). Ggplot2: Elegant Graphics for Data Analysis (Second Edition). Springer International Publishing. https://doi.org/10.1007/978-3-319-24277-4"
+  },
+  {
+    "objectID": "assignments/week-04/w04-lab01.html#description-of-data-set",
+    "href": "assignments/week-04/w04-lab01.html#description-of-data-set",
+    "title": "Week 4, Lab 1: Baboon activity budgets",
+    "section": "Description of data set",
+    "text": "Description of data set\nThese data are drawn from actual observations of wild savanna baboons in the Amboseli basin of southern Kenya. The Amboseli Baboon Research Project is one of the world’s longest-running naturalistic field studies, and in many respects its long-term database is perhaps the largest, most comprehensive, and most consistent for any wild primate. These particular data are a small subset of “point samples” taken at regular intervals during focal sampling of baboons over a 1-year period in 2000.\n\n\n\nBaboons in Amboseli, Kenya."
+  },
+  {
+    "objectID": "assignments/week-04/w04-lab01.html#instructions",
+    "href": "assignments/week-04/w04-lab01.html#instructions",
+    "title": "Week 4, Lab 1: Baboon activity budgets",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_activities.qmd\n\n\n\n\nDownload the csv file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_acts_2000.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
+    "objectID": "weeks/week-08.html",
+    "href": "weeks/week-08.html",
+    "title": "Week 08",
+    "section": "",
+    "text": "Wilke, Ch. 15: Visualizing geospatial data\nWhy all world maps are wrong\nXKCD Map Projections"
+  },
+  {
+    "objectID": "weeks/week-08.html#all-computers",
+    "href": "weeks/week-08.html#all-computers",
+    "title": "Week 08",
+    "section": "All computers",
+    "text": "All computers\nBefore trying anything else, let’s try the easy way first.\n\nIn RStudio, try installing the R packages sf, stars, rgeos, and rnaturalearth using the typical installation commands . If prompted about installing from binary or from source, choose binary or answer “N” to not install from source!!\n\n\ninstall.packages(\"sf\")\ninstall.packages(\"stars\")\ninstall.packages(\"rgeos\")\ninstall.packages(\"rnaturalearth\")\n\n\nSome of these packages may prompt you to install additional packages or download associated data sets, which you should do.\nIf there were no errors in the steps above, try loading the packages in your R session. If all is working as it should, you may get a message similar to Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0 when loading the sf package (version numbers may differ). With any luck, that’s all you’ll need to do 🙏. But if those simple steps don’t work, read on…"
+  },
+  {
+    "objectID": "weeks/week-08.html#windows-users",
+    "href": "weeks/week-08.html#windows-users",
+    "title": "Week 08",
+    "section": "Windows users",
+    "text": "Windows users\nIf you’re getting weird installation errors, you might need to try a different method and install from source.\n\nWith R/RStudio closed, download and install Rtools (currently Rtools40.exe), which is software that enables your computer to compile R packages from their source code.\nStart up R Studio, and then install these packages: sf, stars, rgeos, and rnaturalearth.\n\n\ninstall.packages(\"sf\")\ninstall.packages(\"stars\")\ninstall.packages(\"rgeos\")\ninstall.packages(\"rnaturalearth\")\n\n\nLoad these packages in your R session. If all is working as it should, you may get a message similar to Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0 when loading the sf package (version numbers may differ)."
+  },
+  {
+    "objectID": "weeks/week-08.html#mac-users-i-hope-you-wont-have-to-do-this",
+    "href": "weeks/week-08.html#mac-users-i-hope-you-wont-have-to-do-this",
+    "title": "Week 08",
+    "section": "Mac users (I hope you won’t have to do this…)",
+    "text": "Mac users (I hope you won’t have to do this…)\n\nClose R/Rstudio\nInstall software that enables your computer to compile R packages from their source code.\n\nOpen terminal\nType xcode-select --install and let it run.\n\nInstall homebrew (if you haven’t already).\n\nOpen Terminal\nGo to brew.sh, copy the long command under “Install Homebrew” (currently, /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" but go ahead and copy from the webpage to be sure).\nPaste the command into Terminal, and press enter. This installs Homebrew, which is special software that lets you install Unix-y programs from the Terminal. This will take a while.\n\nIn Terminal, type this line to install the geographic software: brew install gdal geos proj. This will also take a while.\nOpen up R Studio, install these packages: sf, stars, rgeos, and rnaturalearth.\n\n\ninstall.packages(\"sf\")\ninstall.packages(\"stars\")\ninstall.packages(\"rgeos\")\ninstall.packages(\"rnaturalearth\")\n\n\nLoad these packages in your R session. If all is working as it should, you may get a message similar to Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0 when loading the sf package (version numbers may differ).\n\n\nIf you’re unable to get this working, let me know."
+  },
+  {
+    "objectID": "weeks/week-04.html",
+    "href": "weeks/week-04.html",
+    "title": "Week 04",
+    "section": "",
+    "text": "Readings\n\nWilke, Ch. 6: Visualizing Amounts\nWilke, Ch. 10: Visualizing Proportions\nWilke, Ch. 11: Visualizing Nested Proportions\n\n\n\nKristin Henry (2017) “In Defense of Pie Charts, and Why You Shouldn’t Use Them.”\nRobert Kosara (2016), “Stacked Bars Are the Worst.”\nDatawrapper, “What to consider when creating stacked column charts.”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 4 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 4, Lab 1: Baboon activity budgets\n\n\nWed, Sep 13\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "weeks/week-05.html",
+    "href": "weeks/week-05.html",
+    "title": "Week 05",
+    "section": "",
+    "text": "Readings\n\nWilke, Ch. 7: Visualizing distributions: Histograms and density plots\nWilke, Ch. 9: Visualizing many distributions at once\nWilke, Ch. 16: Visualizing uncertainty\n\n\n\nPopovich and Pearce, “It’s Not Your Imagination. Summers Are Getting Hotter.”\nMatthew Conlen, “Kernel Density Estimation”\nNicole Torres (2010), “Why It’s So Hard for Us to Visualize Uncertainty”\nRobert Kosara (2017), “Communicating Uncertainty When Lives Are on the Line”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 5 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 5, Lab 1: Late quaternary mammals\n\n\nWed, Sep 20\n\n\n\n\n\n\nNo matching items\n\n\n\n\nData sets\nThe slides this week include some examples made with the following data set:\n\n\n\n\n\n\n  model_summary.csv\n\n\n\n… as well as the data set for the week 5 assignment."
+  },
+  {
+    "objectID": "weeks/week-07.html",
+    "href": "weeks/week-07.html",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 4: Color scales\nWilke, Ch. 19: Common pitfalls of color use\n\n\n\n\n\n\nR4DS, Ch. 2.6: Saving your plots\nWilke, Ch. 27: Understanding the most commonly used image file formats\n\n\n\n\n\n\nWilke, Ch. 21: Multi-panel figures\nPatchwork: Getting started\n\n\n\n\n\n\n\nColor Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.\nCARTOColors: Cartography-focused color palettes, including vibrant qualitative color palettes; r package: rcartocolor.\nscico: Interesting set of less-common palettes, based on the “scientific color maps” described here.\nviridis: Small set of very nice color palettes, best for sequential data; r package: viridis.\ncolorspace: HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: colorspace.\nmultiscales: Multivariate color scales.\ndichromat: A package to simulate color blindness."
+  },
+  {
+    "objectID": "weeks/week-07.html#making-effective-use-of-color",
+    "href": "weeks/week-07.html#making-effective-use-of-color",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 4: Color scales\nWilke, Ch. 19: Common pitfalls of color use"
+  },
+  {
+    "objectID": "weeks/week-07.html#saving-plots-as-image-files",
+    "href": "weeks/week-07.html#saving-plots-as-image-files",
+    "title": "Week 07",
+    "section": "",
+    "text": "R4DS, Ch. 2.6: Saving your plots\nWilke, Ch. 27: Understanding the most commonly used image file formats"
+  },
+  {
+    "objectID": "weeks/week-07.html#composing-multiple-plots",
+    "href": "weeks/week-07.html#composing-multiple-plots",
+    "title": "Week 07",
+    "section": "",
+    "text": "Wilke, Ch. 21: Multi-panel figures\nPatchwork: Getting started"
+  },
+  {
+    "objectID": "weeks/week-07.html#color-resources",
+    "href": "weeks/week-07.html#color-resources",
+    "title": "Week 07",
+    "section": "",
+    "text": "Color Brewer: Color advice and a great set of color palettes; r package: RColorBrewer.\nCARTOColors: Cartography-focused color palettes, including vibrant qualitative color palettes; r package: rcartocolor.\nscico: Interesting set of less-common palettes, based on the “scientific color maps” described here.\nviridis: Small set of very nice color palettes, best for sequential data; r package: viridis.\ncolorspace: HCL-based color palettes; replicates some of the ones listed above, but also provides some interesting new ones; r package: colorspace.\nmultiscales: Multivariate color scales.\ndichromat: A package to simulate color blindness."
+  },
+  {
+    "objectID": "weeks/week-06.html",
+    "href": "weeks/week-06.html",
+    "title": "Week 06",
+    "section": "",
+    "text": "Readings\n\nWilke, Ch. 12: Visualizing associations among two or more quantitative variables\nWilke, Ch. 13: Visualizing time series and other functions of an independent variable\nWilke, Ch. 14: Visualizing trends\n\n\n\nNathan Yau, “11 Ways to Visualize Changes Over Time – A Guide”\nKeiran Healy, “Two Y-Axes”\nStephanie Evergreen, “Two Alternatives to Using a Second Y-Axis”\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 6 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 6, Lab 1: Baby names\n\n\nWed, Sep 27\n\n\n\n\n\n\nNo matching items\n\n\n\n\nData sets\nThe slides this week include some examples made with the following data sets:\n\n\n\n\n\n\n  school_earnings.csv\n\n\n\n\n\n\n\n\n\n  school_earnings_wide.csv"
+  },
+  {
+    "objectID": "weeks/week-02.html",
+    "href": "weeks/week-02.html",
+    "title": "Week 02",
+    "section": "",
+    "text": "R for Data Science: Workflow: basics. A good, concise recap of essential R basics.\nModernDive Ch. 1: Getting Started with Data in R. Section 1.1 is all review, the rest may be more useful.\n\n\n\n\n\nR for Data Science: Workflow: scripts and projects.\nR for Data Science: Workflow: cody style. Consistent style is an important element of writing clear, understandable code and is vital for effective collaboration on code. Don’t worry if you don’t understand all the code examples in this section. Just try to get a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.)\n\n\n\n\n\nTutorial: Hello, Quarto.\nQuarto Cheatsheet ."
+  },
+  {
+    "objectID": "weeks/week-02.html#more-on-r-basics-mostly-review",
+    "href": "weeks/week-02.html#more-on-r-basics-mostly-review",
+    "title": "Week 02",
+    "section": "",
+    "text": "R for Data Science: Workflow: basics. A good, concise recap of essential R basics.\nModernDive Ch. 1: Getting Started with Data in R. Section 1.1 is all review, the rest may be more useful."
+  },
+  {
+    "objectID": "weeks/week-02.html#guidance-on-how-to-organize-your-workflows-and-write-clearly-in-r",
+    "href": "weeks/week-02.html#guidance-on-how-to-organize-your-workflows-and-write-clearly-in-r",
+    "title": "Week 02",
+    "section": "",
+    "text": "R for Data Science: Workflow: scripts and projects.\nR for Data Science: Workflow: cody style. Consistent style is an important element of writing clear, understandable code and is vital for effective collaboration on code. Don’t worry if you don’t understand all the code examples in this section. Just try to get a feel for the style recommendations (e.g., using meaningful names for R objects, indenting, use of spacing, parentheses, commas, etc.)"
+  },
+  {
+    "objectID": "weeks/week-02.html#introduction-to-quarto",
+    "href": "weeks/week-02.html#introduction-to-quarto",
+    "title": "Week 02",
+    "section": "",
+    "text": "Tutorial: Hello, Quarto.\nQuarto Cheatsheet ."
+  },
+  {
+    "objectID": "weeks/week-03.html",
+    "href": "weeks/week-03.html",
+    "title": "Week 03",
+    "section": "",
+    "text": "Readings\n\nHealy, Ch. 1: Look At Data\nWilke, Ch. 1: Introduction\nWilke, Ch. 2: Visualizing data: Mapping data onto aesthetics\nWilke, Ch. 5: Directory of Visualizations\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 3 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 3, Lab 1: Mammalian sleep patterns\n\n\nWed, Sep 06\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "weeks/week-01.html",
+    "href": "weeks/week-01.html",
+    "title": "Week 01",
+    "section": "",
+    "text": "Readings\n\n\n\n\n\n\n\nSource\nLink\n\n\n\n\nCourse website\nCourse Policies\n\n\nHealy: Data Visualization\nPreface\n\n\nWickham: R4DS\nChapter 1: Introduction\n\n\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 1 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 1, Lab 1: Swirl\n\n\nWed, Aug 23\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html",
+    "href": "projects/small-project-1/small-project-1.html",
+    "title": "Small project 1: Ape teeth",
+    "section": "",
+    "text": "In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements, and create exploratory plots to begin to answer those questions."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#introduction",
+    "href": "projects/small-project-1/small-project-1.html#introduction",
+    "title": "Small project 1: Ape teeth",
+    "section": "",
+    "text": "In this small project, you will think of conceptual questions to ask of a data set of ape teeth measurements, and create exploratory plots to begin to answer those questions."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#description-of-the-data",
+    "href": "projects/small-project-1/small-project-1.html#description-of-the-data",
+    "title": "Small project 1: Ape teeth",
+    "section": "Description of the data",
+    "text": "Description of the data\n\n\n\n\n\n\n  ape_teeth.csv\n\n\n\n\nData source: http://anthropologicaldata.free.fr/\n\n\nColumns\n\nSpecies: ape species the tooth belongs to, including:\n\nGorilla gorilla (Western gorilla)\nPan troglodytes (Common chimpanzee)\nPongo pygmaeus (Bornean orangutan)\n\nSite: where specimen is located\nSpecimen: specimen ID number\nSex: Male or Female\nSource: where data come from\nTooth: name of tooth (see below). Possible values are I1, I2, C, P3, P4, M1, M2, and M3.\n\n\n\nToothClass: Incisor, Canine, Premolar, or Molar\nSide: Left or Right\nPosition: Superior (“upper jaw”) or Inferior (“lower jaw”)\nMD: Mesiodistal crown diameter in mm (how “broad” the tooth is).\nBL: Buccolinual crown diameter in mm (how “thick” the tooth is along the cheek–tongue axis).\n\nNote that there are no crown cervico-occlusal (“height”) measurements in the data ."
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#ape-fact-sheets",
+    "href": "projects/small-project-1/small-project-1.html#ape-fact-sheets",
+    "title": "Small project 1: Ape teeth",
+    "section": "Ape fact sheets",
+    "text": "Ape fact sheets\nThe following short fact sheets about these great apes provide general information about diet, social organization, and mating system. These may or may not be helpful for formulating your questions.\n\nGorilla fact sheet\nPan fact sheet\nPongo fact sheet"
+  },
+  {
+    "objectID": "projects/small-project-1/small-project-1.html#instructions",
+    "href": "projects/small-project-1/small-project-1.html#instructions",
+    "title": "Small project 1: Ape teeth",
+    "section": "Instructions",
+    "text": "Instructions\n\nContent Instructions\n\nThink of three (and only three!) conceptual questions about the ape teeth data. To help guide your thinking here, consider how individuals vary both within and between species, and think about what the different kinds of teeth do for different individual animals.\nClearly state each question in your report. You might want to create different sections for your different questions.\nUsing ggplot2, create at least one plot for each question that helps you to answer the question. For each plot, provide an explanation for why you chose the type of plot (e.g. scatterplot, boxplot, bar chart, histogram, etc.), and why you believe that it is best for showing the information related to your question.\nYou must use at least three different primary geoms.\nAnswer your questions by interpreting your plots and identifying any trends that they reveal (or do not reveal).\nIn total, your text related to the conceptual questions, plot design decisions, and interpretation should be in the neighborhood of 1000 words.\n\n\n\n\nFormatting Instructions\n\nThe project report should essentially look similar to some of our class activities, but it should include more narrative/explanation along with the code and plots.\nPlease create your report in an Quarto file called small-project-1_XX.qmd, where you substitute your initials for “XX” (for example, my report would be called small-project-1_FC.qmd.\nThe Quarto report should show all of the code that you used to work with the data and produce your plots.\nSubmit your report (in .html and .qmd formats) through Canvas.\n\n\n\n\nEvaluation Criteria\nProjects will be graded on workflow and presentation rather than particular conclusions. So don’t worry if you ask a question that fails to turn up interesting results! The data are what they are.\nTo receive full credit, I am looking for:\n\nClear, coherent questions about the data. Questions end in a question mark!\nThe questions should be conceptual, and should not prompt a specific analysis or plot.\nEach plot that you include in the report should help to answer one of your proposed questions, with a justification for why you chose to make the type of plot that you made. I am not looking for a dumping ground of many preliminary or poor-quality plots that you experimented with while trying to make a good one.\nInterpretation of your plots and responses to your proposed question.\nStatistical analysis is not necessary or expected. Just interpret your plots."
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Course information",
+    "text": "Course information\n\n\n\n\nInstructor\nDr. Fernando Campos \n\n\nLocation\nMultidisciplinary Studies Bldg 2.03.18\n\n\nTimes\nWednesdays 9:00 am – 11:45 am\n\n\nCourse\nANT 6973.002\n\n\nCRN\n24022\n\n\nOffice Hours\nWed, 12:30 pm – 1:30 pm (email to confirm meeting)"
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Overview",
+    "text": "Overview\nThis course is designed for graduate students in social or natural sciences who would like to gain experience in data visualization and analysis using R. It aims to be accessible to those who are completely new to programming, but also to provide new insights and skills to those who already have experience using R."
+  },
+  {
+    "objectID": "index.html#approach",
+    "href": "index.html#approach",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Approach",
+    "text": "Approach\nThis course will use a mix of traditional and flipped classroom approaches, with new material introduced in reading assignments prior to class while class time will focus on applying those skills to data sets. The course will be activity-focused. Most concepts will be first introduced in assigned readings outside of class, leaving class time to focus on developing practical skills, completing activities, making progress on individual projects. We will cover topics in both data visualization as well as data manipulation. Students are encouraged to work collaboratively in and out of class. The online course schedule provides an overview of the topics covered as well as links to weekly readings, in-class activities, and any lecture material. This schedule is preliminary and always subject to change."
+  },
+  {
+    "objectID": "index.html#textbooks",
+    "href": "index.html#textbooks",
+    "title": "ANT 6973: Data Visualization and Exploration",
+    "section": "Textbooks",
+    "text": "Textbooks\nWe will read sections from four openly licensed, online textbooks for this course. Hard copies of the books are not required, but can be found at the links below.\n\n\n\n\nFundamentals of Data Visualization\nWilke, Claus\nO’Reilly Media; 1st edition\n\n\nData Visualization: A practical introduction\nHealy, Kieran\nPrinceton University Press; 1st edition\n\n\nStatistical Inference via Data Science: A ModernDive into R and the Tidyverse!\nIsmay, Chester and Kim, Albert Y.\nChapman and Hall/CRC; 1st edition\n\n\nR for Data Science\nGrolemund, Wickham\nO’Reilly Media; 2nd edition"
+  },
+  {
+    "objectID": "policies.html#course-information",
+    "href": "policies.html#course-information",
+    "title": "Course Policies",
+    "section": "Course Information",
+    "text": "Course Information\n\nCourse Description\nThis course introduces theory and practical skills for managing and displaying quantitative information so that visual stories can be found and communicated effectively. We will cover principles of tidy data, strategies for data exploration, and principles of visual presentation. We will use the R computing environment, but no prior programming experience is required. The emphasis is on gaining practical skills that will empower students to answer questions with data.\n\n\nCourse Goals\nThis course will provide students an opportunity to master theoretical concepts in data visualization and to acquire valuable skills for exploring data and producing statistical graphics. Students will learn how to use R to produce visualizations and work with quantitative data, and to apply these skills to communicate scientific knowledge effectively.\n\n\nStudent Learning Objectives/Outcomes\nDuring this semester, students will have the opportunity to:\n\nLearn fundamental principles and best practices for the visual display of quantitative data.\nBecome familiar with data input, analysis, and export using the R statistical computing environment.\nAchieve proficiency with key R packages for data visualization and exploration.\nDevelop skills in written and oral communication and graphical display of data through online activities, small group assignments, and individual projects.\n\n\n\nCourse Prerequisites\nThere are no prerequisites for this class. In particular, prior programming experience is not required. Some familiarity with quantitative methods and data analysis would be helpful. Students with significant experience in R should still find new things to learn or important knowledge to review in each lesson.\n\n\nCourse Materials\nAll reading materials will be online or posted to the course website. Assigned readings should be completed before the start of class on the day indicated.\n\n\nCommunication\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website. Announcements will be emailed through Canvas Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course."
+  },
+  {
+    "objectID": "policies.html#course-requirements",
+    "href": "policies.html#course-requirements",
+    "title": "Course Policies",
+    "section": "Course Requirements",
+    "text": "Course Requirements\n\nIn-Class Exercises\nAs a (mostly) flipped classroom, our in-class time will involve brief refreshers on new concepts introduced in the readings followed by working on exercises that relate to those concepts. These exercises will include activities that the instructor will describe in class. While students are working on these exercises, the instructor will actively engage with students to help them understand material that they find confusing, help identify problems that are preventing students from completing the exercises, and discuss novel applications and alternative approaches to the data visualization challenges that students are working to complete.\nAssigned in-class exercises can be found under the relevant week of the course schedule.\n\n\nSmall Projects\nDuring the term, there will be two small data visualization projects that each student must complete. The professor will provide a data set and detailed instructions for each project. In brief, the projects will be visualization challenges in which the student will read in the data set in R, produce one or more visualizations of the data, and provide a written narrative (~1000 words) of interesting aspects or insights gained in the process of analyzing the data. The submission should be a Quarto/RMarkdown report in HTML format, and it must include the R code used, the embedded visualizations, and the written narrative. Please also submit the .qmd file used to make the report.\n\n\nFinal Project\nFor the final project, students are encouraged to find and/or use a data set related to their thesis topic, if possible. If this is not possible, the professor can help to find a data set on a topic relevant to the student’s interests. Students must demonstrate and document both data tidying/preparation and data visualization. Further instructions will be provided. The submitted final project should include:\n\nThe raw data set used in the analysis (contact me if there are any concerns about this).\nA Quarto/RMarkdown report in HTML format with all R code used, at least 3 plots, and a written narrative of approximately 1000 words.\nThe .qmd file used to make the report.\nA digital poster (in a digital format such as PDF—no actual printed posters please!), similar to what you might present at an academic conference, that presents your project visually.\n\n\n\nAttendance and Participation\nRegular attendance will be essential to the successful completion of this course. Attendance is mandatory and will count toward your final grade. We are aiming for a supportive and cooperative learning environment. To accomplish this, I expect students to be actively engaged participants in all classroom activities."
+  },
+  {
+    "objectID": "policies.html#grading",
+    "href": "policies.html#grading",
+    "title": "Course Policies",
+    "section": "Grading",
+    "text": "Grading\n\n\n\n\n\n\nNote\n\n\n\nIt is expected that students will have a wide range of prior experience and abilities. Grading will reflect learning and effort in the course rather than techical ability.\n\n\nDetails of grading scheme can be found in the course syllabus posted to Blackboard. Grades will be assigned using the following weighted components:\n\n\n\n\nComponent\nWeight\n\n\n\n\nCompletion of In-class Exercises\n40%\n\n\nFirst Small Project\n15%\n\n\nSecond Small Project\n15%\n\n\nFinal Project\n25%\n\n\nAttendance and Participation\n5%\n\n\n\n\nMake-up policy\nLate assignments will be penalized 20% and will not be accepted more than 48 hours late except in cases of genuine emergencies that can be documented by the student or in cases where late submission has been discussed and approved in advance."
+  },
+  {
+    "objectID": "policies.html#course-community",
+    "href": "policies.html#course-community",
+    "title": "Course Policies",
+    "section": "Course Community",
+    "text": "Course Community\n\nCooperative Learning Environment\nI encourage you to discuss the course activities with your friends and classmates as you are working on them. You will learn more in this class if you work with others than if you do not.\nHowever, you should not directly copy code or allow other students to copy your code. When cooperating on a problem, you can discuss it with others, but write your own solutions. Direct copying of code will be considered cheating, and will be subject to the Scholastic Dishonesty policies outlined in the Student Code of Conduct\nShare ideas, ask questions, ask for help, but don’t copy.\n\n\nCode of Conduct\nI expect and require behavior compatible with a high standard of scholarship. Refrain from distracting behavior, such as talking during lectures, and wait until class is dismissed before packing up your belongings. Please try not to arrive late or leave early. Most importantly, you must show respect for each other’s opinions and differing levels of prior knowledge and ability."
+  },
+  {
+    "objectID": "slides/week-08/08-slides.html",
+    "href": "slides/week-08/08-slides.html",
+    "title": "Week 8 slides",
+    "section": "",
+    "text": "Week 8 slides:\n\nVisualizing Geospatial Data"
+  },
+  {
+    "objectID": "slides/week-01/01-slides.html",
+    "href": "slides/week-01/01-slides.html",
+    "title": "Week 1 slides",
+    "section": "",
+    "text": "Week 1 slides:\n\nIntroduction, Setup, and R Basics"
+  },
+  {
+    "objectID": "slides/week-06/06-slides.html",
+    "href": "slides/week-06/06-slides.html",
+    "title": "Week 6 slides",
+    "section": "",
+    "text": "Week 6 slides:\n\nVisualizing relationships and change over time"
+  },
+  {
+    "objectID": "slides/week-07/07-slides.html",
+    "href": "slides/week-07/07-slides.html",
+    "title": "Week 7 slides",
+    "section": "",
+    "text": "Week 7 slides:\n\nColor, output, and composing multiple plots"
+  },
+  {
+    "objectID": "slides/week-05/05-slides.html",
+    "href": "slides/week-05/05-slides.html",
+    "title": "Week 5 slides",
+    "section": "",
+    "text": "Week 5 slides:\n\nVisualizing distributions and uncertainty"
+  },
+  {
+    "objectID": "slides/week-02/02-slides.html",
+    "href": "slides/week-02/02-slides.html",
+    "title": "Week 2 slides",
+    "section": "",
+    "text": "Week 2 slides:\n\nWorkflows and Quarto"
+  },
+  {
+    "objectID": "slides/week-03/03-slides.html",
+    "href": "slides/week-03/03-slides.html",
+    "title": "Week 3 slides",
+    "section": "",
+    "text": "Week 3 slides:\n\nData visualization basics"
+  },
+  {
+    "objectID": "slides/week-04/04-slides.html",
+    "href": "slides/week-04/04-slides.html",
+    "title": "Week 4 slides",
+    "section": "",
+    "text": "Week 4 slides:\n\nVisualizing amounts and parts of a whole"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Excerpts of Fall 2021 syllabus from STA 199: Introduction to Data Science at Duke University"
+  },
+  {
+    "objectID": "syllabus.html#course-learning-objectives",
+    "href": "syllabus.html#course-learning-objectives",
+    "title": "Syllabus",
+    "section": "Course Learning Objectives",
+    "text": "Course Learning Objectives\nBy the end of the semester, you will…\n\nlearn to explore, visualize, and analyze data in a reproducible and shareable manner\ngain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization work on problems and case studies inspired by and based on real-world questions and data\nlearn to effectively communicate results through written assignments and final project presentation"
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\nAll books are freely available online. Hardcopies are also available for purchase.\n\n\n\nR for Data Science\nGrolemund, Wickham\nO’Reilly, 1st edition, 2016\n\n\nIntroduction to Modern Statistics\nÇetinkaya-Rundel, Hardin\nOpenIntro Inc., 1st Edition, 2021"
+  },
+  {
+    "objectID": "syllabus.html#course-community",
+    "href": "syllabus.html#course-community",
+    "title": "Syllabus",
+    "section": "Course community",
+    "text": "Course community\n\nInclusive community\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength, and benefit. It is my intent to present materials and activities that are respectful of diversity and in alignment with Duke’s Commitment to Diversity and Inclusion. Your suggestions are encouraged and appreciated.\n\n\nAccessibility\nIf there is any portion of the course that is not accessible to you due to challenges with technology or the course format, please let me know so we can make appropriate accommodations.\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances.\n\n\nCommunication\nAll lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website.\nAnnouncements will be emailed through Sakai Announcements periodically. Please check your email regularly to ensure you have the latest announcements for the course."
+  },
+  {
+    "objectID": "syllabus.html#activities-assessment",
+    "href": "syllabus.html#activities-assessment",
+    "title": "Syllabus",
+    "section": "Activities & Assessment",
+    "text": "Activities & Assessment\n\nLabs\nIn labs, you will apply the concepts discussed in lecture to various data analysis scenarios, with a focus on the computation.\n\n\nHomework\nIn homework, you will apply what you’ve learned during lecture and lab to complete data analysis tasks.\n\n\nExams\nThere will be two, take-home, open-note exams. Through these exams you have the opportunity to demonstrate what you’ve learned in the course thus far.\n\n\nFinal Project\nThe purpose of the final project is to apply what you’ve learned throughout the semester to analyze an interesting data-driven research question."
+  },
+  {
+    "objectID": "syllabus.html#grading",
+    "href": "syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\nThe final course grade will be calculated as follows:\n\n\n\n\nCategory\nPercentage\n\n\n\n\nHomework\n30%\n\n\nLabs\n15%\n\n\nFinal Project\n15%\n\n\nExam 01\n17.5%\n\n\nExam 02\n17.5%\n\n\nIn-class exercises\n5%"
+  },
+  {
+    "objectID": "syllabus.html#course-policies",
+    "href": "syllabus.html#course-policies",
+    "title": "Syllabus",
+    "section": "Course policies",
+    "text": "Course policies\n\nAcademic honesty\nTL;DR: Don’t cheat!\nPlease abide by the following as you work on assignments in this course:\n\nYou may discuss individual homework and lab assignments with other students; however, you may not directly share (or copy) code or write up with other students. For team assignments, you may collaborate freely within your team. You may discuss the assignment with other teams; however, you may not directly share (or copy) code or write up with another team. Unauthorized sharing (or copying) of the code or write up will be considered a violation for all students involved.\nYou may not discuss or otherwise work with others on the exams.\nReusing code: Unless explicitly stated otherwise, you may make use of online resources (e.g. StackOverflow) for coding examples on assignments. If you directly use code from an outside source (or use it as inspiration), you must explicitly cite where you obtained the code. Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.\n\n\n\nLate work & extensions\nThe due dates for assignments are there to help you keep up with the course material and to ensure the teaching team can provide feedback within a timely manner. We understand that things come up periodically that could make it difficult to submit an assignment by the deadline. Note that the lowest homework and lab assignment will be dropped to accommodate such circumstances."
+  },
+  {
+    "objectID": "syllabus.html#important-dates",
+    "href": "syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\n\nAug 23: Classes begin\nSep 3: Drop/add ends\nOct 4-5: Fall break\nNov 5: Last day to withdraw with W\nNov 24-26: Thanksgiving recess\nDec 3: Classes end\nDec 4-7: Reading period\nDec 8-13: Final exams"
+  },
+  {
+    "objectID": "downloads/paths-activity.html",
+    "href": "downloads/paths-activity.html",
+    "title": "Paths activity",
+    "section": "",
+    "text": "We need to load the package knitr for this activity to use the function kable(). This will allow us to display the nice HTML table near the bottom of the document. We’re also going to use the package here for this activity, so let’s load it into our R session.\nlibrary(\"knitr\")\nlibrary(\"here\")"
+  },
+  {
+    "objectID": "downloads/paths-activity.html#activity-1",
+    "href": "downloads/paths-activity.html#activity-1",
+    "title": "Paths activity",
+    "section": "Activity 1",
+    "text": "Activity 1\nFirst, let’s get a look at the issue by having R tell us the working directory. First, run the command below in your console. And then verify that this will give a different result in your rendered report. Uh-oh!\n\ngetwd() # Also run this in console\n\n[1] \"/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/website/downloads\"\n\n\nQ1: How do these paths differ, and why?"
+  },
+  {
+    "objectID": "downloads/paths-activity.html#activity-2",
+    "href": "downloads/paths-activity.html#activity-2",
+    "title": "Paths activity",
+    "section": "Activity 2",
+    "text": "Activity 2\nModify the command below by providing a relative path that it executes successfully in your R console but NOT when rendering the report. Note that I added the chunk option #| error: true to allow the document to render, despite the error, and show the R error in the report. When you do this correctly, the error should remain in the rendered report!\n\nschool_earnings &lt;- read.csv(\"&lt;your relative path here&gt;\")\n\nWarning in file(file, \"rt\"): cannot open file '&lt;your relative path here&gt;': No\nsuch file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\n\nQ2: Why does this fail when rendering the report?"
+  },
+  {
+    "objectID": "downloads/paths-activity.html#activity-3",
+    "href": "downloads/paths-activity.html#activity-3",
+    "title": "Paths activity",
+    "section": "Activity 3",
+    "text": "Activity 3\nNow modify the command below by providing a relative path that it works correctly when rendering but NOT in the R console. This time, when you do this correctly the error message should disappear from the rendered report, and a table of values should appear below the R chunk. (Hint: you’ll need to navigate “up” from your .Rmd file’s working directory).\n\nschool_earnings &lt;- read.csv(\"&lt;your relative path here&gt;\")\n\nWarning in file(file, \"rt\"): cannot open file '&lt;your relative path here&gt;': No\nsuch file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\nkable(head(school_earnings))\n\nError in eval(expr, envir, enclos): object 'school_earnings' not found\n\n\nQ3: Why does this fail in the R console?"
+  },
+  {
+    "objectID": "downloads/paths-activity.html#activity-4",
+    "href": "downloads/paths-activity.html#activity-4",
+    "title": "Paths activity",
+    "section": "Activity 4",
+    "text": "Activity 4\nYou might be tempted to solve this problem by typing out the absolute path. Future-you is very disappointed 😢.\nThe following works on my laptop computer but not on my home computer, and definitely does not work on any of your computers (you should see an error, which does not appear for me).\n\nschool_earnings &lt;- read.csv(\"/Users/czx412/Documents/Work/UTSA/Teaching/Data Visualization/Data Visualization - Fall 2023/classroom/data/school_earnings.csv\")\n\nModify the code below by providing an absolute path that works for you. If successful, a table of data should appear below, and the error should disappear.\n\n# This should work for you alone. If successful, you should see no error below this box.\nschool_earnings &lt;- read.csv(\"&lt;your absolute path here&gt;\")\n\nWarning in file(file, \"rt\"): cannot open file '&lt;your absolute path here&gt;': No\nsuch file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\nkable(head(school_earnings))\n\nError in eval(expr, envir, enclos): object 'school_earnings' not found\n\n\nQ4: Assuming you did this correctly, why does this work in both the R console and when rendering report? And given this success, what are possible drawbacks of using this approach?"
+  },
+  {
+    "objectID": "downloads/paths-activity.html#activity-5-here-to-the-rescue",
+    "href": "downloads/paths-activity.html#activity-5-here-to-the-rescue",
+    "title": "Paths activity",
+    "section": "Activity 5: here() to the rescue",
+    "text": "Activity 5: here() to the rescue\nFinally, let’s resolve this problem using the here package. Modify the code below by providing the relative path from the project root to the data file using the here() function inside of read.csv().\n\n# Should work both in console and when rendering\nschool_earnings &lt;- read.csv(here(\"&lt;your relative path here&gt;\"))\n\nWarning in file(file, \"rt\"): cannot open file\n'/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data\nVisualization/Data Visualization - Fall 2023/website/&lt;your relative path\nhere&gt;': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\nkable(head(school_earnings))\n\nError in eval(expr, envir, enclos): object 'school_earnings' not found\n\n\nNote that, once this is done correctly, it continues to work even if I use setwd() to use some totally inappropriate directory as the working directory in my Quarto file, like some kind of maniac.\n\nsetwd(\"~/.Trash/\") # &lt;- BAD BAD BAD WHY U DO THIS!!!\n\nschool_earnings &lt;- read.csv(here(\"&lt;same relative path here as above&gt;\"))\n\nWarning in file(file, \"rt\"): cannot open file\n'/Users/czx412/Library/CloudStorage/OneDrive-UniversityofTexasatSanAntonio/Work/UTSA/Teaching/Data\nVisualization/Data Visualization - Fall 2023/website/&lt;same relative path here\nas above&gt;': No such file or directory\n\n\nError in file(file, \"rt\"): cannot open the connection\n\nkable(head(school_earnings))\n\nError in eval(expr, envir, enclos): object 'school_earnings' not found\n\n\nQ5: The code above should “just work” in any scenario. Assuming you did this correctly, verify that this works both in the knitted document AND in your R console.\n\nChoose your answer wisely:\n\nI verify that this worked.\nYou lied to me."
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#bullet-point-list",
+    "href": "slides_old/week-01/01-example.html#bullet-point-list",
+    "title": "Welcome to Intro Data Science",
+    "section": "Bullet point list",
+    "text": "Bullet point list\nUnordered\n\nItem A\nItem B\nItem C\n\nOrdered\n\nItem 1\nItem 2\nItem 3"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#incremental-list",
+    "href": "slides_old/week-01/01-example.html#incremental-list",
+    "title": "Welcome to Intro Data Science",
+    "section": "Incremental list",
+    "text": "Incremental list\n\n\nItem 1\nItem 2\nItem 3"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#equations",
+    "href": "slides_old/week-01/01-example.html#equations",
+    "title": "Welcome to Intro Data Science",
+    "section": "Equations",
+    "text": "Equations\nWrite mathematical symbols and equations using Latex.\nUse the formulas below to calculate \\(\\hat{\\beta}_1\\), the estimated slope, and \\(\\hat{\\beta}_0\\), the estimated intercept.\n\\[\n\\begin{aligned}\n&\\hat{\\beta}_1 = r \\frac{s_y}{s_x} \\\\\n&\\hat{\\beta}_0 = \\bar{y} - \\hat{\\beta}_1 \\bar{x}\n\\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#code",
+    "href": "slides_old/week-01/01-example.html#code",
+    "title": "Welcome to Intro Data Science",
+    "section": "Code",
+    "text": "Code\n\n# Use code chunk option fig-align: center to center the plot. \nggplot(data = penguins, aes(x = flipper_length_mm, y = body_mass_g, \n                            color = species)) + \n         geom_point() + \n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d()\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#images",
+    "href": "slides_old/week-01/01-example.html#images",
+    "title": "Welcome to Intro Data Science",
+    "section": "Images",
+    "text": "Images\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#columns",
+    "href": "slides_old/week-01/01-example.html#columns",
+    "title": "Welcome to Intro Data Science",
+    "section": "Columns",
+    "text": "Columns\n\n\nCalculate the proportion of penguins from each species.\n\n\npenguins |&gt;\n  count(species) |&gt;\n  mutate(prop  = n / sum(n))\n\n# A tibble: 3 × 3\n  species       n  prop\n  &lt;fct&gt;     &lt;int&gt; &lt;dbl&gt;\n1 Adelie      152 0.442\n2 Chinstrap    68 0.198\n3 Gentoo      124 0.360"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#panels",
+    "href": "slides_old/week-01/01-example.html#panels",
+    "title": "Welcome to Intro Data Science",
+    "section": "Panels",
+    "text": "Panels\n\nPlotCode\n\n\n\npenguins |&gt;\n  filter(species == \"Adelie\", !is.na(sex)) |&gt;\n  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = sex)) + \n  geom_point() +\n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Adelie Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d() + \n  facet_wrap(~island)\n\n\n\n\n\n\n\npenguins |&gt;\n  filter(species == \"Adelie\", !is.na(sex)) |&gt;\n  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = sex)) + \n  geom_point() +\n  labs(x = \"Flipper Length (in mm)\",y = \"Body Mass (in g)\",\n       title = \"Flipper length vs. body mass\",\n       subtitle = \"Adelie Penguins at Palmer Station, Antartica\") +\n  scale_color_viridis_d() + \n  facet_wrap(~island)"
+  },
+  {
+    "objectID": "slides_old/week-01/01-example.html#themes",
+    "href": "slides_old/week-01/01-example.html#themes",
+    "title": "Welcome to Intro Data Science",
+    "section": "Themes",
+    "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\nCreate custom thing using Sass\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#bullet-point-list",
+    "href": "slides_old/week-01/02-demo.html#bullet-point-list",
+    "title": "Meet the Toolkit",
+    "section": "Bullet point list",
+    "text": "Bullet point list"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#incremental-list",
+    "href": "slides_old/week-01/02-demo.html#incremental-list",
+    "title": "Meet the Toolkit",
+    "section": "Incremental list",
+    "text": "Incremental list"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#equations",
+    "href": "slides_old/week-01/02-demo.html#equations",
+    "title": "Meet the Toolkit",
+    "section": "Equations",
+    "text": "Equations"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#code",
+    "href": "slides_old/week-01/02-demo.html#code",
+    "title": "Meet the Toolkit",
+    "section": "Code",
+    "text": "Code"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#images",
+    "href": "slides_old/week-01/02-demo.html#images",
+    "title": "Meet the Toolkit",
+    "section": "Images",
+    "text": "Images"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#columns",
+    "href": "slides_old/week-01/02-demo.html#columns",
+    "title": "Meet the Toolkit",
+    "section": "Columns",
+    "text": "Columns"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#panels",
+    "href": "slides_old/week-01/02-demo.html#panels",
+    "title": "Meet the Toolkit",
+    "section": "Panels",
+    "text": "Panels"
+  },
+  {
+    "objectID": "slides_old/week-01/02-demo.html#themes",
+    "href": "slides_old/week-01/02-demo.html#themes",
+    "title": "Meet the Toolkit",
+    "section": "Themes",
+    "text": "Themes\nCustomize the appearance of the slides using\n\nBuilt-in Reveal theme\nModify built-in theme using Sass\n\nVariant of CSS that supports variables and other features\n\n\nSpecify the theme and/or Sass file (.scss) in the YAML\n\n\n\n🔗 rstudio-conf-2022.github.io/teach-ds-course-website"
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+  },
+  {
+    "objectID": "schedule.html#weekly-schedule",
+    "href": "schedule.html#weekly-schedule",
+    "title": "Schedule",
+    "section": "",
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+  }
+]

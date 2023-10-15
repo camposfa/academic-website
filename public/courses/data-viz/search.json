@@ -252,6 +252,41 @@
     "text": "Mac users (I hope you won’t have to do this…)\n\nClose R/Rstudio\nInstall software that enables your computer to compile R packages from their source code.\n\nOpen terminal\nType xcode-select --install and let it run.\n\nInstall homebrew (if you haven’t already).\n\nOpen Terminal\nGo to brew.sh, copy the long command under “Install Homebrew” (currently, /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\" but go ahead and copy from the webpage to be sure).\nPaste the command into Terminal, and press enter. This installs Homebrew, which is special software that lets you install Unix-y programs from the Terminal. This will take a while.\n\nIn Terminal, type this line to install the geographic software: brew install gdal geos proj. This will also take a while.\nOpen up R Studio, install these packages: sf, stars, rgeos, and rnaturalearth.\n\n\ninstall.packages(\"sf\")\ninstall.packages(\"stars\")\ninstall.packages(\"rgeos\")\ninstall.packages(\"rnaturalearth\")\n\n\nLoad these packages in your R session. If all is working as it should, you may get a message similar to Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0 when loading the sf package (version numbers may differ).\n\n\nIf you’re unable to get this working, let me know."
   },
   {
+    "objectID": "weeks/week-09.html",
+    "href": "weeks/week-09.html",
+    "title": "Week 09",
+    "section": "",
+    "text": "Peruse the website “Data Organization in Spreadsheets”, much of which has been written up in a journal article (Broman & Woo, 2018). (  3.9 MB)\n\n\n\n\n\n\nR4DS, Ch. 8.2: Data Import. There’s a lot of detail here, and in reading through the chapter, you might find functions that are unfamiliar. Don’t worry if you don’t understand everything. Try to get a sense of the overall strategy. I suggest working through the exercises to help you understand the code.\n\n\n\n\n\n\nR4DS, Ch. 21: Spreadsheets. Same caveats as above. In class, we will work through several examples of reading from spreadsheets, including some that are badly organized."
+  },
+  {
+    "objectID": "weeks/week-09.html#organizing-data",
+    "href": "weeks/week-09.html#organizing-data",
+    "title": "Week 09",
+    "section": "",
+    "text": "Peruse the website “Data Organization in Spreadsheets”, much of which has been written up in a journal article (Broman & Woo, 2018). (  3.9 MB)"
+  },
+  {
+    "objectID": "weeks/week-09.html#importing-data-from-plain-text",
+    "href": "weeks/week-09.html#importing-data-from-plain-text",
+    "title": "Week 09",
+    "section": "",
+    "text": "R4DS, Ch. 8.2: Data Import. There’s a lot of detail here, and in reading through the chapter, you might find functions that are unfamiliar. Don’t worry if you don’t understand everything. Try to get a sense of the overall strategy. I suggest working through the exercises to help you understand the code."
+  },
+  {
+    "objectID": "weeks/week-09.html#importing-data-from-spreadsheets",
+    "href": "weeks/week-09.html#importing-data-from-spreadsheets",
+    "title": "Week 09",
+    "section": "",
+    "text": "R4DS, Ch. 21: Spreadsheets. Same caveats as above. In class, we will work through several examples of reading from spreadsheets, including some that are badly organized."
+  },
+  {
+    "objectID": "weeks/week-09.html#references",
+    "href": "weeks/week-09.html#references",
+    "title": "Week 09",
+    "section": "References",
+    "text": "References\n\n\nBroman, K. W., & Woo, K. H. (2018). Data Organization in Spreadsheets. The American Statistician, 72(1), 2–10. https://doi.org/10.1080/00031305.2017.1375989"
+  },
+  {
     "objectID": "weeks/week-04.html",
     "href": "weeks/week-04.html",
     "title": "Week 04",
@@ -711,13 +746,13 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\nWeek 09\n\n\nOct 18\n\n\n Data Import\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   },
   {
     "objectID": "schedule.html#weekly-schedule",
     "href": "schedule.html#weekly-schedule",
     "title": "Schedule",
     "section": "",
-    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 09\nOct 18\n Data Import\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
+    "text": "Week\n\n\nDate\n\n\nTopic\n\n\n\n\n\n\nWeek 01\n\n\nAug 23\n\n\n Introduction, Setup, R Basics\n\n\n\n\nWeek 02\n\n\nAug 30\n\n\n Workflows and Quarto\n\n\n\n\nWeek 03\n\n\nSep 06\n\n\n Visualization Basics\n\n\n\n\nWeek 04\n\n\nSep 13\n\n\n Visualizing Amounts and Parts of a Whole\n\n\n\n\nWeek 05\n\n\nSep 20\n\n\n Visualizing Distributions and Uncertainty\n\n\n\n\nWeek 06\n\n\nSep 27\n\n\n Visualizing Relationships and Change Over Time\n\n\n\n\nWeek 07\n\n\nOct 4\n\n\n Color, Output, and Composing Multiple Plots\n\n\n\n\nWeek 08\n\n\nOct 11\n\n\n Visualizing Geospatial Data\n\n\n\n\nWeek 09\n\n\nOct 18\n\n\n Data Import\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nDate\nTopic\n\n\n\n\nWeek 10\nOct 25\n Reshaping Data\n\n\nWeek 11\nNov 01\n Data Manip. 1: Filter, Select, Arrange, Mutate\n\n\nWeek 12\nNov 08\n No Class: Professor at conference \n\n\nWeek 13\nNov 15\n Data Manip. 2: Grouped Operations and Summaries ( Online )\n\n\nWeek 14\nNov 22\n Catch-up and Work on Final Projects\n\n\nWeek 15\nNov 29\n Data Manip. 3: Two-table Operations"
   }
 ]

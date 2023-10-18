@@ -70,6 +70,48 @@
     "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baby_names.qmd\n\n\n\n\nInstall the package babynames.\n\n\ninstall.pacakges(\"babynames\")\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
   },
   {
+    "objectID": "assignments/week-09/w09-lab02.html",
+    "href": "assignments/week-09/w09-lab02.html",
+    "title": "Week 9, Lab 2: Spreadsheets",
+    "section": "",
+    "text": "This activity involves reading in data from messy Excel spreadsheets. It’s divided into two sections, each with its own data set.\n\n\nThe first data set accompanies a journal article about how childrens’ altruistic behavior is shaped by their “wealth” in terms of the number of stickers they have (Posid et al., 2015). The data have been deposited in a publicly accessible repository (Posid et al., 2018), but for convenience, you can download the file below.\n\n\n\n\n\n\n PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx\n\n\n\n\n\n\n\nThe second data set is from an R workshop at the 2017 meeting of the Society of American Archaeology called “Using R for Archaeological Data Analysis, Mapping, and Visualization Workshop” (Marwick, 2017).\n\n\n\n\n\n\n messy_ktc_data.xlsx"
+  },
+  {
+    "objectID": "assignments/week-09/w09-lab02.html#description-of-data-sets",
+    "href": "assignments/week-09/w09-lab02.html#description-of-data-sets",
+    "title": "Week 9, Lab 2: Spreadsheets",
+    "section": "",
+    "text": "This activity involves reading in data from messy Excel spreadsheets. It’s divided into two sections, each with its own data set.\n\n\nThe first data set accompanies a journal article about how childrens’ altruistic behavior is shaped by their “wealth” in terms of the number of stickers they have (Posid et al., 2015). The data have been deposited in a publicly accessible repository (Posid et al., 2018), but for convenience, you can download the file below.\n\n\n\n\n\n\n PosidFazioCordes_StickerRich_Excel-Dataverse.xlsx\n\n\n\n\n\n\n\nThe second data set is from an R workshop at the 2017 meeting of the Society of American Archaeology called “Using R for Archaeological Data Analysis, Mapping, and Visualization Workshop” (Marwick, 2017).\n\n\n\n\n\n\n messy_ktc_data.xlsx"
+  },
+  {
+    "objectID": "assignments/week-09/w09-lab02.html#instructions",
+    "href": "assignments/week-09/w09-lab02.html#instructions",
+    "title": "Week 9, Lab 2: Spreadsheets",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n spreadsheets.qmd\n\n\n\n\nDownload the Excel data files at the top of the page and save them in your project.\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
+    "objectID": "assignments/week-09/w09-lab02.html#references",
+    "href": "assignments/week-09/w09-lab02.html#references",
+    "title": "Week 9, Lab 2: Spreadsheets",
+    "section": "References",
+    "text": "References\n\n\nMarwick, B. (2017). Using R for Archaeological Data Analysis, Mapping, and Visualization Workshop SAA 2017. https://github.com/benmarwick/SAA_R_workshop_2017.\n\n\nPosid, T., Fazio, A., & Cordes, S. (2015). Being Sticker Rich: Numerical Context Influences Children’s Sharing Behavior. PLOS ONE, 10(11), e0138928. https://doi.org/10.1371/journal.pone.0138928\n\n\nPosid, T., Fazio, A., & Cordes, S. (2018). Data and Stimuli for PLOS ONE article: \"Being sticker rich: Numerical context influences children’s sharing behavior\". Harvard Dataverse. https://doi.org/10.7910/DVN/LHAQ5W"
+  },
+  {
+    "objectID": "assignments/week-09/w09-lab01.html#description-of-data-set",
+    "href": "assignments/week-09/w09-lab01.html#description-of-data-set",
+    "title": "Week 9, Lab 1: Ozone",
+    "section": "Description of data set",
+    "text": "Description of data set\nWe’re going to be working with a data set contains atmospheric ozone measurements of the southern hemisphere collected by NASA’s NIMBUS-7 satellite in October 1985. The data set is of historical interest because it displays evidence of the hole in the ozone layer collected shortly after the hole was first reported."
+  },
+  {
+    "objectID": "assignments/week-09/w09-lab01.html#instructions",
+    "href": "assignments/week-09/w09-lab01.html#instructions",
+    "title": "Week 9, Lab 1: Ozone",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n ozone.qmd\n\n\n\n\nDownload the csv data file below and save it in your project.\n\n\n\n\n\n\n\n nimbus.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
     "objectID": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "href": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "title": "Week 5, Lab 1: Late quaternary mammals",
@@ -502,6 +544,13 @@
     "title": "Week 7 slides",
     "section": "",
     "text": "Week 7 slides:\n\nColor, output, and composing multiple plots"
+  },
+  {
+    "objectID": "slides/week-09/09-slides.html",
+    "href": "slides/week-09/09-slides.html",
+    "title": "Week 9 slides",
+    "section": "",
+    "text": "Week 9 slides:\n\nImporting Data from Text and Spreadsheets"
   },
   {
     "objectID": "slides/week-05/05-slides.html",

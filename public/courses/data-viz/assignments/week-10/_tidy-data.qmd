@@ -60,6 +60,8 @@ kable(head(ape_teeth))
 
 ### Problem 2: Make ape teeth longer
 
+Reshape the ape_teeth data set so that instead of separate `MD` and `BL` columns, you have a column called `ToothAxis` that indicates whether the category of tooth measurement, and another column called `Diameter_mm` that contains the measurement value.
+
 ```{r}
 # Your R code goes here
 ```
@@ -101,6 +103,7 @@ When you pivot, take the values from the MD column (let's ignore BL for now).
 ### Problem 5: Plot of superior vs inferior MD diameter
 
 Your plot can look a bit different than mine, but it should include the following layers:
+
   - A scatterplot of Inferior (x) vs. Superior (y) using partially transparent points.
   - A line (`geom_abline`) showing a 1-to-1 relationship.
   - Labelled ellipses around the points for each tooth (follow example [here](https://allancameron.github.io/geomtextpath/articles/geomtextpath.html#stat-layers)).

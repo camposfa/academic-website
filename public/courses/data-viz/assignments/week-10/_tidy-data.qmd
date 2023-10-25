@@ -27,6 +27,7 @@ library("here")
 The `tidyr` package includes a simple but interesting data set called `fish_encounters`, which comes from a long-term [fish tracking project](https://cftc.metro.ucdavis.edu/default.shtml) that uses hundreds of underwater arrays to detect tiny, individually labeled ultrasonic tags that have been surgically implanted in various large fish. They use these to track the movements of these fish throughout the Central Valley watershed in California.
 
 The data set has three rows:
+
 - `fish`: an ID number associated with a particular fish
 - `station`: the abbreviated name of a measurement station
 - `seen`: was the fish seen? 1 if yes, and true for all rows.

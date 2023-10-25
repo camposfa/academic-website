@@ -266,6 +266,20 @@
     "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_activities.qmd\n\n\n\n\nDownload the csv file below and save it in your project.\n\n\n\n\n\n\n\n  baboon_acts_2000.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
   },
   {
+    "objectID": "assignments/week-10/w10-lab01.html#description-of-data-set",
+    "href": "assignments/week-10/w10-lab01.html#description-of-data-set",
+    "title": "Week 10, Lab 1: Tidy data",
+    "section": "Description of data set",
+    "text": "Description of data set\nThis project includes problems with three different data sets:\n\nfish_encounters: included in the R package tidyr, so there’s nothing extra to download.\nape_teeth: you should already be familiar with this one.\nschool_earnings: we had a couple of in-class examples based on this data set earlier in the semester."
+  },
+  {
+    "objectID": "assignments/week-10/w10-lab01.html#instructions",
+    "href": "assignments/week-10/w10-lab01.html#instructions",
+    "title": "Week 10, Lab 1: Tidy data",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n tidy-data.qmd\n\n\n\n\nDownload the csv data files below and save them in your project.\n\n\n\n\n\n\n\n ape_teeth.csv\n\n\n\n\n\n\n\n\n\n school_earnings.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
     "objectID": "weeks/week-08.html",
     "href": "weeks/week-08.html",
     "title": "Week 08",
@@ -340,7 +354,7 @@
     "href": "weeks/week-10.html",
     "title": "Week 10",
     "section": "",
-    "text": "Readings\n\n“Tidy Data” by Hadley Wickham.\n\nIgnore all the R code that you see, as basically all of it has now been superseded by newer tidyverse functions.\n\nThis was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readings\n\n“Tidy Data” by Hadley Wickham.\n\nIgnore all the R code that you see, as basically all of it has now been superseded by newer tidyverse functions.\n\nThis was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.\n\n\n\n\n\nExample data sets\nThe slides this week include some examples made with the following data sets:\n\ncases &lt;- tibble(country = c(\"FR\", \"DE\", \"US\"),\n                `2011` = c(7000, 5800, 15000),\n                `2012` = c(6900, 6000, 14000),\n                `2013` = c(7000, 6200, 13000))\n\n\n\n\n\n\n\n\n\n\n\n\ncountry\n2011\n2012\n2013\n\n\n\n\nFR\n7000\n6900\n7000\n\n\nDE\n5800\n6000\n6200\n\n\nUS\n15000\n14000\n13000\n\n\n\n\n\n\npollution &lt;- tibble(city = c(\"New York\", \"New York\", \"London\", \"London\", \"Beijing\", \"Beijing\"),\n                    size = c(\"large\", \"small\", \"large\", \"small\", \"large\", \"small\"),\n                    amount = c(23, 14, 22, 16, 121, 121))\n\n\n\n\n\n\n\n\n\n\n\ncity\nsize\namount\n\n\n\n\nNew York\nlarge\n23\n\n\nNew York\nsmall\n14\n\n\nLondon\nlarge\n22\n\n\nLondon\nsmall\n16\n\n\nBeijing\nlarge\n121\n\n\nBeijing\nsmall\n121\n\n\n\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 10 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 10, Lab 1: Tidy data\n\n\nWed, Oct 25\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week-05.html",
@@ -586,6 +600,13 @@
     "title": "Week 4 slides",
     "section": "",
     "text": "Week 4 slides:\n\nVisualizing amounts and parts of a whole"
+  },
+  {
+    "objectID": "slides/week-10/10-slides.html",
+    "href": "slides/week-10/10-slides.html",
+    "title": "Week 10 slides",
+    "section": "",
+    "text": "Week 10 slides:\n\nReshaping Data"
   },
   {
     "objectID": "syllabus.html",

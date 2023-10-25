@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -73,9 +107,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +135,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -189,6 +223,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
+  <li><a href="#example-data-sets" id="toc-example-data-sets" class="nav-link" data-scroll-target="#example-data-sets">Example data sets</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
   </ul>
@@ -230,6 +265,112 @@ ul.task-list li input[type="checkbox"] {
 <li>This was Wickham’s early “tidy tools” manifesto; it provided guiding principles and a framework for developing the tidyverse.</li>
 </ul></li>
 </ul>
+<p><br></p>
+</section>
+<section id="example-data-sets" class="level1">
+<h1>Example data sets</h1>
+<p>The slides this week include some examples made with the following data sets:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>cases <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">country =</span> <span class="fu">c</span>(<span class="st">"FR"</span>, <span class="st">"DE"</span>, <span class="st">"US"</span>),</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>                <span class="st">`</span><span class="at">2011</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">7000</span>, <span class="dv">5800</span>, <span class="dv">15000</span>),</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>                <span class="st">`</span><span class="at">2012</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">6900</span>, <span class="dv">6000</span>, <span class="dv">14000</span>),</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>                <span class="st">`</span><span class="at">2013</span><span class="st">`</span> <span class="ot">=</span> <span class="fu">c</span>(<span class="dv">7000</span>, <span class="dv">6200</span>, <span class="dv">13000</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">country</th>
+<th style="text-align: right;">2011</th>
+<th style="text-align: right;">2012</th>
+<th style="text-align: right;">2013</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FR</td>
+<td style="text-align: right;">7000</td>
+<td style="text-align: right;">6900</td>
+<td style="text-align: right;">7000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">DE</td>
+<td style="text-align: right;">5800</td>
+<td style="text-align: right;">6000</td>
+<td style="text-align: right;">6200</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">US</td>
+<td style="text-align: right;">15000</td>
+<td style="text-align: right;">14000</td>
+<td style="text-align: right;">13000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>pollution <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">city =</span> <span class="fu">c</span>(<span class="st">"New York"</span>, <span class="st">"New York"</span>, <span class="st">"London"</span>, <span class="st">"London"</span>, <span class="st">"Beijing"</span>, <span class="st">"Beijing"</span>),</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>                    <span class="at">size =</span> <span class="fu">c</span>(<span class="st">"large"</span>, <span class="st">"small"</span>, <span class="st">"large"</span>, <span class="st">"small"</span>, <span class="st">"large"</span>, <span class="st">"small"</span>),</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>                    <span class="at">amount =</span> <span class="fu">c</span>(<span class="dv">23</span>, <span class="dv">14</span>, <span class="dv">22</span>, <span class="dv">16</span>, <span class="dv">121</span>, <span class="dv">121</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="table table-sm table-striped small">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">city</th>
+<th style="text-align: left;">size</th>
+<th style="text-align: right;">amount</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">New York</td>
+<td style="text-align: left;">large</td>
+<td style="text-align: right;">23</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">New York</td>
+<td style="text-align: left;">small</td>
+<td style="text-align: right;">14</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">London</td>
+<td style="text-align: left;">large</td>
+<td style="text-align: right;">22</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">London</td>
+<td style="text-align: left;">small</td>
+<td style="text-align: right;">16</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Beijing</td>
+<td style="text-align: left;">large</td>
+<td style="text-align: right;">121</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Beijing</td>
+<td style="text-align: left;">small</td>
+<td style="text-align: right;">121</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </section>
 <section id="slides" class="level1">
 <h1>Slides</h1>
@@ -244,6 +385,11 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1698210000000" data-listing-file-modified-sort="1698200847186" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 10 slides" data-listing-filename-sort="10-slides.qmd">
+<td>
+<a href="../slides/week-10/10-slides.html" class="title listing-title">Week 10 slides</a>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -268,6 +414,14 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1698210000000" data-listing-file-modified-sort="1698186555567" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 10, Lab 1: Tidy data" data-listing-filename-sort="w10-lab01.qmd">
+<td>
+<a href="../assignments/week-10/w10-lab01.html" class="title listing-title">Week 10, Lab 1: Tidy data</a>
+</td>
+<td>
+<span class="listing-date">Wed, Oct 25</span>
+</td>
+</tr>
 </tbody>
 
 </table>

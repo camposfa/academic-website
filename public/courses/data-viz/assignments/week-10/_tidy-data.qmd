@@ -1,0 +1,172 @@
+---
+title: "Tidy data"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Setup
+
+```{r packages}
+#| message: false
+library("tidyverse")
+library("scales")
+library("ggrepel")
+library("ggridges")
+library("rcartocolor")
+library("geomtextpath")
+library("knitr")
+library("here")
+```
+
+## Fish encounters
+
+The `tidyr` package includes a simple but interesting data set called `fish_encounters`, which comes from a long-term [fish tracking project](https://cftc.metro.ucdavis.edu/default.shtml) that uses hundreds of underwater arrays to detect tiny, individually labeled ultrasonic tags that have been surgically implanted in various large fish. They use these to track the movements of these fish throughout the Central Valley watershed in California.
+
+The data set has three rows:
+- `fish`: an ID number associated with a particular fish
+- `station`: the abbreviated name of a measurement station
+- `seen`: was the fish seen? 1 if yes, and true for all rows.
+
+```{r}
+kable(head(fish_encounters))
+```
+
+### Problem 1: Creating a fish mark-recapture data set
+
+Suppose we want to convert this into a mark-recapture data set, where we have a column for each station, and a 1 or a zero in each cell indicating whether that fish has been detected traveling near the station. Do do so, you'll need to pivot the data. There's a problem though: the data only include occurrences (seen is always 1). In other words, there are many missing combinations of fish x station.
+
+Pivot the data set, providing an option that fills in zeros whenever there are missing values (see the help file for the pivot function).
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+## Ape teeth redux
+
+Remember `ape_teeth.csv`? Sure you do:
+
+```{r}
+#| message: false
+ape_teeth <- read_csv(here("assignments/week-10/data/ape_teeth.csv"))
+
+kable(head(ape_teeth))
+```
+
+### Problem 2: Make ape teeth longer
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 3: Ape tooth sexual dimorphism
+
+Let's use this to make a ridgeline plot showing the distribution of ape tooth sizes, with an emphasis on showing degree of sexual dimorphism for each tooth. To make the plot:
+
+- Use the long data set you created above.
+- Filter so that we're only showing lower teeth (`Position == "Inferior"`).
+- For the ridgeline, use `alpha = 0.5`, `scale = 0.9`, and `rel_min_height = 0.0001`.
+- **Facet** by ToothAxis (cols) and Species (rows)!
+- I used the colorbrewer palette `Set1`.
+
+```{r}
+#| fig-height: 8
+#| message: false
+# Your R code goes here
+```
+
+<br>
+
+### Problem 4: Widen the ape teeth in a different way
+
+Suppose that we want to know whether the degree of sexual selection acting on teeth (which we assume is strongest on the canine tooth) changes the scaling relationship between inferior and superior teeth. In particular, we might predict that in most teeth, this relationship is mainly determined by the tooth's function in processing food, and therefore looks about the same in males and females. But in canine teeth, we might predict that sexual selection leads to large superior canines in males relative to the size of their inferior teeth.
+
+To plot this, we need to reshape the ape teeth data set, widening so that we have one column for Inferior tooth measurements and another column for Superior tooth measurements. But before we do that, we need to filter the data because there are a few annoying duplicated values for one individual gorilla (specimen 1845) and one chimpanzee (specimen 7286). Just take these two individuals out.
+
+When you pivot, take the values from the MD column (let's ignore BL for now).
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 5: Plot of superior vs inferior MD diameter
+
+Your plot can look a bit different than mine, but it should include the following layers:
+  - A scatterplot of Inferior (x) vs. Superior (y) using partially transparent points.
+  - A line (`geom_abline`) showing a 1-to-1 relationship.
+  - Labelled ellipses around the points for each tooth (follow example [here](https://allancameron.github.io/geomtextpath/articles/geomtextpath.html#stat-layers)).
+  - Facet by Species (rows) and Sex (cols).
+  - Use a `coord_` function to force a 1-to-1 ratio between the x-axis and y-axis.
+
+```{r}
+#| fig-height: 10
+#| warning: false
+# Your R code goes here
+```
+
+<br>
+
+## Gender pay gaps
+
+Remember the pay gaps data set?
+
+```{r}
+#| message: false
+earnings <- read_csv(here("assignments/week-10/data/school_earnings.csv"))
+
+kable(head(earnings))
+```
+
+### Problem 6: Reshaping the pay gaps data
+
+Our goal is to visualize pay disparities between men and women that graduated from 21 elite U.S. universities using a paired-value bubble plot. Specifically, we want to plot: 
+
+- Women's salaries on the x-axis
+- Men's salaries on the y-axis
+- The size and color of the point show the size of the pay gap
+- A 1-to-1 line showing gender parity, to provide context
+
+To get there, we need to reshape the `earnings` data so that it has the following columns (variables): `School`, `Gap`, `Men` and `Women`.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 7: Plotting pay disparities among graduates of elite universities
+
+Fill in the missing pieces to produce the plot, and **remove the chunk option `eval: false`**.
+
+```{r}
+#| fig-height: 8
+#| eval: false
+# A custom formatting function to make labels like $100k instead of 100000 
+# The unit_format() function is provided by the scales package
+kdollars <- unit_format(scale = 1e-3, prefix = "$", suffix = "k")
+
+# Paired scatterplot over 1-to-1 diagonal
+ggplot(earnings_wide, aes(_______________)) +
+  geom_abline(_______________, linewidth = 1.5, color = "gray85") +
+  geom_point(aes(____________), alpha = 0.8) +
+  geom_text_repel(aes(__________), point.padding = 10, 
+                  show.legend = FALSE, max.overlaps = Inf) +
+  coord_equal() +
+  expand_limits(x = 0, y = 0) +
+  scale_x_continuous(breaks = breaks_width(width = 5e4), labels = kdollars) +
+  scale_y_continuous(breaks = breaks_width(width = 5e4), labels = kdollars) +
+  scale_size_area(name = "Pay Gap", labels = kdollars, max_size = 10) +
+  scale_color_carto_c(name = "Pay Gap", palette = "RedOr",
+                      labels = kdollars, guide = "legend") +
+  theme_minimal(14) +
+  labs(x = "Women's Mid-career Salary",  y = "Men's Mid-career Salary")
+```

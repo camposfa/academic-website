@@ -29,6 +29,10 @@
     ]
   },
   {
+    "listing": "/weeks/week-11.html",
+    "items": []
+  },
+  {
     "listing": "/weeks/week-05.html",
     "items": [
       "/assignments/week-05/w05-lab01.html",
@@ -83,7 +87,8 @@
       "/weeks/week-07.html",
       "/weeks/week-08.html",
       "/weeks/week-09.html",
-      "/weeks/week-10.html"
+      "/weeks/week-10.html",
+      "/weeks/week-11.html"
     ]
   }
 ]

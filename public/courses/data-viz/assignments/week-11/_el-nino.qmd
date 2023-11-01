@@ -137,7 +137,7 @@ For correct plotting, it does not work to just map fill to the sign of the ONI v
 
 There are multiple ways to approach this, but here's one that involves using the `mutate()` function:
 
-- Create a new variable (let's call it `oni_pos`) that will contain only the positive measured ONI values using, and if the oni value is less than 0, overwrite the value by setting it to 0. Then do the opposite to make the negative set. You can make these new variables with the `if_else()` inside `mutate()`. Use `?if_else()` to read about how to use the function.
+- Create a new variable (let's call it `oni_pos`) that will contain only the positive measured ONI values, and if the oni value is less than 0, overwrite the value by setting it to 0. Then do the opposite to make the negative set. You can make these new variables with the `if_else()` inside `mutate()`. Use `?if_else()` to read about how to use the function.
 - Using new data set, plot **two** `geom_area()` layers, one for the positive values with fill set to something like `"darkorange2"` and another layer for the negative values with fill set to something like `"skyblue"`.
 
 ```{r}

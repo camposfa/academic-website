@@ -3447,7 +3447,7 @@ vertical-align: -.125em;
 <p>For correct plotting, it does not work to just map fill to the sign of the ONI value or to just <code>filter()</code> (you can try it if you want).</p>
 <p>There are multiple ways to approach this, but here’s one that involves using the <code>mutate()</code> function:</p>
 <ul>
-<li>Create a new variable (let’s call it <code>oni_pos</code>) that will contain only the positive measured ONI values using, and if the oni value is less than 0, overwrite the value by setting it to 0. Then do the opposite to make the negative set. You can make these new variables with the <code>if_else()</code> inside <code>mutate()</code>. Use <code>?if_else()</code> to read about how to use the function.</li>
+<li>Create a new variable (let’s call it <code>oni_pos</code>) that will contain only the positive measured ONI values, and if the oni value is less than 0, overwrite the value by setting it to 0. Then do the opposite to make the negative set. You can make these new variables with the <code>if_else()</code> inside <code>mutate()</code>. Use <code>?if_else()</code> to read about how to use the function.</li>
 <li>Using new data set, plot <strong>two</strong> <code>geom_area()</code> layers, one for the positive values with fill set to something like <code>&quot;darkorange2&quot;</code> and another layer for the negative values with fill set to something like <code>&quot;skyblue&quot;</code>.</li>
 </ul>
 <div class="cell">

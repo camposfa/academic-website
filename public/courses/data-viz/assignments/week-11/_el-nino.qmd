@@ -1,0 +1,199 @@
+---
+title: "El Niño"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Setup
+
+```{r}
+#| message: false
+library("here")
+library("knitr")
+library("lubridate")
+library("rcartocolor")
+library("tidyverse")
+library("glue")
+
+theme_set(theme_minimal())
+```
+
+
+## El Niño
+
+In this activity, we're going to calculate the [Oceanic Niño Index](https://www.climate.gov/news-features/understanding-climate/climate-variability-oceanic-nino-index) (ONI) from a time series of sea surface temperature data. Here's a description of the ONI from that page:
+
+> * The Oceanic Niño Index (ONI) is NOAA's primary index for tracking the ocean part of ENSO, the El Niño-Southern Oscillation climate pattern.
+> * The ONI is the rolling 3-month average temperature anomaly—difference from average—in the surface waters of the east-central tropical Pacific, near the International Dateline.
+> * Index values of +0.5 or higher indicate El Niño. Values of -0.5 or lower indicate La Niña.
+
+<br>
+
+### Problem 1: Reading the data
+
+As you read above, the basis for the ONI is another more "raw" index of sea surface temperature anomalies in a part of the Pacific Ocean called the Niño-3.4 region. To obtain the ONI, we need to calculate a 3-month running mean of the Niño-3.4 index. The Niño-3.4 sea surface temperature data are from the [National Oceanic and Atmosphereic Administration's Physical Sciences Laboratory](https://psl.noaa.gov/gcos_wgsp/Timeseries/Data/nino34.long.anom.data).
+
+This is what the data look like (first few and last few rows):
+
+```
+         1870        2023
+ 1870    -1.00   -1.20   -0.83   -0.81   -1.27   -1.08   -1.04   -0.88   -0.53   -0.92   -0.79   -0.79
+ 1871    -0.25   -0.58   -0.43   -0.50   -0.70   -0.53   -0.60   -0.33   -0.24   -0.33   -0.31   -0.58
+ 1872    -0.72   -0.62   -0.50   -0.77   -0.62   -0.52   -0.32   -0.85   -1.02   -0.94   -0.79   -0.88
+ 1873    -0.78   -1.01   -1.31   -0.67   -0.53   -0.48   -0.58   -0.39   -0.34   -0.78   -0.77   -0.70
+ ...
+ ...
+ ...
+ 2020     0.64    0.48    0.36    0.49   -0.12   -0.21   -0.04   -0.42   -0.66   -1.19   -1.01   -0.98
+ 2021    -1.04   -0.94   -0.72   -0.55   -0.41   -0.06   -0.20   -0.38   -0.50   -0.78   -0.88   -1.07
+ 2022    -0.77   -0.68   -0.84   -0.90   -1.02   -0.77   -0.56   -0.96   -1.06   -0.99   -0.76   -0.86
+ 2023    -0.78   -0.62   -0.13    0.24  -99.99  -99.99  -99.99  -99.99  -99.99  -99.99  -99.99  -99.99
+  -99.99
+  NINA34
+ 5N-5S 170W-120W 
+ HadISST 
+  Anomaly from 1981-2010
+ https://psl.noaa.gov/gcos_wgsp/Timeseries/Nino34/
+  units=degC
+```
+
+We see that the data are organized in an annoying format: each row is a year, and there are 12 columns indicating the Niño-3.4 index value in each month (Jan--Dec). There are several additional challenging problems that make the data untidy.
+
+1. The columns are whitespace delimited, and they are separated by an inconsistent number of spaces.
+2. The first row is fairly pointless and should be skipped.
+3. There are no column names.
+4. Missing values for future months are coded as -99.99
+5. There's a bunch of extra metadata tacked on to the bottom.
+6. The data are in wide format.
+
+
+Let's tackle problems 1--5 using `readr.`
+
+1. Use the function `read_table()` to read in the data. This function allows any number of whitespace characters between columns, which is exactly what we need.
+2. Tell the function that we want to skip the first row using the `skip` argument.
+3. Provide column names using the `col_names` argument. Specifically, the first column should be called "year", and we can assign the numbers 1:12 to the next 12 columns.
+4. Tell the function to consider the value -99.99 as NA.
+5. Use the `n_max` argument to tell the function that we only want to read 154 rows (`2023 - 1870 + 1 = 154`).
+
+```{r}
+#| message: false
+# Your R code goes here
+```
+
+<br>
+
+### Problem 1: Reshaping the data
+
+Next, we need to use a `pivot_` function to reshape the data from wide to long format. Call the new value column `nino3.4`.
+
+After reshaping to create a new longer data set, use a `tidyr` function to drop any rows that have NA in the new column `nino3.4`.
+
+```{r}
+# Your R code goes here
+```
+
+### Problem 3: Manipulate the data, part 1
+
+For plotting, we want to create a new date column out of the year and month. We can do this using `mutate()` by combining `glue()` and `ymd()`. Specifically:
+
+- Within the mutate function, when we create the new column we can glue together the year, month, and "15" like this: `glue("{year}-{month}-15")`. This creates text values like `"1870-01-15"`.
+- The `ymd()` function (for "**y**ear **m**onth **d**ate") from the `lubridate` package understands that a string of characters formatted in this way actually represents a date.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 4: Manipulate the data, part 2
+
+Next, we want to calculate the Oceanic Niño Index. As described above, we do this by calculating a 3-month running average of our `nino3.4` variable. To do this, use `mutate()` to create a new variable called `oni`, and use the `lead()` and `lag()` functions to add the current month's nino3.4 value those of the previous and following months, then divide by 3 to take the average.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 5: ONI area plot
+
+Let's first create a plot showing ONI values as a function of time. We can use an area plot to get a filled region starting at zero rather than just a line, and horizontal line at y = zero helps to reinforce the midpoint, where conditions transition from Niño-like (positive values) to Niña-like (negative values).
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 6: Plotting the distinct phases
+
+Or if we want to get fancy, we can use different fill colors for the positive and negative index values to indicate El Niño (positive, warm) and La Niña (negative, cool) phases. 
+
+For correct plotting, it does not work to just map fill to the sign of the ONI value or to just `filter()` (you can try it if you want).
+
+There are multiple ways to approach this, but here's one that involves using the `mutate()` function:
+
+- Create a new variable (let's call it `oni_pos`) that will contain only the positive measured ONI values using, and if the oni value is less than 0, overwrite the value by setting it to 0. Then do the opposite to make the negative set. You can make these new variables with the `if_else()` inside `mutate()`. Use `?if_else()` to read about how to use the function.
+- Using new data set, plot **two** `geom_area()` layers, one for the positive values with fill set to something like `"darkorange2"` and another layer for the negative values with fill set to something like `"skyblue"`.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 7: Plot comparing ONI with Niño-3.4
+
+Let's make a plot that compares the ONI to the original Niño-3.4 index on which it is based, to see what our rolling average did to the values.
+
+To make this plot, you'll need to reshape the data in some way so that you can map a new variable (let's call it `index`) to color.
+
+For this one, let's show 1970 to the present only. We previously discussed a `coord_` function that can be used for "zooming in" on a plot region. In this case, your x limits are dates, so when you set the limits, you need to provide dates like `ymd("1970-01-01")` and `ymd("2023-05-01")`.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 8: Arranging and slicing the data for table output
+
+Now suppose that you want to produce a table of the top 10 most extreme values of the Niño-3.4  index, along with the year and the month in which the reading was taken.
+
+Let's first turn our month numbers into names for a nicer table. We can use the built-in R object called `month.name` to get these names. Here's what the object looks like:
+
+```{r}
+month.name
+```
+
+As you can see, it's just an array of length 12 containing the month names, in order. We can access the name corresponding to the month number by indexing the object. For example,
+
+```{r}
+month.name[6]
+```
+
+In your data set, create a new variable called `month_name` that uses the numeric `month` column to obtain the corresponding month name.
+
+```{r}
+# Your R code goes here
+```
+
+Finally, show that you can obtain the same table by using `slice_max()`, and then by using `slice_head()`. Note that you will need one extra step with one of these methods.
+
+After slicing, select the colums year, month_name, and nino3.4 to display in the table, which you can create in your report by piping the result to the `kable()` function.
+
+Using `slice_max()`:
+
+```{r}
+# Your R code goes here
+```
+
+Using `slice_head()`:
+
+```{r}
+# Your R code goes here
+```

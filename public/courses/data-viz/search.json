@@ -280,6 +280,20 @@
     "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n tidy-data.qmd\n\n\n\n\nDownload the csv data files below and save them in your project.\n\n\n\n\n\n\n\n ape_teeth.csv\n\n\n\n\n\n\n\n\n\n school_earnings.csv\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
   },
   {
+    "objectID": "assignments/week-11/w11-lab01.html#description-of-data-set",
+    "href": "assignments/week-11/w11-lab01.html#description-of-data-set",
+    "title": "Week 11, Lab 1: El Niño",
+    "section": "Description of data set",
+    "text": "Description of data set\nIn this week’s activity, you will manipulate, analyze, and visualize data on sea surface temperature anomalies in a part of the Pacific Ocean called the Niño-3.4 region. The data are from the National Oceanic and Atmosphereic Administration’s Physical Sciences Laboratory."
+  },
+  {
+    "objectID": "assignments/week-11/w11-lab01.html#instructions",
+    "href": "assignments/week-11/w11-lab01.html#instructions",
+    "title": "Week 11, Lab 1: El Niño",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n el-nino.qmd\n\n\n\n\nDownload the flat text file below and save it in your project.\n\n\n\n\n\n\n\n nino34.long.anom.data.txt\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
     "objectID": "weeks/week-08.html",
     "href": "weeks/week-08.html",
     "title": "Week 08",
@@ -361,7 +375,7 @@
     "href": "weeks/week-11.html",
     "title": "Week 11",
     "section": "",
-    "text": "Readings\n\nThis week’s readings include the first four sections of Chapter 4, “Data Transformation” in R for Data Science:\n\nR4DS, Ch. 4.1: Introduction\nR4DS, Ch. 4.2: Rows on the dplyr verbs filter(), arrange(), and distinct().\nR4DS, Ch. 4.3: Columns on the dplyr verbs select(), rename(), and relocate().\nR4DS, Ch. 4.4: The pipe\n\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readings\n\nThis week’s readings include the first four sections of Chapter 4, “Data Transformation” in R for Data Science:\n\nR4DS, Ch. 4.1: Introduction\nR4DS, Ch. 4.2: Rows on the dplyr verbs filter(), arrange(), and distinct().\nR4DS, Ch. 4.3: Columns on the dplyr verbs select(), rename(), and relocate().\nR4DS, Ch. 4.4: The pipe\n\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 11 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 11, Lab 1: El Niño\n\n\nWed, Nov 01\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "weeks/week-05.html",
@@ -614,6 +628,13 @@
     "title": "Week 10 slides",
     "section": "",
     "text": "Week 10 slides:\n\nReshaping Data"
+  },
+  {
+    "objectID": "slides/week-11/11-slides.html",
+    "href": "slides/week-11/11-slides.html",
+    "title": "Week 11 slides",
+    "section": "",
+    "text": "Week 11 slides:\n\nData Manipulation, Part 1"
   },
   {
     "objectID": "syllabus.html",

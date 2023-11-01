@@ -30,7 +30,10 @@
   },
   {
     "listing": "/weeks/week-11.html",
-    "items": []
+    "items": [
+      "/assignments/week-11/w11-lab01.html",
+      "/slides/week-11/11-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-05.html",

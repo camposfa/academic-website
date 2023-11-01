@@ -182,9 +182,9 @@ In your data set, create a new variable called `month_name` that uses the numeri
 # Your R code goes here
 ```
 
-Finally, show that you can obtain the same table by using `slice_max()`, and then by using `slice_head()`. Note that you will need one extra step with one of these methods.
+Finally, show that you can obtain the same table either by using `slice_max()` or by using `slice_head()`. Note that you will need one extra step with one of these methods.
 
-After slicing, select the colums year, month_name, and nino3.4 to display in the table, which you can create in your report by piping the result to the `kable()` function.
+After slicing, select the columns year, month_name, and nino3.4 to display in the table, which you can create in your report by piping the result to the `kable()` function.
 
 Using `slice_max()`:
 

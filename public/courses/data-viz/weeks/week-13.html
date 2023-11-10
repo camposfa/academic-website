@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="">
-<meta name="description" content="Nov 1">
+<meta name="description" content="Nov 15">
 
-<title>ANT 6973: Data Visualization and Exploration - Week 11</title>
+<title>ANT 6973: Data Visualization and Exploration - Week 13</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -135,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 11</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Week 13</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -199,13 +199,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Week 11</h1>
-<p class="subtitle lead"><i class="fa-solid fa-filter-circle-xmark" aria-label="filter-circle-xmark"></i> Data Manip. 1: Filter, Select, Arrange, Mutate</p>
+<h1 class="title">Week 13</h1>
+<p class="subtitle lead"><i class="fa-solid fa-rectangle-list" aria-label="rectangle-list"></i> Data Manip. 2: Grouped Operations and Summaries (<i class="fa-solid fa-globe" aria-label="globe"></i> <strong>Online</strong> <i class="fa-solid fa-globe" aria-label="globe"></i>)</p>
 </div>
 
 <div>
   <div class="description">
-    Nov 1
+    Nov 15
   </div>
 </div>
 
@@ -223,12 +223,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="readings" class="level1">
 <h1>Readings</h1>
 <ul>
-<li><p>This week’s readings include the first four sections of Chapter 3, “Data Transformation” in R for Data Science:</p>
+<li><p>This week’s readings include the last three sections of Chapter 3, “Data Transformation” in R for Data Science:</p>
 <ul>
-<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#introduction">Ch. 3.1: Introduction</a></li>
-<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#rows">Ch. 3.2: Rows</a> on the <code>dplyr</code> verbs <code>filter()</code>, <code>arrange()</code>, and <code>distinct()</code>.</li>
-<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#columns">Ch. 3.3: Columns</a> on the <code>dplyr</code> verbs <code>select()</code>, <code>rename()</code>, and <code>relocate()</code>.</li>
-<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#sec-the-pipe">Ch. 3.4: The pipe</a></li>
+<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#groups">Ch. 3.5: Groups</a> on the <code>dplyr</code> verbs <code>group_by()</code> and <code>summarise()</code>.</li>
+<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#sec-sample-size">Ch. 3.6: Case study: aggregates and sample size</a>.</li>
+<li>R4DS, <a href="https://r4ds.hadley.nz/data-transform.html#summary">Ch. 3.7: Summary</a>.</li>
 </ul></li>
 </ul>
 <p><br></p>
@@ -246,11 +245,6 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1698694751825" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 11 slides" data-listing-filename-sort="11-slides.qmd">
-<td>
-<a href="../slides/week-11/11-slides.html" class="title listing-title">Week 11 slides</a>
-</td>
-</tr>
 </tbody>
 
 </table>
@@ -275,14 +269,6 @@ Due
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1698814800000" data-listing-file-modified-sort="1698806022348" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 11, Lab 1: El Niño" data-listing-filename-sort="w11-lab01.qmd">
-<td>
-<a href="../assignments/week-11/w11-lab01.html" class="title listing-title">Week 11, Lab 1: El Niño</a>
-</td>
-<td>
-<span class="listing-date">Wed, Nov 01</span>
-</td>
-</tr>
 </tbody>
 
 </table>

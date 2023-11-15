@@ -44,7 +44,10 @@
   },
   {
     "listing": "/weeks/week-13.html",
-    "items": []
+    "items": [
+      "/assignments/week-13/w13-lab01.html",
+      "/slides/week-13/13-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-07.html",

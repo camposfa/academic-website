@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -245,6 +245,11 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1699817913801" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 13 slides" data-listing-filename-sort="13-slides.qmd">
+<td>
+<a href="../slides/week-13/13-slides.html" class="title listing-title">Week 13 slides</a>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -269,6 +274,14 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1700028000000" data-listing-file-modified-sort="1699818219889" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 13, Lab 1: Grouped and summary operations" data-listing-filename-sort="w13-lab01.qmd">
+<td>
+<a href="../assignments/week-13/w13-lab01.html" class="title listing-title">Week 13, Lab 1: Grouped and summary operations</a>
+</td>
+<td>
+<span class="listing-date">Wed, Nov 15</span>
+</td>
+</tr>
 </tbody>
 
 </table>

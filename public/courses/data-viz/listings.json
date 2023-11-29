@@ -93,7 +93,10 @@
   },
   {
     "listing": "/weeks/week-15.html",
-    "items": []
+    "items": [
+      "/assignments/week-15/w15-lab01.html",
+      "/slides/week-15/15-slides.html"
+    ]
   },
   {
     "listing": "/weeks/week-14.html",

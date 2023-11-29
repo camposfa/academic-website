@@ -1,0 +1,166 @@
+---
+title: "NYC Flights"
+format: 
+  html:
+    embed-resources: true
+    toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Setup
+
+```{r}
+#| message: false
+
+library("knitr")
+library("tidyverse")
+library("nycflights13")
+library("rnaturalearth")
+library("sf")
+library("rcartocolor")
+library("scales")
+library("scico")
+
+theme_set(theme_minimal())
+```
+
+<br>
+
+## Description of the data set
+
+The `nycflights13` package contains 5 interlinked tables of airline on-time data for all flights departing NYC in 2013. The main table is called `flights`, which contains almost 337,000 rows. The four 'metadata' tables are called `airlines`, `airports`, `weather`, and `planes`.
+
+<br>
+
+## Spatial data for the maps
+
+Let's read in some spatial data using the `rnaturalearth` package. Review the [maps activity](../assignments/viz-spatial/) and [slides](slide/viz-color-files-spatial/) for a refresher. Specifically, we want the continental 48 states and the world at medium scale. We'll also extract the bounding box for our new object called `states48` for easier plotting.
+
+```{r}
+states48 <- ne_states(iso_a2 = 'US', returnclass = "sf") |>
+  filter(name != "Hawaii" & name != "Alaska")
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+my_bbox <- st_bbox(states48)
+```
+
+### Problem 1: Base map
+
+Let's create a basic map that will become the template for all our plots below.
+
+**Remove `#| eval: false` from this chunk!**
+
+```{r}
+#| eval: false
+basic_map <- ggplot() +
+  geom_sf(data = _______, fill = "gray85") +  # World map on the bottom
+  geom_sf(data = _______, fill = "floralwhite") + # States map goes next
+  coord_sf(xlim = my_bbox[c("xmin", "xmax")],
+           ylim = my_bbox[c("ymin", "ymax")]) + # Restrict plot area to our bounding box
+  theme(panel.background = element_rect(fill = "aliceblue"), # Various theme tweaks
+        panel.border = element_rect(fill = NA),
+        legend.title.align = 0.5,
+        legend.background = element_rect(fill = "white"),
+        legend.text.align = 0.5,
+        legend.justification = c(0, 0),
+        legend.position = c(0.9, 0.05))
+```
+
+Because of the way `ggplot2` layers combine simply by using the `+` operator, if we assign our basic map to a new object in R (which I call `basic_map` in my example above) we can build on it in future plots just by adding those new layers to this object.
+
+```{r}
+#| eval: false
+basic_map +
+  geom_point(...) # or whatever
+```
+
+<br>
+
+## Number of flights by destination
+
+First, let's show the number of flights departing NYC for each destination city.
+
+### Problem 2: Preparing the data
+
+Using the `flights` and `airports` tables, create a new data set called `airports_n` that includes the number of flights to each destination and all the airport metadata from the `airports` table (including `lat` adn `lon`).
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 3: Mapping the destination data
+
+Create the map using a **bubble chart** to make the size of the point proportional to the number of flights. A few notes on styling:
+
+- Try combining your legends for fill (or color) and size. I gave an example of how to do this when we plotted hurricane Katrina's windspeed across the Gulf of Mexico (see the Geospatial section).
+- Use `labels = scales::label_comma()` in your scale function to get nicely formatted labels.
+
+**Remove `#| eval: false` from this chunk!**
+
+```{r}
+#| eval: false
+basic_map +
+  geom_point(...) +
+  scale_fill_viridis_c(...) +
+  scale_size_area(...)
+```
+
+<br>
+
+### Problem 4: Mapping average arrival delays for flights from NYC.
+
+Using the `flights` and `airports` tables, create a new data set called `avg_delay` that calculates the average arrival delay (`arr_delay`) then bring in all the airport metadata from the `airports` table (including `lat` adn `lon`).
+
+```{r}
+# Your R code goes here
+```
+
+Create the map by using points that are colored/filled by the average delay for that city. I used the palette `vik` from the `scico` package, which allows you to set a midpoint for asymetric diverging color palettes.
+
+```{r}
+# Your R code goes here
+```
+
+<br>
+
+### Problem 5: Mapping 100 routes at random.
+
+In this activity, we want to draw (approximately) the route each plane flies from its origin to its destination for the 100 flights drawn randomly from the entire set. We want to color these routes by the carrier's full name (e.g., "Delta Air Lines Inc."). What variables would you need? What tables would you need to combine?
+
+Let's call this new data set `rand_flights`. Use the `dplyr` function `sample_n()` to select 100 rows at random.
+
+**Remove `#| eval: false` from this chunk!**
+
+```{r}
+#| eval: false
+flights_latlon <- # Your R code goes here
+
+set.seed(1234)
+
+rand_flights <- flights_latlon |>
+  sample_n(100) |>
+  left_join(airlines, by = "carrier")
+
+glimpse(rand_flights)
+```
+
+Create the map by completing the code below.
+
+**Remove `#| eval: false` from this chunk!**
+
+```{r}
+#| eval: false
+basic_map +
+  geom_point(data = ...,
+             aes(...),
+             ...) +
+  geom_segment(data = ...,
+               aes(...),
+               arrow = arrow(length = unit(0.2, "cm"))) +
+  scale_color_carto_d(palette = "Bold", name = "Carrier") +
+  labs(x = NULL, y = NULL, title = "100 routes from NYC airports")
+```

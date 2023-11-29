@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -101,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-date","listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,6 +191,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#readings" id="toc-readings" class="nav-link active" data-scroll-target="#readings">Readings</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">Slides</a></li>
   <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">Assignments</a></li>
+  <li><a href="#activites" id="toc-activites" class="nav-link" data-scroll-target="#activites">Activites</a></li>
   </ul>
 </nav>
     </div>
@@ -242,6 +243,11 @@ Topic
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1701237600000" data-listing-file-modified-sort="1701233865395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 15 slides" data-listing-filename-sort="15-slides.qmd">
+<td>
+<a href="../slides/week-15/15-slides.html" class="title listing-title">Week 15 slides</a>
+</td>
+</tr>
 </tbody>
 
 </table>
@@ -266,11 +272,33 @@ Due
 </tr>
 </thead>
 <tbody class="list">
+<tr data-index="0" data-listing-date-sort="1701237600000" data-listing-file-modified-sort="1701233382564" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 15, Lab 1: NYC Flights" data-listing-filename-sort="w15-lab01.qmd">
+<td>
+<a href="../assignments/week-15/w15-lab01.html" class="title listing-title">Week 15, Lab 1: NYC Flights</a>
+</td>
+<td>
+<span class="listing-date">Wed, Nov 29</span>
+</td>
+</tr>
 </tbody>
 
 </table>
 <div class="listing-no-matching d-none">
 No matching items
+</div>
+</div>
+</section>
+<section id="activites" class="level1">
+<h1>Activites</h1>
+<p>Here’s a template for the in-class activities this week.</p>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><i class="fa-solid fa-download" aria-label="download"></i> <a href="../downloads/_two-table-operations.qmd" download="two-table-operations.qmd">two-table-operations.qmd</a></p>
+</div>
 </div>
 </div>
 

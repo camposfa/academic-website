@@ -133,6 +133,20 @@
     "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n grouped-summarize-activities.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nNothing to turn in this week!"
   },
   {
+    "objectID": "assignments/week-15/w15-lab01.html#description-of-data-set",
+    "href": "assignments/week-15/w15-lab01.html#description-of-data-set",
+    "title": "Week 15, Lab 1: NYC Flights",
+    "section": "Description of data set",
+    "text": "Description of data set\nIn this week’s activity, you will manipulate and plot data on all flights that departed from New York City airport in 2013. The data are from the nycflights13 R package, which you can install in the usual way:\n\ninstall.packages(\"nycflights13\")\n\nYou might also have to install this package to get the US map:\n\nremotes::install_github(\"ropensci/rnaturalearthhires\")"
+  },
+  {
+    "objectID": "assignments/week-15/w15-lab01.html#instructions",
+    "href": "assignments/week-15/w15-lab01.html#instructions",
+    "title": "Week 15, Lab 1: NYC Flights",
+    "section": "Instructions",
+    "text": "Instructions\n\nDownload the Quarto file below and save it in your project.\n\n\n\n\n\n\n\n nyc-flights.qmd\n\n\n\n\nInsert your code where indicated in the .qmd file, answer the questions, and render the report.\nOnce you’ve completed the activity, submit the .qmd and rendered .html files in Canvas.\n\n\n\n\n\n\n\n\nHere’s my rendered solutions, without the code for solving the problems."
+  },
+  {
     "objectID": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "href": "assignments/week-05/w05-lab01.html#description-of-data-set",
     "title": "Week 5, Lab 1: Late quaternary mammals",
@@ -508,7 +522,7 @@
     "href": "weeks/week-15.html",
     "title": "Week 15",
     "section": "",
-    "text": "Readings\n\nModern Dive, Chapter 3.7: Join Data Frames: A concise overview of join verbs in dplyr.\nR4DS, 19: Joins: More detailed, with many examples. We’re not really going to cover section 19.5, “Non-equi joins,” but it’s worth looking over.\ndplyr vignette: Set operations: intersect(), union(), and setdiff(). This first part of this document also covers joins, if you want another perspective on them.\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Readings\n\nModern Dive, Chapter 3.7: Join Data Frames: A concise overview of join verbs in dplyr.\nR4DS, 19: Joins: More detailed, with many examples. We’re not really going to cover section 19.5, “Non-equi joins,” but it’s worth looking over.\ndplyr vignette: Set operations: intersect(), union(), and setdiff(). This first part of this document also covers joins, if you want another perspective on them.\n\n\n\n\nSlides\n\n\n\n\n\n\nTopic\n\n\n\n\n\n\nWeek 15 slides\n\n\n\n\n\n\nNo matching items\n\n\n\n\nAssignments\n\n\n\n\n\n\nTitle\n\n\nDue\n\n\n\n\n\n\nWeek 15, Lab 1: NYC Flights\n\n\nWed, Nov 29\n\n\n\n\n\n\nNo matching items\n\n\n\n\nActivites\nHere’s a template for the in-class activities this week.\n\n\n\n\n\n\n two-table-operations.qmd"
   },
   {
     "objectID": "weeks/week-14.html",
@@ -698,6 +712,13 @@
     "title": "Week 13 slides",
     "section": "",
     "text": "Week 13 slides:\n\nData Manipulation, Part 2"
+  },
+  {
+    "objectID": "slides/week-15/15-slides.html",
+    "href": "slides/week-15/15-slides.html",
+    "title": "Week 15 slides",
+    "section": "",
+    "text": "Week 15 slides:\n\nData Manipulation, Part 3: Two-table operations"
   },
   {
     "objectID": "slides/week-05/05-slides.html",

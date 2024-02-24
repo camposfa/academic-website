@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim L. Wango | Campos Lab @ UTSA</title>
+    <link>/authors/tim-l.-wango/</link>
+      <atom:link href="/authors/tim-l.-wango/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tim L. Wango</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
+      <title>Tim L. Wango</title>
+      <link>/authors/tim-l.-wango/</link>
+    </image>
+    
+    <item>
+      <title>Thyroid Hormone Concentrations in Female Baboons: Metabolic Consequences of Living in a Highly Seasonal Environment</title>
+      <link>/publication/gesquiere-thyroid-hormone-concentrations-2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/gesquiere-thyroid-hormone-concentrations-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

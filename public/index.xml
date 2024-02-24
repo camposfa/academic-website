@@ -5,12 +5,36 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Campos Lab @ UTSA</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
       <title>Campos Lab @ UTSA</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Thyroid Hormone Concentrations in Female Baboons: Metabolic Consequences of Living in a Highly Seasonal Environment</title>
+      <link>/publication/gesquiere-thyroid-hormone-concentrations-2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/gesquiere-thyroid-hormone-concentrations-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Black-and-White Pelage as Visually Protective Coloration in Colobus Monkeys</title>
+      <link>/publication/nokelainen-blackandwhite-pelage-visually-2024/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/nokelainen-blackandwhite-pelage-visually-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Causal Mediation Model for Longitudinal Mediators and Survival Outcomes with an Application to Animal Behavior</title>
+      <link>/publication/zeng-causal-mediation-model-2023/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/zeng-causal-mediation-model-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Early Life Adversity and Adult Social Relationships Have Independent Effects on Survival in a Wild Primate</title>
@@ -41,14 +65,6 @@
       <link>/publication/campos-female-reproductive-aging-2022/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       <guid>/publication/campos-female-reproductive-aging-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>A Causal Mediation Model for Longitudinal Mediators and Survival Outcomes with an Application to Animal Behavior</title>
-      <link>/publication/zeng-causal-mediation-model-2022/</link>
-      <pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/zeng-causal-mediation-model-2022/</guid>
       <description></description>
     </item>
     

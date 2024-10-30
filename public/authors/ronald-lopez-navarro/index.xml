@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ronald Lopez Navarro | Campos Lab @ UTSA</title>
+    <link>/authors/ronald-lopez-navarro/</link>
+      <atom:link href="/authors/ronald-lopez-navarro/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ronald Lopez Navarro</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
+      <title>Ronald Lopez Navarro</title>
+      <link>/authors/ronald-lopez-navarro/</link>
+    </image>
+    
+    <item>
+      <title>Wild Capuchin Monkeys as a Model System for Investigating the Social and Ecological Determinants of Ageing</title>
+      <link>/publication/campos-wild-capuchin-monkeys-2024/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>/publication/campos-wild-capuchin-monkeys-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -5,7 +5,7 @@
     <link>/publication_types/3/</link>
       <atom:link href="/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Early life adversity and adult social relationships have independent effects on survival in a wild animal model of aging</title>
-      <link>/publication/lange-early-2022/</link>
-      <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>/publication/lange-early-2022/</guid>
+      <title>Fecal Proteomics of Wild Capuchins Reveals Impacts of Season, Diet, Age, and Sex on Gut Physiology</title>
+      <link>/publication/orkin-fecal-proteomics-wild-2025/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/orkin-fecal-proteomics-wild-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Non-Invasive Measures of DNA Methylation Capture Molecular Aging in Wild Capuchin Monkeys</title>
+      <link>/publication/sadoughi-noninvasive-measures-dna-2025/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/sadoughi-noninvasive-measures-dna-2025/</guid>
       <description></description>
     </item>
     

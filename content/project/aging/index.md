@@ -46,9 +46,7 @@ slides: ""
 
 One of my main research interests is why the biological aging process is so variable: why do some individuals retain good health into old age, while others experience steeper physical or cognitive declines and die at younger ages? I have a longstanding interest in bringing together demographic data from different species to situate human life history patterns in broader evolutionary context, and to improve our understanding of the aging process. 
 
-My current research on aging is funded by a [grant](https://reporter.nih.gov/search/QjbTr3_ji0OBhGCffqcqRA/project-details/10513070) from the National Institute on Aging at the National Institutes of Health (1R61AG078529-01).The central aim of the project is to establish a new animal model system for assessing why individuals age at different rates, using the noninvasive long-term study of wild capuchin monkeys in Costa Rica.
-
-The capuchins of this population in the Área de Conservación Guanacaste, a seasonal dry forest site in Costa Rica, are the subjects of one of the longest-running continuous primatology field studies in the Americas: the [Santa Rosa Primate Project](https://www.santarosaprimates.org/). I have been closely involved in research on this capuchin population since 2006, and I now co-direct aging research on capuchins at the site with two collaborators, Amanda Melin at the University of Calgary and Katharine Jack at Tulane University.
+My current research on aging in wild capuchin monkeys is funded by a [grant](https://reporter.nih.gov/search/QjbTr3_ji0OBhGCffqcqRA/project-details/10513070) from the National Institute on Aging at the National Institutes of Health (1R61AG078529-01).The central aim of the project is to establish a new animal model system for assessing why individuals age at different rates, using the noninvasive long-term study of wild capuchin monkeys in Costa Rica.
 
 This project, for which I am the lead PI, includes key personnel at 6 institutions in the US and Canada. Also working with on this project are:
 

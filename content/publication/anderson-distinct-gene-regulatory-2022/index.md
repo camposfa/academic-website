@@ -69,9 +69,4 @@ abstract: "The social environment is a major determinant of morbidity, mortality
   \ prospects for the study of dominance hierarchies'."
 publication: '*Philosophical Transactions of the Royal Society B: Biological Sciences*'
 doi: 10.1098/rstb.2020.0441
-links:
-- name: Preprint
-  url: anderson-distinct-gene-regulatory-2021.pdf
-  icon_pack: fa
-  icon: file-pdf
 ---

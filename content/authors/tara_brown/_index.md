@@ -26,9 +26,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-Tara is an MA student in the Department ofAnthropology at UTSA.
+Tara graduated with an MA from the Department of Anthropology at UTSA in 2025. She works in the Behavioral services department of the Southwest National Primate Research Center at Texas Biomed.
 
 [tara.brown2@my.utsa.edu](mailto:tara.brown2@my.utsa.edu)

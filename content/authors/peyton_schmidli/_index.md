@@ -26,9 +26,9 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Graduate Students
+- Alumni
 ---
 
-Peyton is an MA student in the Department ofAnthropology at UTSA.
+Peyton graduated with an MA from the Department of Anthropology at UTSA in 2025.
 
 [peyton.schmidli@my.utsa.edu](mailto:peyton.schmidli@my.utsa.edu)

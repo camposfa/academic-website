@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raquel Hernández-Rojas | Campos Lab @ UTSA</title>
+    <link>/authors/raquel-hernandez-rojas/</link>
+      <atom:link href="/authors/raquel-hernandez-rojas/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raquel Hernández-Rojas</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
+      <title>Raquel Hernández-Rojas</title>
+      <link>/authors/raquel-hernandez-rojas/</link>
+    </image>
+    
+    <item>
+      <title>Sources of Variation in Fecal Haptoglobin in a Population of Wild Capuchin Monkeys (Cebus imitator)</title>
+      <link>/publication/hernandez-rojas-sources-variation-fecal-2025/</link>
+      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/hernandez-rojas-sources-variation-fecal-2025/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

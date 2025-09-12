@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Emily Glotfelty | Campos Lab @ UTSA</title>
+    <link>/authors/emily-glotfelty/</link>
+      <atom:link href="/authors/emily-glotfelty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Emily Glotfelty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
+      <title>Emily Glotfelty</title>
+      <link>/authors/emily-glotfelty/</link>
+    </image>
+    
+    <item>
+      <title>Causes for and Consequences of Winning Intergroup Encounters in Colobus Monkeys (Colobus Vellerosus)</title>
+      <link>/publication/wikberg-causes-consequences-winning-2023/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>/publication/wikberg-causes-consequences-winning-2023/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

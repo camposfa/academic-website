@@ -5,12 +5,20 @@
     <link>/publication/</link>
       <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/headers/maritza-road.jpg</url>
       <title>Publications</title>
       <link>/publication/</link>
     </image>
+    
+    <item>
+      <title>Is There Evidence for the Bruce Effect in White-Faced Capuchins?</title>
+      <link>/publication/petersdorf-there-evidence-bruce-2025/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>/publication/petersdorf-there-evidence-bruce-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Fecal Proteomics of Wild Capuchins Reveals Impacts of Season, Diet, Age, and Sex on Gut Physiology</title>

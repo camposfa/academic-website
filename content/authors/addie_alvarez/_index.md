@@ -29,6 +29,6 @@ user_groups:
 - Graduate Students
 ---
 
-Addie entered the MA program in the Department of Anthropology at UTSA in 2025.
+Addie is a MA student in the Anthropology program at the University of Texas at San Antonio. In 2020, she obtained a degree in biology with a concentration in Zoology from Texas A&M University-San Antonio. Since graduating, she has worked as a research assistant in a lab working with common marmosets. In this position she has studied the aging microbiome, the association of cortisol levels with social separation, and the impact of age on ambulation. She is interested in the impact of age on social dynamics in capuchin monkeys and is excited to conduct fieldwork.
 
 [addaline.alvarez@my.utsa.edu](mailto:addaline.alvarez@my.utsa.edu)

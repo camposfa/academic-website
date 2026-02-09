@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Campos Lab @ UTSA</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
       <title>Campos Lab @ UTSA</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Specialized for the Reach: Visual Control of Fruit Picking and Positional Behavior Favor a Reach Over a Grasp Phenotype for Geoffroy&#39;s Spider Monkey (Ateles Geoffroyi)</title>
+      <link>/publication/whishaw-specialized-reach-visual-2026/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/whishaw-specialized-reach-visual-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Temperature and Rainfall Associate With Patterns of Parasitism in Free-Ranging Capuchin Monkeys (Cebus Imitator)</title>
@@ -49,14 +57,6 @@
       <link>/publication/hernandez-rojas-sources-variation-fecal-2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>/publication/hernandez-rojas-sources-variation-fecal-2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Specialized for the Reach: Fruit Picking and Positional Behavior Favor a Reach over a Grasp Phenotype for Geoffroy&#39;s Spider Monkey (Ateles Geoffroyi )</title>
-      <link>/publication/whishaw-specialized-reach-fruit-2025/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/whishaw-specialized-reach-fruit-2025/</guid>
       <description></description>
     </item>
     

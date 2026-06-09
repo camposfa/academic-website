@@ -5,7 +5,7 @@
     <link>/authors/amanda-d.-melin/</link>
       <atom:link href="/authors/amanda-d.-melin/index.xml" rel="self" type="application/rss+xml" />
     <description>Amanda D. Melin</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jun 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu6c58ab13c7e55bee62cd05fd713a71a0_1309_512x512_fill_lanczos_center_3.png</url>
       <title>Amanda D. Melin</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>Sources of Variation in Fecal Haptoglobin in a Population of Wild Capuchin Monkeys (Cebus Imitator)</title>
+      <link>/publication/hernandez-rojas-sources-variation-fecal-2026/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>/publication/hernandez-rojas-sources-variation-fecal-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Temperature and Rainfall Associate With Patterns of Parasitism in Free-Ranging Capuchin Monkeys (Cebus Imitator)</title>
       <link>/publication/henriquez-temperature-rainfall-associate-2026/</link>
-      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       <guid>/publication/henriquez-temperature-rainfall-associate-2026/</guid>
       <description></description>
     </item>
@@ -33,14 +41,6 @@
       <link>/publication/orkin-fecal-proteomics-wild-2025/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
       <guid>/publication/orkin-fecal-proteomics-wild-2025/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sources of Variation in Fecal Haptoglobin in a Population of Wild Capuchin Monkeys (Cebus imitator)</title>
-      <link>/publication/hernandez-rojas-sources-variation-fecal-2025/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>/publication/hernandez-rojas-sources-variation-fecal-2025/</guid>
       <description></description>
     </item>
     
